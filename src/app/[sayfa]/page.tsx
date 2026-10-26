@@ -5,6 +5,9 @@ import { mutlakUrl, site } from "@/config/site";
 import { getSayfa, sayfalar } from "@/content/sayfalar";
 import { KaynakListesi } from "@/components/KaynakListesi";
 
+// Yalnızca generateStaticParams'taki adresler üretilir; diğerleri 404.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return sayfalar.map((s) => ({ sayfa: s.slug }));
 }

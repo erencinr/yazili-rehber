@@ -7,6 +7,9 @@ import { site } from "@/config/site";
 import { baslikYap, konuSorulari, senaryoKonuPuanlari, senaryoSoruSayisi } from "@/lib/data";
 import { yaziliCozumle, yaziliParams } from "@/lib/route";
 
+// Yalnızca generateStaticParams'taki adresler üretilir; diğerleri 404.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return yaziliParams();
 }

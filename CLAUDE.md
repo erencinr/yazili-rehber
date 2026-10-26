@@ -38,7 +38,9 @@ Amaç: aynı mimariye ve kullanıcı deneyimine sahip, **kendi içeriğimiz ve k
 - Tarih 9-11 resmî tabloları aktarıldı. Sorusu yazılan: 9. sınıf 1. yazılı Senaryo 1 (7 soru) ve Senaryo 2 (6 soru). TASLAK: öğretmen onayı gerekli.
 - Rehber sayfaları `src/content/sayfalar.ts` içinde; metinler OYSS Uygulama Kılavuzu (Ekim 2026) ve resmî takvimlerden yazıldı, kaynaklar `KAYNAK` sabitinde. Takvim: `data/takvim.json`. Yeni bilgi eklerken resmî kaynağını da ekle.
 - Kılavuza göre 7. ve 11. sınıf İngilizce OYSS kapsamı dışında (dersler.json'da sınıf notu var).
-- Next.js 16.4: Cache Components açık. `dynamicParams` kullanma; bilinmeyen slug için `notFound()`. Kök layout'ta `ensureStatic = "navigation"` var: istek anında sunucu render'ı gerektiren kod build'i kırar.
+- Next.js 16.4, Cache Components **kapalı** (statik dışa aktarma/PPR ile uyumsuz). Dinamik sayfalarda `generateStaticParams` + `dynamicParams = false`; robots/sitemap `dynamic = "force-static"`. İstek anında sunucu gerektiren özellik (cookies, headers, route handler, server action) ekleme: GitHub Pages derlemesi kırılır.
+- Yayın: GitHub Pages, `.github/workflows/pages.yml` main'e her push'ta `PAGES_BASE_PATH=/yazili-rehber` ile `out/` üretip yayınlar → https://erencinr.github.io/yazili-rehber/ . Yerelde dene: `PAGES_BASE_PATH=/yazili-rehber npm run build`.
+- Repo: github.com/erencinr/yazili-rehber. Bu makinede aktif gh hesabı educat-ai; push için `GH_TOKEN=$(gh auth token --user erencinr)` kullan.
 - `docs/` klasörü yapım paketinin dokümanlarıdır.
 
 ## İçerik sistemi (yeni ders/yazılı eklemek)

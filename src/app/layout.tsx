@@ -15,9 +15,6 @@ const manrope = Manrope({
   subsets: ["latin", "latin-ext"],
 });
 
-// Tüm site JSON'dan build sırasında üretilir; sunucuda istek anında render olmamalı.
-export const ensureStatic = "navigation";
-
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: `${site.marka}: OYSS rehberi ve yazılı soruları`, template: `%s | ${site.marka}` },

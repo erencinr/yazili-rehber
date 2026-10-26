@@ -21,3 +21,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
   return yollar.map((y) => ({ url: mutlakUrl(y) }));
 }
+
+// Statik dosya olarak üretilir (GitHub Pages dışa aktarması için gerekli).
+export const dynamic = "force-static";

@@ -9,6 +9,9 @@ import { baslikYap, cozulebilirKonular, konuSorulari, senaryoKonuPuanlari, tumYa
 import { yaziliCozumle } from "@/lib/route";
 import type { Yazili } from "@/lib/types";
 
+// Yalnızca generateStaticParams'taki adresler üretilir; diğerleri 404.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return tumYazililar().flatMap(({ ders, sinif, yazili }) => {
     const ortak = { ders: ders.slug, sinif: sinif.slug, yazili: yazili.slug };

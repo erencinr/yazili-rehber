@@ -6,6 +6,9 @@ import { Breadcrumb, Container, FaqAccordion, H2, PageHero } from "@/components/
 import { site } from "@/config/site";
 import { getDers, getDersler, getYazililar, sinifNo } from "@/lib/data";
 
+// Yalnızca generateStaticParams'taki adresler üretilir; diğerleri 404.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return getDersler().map((d) => ({ ders: d.slug }));
 }

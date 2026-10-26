@@ -7,3 +7,6 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: mutlakUrl("/sitemap.xml"),
   };
 }
+
+// Statik dosya olarak üretilir (GitHub Pages dışa aktarması için gerekli).
+export const dynamic = "force-static";

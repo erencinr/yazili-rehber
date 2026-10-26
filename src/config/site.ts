@@ -25,6 +25,7 @@ export const site = {
   ],
 } as const;
 
+/** Site adresi alt yol içerebilir (ör. GitHub Pages: https://kullanici.github.io/repo). */
 export function mutlakUrl(yol: string) {
-  return new URL(yol, site.url).toString();
+  return site.url.replace(/\/$/, "") + yol;
 }
