@@ -72,10 +72,10 @@ export const sayfalar: Sayfa[] = [
     ozet: "OYSS, okullardaki ortak yazılı sınavların Bakanlığın dijital sistemi üzerinden, ortak bir standartla hazırlandığı yeni uygulamadır. 2026-2027 eğitim öğretim yılının ilk yazılılarıyla başladı.",
     guncelleme: GUNCELLEME,
     bakista: [
-      { etiket: "Sisteme açılış", deger: "26 Ekim 2026" },
-      { etiket: "Kademe", deger: "5-7 ve 9-11. sınıflar" },
-      { etiket: "Soru türü", deger: "Açık uçlu, toplam 100 puan" },
-      { etiket: "Öğretmen girişi", deger: "eba.gov.tr üzerinden" },
+      { etiket: "5 ve 7. sınıf matematik yazılısı", deger: "5 Kasım 2026" },
+      { etiket: "6. sınıf matematik (ülke geneli)", deger: "11 Kasım 2026" },
+      { etiket: "Süre ve puan", deger: "40 dakika, 100 puan" },
+      { etiket: "Soru türü", deger: "Açık uçlu" },
     ],
     bolumler: [
       {
@@ -83,19 +83,17 @@ export const sayfalar: Sayfa[] = [
         baslik: "Sistem neden kuruldu?",
         paragraflar: [
           "Bakanlığa göre amaç, okullardaki ortak yazılıları daha geçerli ve güvenilir hâle getirmek, öğrenme çıktılarıyla uyumlu ve beceri temelli açık uçlu soruların kullanımını yaygınlaştırmak ve okullar arasında ortak bir standart sağlamaktır. Sistem Türkiye Yüzyılı Maarif Modeli'ne dayanır.",
-          "Uygulama, 2025-2026 eğitim öğretim yılının 2. döneminde 11 ilde, 9. sınıf Din Kültürü ve Ahlak Bilgisi ile 10. sınıf Felsefe derslerinde pilot olarak denendi.",
         ],
       },
       {
         id: "kapsam",
         baslik: "Kimleri kapsıyor?",
         paragraflar: [
-          "OYSS, 2026-2027 1. dönem 1. yazılılardan itibaren resmî ve özel ortaokullarda ve liselerde uygulanıyor.",
+          "OYSS, 2026-2027 1. dönem 1. yazılılardan itibaren resmî ve özel ortaokullarda uygulanıyor. Kapsamdaki sınıflar ve dersler:",
         ],
         liste: [
           "Ortaokul (5, 6, 7. sınıf): Türkçe, Matematik, Fen Bilimleri, Sosyal Bilgiler, Din Kültürü ve Ahlak Bilgisi, İngilizce.",
-          "Lise (9, 10, 11. sınıf): Türk Dili ve Edebiyatı, Matematik, Fizik, Kimya, Biyoloji, Tarih, Coğrafya, Din Kültürü ve Ahlak Bilgisi, Felsefe, İngilizce.",
-          "7. ve 11. sınıf İngilizce derslerinde OYSS uygulanmıyor.",
+          "7. sınıf İngilizce dersinde OYSS uygulanmıyor.",
         ],
       },
       {
@@ -117,7 +115,7 @@ export const sayfalar: Sayfa[] = [
     ],
     sss: [
       { soru: "OYSS ne zaman başladı?", cevap: "Sistem 26 Ekim 2026'da kullanıma açıldı; ilk sınavlar 2026-2027 1. dönem 1. yazılılardır." },
-      { soru: "OYSS hangi sınıflarda uygulanıyor?", cevap: "Ortaokulda 5, 6 ve 7. sınıflarda, lisede 9, 10 ve 11. sınıflarda. 7. ve 11. sınıf İngilizce dersi kapsam dışıdır." },
+      { soru: "OYSS hangi sınıflarda uygulanıyor?", cevap: "Ortaokulda 5, 6 ve 7. sınıflarda uygulanıyor. 7. sınıf İngilizce dersi kapsam dışıdır." },
       { soru: "OYSS'de test sorusu var mı?", cevap: "Hayır. Sorular açık uçlu ya da açık uçlu ve kısa cevaplıdır." },
       kimIcinSss.resmiMi,
     ],
@@ -272,7 +270,7 @@ export const sayfalar: Sayfa[] = [
         id: "kapsam-disi",
         baslik: "Kapsam dışı okullar",
         paragraflar: [
-          "Milletlerarası özel okullar, akşam liseleri, mesleki eğitim merkezleri ve özel eğitim meslek ve uygulama okulları (ve bunların programını uygulayan özel eğitim sınıfları) OYSS kapsamında değildir.",
+          "Ortaokul düzeyinde milletlerarası özel okullar ile özel eğitim uygulama okulları (ve bunların programını uygulayan özel eğitim sınıfları) OYSS kapsamında değildir.",
         ],
       },
     ],
@@ -283,8 +281,8 @@ export const sayfalar: Sayfa[] = [
     menuAdi: "Kapsam",
     baslik: "OYSS kapsamı: Hangi sınıf ve dersler dahil?",
     eyebrow: "Kapsam",
-    aciklama: "Ortak Yazılı Sınav Sistemi'nin uygulandığı sınıflar, dersler ve kapsam dışı durumlar.",
-    ozet: "OYSS, ortaokulda 5-7, lisede 9-11. sınıflarda toplam 16 derste uygulanıyor. 7. ve 11. sınıf İngilizce ile bazı okul türleri kapsam dışında.",
+    aciklama: "Ortak Yazılı Sınav Sistemi'nin ortaokulda uygulandığı sınıflar, dersler ve kapsam dışı durumlar.",
+    ozet: "OYSS, ortaokulda 5, 6 ve 7. sınıflarda 6 derste uygulanıyor. 7. sınıf İngilizce dersi ve bazı okul türleri kapsam dışında.",
     guncelleme: GUNCELLEME,
     bolumler: [
       {
@@ -301,37 +299,20 @@ export const sayfalar: Sayfa[] = [
         ],
       },
       {
-        id: "lise",
-        baslik: "Lise (9, 10, 11. sınıf)",
-        paragraflar: [],
-        liste: [
-          "Türk Dili ve Edebiyatı",
-          "Matematik",
-          "Fizik",
-          "Kimya",
-          "Biyoloji",
-          "Tarih",
-          "Coğrafya",
-          "Din Kültürü ve Ahlak Bilgisi",
-          "Felsefe",
-          "İngilizce (11. sınıfta uygulanmaz)",
-        ],
-      },
-      {
         id: "disi",
         baslik: "Kapsam dışı durumlar",
         paragraflar: [],
         liste: [
-          "7. ve 11. sınıf İngilizce dersleri.",
+          "7. sınıf İngilizce dersi.",
           "Azınlık okullarında Din Kültürü ve Ahlak Bilgisi dersi.",
-          "Milletlerarası özel okullar, akşam liseleri, mesleki eğitim merkezleri, özel eğitim meslek ve uygulama okulları.",
+          "Milletlerarası özel okullar ve özel eğitim uygulama okulları.",
         ],
       },
       {
         id: "ulke",
         baslik: "Ülke geneli ortak yazılılar",
         paragraflar: [
-          "Bazı yazılılar okul geneli değil, ülke geneli ortak sınav olarak yapılır; bunların soru ve cevap anahtarlarını ÖDSGM hazırlar. 2026-2027'de 8 ülke geneli sınav var; ortaokuldaki 4 sınavın tarihleri takvim sayfasında.",
+          "Bazı yazılılar okul geneli değil, ülke geneli ortak sınav olarak yapılır; bunların soru ve cevap anahtarlarını ÖDSGM hazırlar. Ortaokulda 2026-2027'de 4 ülke geneli sınav var; tarihleri takvim sayfasında.",
         ],
       },
     ],
@@ -519,7 +500,7 @@ export const sayfalar: Sayfa[] = [
     sss: [
       { soru: "OYSS nedir?", cevap: "Okul geneli ortak yazılıların Bakanlığın dijital sistemi üzerinden, resmî konu-soru dağılım tablolarına göre hazırlandığı uygulamadır." },
       { soru: "OYSS ne zaman başladı?", cevap: "Sistem 26 Ekim 2026'da kullanıma açıldı; 2026-2027 1. dönem 1. yazılılardan itibaren uygulanıyor." },
-      { soru: "Hangi sınıflar OYSS'ye giriyor?", cevap: "Ortaokulda 5, 6, 7. sınıflar; lisede 9, 10, 11. sınıflar. 7. ve 11. sınıf İngilizce kapsam dışıdır." },
+      { soru: "Hangi sınıflar OYSS'ye giriyor?", cevap: "Ortaokulda 5, 6 ve 7. sınıflar. 7. sınıf İngilizce dersi kapsam dışıdır." },
       { soru: "Sorular test mi, klasik mi?", cevap: "Açık uçlu ya da açık uçlu ve kısa cevaplı sorulardır." },
       { soru: "Kâğıt kaç puan?", cevap: "Toplam 100 puan. Soruların puanını, sistemin belirlediği aralıkta zümre belirler." },
       { soru: "Soruları kim hazırlıyor?", cevap: "Senaryodaki iki öğrenme çıktısının sorularını okulun zümresi yazar; kalan sorular Bakanlığın soru havuzundan gelir." },
