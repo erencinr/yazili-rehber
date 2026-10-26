@@ -42,14 +42,14 @@ export default async function DersPage({ params }: PageProps<"/dersler/[ders]">)
           <div className="grid gap-4 sm:grid-cols-3">
             {ders.siniflar.map((s) => {
               const yazililar = getYazililar(ders.slug, s.slug);
-              const senaryoSayisi = yazililar.reduce((t, y) => t + y.senaryolar.length, 0);
+              const senaryoSayisi = yazililar.reduce((t, y) => t + y.senaryolar.filter((s) => s.hazir).length, 0);
               return (
                 <div key={s.slug} className="rounded-2xl border border-line bg-white p-5 shadow-sm">
                   <Link href={`/dersler/${ders.slug}/${s.slug}/`} className="font-serif text-xl hover:text-forest">
                     {sinifNo(s.slug)}. sınıf {ders.ad}
                   </Link>
                   <p className="mt-1 text-sm text-muted">
-                    {senaryoSayisi > 0 ? `${senaryoSayisi} senaryo kâğıdı` : "Kâğıtlar hazırlanıyor"}
+                    {senaryoSayisi > 0 ? `${senaryoSayisi} çözülebilir kâğıt` : yazililar.length > 0 ? "Resmî dağılım tablosu var, kâğıtlar hazırlanıyor" : "Kâğıtlar hazırlanıyor"}
                   </p>
                   {yazililar.length > 0 && (
                     <ul className="mt-3 space-y-1 text-sm">

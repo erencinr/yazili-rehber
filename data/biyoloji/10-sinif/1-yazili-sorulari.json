@@ -1,0 +1,69 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 10. Sınıf Biyoloji Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/biyoloji3_4.xlsx",
+    "dosya": "biyoloji.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "BİY.10.1.1",
+      "unite": "enerji",
+      "konu": "Canlılık İçin Enerjinin Önemi (ATP’nin Yapısı ve Enerji Aktarımında ATP’nin Rolü)",
+      "konuSlug": "canlilik-icin-enerjinin-onemi-atpnin-yapisi-ve-enerji-aktariminda",
+      "metin": "Canlıların yaşamına devam edebilmesi için enerjinin gerekliliğini sorgulayabilme"
+    },
+    {
+      "id": "BİY.10.1.3",
+      "unite": "enerji",
+      "konu": "Fotosentezde kullanılan ve üretilen maddelerle ilgili deney yapabilme",
+      "konuSlug": "fotosentezde-kullanilan-ve-uretilen-maddelerle-ilgili-deney-yapabilme",
+      "metin": "Fotosentezde kullanılan ve üretilen maddelerle ilgili deney yapabilme"
+    },
+    {
+      "id": "BİY.10.1.5",
+      "unite": "enerji",
+      "konu": "Sindirim (Hücre İçi Sindirim ve Hücre Dışı Sindirim), Canlılarda Sindirim Yapıları",
+      "konuSlug": "sindirim-hucre-ici-sindirim-ve-hucre-disi-sindirim-canlilarda-sindirim",
+      "metin": "Canlılarda sindirim çeşitlerini ve yapılarını sınıflandırabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "BİY.10.1.1": 2,
+        "BİY.10.1.3": 1,
+        "BİY.10.1.5": 2
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "BİY.10.1.1": 3,
+        "BİY.10.1.3": 1,
+        "BİY.10.1.5": 2
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "BİY.10.1.1": 2,
+        "BİY.10.1.3": 1,
+        "BİY.10.1.5": 3
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "BİY.10.1.1": 3,
+        "BİY.10.1.3": 2,
+        "BİY.10.1.5": null
+      }
+    }
+  ]
+}

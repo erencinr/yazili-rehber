@@ -1,0 +1,173 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 10. Sınıf Matematik Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/matematik2.xlsx",
+    "dosya": "lise-matematik.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "10.1.1",
+      "unite": "geometrik şekiller",
+      "konu": "Dik Üçgende Trigonometrik Oranlar ve Trigonometrik Özdeşlikler",
+      "konuSlug": "dik-ucgende-trigonometrik-oranlar-ve-trigonometrik-ozdeslikler",
+      "metin": "Dik üçgende trigonometrik oranlara (sinüs, kosinüs, tanjant, kotanjant) ve trigonometrik özdeşliklere ilişkin çıkarım yapabilme"
+    },
+    {
+      "id": "10.1.2",
+      "unite": "geometrik şekiller",
+      "konu": "Üçgende Yardımcı Elemanlar",
+      "konuSlug": "ucgende-yardimci-elemanlar",
+      "metin": "Üçgenin yardımcı elemanlarının özellikleri ile ilgili çıkarım yapabilme"
+    },
+    {
+      "id": "10.1.3",
+      "unite": "geometrik şekiller",
+      "konu": "Üçgenin Alanı",
+      "konuSlug": "ucgenin-alani",
+      "metin": "Üçgenin bir kenarı ve o kenara ait yüksekliğinin değişimine bağlı olarak alanının değişimine ilişkin çıkarım yapabilme"
+    },
+    {
+      "id": "10.1.4",
+      "unite": "geometrik şekiller",
+      "konu": "Sinüs ve Kosinüs Teoremleri",
+      "konuSlug": "sinus-ve-kosinus-teoremleri",
+      "metin": "Sinüs ve kosinüs teoremlerini doğrulayabilme veya ispatlayabilme"
+    },
+    {
+      "id": "10.2.1",
+      "unite": "istatistiksel araştırma süreci",
+      "konu": "İki Kategorik Değişkenli Veriler",
+      "konuSlug": "iki-kategorik-degiskenli-veriler",
+      "metin": "İki kategorik değişkenli veri ile çalışabilme ve iki kategorik değişken arasındaki ilişkililiğe dayalı karar verebilme"
+    },
+    {
+      "id": "10.2.2",
+      "unite": "istatistiksel araştırma süreci",
+      "konu": "Başkaları Tarafından Oluşturulan İki Kategorik Değişkenli Verileri İnceleme",
+      "konuSlug": "baskalari-tarafindan-olusturulan-iki-kategorik-degiskenli-verileri",
+      "metin": "Başkaları tarafından oluşturulan iki kategorik değişkenli verilerin ilişkililiğine dayalı istatistiksel sonuç veya yorumları tartışabilme"
+    },
+    {
+      "id": "10.3.1",
+      "unite": "sayılar",
+      "konu": "Bir Doğal Sayının Asal Çarpanları, Bölenleri",
+      "konuSlug": "bir-dogal-sayinin-asal-carpanlari-bolenleri",
+      "metin": "Bir doğal sayı ile asal çarpanları ve bölenleri arasındaki ilişkilere dair çıkarım yapabilme"
+    },
+    {
+      "id": "10.3.2",
+      "unite": "sayılar",
+      "konu": "En Büyük Ortak Bölen, En Küçük Ortak Kat",
+      "konuSlug": "en-buyuk-ortak-bolen-en-kucuk-ortak-kat",
+      "metin": "Birden çok doğal sayının ortak bölenleriyle bunların en büyüğü ve ortak katlarıyla bunların en küçüğü arasındaki ilişkilere dair muhakeme yapabilme"
+    },
+    {
+      "id": "10.3.3",
+      "unite": "sayılar",
+      "konu": "Bölünebilme",
+      "konuSlug": "bolunebilme",
+      "metin": "Bir doğal sayının belirli doğal sayılara bölümünden kalanlarına dair muhakeme yapabilme"
+    },
+    {
+      "id": "10.4.1",
+      "unite": "nicelikler ve değişimler",
+      "konu": "Gerçek Sayılarda Fonksiyon Olma Şartları",
+      "konuSlug": "gercek-sayilarda-fonksiyon-olma-sartlari",
+      "metin": "Gerçek sayılarda fonksiyon olma şartları ile gerçek sayılarda tanımlı fonksiyonların nitel özelliklerini matematiksel temsillerle değerlendirebilme"
+    },
+    {
+      "id": "10.4.2",
+      "unite": "nicelikler ve değişimler",
+      "konu": "Karesel Fonksiyon ve Nitel Özellikleri",
+      "konuSlug": "karesel-fonksiyon-ve-nitel-ozellikleri",
+      "metin": "Gerçek sayılarda f(x) = x² şeklinde tanımlı karesel referans fonksiyonun nitel özellikleri ile bu fonksiyondan türetilen (g(x) = a ∙ f(x ± r) ± k (a, r, k ∈ ℝ, a ≠ 0)) karesel fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "10.1.1": null,
+        "10.1.2": 1,
+        "10.1.3": null,
+        "10.1.4": 1,
+        "10.2.1": 1,
+        "10.2.2": 1,
+        "10.3.1": 1,
+        "10.3.2": 2,
+        "10.3.3": 2,
+        "10.4.1": null,
+        "10.4.2": null
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "10.1.1": 1,
+        "10.1.2": null,
+        "10.1.3": 1,
+        "10.1.4": null,
+        "10.2.1": 1,
+        "10.2.2": 1,
+        "10.3.1": 1,
+        "10.3.2": 2,
+        "10.3.3": 2,
+        "10.4.1": 1,
+        "10.4.2": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "10.1.1": 1,
+        "10.1.2": 1,
+        "10.1.3": null,
+        "10.1.4": null,
+        "10.2.1": 1,
+        "10.2.2": null,
+        "10.3.1": 1,
+        "10.3.2": 3,
+        "10.3.3": 1,
+        "10.4.1": 1,
+        "10.4.2": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "10.1.1": null,
+        "10.1.2": 1,
+        "10.1.3": 1,
+        "10.1.4": null,
+        "10.2.1": null,
+        "10.2.2": null,
+        "10.3.1": 2,
+        "10.3.2": 1,
+        "10.3.3": 1,
+        "10.4.1": 2,
+        "10.4.2": null
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "10.1.1": 1,
+        "10.1.2": null,
+        "10.1.3": null,
+        "10.1.4": 1,
+        "10.2.1": null,
+        "10.2.2": null,
+        "10.3.1": 1,
+        "10.3.2": 1,
+        "10.3.3": 1,
+        "10.4.1": 1,
+        "10.4.2": 1
+      }
+    }
+  ]
+}

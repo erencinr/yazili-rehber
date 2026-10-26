@@ -34,13 +34,22 @@ Amaç: aynı mimariye ve kullanıcı deneyimine sahip, **kendi içeriğimiz ve k
 
 ## Mevcut durum (26 Ekim 2026)
 - Aşama 1-5 yapıldı: iskelet, bileşenler, veri katmanı (zod + 100 puan kontrolü), tüm üretilen sayfalar, interaktif sınav, /hesap.
-- Pilot içerik: `data/tarih/9-sinif/1-yazili-sorulari.json` (2 senaryo, 3 konu). TASLAK: öğretmen onayı gerekli.
-- Rehber sayfaları `src/content/sayfalar.ts` içinde yer tutucu metinlerle duruyor (Aşama 6: MDX'e taşınacak).
+- 16 dersin resmî tabloları aktarıldı (`npm run tablolar`, kaynak listesi: `data/resmi/kaynaklar.json`). 4 yazılı ülke geneli (tablo sınav öncesi yayımlanacak).
+- Tarih 9-11 resmî tabloları aktarıldı. Sorusu yazılan: 9. sınıf 1. yazılı Senaryo 1 (7 soru) ve Senaryo 2 (6 soru). TASLAK: öğretmen onayı gerekli.
+- Rehber sayfaları `src/content/sayfalar.ts` içinde; metinler OYSS Uygulama Kılavuzu (Ekim 2026) ve resmî takvimlerden yazıldı, kaynaklar `KAYNAK` sabitinde. Takvim: `data/takvim.json`. Yeni bilgi eklerken resmî kaynağını da ekle.
+- Kılavuza göre 7. ve 11. sınıf İngilizce OYSS kapsamı dışında (dersler.json'da sınıf notu var).
 - Next.js 16.4: Cache Components açık. `dynamicParams` kullanma; bilinmeyen slug için `notFound()`. Kök layout'ta `ensureStatic = "navigation"` var: istek anında sunucu render'ı gerektiren kod build'i kırar.
 - `docs/` klasörü yapım paketinin dokümanlarıdır.
 
-## Yeni ders/yazılı eklemek
-`data/{ders-slug}/{sinif-slug}/{yazili-slug}.json` dosyası ekle (şema: `src/lib/types.ts`). Sayfalar build'de kendiliğinden üretilir. Rubrik toplamı = madde puanı, madde toplamı = soru puanı, soru toplamı = 100 olmalı; değilse build hata verir.
+## İçerik sistemi (yeni ders/yazılı eklemek)
+Her yazılı iki dosyadan oluşur:
+1. `data/{ders}/{sinif}/{n}-yazili-sorulari.json`: ÖDSGM resmî konu-soru dağılım tablosundan **üretilir**, elle düzenlenmez.
+   `npm run tablo -- <ders-slug> data/resmi/<dosya>.xlsx --url <resmî adres>` ile oluşturulur/güncellenir.
+   Resmî tablolar: https://odsgm.meb.gov.tr/www/1donem-konu-soru-dagilim-tablolari-2026-2027/icerik/1724 (meb.ai kısa linkleri xlsx'e yönlenir).
+2. `data/{ders}/{sinif}/{n}-yazili-sorulari.sorular.json`: elle yazılan sorular (şema: `SorularSchema`, `src/lib/types.ts`). Aktarma komutu bu dosyaya dokunmaz.
+
+Build sırasında kontrol edilenler: her hazır senaryoda çıktı başına soru sayısı = resmî dağılım; rubrik toplamı = madde puanı; madde toplamı = soru puanı; soru toplamı = 100. Uymazsa build durur.
+Sorusu yazılmamış senaryo "hazırlanıyor" görünür ve kâğıt sayfası üretilmez. Sorular özgün olmalı; başka sitelerin sorularını kopyalama.
 
 ## Bilinen tuzak: CSS önbelleği
 `src/app/globals.css` değişikliği bazen ne dev sunucusuna ne `next build` çıktısına yansıyor (`@tailwindcss/turbopack` önbelleği). Stil değişmiyorsa `rm -rf .next/cache` yapıp yeniden derle / dev sunucusunu yeniden başlat.

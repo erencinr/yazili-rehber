@@ -1,0 +1,101 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 10. Sınıf Felsefe Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/felsefe3.xlsx",
+    "dosya": "felsefe.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "FEL.10.1.1",
+      "unite": "1. ünite: Felsefenin doğası",
+      "konu": "Felsefenin Anlamı Felsefi Düşüncenin Özellikleri Felsefi Düşüncenin Gelişimi Felsefi Sorunun Temel Özellikleri Felsefenin Diğer Alanlarla İlişkisi Felsefenin Bireysel ve Toplumsal İşlevi",
+      "konuSlug": "felsefenin-anlami-felsefi-dusuncenin-ozellikleri-felsefi-dusuncenin",
+      "metin": "Felsefenin anlamını, gelişim sürecini ve işlevini sorgulayabilme"
+    },
+    {
+      "id": "FEL.10.2.1",
+      "unite": "2. ünite: Felsefe, mantık ve argümantasyon",
+      "konu": "Düşünme ve Dil İlişkisi",
+      "konuSlug": "dusunme-ve-dil-iliskisi",
+      "metin": "Düşünme ve dil ilişkisini yapılandırabilme"
+    },
+    {
+      "id": "FEL.10.2.2",
+      "unite": "2. ünite: Felsefe, mantık ve argümantasyon",
+      "konu": "Mantık ve Argümantasyonun Temel Kavramları Argümantasyonun Yapısı",
+      "konuSlug": "mantik-ve-argumantasyonun-temel-kavramlari-argumantasyonun-yapisi",
+      "metin": "Mantığın temel kavramlarını ve argümantasyon sürecini yorumlayabilme"
+    },
+    {
+      "id": "FEL.10.3.1",
+      "unite": "3. ünite: Varlık felsefesi",
+      "konu": "Varlık Felsefesinin Konusu ve Temel Kavramları Varlık Felsefesinin Temel Problemleri (Varlığın Var Olup Olmadığı, Varlığın Ne Olduğu)",
+      "konuSlug": "varlik-felsefesinin-konusu-ve-temel-kavramlari-varlik-felsefesinin",
+      "metin": "Varlık felsefesinin konusunu, kavramlarını ve problemlerini muhakeme edebilme"
+    },
+    {
+      "id": "FEL.10.4.1",
+      "unite": "4. ünite bilgi felsefesi",
+      "konu": "Bilgi Felsefesinin Konusu ve Temel Kavramları Bilgi Felsefesinin Temel Problemleri (Bilginin İmkânı, Kaynağı ve Doğruluk Ölçütleri)",
+      "konuSlug": "bilgi-felsefesinin-konusu-ve-temel-kavramlari-bilgi-felsefesinin-temel",
+      "metin": "Bilgi felsefesinin konusunu, kavramlarını ve problemlerini muhakeme edebilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "FEL.10.1.1": 1,
+        "FEL.10.2.1": 1,
+        "FEL.10.2.2": 1,
+        "FEL.10.3.1": 3,
+        "FEL.10.4.1": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "FEL.10.1.1": 1,
+        "FEL.10.2.1": 1,
+        "FEL.10.2.2": 2,
+        "FEL.10.3.1": 2,
+        "FEL.10.4.1": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "FEL.10.1.1": 1,
+        "FEL.10.2.1": null,
+        "FEL.10.2.2": 2,
+        "FEL.10.3.1": 2,
+        "FEL.10.4.1": 1
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "FEL.10.1.1": 1,
+        "FEL.10.2.1": null,
+        "FEL.10.2.2": 2,
+        "FEL.10.3.1": 2,
+        "FEL.10.4.1": 2
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "FEL.10.1.1": 1,
+        "FEL.10.2.1": null,
+        "FEL.10.2.2": 2,
+        "FEL.10.3.1": 3,
+        "FEL.10.4.1": 2
+      }
+    }
+  ]
+}

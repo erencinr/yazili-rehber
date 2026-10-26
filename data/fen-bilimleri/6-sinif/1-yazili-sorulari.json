@@ -1,0 +1,124 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 6. Sınıf Fen Bilimleri Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/fen3_2.xlsx",
+    "dosya": "fen-bilimleri.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "FB.6.1.1",
+      "unite": "1. ünite: Güneş sistemi",
+      "konu": "Güneş Sistemi",
+      "konuSlug": "gunes-sistemi",
+      "metin": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırabilme"
+    },
+    {
+      "id": "FB.6.1.3",
+      "unite": "1. ünite: Güneş sistemi",
+      "konu": "Güneş ve Ay Tutulmaları",
+      "konuSlug": "gunes-ve-ay-tutulmalari",
+      "metin": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapabilme"
+    },
+    {
+      "id": "FB.6.2.1",
+      "unite": "2. ünite: Kuvvetin etkisinde hareket",
+      "konu": "Bileşke Kuvvet",
+      "konuSlug": "bileske-kuvvet",
+      "metin": "Bir cisme etki eden aynı doğrultudaki kuvvetler arasındaki ilişkileri açıklayarak bileşke kuvveti yapılandırabilme"
+    },
+    {
+      "id": "FB.6.2.2",
+      "unite": "2. ünite: Kuvvetin etkisinde hareket",
+      "konu": "Dengelenmiş ve dengelenmemiş kuvvetlerin etkisi altındaki bir cismin hareketine yönelik deney yapabilme",
+      "konuSlug": "dengelenmis-ve-dengelenmemis-kuvvetlerin-etkisi-altindaki-bir-cismin",
+      "metin": "Dengelenmiş ve dengelenmemiş kuvvetlerin etkisi altındaki bir cismin hareketine yönelik deney yapabilme"
+    },
+    {
+      "id": "FB.6.2.3",
+      "unite": "2. ünite: Kuvvetin etkisinde hareket",
+      "konu": "Sabit Süratli ve Sabit Hızlı Hareket",
+      "konuSlug": "sabit-suratli-ve-sabit-hizli-hareket",
+      "metin": "Sürat ve hız kavramlarını karşılaştırabilme"
+    },
+    {
+      "id": "FB.6.3.1",
+      "unite": "3. ünite: Canlılarda sistemler",
+      "konu": "Bitki ve Hayvanlarda Üreme, Büyüme ve Gelişme",
+      "konuSlug": "bitki-ve-hayvanlarda-ureme-buyume-ve-gelisme",
+      "metin": "Eşeyli ve eşeysiz üremeyi karşılaştırabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "FB.6.1.1": 2,
+        "FB.6.1.3": 1,
+        "FB.6.2.1": 2,
+        "FB.6.2.2": 1,
+        "FB.6.2.3": 1,
+        "FB.6.3.1": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "FB.6.1.1": 2,
+        "FB.6.1.3": 2,
+        "FB.6.2.1": 1,
+        "FB.6.2.2": null,
+        "FB.6.2.3": 2,
+        "FB.6.3.1": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "FB.6.1.1": 2,
+        "FB.6.1.3": 1,
+        "FB.6.2.1": 2,
+        "FB.6.2.2": null,
+        "FB.6.2.3": 2,
+        "FB.6.3.1": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "FB.6.1.1": 1,
+        "FB.6.1.3": 1,
+        "FB.6.2.1": 1,
+        "FB.6.2.2": 1,
+        "FB.6.2.3": 2,
+        "FB.6.3.1": null
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "FB.6.1.1": 1,
+        "FB.6.1.3": 2,
+        "FB.6.2.1": 2,
+        "FB.6.2.2": 2,
+        "FB.6.2.3": null,
+        "FB.6.3.1": null
+      }
+    },
+    {
+      "no": 6,
+      "dagilim": {
+        "FB.6.1.1": 2,
+        "FB.6.1.3": 2,
+        "FB.6.2.1": 2,
+        "FB.6.2.2": 2,
+        "FB.6.2.3": 1,
+        "FB.6.3.1": null
+      }
+    }
+  ]
+}

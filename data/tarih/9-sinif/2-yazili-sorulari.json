@@ -1,0 +1,124 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 9. Sınıf Tarih Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/tarih3.xlsx",
+    "dosya": "tarih.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "TAR.9.1.1",
+      "unite": "1. ünite: Geçmişin inşa sürecinde tarih",
+      "konu": "Tarih Öğrenmenin Faydaları",
+      "konuSlug": "tarih-ogrenmenin-faydalari",
+      "metin": "Tarih öğrenmenin bireye ve topluma faydalarını yorumlayabilme"
+    },
+    {
+      "id": "TAR.9.1.2",
+      "unite": "1. ünite: Geçmişin inşa sürecinde tarih",
+      "konu": "Tarihin Doğası",
+      "konuSlug": "tarihin-dogasi",
+      "metin": "Tarihin doğasını farklı kaynaklar üzerinden inceleyebilme"
+    },
+    {
+      "id": "TAR.9.1.3",
+      "unite": "1. ünite: Geçmişin inşa sürecinde tarih",
+      "konu": "Tarihsel Bilginin Üretim Süreci",
+      "konuSlug": "tarihsel-bilginin-uretim-sureci",
+      "metin": "Tarihsel bilginin üretim sürecini çözümleyebilme"
+    },
+    {
+      "id": "TAR.9.1.4",
+      "unite": "1. ünite: Geçmişin inşa sürecinde tarih",
+      "konu": "Tarih Araştırma ve Yazımında Dijitalleşme",
+      "konuSlug": "tarih-arastirma-ve-yaziminda-dijitallesme",
+      "metin": "Dijitalleşmenin tarih araştırma ve yazımının dönüşümüne etkisini değerlendirebilme"
+    },
+    {
+      "id": "TAR.9.2.1",
+      "unite": "2. ünite: Eski çağ medeniyetleri",
+      "konu": "Tarım Devrimi’nin Eski Çağ Medeniyetlerindeki Yerleşmeye ve Ekonomiye Etkisi",
+      "konuSlug": "tarim-devriminin-eski-cag-medeniyetlerindeki-yerlesmeye-ve-ekonomiye",
+      "metin": "Tarım Devrimi’nin Eski Çağ medeniyetlerindeki yerleşmeye ve ekonomik faaliyetlere etkisini değerlendirebilme"
+    },
+    {
+      "id": "TAR.9.2.2",
+      "unite": "2. ünite: Eski çağ medeniyetleri",
+      "konu": "Eski Çağ Medeniyetlerinde Yönetim ve Ordu",
+      "konuSlug": "eski-cag-medeniyetlerinde-yonetim-ve-ordu",
+      "metin": "Eski Çağ’daki farklı medeniyetlerin yönetim ve ordu sistemlerini özetleyebilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "TAR.9.1.1": 1,
+        "TAR.9.1.2": null,
+        "TAR.9.1.3": null,
+        "TAR.9.1.4": 2,
+        "TAR.9.2.1": 2,
+        "TAR.9.2.2": 2
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "TAR.9.1.1": null,
+        "TAR.9.1.2": 1,
+        "TAR.9.1.3": 1,
+        "TAR.9.1.4": null,
+        "TAR.9.2.1": 2,
+        "TAR.9.2.2": 2
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "TAR.9.1.1": null,
+        "TAR.9.1.2": null,
+        "TAR.9.1.3": 1,
+        "TAR.9.1.4": 1,
+        "TAR.9.2.1": 2,
+        "TAR.9.2.2": 2
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "TAR.9.1.1": 1,
+        "TAR.9.1.2": 1,
+        "TAR.9.1.3": null,
+        "TAR.9.1.4": 1,
+        "TAR.9.2.1": 1,
+        "TAR.9.2.2": 2
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "TAR.9.1.1": null,
+        "TAR.9.1.2": 1,
+        "TAR.9.1.3": 1,
+        "TAR.9.1.4": 1,
+        "TAR.9.2.1": 1,
+        "TAR.9.2.2": 2
+      }
+    },
+    {
+      "no": 6,
+      "dagilim": {
+        "TAR.9.1.1": null,
+        "TAR.9.1.2": null,
+        "TAR.9.1.3": 2,
+        "TAR.9.1.4": 2,
+        "TAR.9.2.1": 2,
+        "TAR.9.2.2": null
+      }
+    }
+  ]
+}

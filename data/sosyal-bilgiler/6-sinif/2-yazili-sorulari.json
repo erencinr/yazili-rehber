@@ -1,0 +1,149 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 6. Sınıf Sosyal Bilgiler Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/sosyal2.xlsx",
+    "dosya": "sosyal-bilgiler.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "SB.6.1.1",
+      "unite": "birlikte yaşamak",
+      "konu": "Zaman İçinde Değişen Gruplar ve Roller",
+      "konuSlug": "zaman-icinde-degisen-gruplar-ve-roller",
+      "metin": "Dâhil olduğu grupların ve bu gruplardaki rollerinin zaman içerisinde değişebile ceğine ilişkin çıkarım yapabilme"
+    },
+    {
+      "id": "SB.6.1.2",
+      "unite": "birlikte yaşamak",
+      "konu": "Kültürel Bağlarımızın ve Millî Değerlerimizin Toplumsal Birlikteliğe Etkisi",
+      "konuSlug": "kulturel-baglarimizin-ve-milli-degerlerimizin-toplumsal-birliktelige",
+      "metin": "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisini yorumlayabilme"
+    },
+    {
+      "id": "SB.6.1.3",
+      "unite": "birlikte yaşamak",
+      "konu": "Toplumsal Sorunlar ve Çözümler Önerileri",
+      "konuSlug": "toplumsal-sorunlar-ve-cozumler-onerileri",
+      "metin": "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerilerini müzakere edebilme"
+    },
+    {
+      "id": "SB.6.2.1",
+      "unite": "evimiz dünya",
+      "konu": "Ülkemizin, Kıtaların ve Okyanusların Konum Özellikleri",
+      "konuSlug": "ulkemizin-kitalarin-ve-okyanuslarin-konum-ozellikleri",
+      "metin": "Ülkemizin, kıtaların ve okyanusların konum özelliklerini algılayabilme"
+    },
+    {
+      "id": "SB.6.2.2",
+      "unite": "evimiz dünya",
+      "konu": "Doğal ve Beşerî Çevre Özellikleri Arasındaki İlişki",
+      "konuSlug": "dogal-ve-beseri-cevre-ozellikleri-arasindaki-iliski",
+      "metin": "Ülkemizin doğal ve beşerî çevre özellikleri arasındaki ilişkiyi çözümleyebilme"
+    },
+    {
+      "id": "SB.6.2.3",
+      "unite": "evimiz dünya",
+      "konu": "Ülkemizin Türk Dünyasıyla Kültürel İş birlikleri",
+      "konuSlug": "ulkemizin-turk-dunyasiyla-kulturel-is-birlikleri",
+      "metin": "Ülkemizin Türk dünyasıyla kültürel iş birliklerini yorumlayabilme"
+    },
+    {
+      "id": "SB.6.3.2",
+      "unite": "ortak mirasımız",
+      "konu": "VII-XIII. Yüzyıllar Arasında İslam Medeniyetinin İnsanlığın Ortak Mirasına Katkıları",
+      "konuSlug": "vii-xiii-yuzyillar-arasinda-islam-medeniyetinin-insanligin-ortak",
+      "metin": "VII-XIII. yüzyıllar arasında İslam medeniyetinin eğitim, bilim, hukuk, kültür, sa nat ve mimari alanlarında insanlığın ortak mirasına katkılarına dair akıl yürütebilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "SB.6.1.1": null,
+        "SB.6.1.2": null,
+        "SB.6.1.3": null,
+        "SB.6.2.1": 1,
+        "SB.6.2.2": 1,
+        "SB.6.2.3": 2,
+        "SB.6.3.2": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "SB.6.1.1": null,
+        "SB.6.1.2": null,
+        "SB.6.1.3": 1,
+        "SB.6.2.1": null,
+        "SB.6.2.2": 1,
+        "SB.6.2.3": 2,
+        "SB.6.3.2": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "SB.6.1.1": null,
+        "SB.6.1.2": 1,
+        "SB.6.1.3": 1,
+        "SB.6.2.1": null,
+        "SB.6.2.2": 1,
+        "SB.6.2.3": 2,
+        "SB.6.3.2": 1
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "SB.6.1.1": null,
+        "SB.6.1.2": null,
+        "SB.6.1.3": null,
+        "SB.6.2.1": 1,
+        "SB.6.2.2": 2,
+        "SB.6.2.3": 2,
+        "SB.6.3.2": null
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "SB.6.1.1": null,
+        "SB.6.1.2": null,
+        "SB.6.1.3": 1,
+        "SB.6.2.1": null,
+        "SB.6.2.2": 2,
+        "SB.6.2.3": 2,
+        "SB.6.3.2": null
+      }
+    },
+    {
+      "no": 6,
+      "dagilim": {
+        "SB.6.1.1": null,
+        "SB.6.1.2": null,
+        "SB.6.1.3": 1,
+        "SB.6.2.1": 1,
+        "SB.6.2.2": 2,
+        "SB.6.2.3": 1,
+        "SB.6.3.2": 1
+      }
+    },
+    {
+      "no": 7,
+      "dagilim": {
+        "SB.6.1.1": 1,
+        "SB.6.1.2": null,
+        "SB.6.1.3": null,
+        "SB.6.2.1": null,
+        "SB.6.2.2": 2,
+        "SB.6.2.3": 2,
+        "SB.6.3.2": 1
+      }
+    }
+  ]
+}

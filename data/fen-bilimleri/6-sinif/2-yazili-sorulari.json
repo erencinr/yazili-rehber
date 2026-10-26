@@ -1,0 +1,221 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 6. Sınıf Fen Bilimleri Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/fen3_2.xlsx",
+    "dosya": "fen-bilimleri.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "FB.6.1.1",
+      "unite": "1. ünite: Güneş sistemi",
+      "konu": "Güneş Sistemi",
+      "konuSlug": "gunes-sistemi",
+      "metin": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırabilme"
+    },
+    {
+      "id": "FB.6.1.3",
+      "unite": "1. ünite: Güneş sistemi",
+      "konu": "Güneş ve Ay Tutulmaları",
+      "konuSlug": "gunes-ve-ay-tutulmalari",
+      "metin": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapabilme"
+    },
+    {
+      "id": "FB.6.2.1",
+      "unite": "2. ünite: Kuvvetin etkisinde hareket",
+      "konu": "Bileşke Kuvvet",
+      "konuSlug": "bileske-kuvvet",
+      "metin": "Bir cisme etki eden aynı doğrultudaki kuvvetler arasındaki ilişkileri açıklayarak bileşke kuvveti yapılandırabilme"
+    },
+    {
+      "id": "FB.6.2.3",
+      "unite": "2. ünite: Kuvvetin etkisinde hareket",
+      "konu": "Sabit Süratli ve Sabit Hızlı Hareket",
+      "konuSlug": "sabit-suratli-ve-sabit-hizli-hareket",
+      "metin": "Sürat ve hız kavramlarını karşılaştırabilme"
+    },
+    {
+      "id": "FB.6.3.1",
+      "unite": "3. ünite: Canlılarda sistemler",
+      "konu": "Bitki ve Hayvanlarda Üreme, Büyüme ve Gelişme",
+      "konuSlug": "bitki-ve-hayvanlarda-ureme-buyume-ve-gelisme",
+      "metin": "Eşeyli ve eşeysiz üremeyi karşılaştırabilme"
+    },
+    {
+      "id": "FB.6.3.2",
+      "unite": "3. ünite: Canlılarda sistemler",
+      "konu": "Bitkilerde üreme, büyüme ve gelişme hakkında bilimsel çıkarım yapabilme",
+      "konuSlug": "bitkilerde-ureme-buyume-ve-gelisme-hakkinda-bilimsel-cikarim-yapabilme",
+      "metin": "Bitkilerde üreme, büyüme ve gelişme hakkında bilimsel çıkarım yapabilme"
+    },
+    {
+      "id": "FB.6.3.3",
+      "unite": "3. ünite: Canlılarda sistemler",
+      "konu": "Tohumun çimlenmesine etki eden faktörlere ilişkin hipotez oluşturabilme",
+      "konuSlug": "tohumun-cimlenmesine-etki-eden-faktorlere-iliskin-hipotez",
+      "metin": "Tohumun çimlenmesine etki eden faktörlere ilişkin hipotez oluşturabilme"
+    },
+    {
+      "id": "FB.6.3.4",
+      "unite": "3. ünite: Canlılarda sistemler",
+      "konu": "Hayvanlarda üreme, büyüme ve gelişme hakkında bilimsel çıkarım yapabilme",
+      "konuSlug": "hayvanlarda-ureme-buyume-ve-gelisme-hakkinda-bilimsel-cikarim",
+      "metin": "Hayvanlarda üreme, büyüme ve gelişme hakkında bilimsel çıkarım yapabilme"
+    },
+    {
+      "id": "FB.6.3.5",
+      "unite": "3. ünite: Canlılarda sistemler",
+      "konu": "İnsanda üremeyi sağlayan yapı ve organlar arasındaki ilişkileri çözümleyebilme",
+      "konuSlug": "insanda-uremeyi-saglayan-yapi-ve-organlar-arasindaki-iliskileri",
+      "metin": "İnsanda üremeyi sağlayan yapı ve organlar arasındaki ilişkileri çözümleyebilme"
+    },
+    {
+      "id": "FB.6.3.6",
+      "unite": "3. ünite: Canlılarda sistemler",
+      "konu": "Denetleyici ve Düzenleyici Sistemler",
+      "konuSlug": "denetleyici-ve-duzenleyici-sistemler",
+      "metin": "Sinir sisteminin görevlerini model üzerinde bilimsel olarak gözlemleyebilme"
+    },
+    {
+      "id": "FB.6.3.7",
+      "unite": "3. ünite: Canlılarda sistemler",
+      "konu": "İç salgı bezlerinin vücut için önemini yapılandırabilme",
+      "konuSlug": "ic-salgi-bezlerinin-vucut-icin-onemini-yapilandirabilme",
+      "metin": "İç salgı bezlerinin vücut için önemini yapılandırabilme"
+    },
+    {
+      "id": "FB.6.3.8",
+      "unite": "3. ünite: Canlılarda sistemler",
+      "konu": "Çocukluktan ergenliğe geçişte oluşan bedensel ve ruhsal değişimleri genelleyebilme",
+      "konuSlug": "cocukluktan-ergenlige-geciste-olusan-bedensel-ve-ruhsal-degisimleri",
+      "metin": "Çocukluktan ergenliğe geçişte oluşan bedensel ve ruhsal değişimleri genelleyebilme"
+    },
+    {
+      "id": "FB.6.4.1",
+      "unite": "4. ünite: Işığın yansıması ve renkler",
+      "konu": "Işığın Yansıması",
+      "konuSlug": "isigin-yansimasi",
+      "metin": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapabilme"
+    },
+    {
+      "id": "FB.6.4.2",
+      "unite": "4. ünite: Işığın yansıması ve renkler",
+      "konu": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişki ile ilgili kanıt kullanabilme",
+      "konuSlug": "isigin-yansimasinda-gelen-isin-yansiyan-isin-ve-yuzeyin-normali",
+      "metin": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişki ile ilgili kanıt kullanabilme"
+    },
+    {
+      "id": "FB.6.4.3",
+      "unite": "4. ünite: Işığın yansıması ve renkler",
+      "konu": "Aynalar",
+      "konuSlug": "aynalar",
+      "metin": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "FB.6.1.1": 1,
+        "FB.6.1.3": null,
+        "FB.6.2.1": null,
+        "FB.6.2.3": 1,
+        "FB.6.3.1": null,
+        "FB.6.3.2": 1,
+        "FB.6.3.3": null,
+        "FB.6.3.4": null,
+        "FB.6.3.5": 1,
+        "FB.6.3.6": 1,
+        "FB.6.3.7": 1,
+        "FB.6.3.8": null,
+        "FB.6.4.1": 1,
+        "FB.6.4.2": 1,
+        "FB.6.4.3": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "FB.6.1.1": null,
+        "FB.6.1.3": 1,
+        "FB.6.2.1": null,
+        "FB.6.2.3": null,
+        "FB.6.3.1": null,
+        "FB.6.3.2": null,
+        "FB.6.3.3": 1,
+        "FB.6.3.4": 1,
+        "FB.6.3.5": null,
+        "FB.6.3.6": 2,
+        "FB.6.3.7": null,
+        "FB.6.3.8": 1,
+        "FB.6.4.1": null,
+        "FB.6.4.2": 1,
+        "FB.6.4.3": 2
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "FB.6.1.1": null,
+        "FB.6.1.3": null,
+        "FB.6.2.1": null,
+        "FB.6.2.3": 1,
+        "FB.6.3.1": 1,
+        "FB.6.3.2": 1,
+        "FB.6.3.3": 1,
+        "FB.6.3.4": null,
+        "FB.6.3.5": 1,
+        "FB.6.3.6": 1,
+        "FB.6.3.7": 1,
+        "FB.6.3.8": null,
+        "FB.6.4.1": null,
+        "FB.6.4.2": 1,
+        "FB.6.4.3": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "FB.6.1.1": null,
+        "FB.6.1.3": null,
+        "FB.6.2.1": 1,
+        "FB.6.2.3": null,
+        "FB.6.3.1": 1,
+        "FB.6.3.2": 1,
+        "FB.6.3.3": 1,
+        "FB.6.3.4": 1,
+        "FB.6.3.5": null,
+        "FB.6.3.6": 1,
+        "FB.6.3.7": null,
+        "FB.6.3.8": 1,
+        "FB.6.4.1": 1,
+        "FB.6.4.2": null,
+        "FB.6.4.3": null
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "FB.6.1.1": null,
+        "FB.6.1.3": null,
+        "FB.6.2.1": null,
+        "FB.6.2.3": 1,
+        "FB.6.3.1": 1,
+        "FB.6.3.2": null,
+        "FB.6.3.3": 1,
+        "FB.6.3.4": null,
+        "FB.6.3.5": 1,
+        "FB.6.3.6": null,
+        "FB.6.3.7": 1,
+        "FB.6.3.8": null,
+        "FB.6.4.1": 1,
+        "FB.6.4.2": 1,
+        "FB.6.4.3": null
+      }
+    }
+  ]
+}

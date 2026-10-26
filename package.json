@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "tablo": "node scripts/tablo-aktar.mjs",
+    "tablolar": "node scripts/tablo-aktar.mjs --hepsi"
   },
   "dependencies": {
     "next": "16.4.3",
@@ -21,6 +23,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
+    "fflate": "^0.8.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

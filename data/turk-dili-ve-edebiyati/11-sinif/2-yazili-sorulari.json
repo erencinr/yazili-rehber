@@ -1,0 +1,103 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 11. Sınıf Türk Dili ve Edebiyatı Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/edebiyat2.xlsx",
+    "dosya": "turk-dili-ve-edebiyati.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "TDE2.2",
+      "unite": "1. tema: Bir diyeceğim var!",
+      "konu": "“Bir Diyeceğim Var!” temasında ele alınan metinlerde anlam oluşturabilme",
+      "konuSlug": "bir-diyecegim-var-temasinda-ele-alinan-metinlerde-anlam-olusturabilme",
+      "metin": "“Bir Diyeceğim Var!” temasında ele alınan metinlerde anlam oluşturabilme"
+    },
+    {
+      "id": "TDE2.3",
+      "unite": "1. tema: Bir diyeceğim var!",
+      "konu": "“Bir Diyeceğim Var!” temasında ele alınan metinleri çözümleyebilme",
+      "konuSlug": "bir-diyecegim-var-temasinda-ele-alinan-metinleri-cozumleyebilme",
+      "metin": "“Bir Diyeceğim Var!” temasında ele alınan metinleri çözümleyebilme"
+    },
+    {
+      "id": "TDE4.3",
+      "unite": "1. tema: Bir diyeceğim var!",
+      "konu": "Günlük hayatta karşılaşılan durumlara ilişkin duygu ve düşüncelerini etkili kullanacağı yazısı için kural uygulayabilme",
+      "konuSlug": "gunluk-hayatta-karsilasilan-durumlara-iliskin-duygu-ve-dusuncelerini",
+      "metin": "Günlük hayatta karşılaşılan durumlara ilişkin duygu ve düşüncelerini etkili kullanacağı yazısı için kural uygulayabilme"
+    },
+    {
+      "id": "TDE2.2",
+      "unite": "2. tema: Kültür yolculuğu",
+      "konu": "“Kültür Yolculuğu” temasında ele alınan metinlerde anlam oluşturabilme",
+      "konuSlug": "kultur-yolculugu-temasinda-ele-alinan-metinlerde-anlam-olusturabilme",
+      "metin": "“Kültür Yolculuğu” temasında ele alınan metinlerde anlam oluşturabilme"
+    },
+    {
+      "id": "TDE2.3",
+      "unite": "2. tema: Kültür yolculuğu",
+      "konu": "“Kültür Yolculuğu” temasında ele alınan metinleri çözümleyebilme",
+      "konuSlug": "kultur-yolculugu-temasinda-ele-alinan-metinleri-cozumleyebilme",
+      "metin": "“Kültür Yolculuğu” temasında ele alınan metinleri çözümleyebilme"
+    },
+    {
+      "id": "TDE2.4",
+      "unite": "2. tema: Kültür yolculuğu",
+      "konu": "“Kültür Yolculuğu” temasında ele alınan metinlerde okuma sürecini değerlendirebilme",
+      "konuSlug": "kultur-yolculugu-temasinda-ele-alinan-metinlerde-okuma-surecini",
+      "metin": "“Kültür Yolculuğu” temasında ele alınan metinlerde okuma sürecini değerlendirebilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "TDE2.2": 2,
+        "TDE2.3": 1,
+        "TDE4.3": 1,
+        "TDE2.4": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "TDE2.2": null,
+        "TDE2.3": 2,
+        "TDE4.3": 1,
+        "TDE2.4": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "TDE2.2": 1,
+        "TDE2.3": 2,
+        "TDE4.3": 1,
+        "TDE2.4": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "TDE2.2": 2,
+        "TDE2.3": 2,
+        "TDE4.3": 1,
+        "TDE2.4": null
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "TDE2.2": 2,
+        "TDE2.3": 2,
+        "TDE4.3": 1,
+        "TDE2.4": 1
+      }
+    }
+  ]
+}

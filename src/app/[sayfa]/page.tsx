@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { AudienceCards, Breadcrumb, Container, FaqAccordion, GlanceBox, H2, JsonLd, NextLinks, PageHero, tarihYaz } from "@/components/ui";
 import { mutlakUrl, site } from "@/config/site";
 import { getSayfa, sayfalar } from "@/content/sayfalar";
+import { KaynakListesi } from "@/components/KaynakListesi";
 
 export function generateStaticParams() {
   return sayfalar.map((s) => ({ sayfa: s.slug }));
@@ -44,6 +45,13 @@ export default async function SayfaPage({ params }: PageProps<"/[sayfa]">) {
                       {p}
                     </p>
                   ))}
+                  {b.liste && (
+                    <ul className="list-disc space-y-1.5 pl-6 text-ink/85 marker:text-forest">
+                      {b.liste.map((m) => (
+                        <li key={m}>{m}</li>
+                      ))}
+                    </ul>
+                  )}
                 </section>
               ))}
             </article>
@@ -64,6 +72,7 @@ export default async function SayfaPage({ params }: PageProps<"/[sayfa]">) {
           </div>
         )}
         {s.sss && <FaqAccordion items={s.sss} />}
+        {s.kaynaklar && <KaynakListesi kaynaklar={s.kaynaklar} />}
         {!s.yasal && (
           <>
             <section className="space-y-4">

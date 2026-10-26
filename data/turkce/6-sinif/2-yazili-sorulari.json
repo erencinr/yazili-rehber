@@ -1,0 +1,303 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 6. Sınıf Türkçe Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/turkce2.xlsx",
+    "dosya": "turkce.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "T.O.6.5",
+      "unite": "okuma",
+      "konu": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme",
+      "konuSlug": "metinde-gecen-anlamini-bilmedigi-soz-varligi-unsurlarinin-anlamini",
+      "metin": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+      "id": "T.O.6.6",
+      "unite": "okuma",
+      "konu": "Metnin yüzey anlamını belirleyebilme",
+      "konuSlug": "metnin-yuzey-anlamini-belirleyebilme",
+      "metin": "Metnin yüzey anlamını belirleyebilme"
+    },
+    {
+      "id": "T.O.6.7",
+      "unite": "okuma",
+      "konu": "Görselle iletilen anlamı belirleyebilme",
+      "konuSlug": "gorselle-iletilen-anlami-belirleyebilme",
+      "metin": "Görselle iletilen anlamı belirleyebilme"
+    },
+    {
+      "id": "T.O.6.8",
+      "unite": "okuma",
+      "konu": "Metnin derin anlamını belirlemeye yönelik basit çıkarımlar yapabilme",
+      "konuSlug": "metnin-derin-anlamini-belirlemeye-yonelik-basit-cikarimlar-yapabilme",
+      "metin": "Metnin derin anlamını belirlemeye yönelik basit çıkarımlar yapabilme"
+    },
+    {
+      "id": "T.O.6.9",
+      "unite": "okuma",
+      "konu": "Metnin derin anlamını belirlemeye yönelik üst düzey çıkarımlar yapabilme",
+      "konuSlug": "metnin-derin-anlamini-belirlemeye-yonelik-ust-duzey-cikarimlar",
+      "metin": "Metnin derin anlamını belirlemeye yönelik üst düzey çıkarımlar yapabilme"
+    },
+    {
+      "id": "T.O.6.10",
+      "unite": "okuma",
+      "konu": "Metin içi karşılaştırma yapabilme",
+      "konuSlug": "metin-ici-karsilastirma-yapabilme",
+      "metin": "Metin içi karşılaştırma yapabilme"
+    },
+    {
+      "id": "T.O.6.11",
+      "unite": "okuma",
+      "konu": "Metinler arası karşılaştırma yapabilme",
+      "konuSlug": "metinler-arasi-karsilastirma-yapabilme",
+      "metin": "Metinler arası karşılaştırma yapabilme"
+    },
+    {
+      "id": "T.O.6.12",
+      "unite": "okuma",
+      "konu": "Metindeki unsurları sınıflandırabilme",
+      "konuSlug": "metindeki-unsurlari-siniflandirabilme",
+      "metin": "Metindeki unsurları sınıflandırabilme"
+    },
+    {
+      "id": "T.O.6.16",
+      "unite": "okuma",
+      "konu": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme",
+      "konuSlug": "bilgilendirici-metinde-anahtar-kelimeleri-belirlemeye-yonelik",
+      "metin": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+      "id": "T.O.6.18",
+      "unite": "okuma",
+      "konu": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme",
+      "konuSlug": "siirin-bicim-ozelliklerini-belirlemeye-yonelik-cozumleme-yapabilme",
+      "metin": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+      "id": "T.O.6.19",
+      "unite": "okuma",
+      "konu": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirlemeye yönelik çözümleme yapabilme",
+      "konuSlug": "bilgilendirici-metinde-dusunceyi-gelistirme-yollarini-belirlemeye",
+      "metin": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+      "id": "T.O.6.21",
+      "unite": "okuma",
+      "konu": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
+      "konuSlug": "metinden-hareketle-soz-varligini-gelistirmeye-yonelik-cozumleme",
+      "metin": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+      "id": "T.Y.6.7",
+      "unite": "yazma",
+      "konu": "Yaratıcı yazı yazabilme",
+      "konuSlug": "yaratici-yazi-yazabilme",
+      "metin": "Yaratıcı yazı yazabilme"
+    },
+    {
+      "id": "T.Y.6.9",
+      "unite": "yazma",
+      "konu": "Yazısında karşılaştırma yapabilme",
+      "konuSlug": "yazisinda-karsilastirma-yapabilme",
+      "metin": "Yazısında karşılaştırma yapabilme"
+    },
+    {
+      "id": "T.Y.6.10",
+      "unite": "yazma",
+      "konu": "Yazısında sınıflandırma yapabilme",
+      "konuSlug": "yazisinda-siniflandirma-yapabilme",
+      "metin": "Yazısında sınıflandırma yapabilme"
+    },
+    {
+      "id": "T.Y.6.11",
+      "unite": "yazma",
+      "konu": "Yorumunu yazılı olarak ifade edebilme",
+      "konuSlug": "yorumunu-yazili-olarak-ifade-edebilme",
+      "metin": "Yorumunu yazılı olarak ifade edebilme"
+    },
+    {
+      "id": "T.Y.6.17",
+      "unite": "yazma",
+      "konu": "Yazısında düşünceyi geliştirme yollarını kullanabilme",
+      "konuSlug": "yazisinda-dusunceyi-gelistirme-yollarini-kullanabilme",
+      "metin": "Yazısında düşünceyi geliştirme yollarını kullanabilme"
+    },
+    {
+      "id": "T.Y.6.21",
+      "unite": "yazma",
+      "konu": "Yazım kuralları ve noktalama işaretlerini uygulayabilme",
+      "konuSlug": "yazim-kurallari-ve-noktalama-isaretlerini-uygulayabilme",
+      "metin": "Yazım kuralları ve noktalama işaretlerini uygulayabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "T.O.6.5": 1,
+        "T.O.6.6": 1,
+        "T.O.6.7": null,
+        "T.O.6.8": null,
+        "T.O.6.9": null,
+        "T.O.6.10": 1,
+        "T.O.6.11": null,
+        "T.O.6.12": null,
+        "T.O.6.16": 1,
+        "T.O.6.18": null,
+        "T.O.6.19": null,
+        "T.O.6.21": null,
+        "T.Y.6.7": 1,
+        "T.Y.6.9": null,
+        "T.Y.6.10": null,
+        "T.Y.6.11": null,
+        "T.Y.6.17": null,
+        "T.Y.6.21": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "T.O.6.5": 1,
+        "T.O.6.6": null,
+        "T.O.6.7": 1,
+        "T.O.6.8": 1,
+        "T.O.6.9": null,
+        "T.O.6.10": null,
+        "T.O.6.11": 1,
+        "T.O.6.12": null,
+        "T.O.6.16": null,
+        "T.O.6.18": 1,
+        "T.O.6.19": null,
+        "T.O.6.21": null,
+        "T.Y.6.7": null,
+        "T.Y.6.9": 1,
+        "T.Y.6.10": null,
+        "T.Y.6.11": null,
+        "T.Y.6.17": null,
+        "T.Y.6.21": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "T.O.6.5": null,
+        "T.O.6.6": 1,
+        "T.O.6.7": null,
+        "T.O.6.8": 1,
+        "T.O.6.9": null,
+        "T.O.6.10": 1,
+        "T.O.6.11": null,
+        "T.O.6.12": 1,
+        "T.O.6.16": null,
+        "T.O.6.18": null,
+        "T.O.6.19": null,
+        "T.O.6.21": 1,
+        "T.Y.6.7": 1,
+        "T.Y.6.9": null,
+        "T.Y.6.10": null,
+        "T.Y.6.11": 1,
+        "T.Y.6.17": null,
+        "T.Y.6.21": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "T.O.6.5": 1,
+        "T.O.6.6": null,
+        "T.O.6.7": 1,
+        "T.O.6.8": null,
+        "T.O.6.9": 1,
+        "T.O.6.10": null,
+        "T.O.6.11": null,
+        "T.O.6.12": null,
+        "T.O.6.16": 1,
+        "T.O.6.18": 1,
+        "T.O.6.19": null,
+        "T.O.6.21": null,
+        "T.Y.6.7": null,
+        "T.Y.6.9": 1,
+        "T.Y.6.10": 1,
+        "T.Y.6.11": null,
+        "T.Y.6.17": null,
+        "T.Y.6.21": null
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "T.O.6.5": null,
+        "T.O.6.6": 1,
+        "T.O.6.7": 1,
+        "T.O.6.8": null,
+        "T.O.6.9": 1,
+        "T.O.6.10": null,
+        "T.O.6.11": 1,
+        "T.O.6.12": null,
+        "T.O.6.16": null,
+        "T.O.6.18": 1,
+        "T.O.6.19": 1,
+        "T.O.6.21": null,
+        "T.Y.6.7": 1,
+        "T.Y.6.9": null,
+        "T.Y.6.10": null,
+        "T.Y.6.11": null,
+        "T.Y.6.17": null,
+        "T.Y.6.21": 1
+      }
+    },
+    {
+      "no": 6,
+      "dagilim": {
+        "T.O.6.5": null,
+        "T.O.6.6": 1,
+        "T.O.6.7": 1,
+        "T.O.6.8": null,
+        "T.O.6.9": 1,
+        "T.O.6.10": null,
+        "T.O.6.11": null,
+        "T.O.6.12": 1,
+        "T.O.6.16": null,
+        "T.O.6.18": 1,
+        "T.O.6.19": null,
+        "T.O.6.21": 1,
+        "T.Y.6.7": null,
+        "T.Y.6.9": null,
+        "T.Y.6.10": null,
+        "T.Y.6.11": 1,
+        "T.Y.6.17": 1,
+        "T.Y.6.21": null
+      }
+    },
+    {
+      "no": 7,
+      "dagilim": {
+        "T.O.6.5": 1,
+        "T.O.6.6": 1,
+        "T.O.6.7": null,
+        "T.O.6.8": null,
+        "T.O.6.9": 1,
+        "T.O.6.10": 1,
+        "T.O.6.11": null,
+        "T.O.6.12": 1,
+        "T.O.6.16": null,
+        "T.O.6.18": 1,
+        "T.O.6.19": 1,
+        "T.O.6.21": null,
+        "T.Y.6.7": null,
+        "T.Y.6.9": null,
+        "T.Y.6.10": null,
+        "T.Y.6.11": null,
+        "T.Y.6.17": 1,
+        "T.Y.6.21": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 10. Sınıf Türk Dili ve Edebiyatı Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/edebiyat2.xlsx",
+    "dosya": "turk-dili-ve-edebiyati.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "TDE2.2",
+      "unite": "1. tema: Sözün ezgisi",
+      "konu": "“Sözün Ezgisi” temasında ele alınan metinlerde anlam oluşturabilme",
+      "konuSlug": "sozun-ezgisi-temasinda-ele-alinan-metinlerde-anlam-olusturabilme",
+      "metin": "“Sözün Ezgisi” temasında ele alınan metinlerde anlam oluşturabilme"
+    },
+    {
+      "id": "TDE2.3",
+      "unite": "1. tema: Sözün ezgisi",
+      "konu": "“Sözün Ezgisi” temasında ele alınan metinleri çözümleyebilme",
+      "konuSlug": "sozun-ezgisi-temasinda-ele-alinan-metinleri-cozumleyebilme",
+      "metin": "“Sözün Ezgisi” temasında ele alınan metinleri çözümleyebilme"
+    },
+    {
+      "id": "TDE2.2",
+      "unite": "2. tema: Kelimelerin ritmi",
+      "konu": "“Kelimelerin Ritmi” temasında ele alınan metinlerde anlam oluşturabilme",
+      "konuSlug": "kelimelerin-ritmi-temasinda-ele-alinan-metinlerde-anlam-olusturabilme",
+      "metin": "“Kelimelerin Ritmi” temasında ele alınan metinlerde anlam oluşturabilme"
+    },
+    {
+      "id": "TDE2.3",
+      "unite": "2. tema: Kelimelerin ritmi",
+      "konu": "“Kelimelerin Ritmi” temasında ele alınan metinleri çözümleyebilme",
+      "konuSlug": "kelimelerin-ritmi-temasinda-ele-alinan-metinleri-cozumleyebilme",
+      "metin": "“Kelimelerin Ritmi” temasında ele alınan metinleri çözümleyebilme"
+    },
+    {
+      "id": "TDE2.4",
+      "unite": "2. tema: Kelimelerin ritmi",
+      "konu": "“Kelimelerin Ritmi” temasında ele alınan metinlere yönelik okuma sürecini değerlendirebilme",
+      "konuSlug": "kelimelerin-ritmi-temasinda-ele-alinan-metinlere-yonelik-okuma",
+      "metin": "“Kelimelerin Ritmi” temasında ele alınan metinlere yönelik okuma sürecini değerlendirebilme"
+    },
+    {
+      "id": "TDE4.3",
+      "unite": "2. tema: Kelimelerin ritmi",
+      "konu": "Edebî metne dönüştürdüğü yazısında kural uygulayabilme",
+      "konuSlug": "edebi-metne-donusturdugu-yazisinda-kural-uygulayabilme",
+      "metin": "Edebî metne dönüştürdüğü yazısında kural uygulayabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "TDE2.2": 1,
+        "TDE2.3": 1,
+        "TDE2.4": 1,
+        "TDE4.3": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "TDE2.2": null,
+        "TDE2.3": 2,
+        "TDE2.4": 1,
+        "TDE4.3": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "TDE2.2": 1,
+        "TDE2.3": 2,
+        "TDE2.4": null,
+        "TDE4.3": 1
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "TDE2.2": 2,
+        "TDE2.3": 1,
+        "TDE2.4": 1,
+        "TDE4.3": 1
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "TDE2.2": 2,
+        "TDE2.3": 1,
+        "TDE2.4": null,
+        "TDE4.3": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 5. Sınıf Sosyal Bilgiler Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/sosyal2.xlsx",
+    "dosya": "sosyal-bilgiler.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "SB.5.1.1",
+      "unite": "birlikte yaşamak",
+      "konu": "Gruplar ve Roller",
+      "konuSlug": "gruplar-ve-roller",
+      "metin": "Dâhil olduğu gruplar ve bu gruplardaki rolleri arasındaki ilişkileri çözümleyebilme"
+    },
+    {
+      "id": "SB.5.1.2",
+      "unite": "birlikte yaşamak",
+      "konu": "Kültürel Özelliklere Saygı ve Birlikte Yaşama Kültürü",
+      "konuSlug": "kulturel-ozelliklere-saygi-ve-birlikte-yasama-kulturu",
+      "metin": "Kültürel özelliklere saygı duymanın birlikte yaşamaya etkisini yorumlayabilme"
+    },
+    {
+      "id": "SB.5.2.1",
+      "unite": "evimiz dünya",
+      "konu": "Yaşadığı İlin Göreceli Konumu",
+      "konuSlug": "yasadigi-ilin-goreceli-konumu",
+      "metin": "Yaşadığı ilin göreceli konum özelliklerini algılayabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "SB.5.1.1": 1,
+        "SB.5.1.2": 2,
+        "SB.5.2.1": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "SB.5.1.1": 2,
+        "SB.5.1.2": 2,
+        "SB.5.2.1": null
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "SB.5.1.1": 2,
+        "SB.5.1.2": 2,
+        "SB.5.2.1": 1
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "SB.5.1.1": 1,
+        "SB.5.1.2": 2,
+        "SB.5.2.1": null
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "SB.5.1.1": 2,
+        "SB.5.1.2": 1,
+        "SB.5.2.1": 1
+      }
+    }
+  ]
+}

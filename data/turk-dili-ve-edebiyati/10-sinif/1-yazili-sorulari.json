@@ -1,0 +1,16 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "ulkeGeneli": true,
+  "duyuru": "1. Dönem 1. Ortak Yazılı Sınav Ülke Geneli Ortak Yazılı Sınav şeklinde yapılacaktır. Konu Soru Dağılım Tablosu sınav öncesi kılavuz ile birlikte yayımlanacaktır.",
+  "kaynak": {
+    "ad": "ÖDSGM 10. Sınıf Türk Dili ve Edebiyatı Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/edebiyat2.xlsx",
+    "dosya": "turk-dili-ve-edebiyati.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [],
+  "senaryolar": []
+}

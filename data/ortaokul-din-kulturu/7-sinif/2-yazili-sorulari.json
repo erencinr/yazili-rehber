@@ -1,0 +1,149 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 7. Sınıf Din Kültürü ve Ahlak Bilgisi Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/dkab_orta3.xlsx",
+    "dosya": "ortaokul-din-kulturu.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "DKAB.7.1.1",
+      "unite": "melek ve ahiret inancı",
+      "konu": "Varlıklar Âlemi",
+      "konuSlug": "varliklar-alemi",
+      "metin": "Melekleri sınıflandırabilme"
+    },
+    {
+      "id": "DKAB.7.1.2",
+      "unite": "melek ve ahiret inancı",
+      "konu": "Dünya ve Ahiret Hayatı",
+      "konuSlug": "dunya-ve-ahiret-hayati",
+      "metin": "Ahiret hayatının aşamalarını çözümleyebilme"
+    },
+    {
+      "id": "DKAB.7.1.3",
+      "unite": "melek ve ahiret inancı",
+      "konu": "Melek ve Ahiret İnancının İnsana Kazandırdıkları",
+      "konuSlug": "melek-ve-ahiret-inancinin-insana-kazandirdiklari",
+      "metin": "Melek ve ahiret inancının insana kazandırdıkları konusunda analitik düşünebilme"
+    },
+    {
+      "id": "DKAB.7.1.4",
+      "unite": "melek ve ahiret inancı",
+      "konu": "Bir Sure Öğreniyorum: Nâs Suresi",
+      "konuSlug": "bir-sure-ogreniyorum-nas-suresi",
+      "metin": "Nâs suresini ve bu surenin anlamını okuyarak yorumlayabilme"
+    },
+    {
+      "id": "DKAB.7.2.1",
+      "unite": "hac, umre ve kurban",
+      "konu": "Hac ve Umre İbadeti",
+      "konuSlug": "hac-ve-umre-ibadeti",
+      "metin": "Hac ve umre ibadetlerini çözümleyebilme"
+    },
+    {
+      "id": "DKAB.7.2.2",
+      "unite": "hac, umre ve kurban",
+      "konu": "Kurban İbadeti",
+      "konuSlug": "kurban-ibadeti",
+      "metin": "Kurban ibadetini yapılandırabilme"
+    },
+    {
+      "id": "DKAB.7.2.3",
+      "unite": "hac, umre ve kurban",
+      "konu": "Hac ve Kurban İbadetinin Kültürümüze Yansımaları",
+      "konuSlug": "hac-ve-kurban-ibadetinin-kulturumuze-yansimalari",
+      "metin": "Hac ve kurban ibadetinin kültürümüze yansımalarını müşahede edebilme"
+    },
+    {
+      "id": "DKAB.7.2.4",
+      "unite": "hac, umre ve kurban",
+      "konu": "Bir Sure Öğreniyorum: Kâfirun Suresi",
+      "konuSlug": "bir-sure-ogreniyorum-kafirun-suresi",
+      "metin": "Kâfirun suresini ve bu surenin anlamını okuyarak yorumlayabilme"
+    },
+    {
+      "id": "DKAB.7.3.1",
+      "unite": "islam düşüncesinde yorumlar",
+      "konu": "Din Anlayışındaki Yorum Farklılıkları",
+      "konuSlug": "din-anlayisindaki-yorum-farkliliklari",
+      "metin": "Din anlayışındaki yorum farklılıklarının sebeplerini anlayabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "DKAB.7.1.1": null,
+        "DKAB.7.1.2": 1,
+        "DKAB.7.1.3": 1,
+        "DKAB.7.1.4": null,
+        "DKAB.7.2.1": null,
+        "DKAB.7.2.2": 1,
+        "DKAB.7.2.3": 2,
+        "DKAB.7.2.4": 1,
+        "DKAB.7.3.1": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "DKAB.7.1.1": 1,
+        "DKAB.7.1.2": null,
+        "DKAB.7.1.3": 1,
+        "DKAB.7.1.4": null,
+        "DKAB.7.2.1": 1,
+        "DKAB.7.2.2": 2,
+        "DKAB.7.2.3": 1,
+        "DKAB.7.2.4": 1,
+        "DKAB.7.3.1": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "DKAB.7.1.1": null,
+        "DKAB.7.1.2": 1,
+        "DKAB.7.1.3": null,
+        "DKAB.7.1.4": 1,
+        "DKAB.7.2.1": 2,
+        "DKAB.7.2.2": 2,
+        "DKAB.7.2.3": 1,
+        "DKAB.7.2.4": 1,
+        "DKAB.7.3.1": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "DKAB.7.1.1": 1,
+        "DKAB.7.1.2": null,
+        "DKAB.7.1.3": null,
+        "DKAB.7.1.4": 1,
+        "DKAB.7.2.1": 2,
+        "DKAB.7.2.2": 1,
+        "DKAB.7.2.3": 2,
+        "DKAB.7.2.4": null,
+        "DKAB.7.3.1": null
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "DKAB.7.1.1": null,
+        "DKAB.7.1.2": null,
+        "DKAB.7.1.3": 2,
+        "DKAB.7.1.4": null,
+        "DKAB.7.2.1": 1,
+        "DKAB.7.2.2": 1,
+        "DKAB.7.2.3": 2,
+        "DKAB.7.2.4": null,
+        "DKAB.7.3.1": null
+      }
+    }
+  ]
+}

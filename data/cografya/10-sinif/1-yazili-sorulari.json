@@ -1,0 +1,124 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 10. Sınıf Coğrafya Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/cografya4.xlsx",
+    "dosya": "cografya.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "COĞ.10.1.1",
+      "unite": "coğrafyanın doğası",
+      "konu": "Coğrafi Bakış",
+      "konuSlug": "cografi-bakis",
+      "metin": "Örnek olay, olgu ve/veya mekânı coğrafyanın temel kavramları ile ilişkilendirebilme"
+    },
+    {
+      "id": "COĞ.10.2.1",
+      "unite": "mekânsal bilgi teknolojileri",
+      "konu": "CBS ve Uzaktan Algılamanın Uygulama Alanları",
+      "konuSlug": "cbs-ve-uzaktan-algilamanin-uygulama-alanlari",
+      "metin": "Örnek uygulamalar üzerinden CBS ve uzaktan algılamanın kullanım alanlarını özetleyebilme"
+    },
+    {
+      "id": "COĞ.10.2.2",
+      "unite": "mekânsal bilgi teknolojileri",
+      "konu": "Mekânsal Verilerin Haritalara Aktarılması",
+      "konuSlug": "mekansal-verilerin-haritalara-aktarilmasi",
+      "metin": "Mekânsal bilgi teknolojilerini kullanarak altlık haritalar üzerinde mekânsal veriler oluşturabilme"
+    },
+    {
+      "id": "COĞ.10.3.1",
+      "unite": "doğal sistemler ve süreçler",
+      "konu": "Tektonik Süreçler",
+      "konuSlug": "tektonik-surecler",
+      "metin": "Yerkürenin tektonik yapısını çözümleyebilme"
+    },
+    {
+      "id": "COĞ.10.3.2",
+      "unite": "doğal sistemler ve süreçler",
+      "konu": "İklim ve Kayaç Yapısının Aşınma ve Çözünme Süreçlerine Etkisi",
+      "konuSlug": "iklim-ve-kayac-yapisinin-asinma-ve-cozunme-sureclerine-etkisi",
+      "metin": "Yeryüzü şekillerinin oluşumunda etkili olan aşınma ve çözünme süreçleri ile iklim ve kayaç özellikleri arasındaki ilişkileri yapılandırabilme"
+    },
+    {
+      "id": "COĞ.10.3.3",
+      "unite": "doğal sistemler ve süreçler",
+      "konu": "Aşınım ve Birikim Süreçlerinin Yeryüzü Şekillerinin Oluşumuna Etkisi",
+      "konuSlug": "asinim-ve-birikim-sureclerinin-yeryuzu-sekillerinin-olusumuna-etkisi",
+      "metin": "Yeryüzü şekillerinin oluşumunu aşınım ve birikim süreçleri açısından çözümleyebilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "COĞ.10.1.1": 1,
+        "COĞ.10.2.1": 1,
+        "COĞ.10.2.2": 1,
+        "COĞ.10.3.1": 1,
+        "COĞ.10.3.2": 1,
+        "COĞ.10.3.3": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "COĞ.10.1.1": 1,
+        "COĞ.10.2.1": 1,
+        "COĞ.10.2.2": 1,
+        "COĞ.10.3.1": 1,
+        "COĞ.10.3.2": 1,
+        "COĞ.10.3.3": null
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "COĞ.10.1.1": 1,
+        "COĞ.10.2.1": 1,
+        "COĞ.10.2.2": 1,
+        "COĞ.10.3.1": 2,
+        "COĞ.10.3.2": 1,
+        "COĞ.10.3.3": 1
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "COĞ.10.1.1": 1,
+        "COĞ.10.2.1": 1,
+        "COĞ.10.2.2": 1,
+        "COĞ.10.3.1": 2,
+        "COĞ.10.3.2": 1,
+        "COĞ.10.3.3": null
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "COĞ.10.1.1": 1,
+        "COĞ.10.2.1": 1,
+        "COĞ.10.2.2": 1,
+        "COĞ.10.3.1": 2,
+        "COĞ.10.3.2": 2,
+        "COĞ.10.3.3": null
+      }
+    },
+    {
+      "no": 6,
+      "dagilim": {
+        "COĞ.10.1.1": 1,
+        "COĞ.10.2.1": 1,
+        "COĞ.10.2.2": 1,
+        "COĞ.10.3.1": 2,
+        "COĞ.10.3.2": 2,
+        "COĞ.10.3.3": 1
+      }
+    }
+  ]
+}

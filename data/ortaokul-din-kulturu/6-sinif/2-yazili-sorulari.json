@@ -1,0 +1,137 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 6. Sınıf Din Kültürü ve Ahlak Bilgisi Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/dkab_orta3.xlsx",
+    "dosya": "ortaokul-din-kulturu.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "DKAB.6.1.2",
+      "unite": "peygamber ve ilahi kitap inancı",
+      "konu": "Peygamberlerin İlettiği Mesaj: Vahiy",
+      "konuSlug": "peygamberlerin-ilettigi-mesaj-vahiy",
+      "metin": "Vahyin gönderiliş amacını idrak edebilme"
+    },
+    {
+      "id": "DKAB.6.1.3",
+      "unite": "peygamber ve ilahi kitap inancı",
+      "konu": "İlahi Kitaplar",
+      "konuSlug": "ilahi-kitaplar",
+      "metin": "İlahi kitaplarla ilgili bilgileri çözümleyebilme"
+    },
+    {
+      "id": "DKAB.6.1.4",
+      "unite": "peygamber ve ilahi kitap inancı",
+      "konu": "Bir Sure Öğreniyorum: Felak Suresi",
+      "konuSlug": "bir-sure-ogreniyorum-felak-suresi",
+      "metin": "Felak suresini ve bu surenin anlamını okuyarak yorumlayabilme"
+    },
+    {
+      "id": "DKAB.6.2.1",
+      "unite": "ramazan ve oruç",
+      "konu": "Oruç ve Kur’an Ayı Ramazan",
+      "konuSlug": "oruc-ve-kuran-ayi-ramazan",
+      "metin": "Ramazan ayının oruç ve Kur’an ayı olduğunu çözümleyebilme"
+    },
+    {
+      "id": "DKAB.6.2.3",
+      "unite": "ramazan ve oruç",
+      "konu": "Orucun İnsana Kazandırdıkları",
+      "konuSlug": "orucun-insana-kazandirdiklari",
+      "metin": "Orucun insana kazandırdıkları konusunda analitik düşünebilme"
+    },
+    {
+      "id": "DKAB.6.2.4",
+      "unite": "ramazan ve oruç",
+      "konu": "Bir Dua Öğreniyorum: İftar Duası",
+      "konuSlug": "bir-dua-ogreniyorum-iftar-duasi",
+      "metin": "İftar duasını ve bu duanın anlamını okuyarak yorumlayabilme"
+    },
+    {
+      "id": "DKAB.6.3.1",
+      "unite": "ahlaki davranışlar",
+      "konu": "Doğru Sözlü Olmak",
+      "konuSlug": "dogru-sozlu-olmak",
+      "metin": "Doğru sözlü olmayı kendi hayatına yansıtabilme"
+    },
+    {
+      "id": "DKAB.6.3.2",
+      "unite": "ahlaki davranışlar",
+      "konu": "Merhametli Olmak",
+      "konuSlug": "merhametli-olmak",
+      "metin": "Merhamet kavramını ayırt edebilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "DKAB.6.1.2": 1,
+        "DKAB.6.1.3": null,
+        "DKAB.6.1.4": 1,
+        "DKAB.6.2.1": 1,
+        "DKAB.6.2.3": 1,
+        "DKAB.6.2.4": 1,
+        "DKAB.6.3.1": 2,
+        "DKAB.6.3.2": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "DKAB.6.1.2": null,
+        "DKAB.6.1.3": null,
+        "DKAB.6.1.4": null,
+        "DKAB.6.2.1": 1,
+        "DKAB.6.2.3": 2,
+        "DKAB.6.2.4": 1,
+        "DKAB.6.3.1": 2,
+        "DKAB.6.3.2": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "DKAB.6.1.2": 1,
+        "DKAB.6.1.3": 1,
+        "DKAB.6.1.4": null,
+        "DKAB.6.2.1": 1,
+        "DKAB.6.2.3": 2,
+        "DKAB.6.2.4": 1,
+        "DKAB.6.3.1": 1,
+        "DKAB.6.3.2": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "DKAB.6.1.2": null,
+        "DKAB.6.1.3": 1,
+        "DKAB.6.1.4": 1,
+        "DKAB.6.2.1": null,
+        "DKAB.6.2.3": 1,
+        "DKAB.6.2.4": null,
+        "DKAB.6.3.1": 2,
+        "DKAB.6.3.2": 1
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "DKAB.6.1.2": 1,
+        "DKAB.6.1.3": null,
+        "DKAB.6.1.4": 1,
+        "DKAB.6.2.1": 1,
+        "DKAB.6.2.3": 2,
+        "DKAB.6.2.4": 1,
+        "DKAB.6.3.1": null,
+        "DKAB.6.3.2": null
+      }
+    }
+  ]
+}

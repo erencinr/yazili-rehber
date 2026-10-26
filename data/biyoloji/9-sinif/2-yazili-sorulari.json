@@ -1,0 +1,80 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 9. Sınıf Biyoloji Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/biyoloji3_4.xlsx",
+    "dosya": "biyoloji.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "BİY.9.1.1",
+      "unite": "yaşam",
+      "konu": "Biyolojinin Önemi, Biyoloji Biliminin Gelişimindeki Dönüm Noktaları",
+      "konuSlug": "biyolojinin-onemi-biyoloji-biliminin-gelisimindeki-donum-noktalari",
+      "metin": "Biyolojideki dönüm noktalarının insan hayatına katkılarını sorgulayabilme"
+    },
+    {
+      "id": "BİY.9.1.2",
+      "unite": "yaşam",
+      "konu": "Bilimin Doğası, Bilimsel Araştırma Süreçleri",
+      "konuSlug": "bilimin-dogasi-bilimsel-arastirma-surecleri",
+      "metin": "Bilimsel araştırma süreçlerinde bilimin doğasını yorumlayabilme"
+    },
+    {
+      "id": "BİY.9.1.4",
+      "unite": "yaşam",
+      "konu": "Hücresel Yapı, Organizasyon, Beslenme, Enerji Üretimi ve Tüketimi, Boşaltım, Büyüme ve Gelişme, Metabolizma, Uyarılara Tepki, Homeostazi, Üreme, Varyasyon ve Adaptasyon",
+      "konuSlug": "hucresel-yapi-organizasyon-beslenme-enerji-uretimi-ve-tuketimi",
+      "metin": "Çevresindeki canlıların özelliklerini bilimsel olarak gözlemleyebilme"
+    },
+    {
+      "id": "BİY.9.1.5",
+      "unite": "yaşam",
+      "konu": "İnorganik Moleküller (Su, Mineraller)",
+      "konuSlug": "inorganik-molekuller-su-mineraller",
+      "metin": "İnorganik moleküllerin önemi hakkında bilimsel çıkarım yapabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "BİY.9.1.1": 1,
+        "BİY.9.1.2": 1,
+        "BİY.9.1.4": 1,
+        "BİY.9.1.5": 3
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "BİY.9.1.1": null,
+        "BİY.9.1.2": 2,
+        "BİY.9.1.4": 3,
+        "BİY.9.1.5": 2
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "BİY.9.1.1": 1,
+        "BİY.9.1.2": 1,
+        "BİY.9.1.4": 2,
+        "BİY.9.1.5": 3
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "BİY.9.1.1": 1,
+        "BİY.9.1.2": 1,
+        "BİY.9.1.4": 3,
+        "BİY.9.1.5": 2
+      }
+    }
+  ]
+}

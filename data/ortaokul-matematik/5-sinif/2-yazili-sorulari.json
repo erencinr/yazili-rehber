@@ -1,0 +1,125 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 5. Sınıf Matematik Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/ilkmat2.xlsx",
+    "dosya": "ortaokul-matematik.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "MAT.5.3.5",
+      "unite": "geometrik şekiller",
+      "konu": "Çokgenler ve Çember",
+      "konuSlug": "cokgenler-ve-cember",
+      "metin": "Çokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme"
+    },
+    {
+      "id": "MAT.5.3.6",
+      "unite": "geometrik şekiller",
+      "konu": "Çokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme",
+      "konuSlug": "cokgenlerin-ozellikleri-ile-ilgili-edindigi-deneyimleri-yansitabilme",
+      "metin": "Çokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme"
+    },
+    {
+      "id": "MAT.5.3.7",
+      "unite": "geometrik şekiller",
+      "konu": "Matematiksel araç ve teknoloji yardımıyla düzlemde iki noktada kesişen çember çiftinin merkezleri ve kesişim noktalarından biri ile inşa edilen üçgenlerin kenar özelliklerine yönelik çıkarım yapabilme",
+      "konuSlug": "matematiksel-arac-ve-teknoloji-yardimiyla-duzlemde-iki-noktada-kesisen",
+      "metin": "Matematiksel araç ve teknoloji yardımıyla düzlemde iki noktada kesişen çember çiftinin merkezleri ve kesişim noktalarından biri ile inşa edilen üçgenlerin kenar özelliklerine yönelik çıkarım yapabilme"
+    },
+    {
+      "id": "MAT.5.1.1",
+      "unite": "sayılar ve nicelikler (1)",
+      "konu": "Basamak Değerlerini Çözümleme",
+      "konuSlug": "basamak-degerlerini-cozumleme",
+      "metin": "Altı basamaklı sayıları okuma ve yazmayı çok basamaklı sayılara genelleyebilme"
+    },
+    {
+      "id": "MAT.5.1.2",
+      "unite": "sayılar ve nicelikler (1)",
+      "konu": "Doğal Sayılarla Dört İşlem İçeren Problem Çözme",
+      "konuSlug": "dogal-sayilarla-dort-islem-iceren-problem-cozme",
+      "metin": "Doğal sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme"
+    },
+    {
+      "id": "MAT.5.4.1",
+      "unite": "geometrik nicelikler",
+      "konu": "Dikdörtgenin Çevre Uzunluğu ve Alanı",
+      "konuSlug": "dikdortgenin-cevre-uzunlugu-ve-alani",
+      "metin": "Kenar uzunlukları doğal sayı olan bir dikdörtgenin çevre uzunluğu verildiğinde kenar uzunluklarını yorumlayabilme"
+    },
+    {
+      "id": "MAT.5.4.2",
+      "unite": "geometrik nicelikler",
+      "konu": "Birim karelerden yola çıkarak dikdörtgenin alanını değerlendirebilme",
+      "konuSlug": "birim-karelerden-yola-cikarak-dikdortgenin-alanini-degerlendirebilme",
+      "metin": "Birim karelerden yola çıkarak dikdörtgenin alanını değerlendirebilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "MAT.5.3.5": null,
+        "MAT.5.3.6": null,
+        "MAT.5.3.7": 2,
+        "MAT.5.1.1": 2,
+        "MAT.5.1.2": 2,
+        "MAT.5.4.1": 1,
+        "MAT.5.4.2": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "MAT.5.3.5": null,
+        "MAT.5.3.6": 1,
+        "MAT.5.3.7": 2,
+        "MAT.5.1.1": 2,
+        "MAT.5.1.2": 2,
+        "MAT.5.4.1": 1,
+        "MAT.5.4.2": null
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "MAT.5.3.5": 1,
+        "MAT.5.3.6": null,
+        "MAT.5.3.7": 1,
+        "MAT.5.1.1": 2,
+        "MAT.5.1.2": 2,
+        "MAT.5.4.1": 1,
+        "MAT.5.4.2": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "MAT.5.3.5": null,
+        "MAT.5.3.6": 1,
+        "MAT.5.3.7": 1,
+        "MAT.5.1.1": 2,
+        "MAT.5.1.2": 2,
+        "MAT.5.4.1": null,
+        "MAT.5.4.2": null
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "MAT.5.3.5": 1,
+        "MAT.5.3.6": 1,
+        "MAT.5.3.7": 1,
+        "MAT.5.1.1": 1,
+        "MAT.5.1.2": 2,
+        "MAT.5.4.1": null,
+        "MAT.5.4.2": null
+      }
+    }
+  ]
+}

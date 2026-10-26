@@ -1,0 +1,91 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 10. Sınıf Biyoloji Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/biyoloji3_4.xlsx",
+    "dosya": "biyoloji.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "BİY.10.1.1",
+      "unite": "enerji",
+      "konu": "Canlılık İçin Enerjinin Önemi (ATP’nin Yapısı ve Enerji Aktarımında ATP’nin Rolü)",
+      "konuSlug": "canlilik-icin-enerjinin-onemi-atpnin-yapisi-ve-enerji-aktariminda",
+      "metin": "Canlıların yaşamına devam edebilmesi için enerjinin gerekliliğini sorgulayabilme"
+    },
+    {
+      "id": "BİY.10.1.3",
+      "unite": "enerji",
+      "konu": "Fotosentezde kullanılan ve üretilen maddelerle ilgili deney yapabilme",
+      "konuSlug": "fotosentezde-kullanilan-ve-uretilen-maddelerle-ilgili-deney-yapabilme",
+      "metin": "Fotosentezde kullanılan ve üretilen maddelerle ilgili deney yapabilme"
+    },
+    {
+      "id": "BİY.10.1.5",
+      "unite": "enerji",
+      "konu": "Sindirim (Hücre İçi Sindirim ve Hücre Dışı Sindirim), Canlılarda Sindirim Yapıları",
+      "konuSlug": "sindirim-hucre-ici-sindirim-ve-hucre-disi-sindirim-canlilarda-sindirim",
+      "metin": "Canlılarda sindirim çeşitlerini ve yapılarını sınıflandırabilme"
+    },
+    {
+      "id": "BİY.10.1.6",
+      "unite": "enerji",
+      "konu": "İnsanda Sindirim, Emilim ve Taşınma",
+      "konuSlug": "insanda-sindirim-emilim-ve-tasinma",
+      "metin": "İnsanda enerji eldesi için sindirim, emilim ve taşıma süreçlerinin gerekliliği ile ilgili bilimsel çıkarım yapabilme"
+    },
+    {
+      "id": "BİY.10.1.8",
+      "unite": "enerji",
+      "konu": "Besinlerin Solunuma Katılma Yolları",
+      "konuSlug": "besinlerin-solunuma-katilma-yollari",
+      "metin": "Farklı besin gruplarından enerji eldesi süreçlerini karşılaştırabilme"
+    },
+    {
+      "id": "BİY.10.1.9",
+      "unite": "enerji",
+      "konu": "Fermantasyon (Laktik Asit Fermantasyonu, Etil Alkol Fermantasyonu)",
+      "konuSlug": "fermantasyon-laktik-asit-fermantasyonu-etil-alkol-fermantasyonu",
+      "metin": "Fermantasyon ile ilgili deney yapabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "BİY.10.1.1": null,
+        "BİY.10.1.3": 1,
+        "BİY.10.1.5": 1,
+        "BİY.10.1.6": 2,
+        "BİY.10.1.8": 2,
+        "BİY.10.1.9": null
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "BİY.10.1.1": 1,
+        "BİY.10.1.3": null,
+        "BİY.10.1.5": 2,
+        "BİY.10.1.6": 1,
+        "BİY.10.1.8": 1,
+        "BİY.10.1.9": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "BİY.10.1.1": null,
+        "BİY.10.1.3": 1,
+        "BİY.10.1.5": 2,
+        "BİY.10.1.6": 2,
+        "BİY.10.1.8": 1,
+        "BİY.10.1.9": 1
+      }
+    }
+  ]
+}

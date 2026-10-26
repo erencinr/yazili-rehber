@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { mutlakUrl } from "@/config/site";
 import { sayfalar } from "@/content/sayfalar";
-import { getDersler, tumYazililar } from "@/lib/data";
+import { cozulebilirKonular, getDersler, tumYazililar } from "@/lib/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const yollar = [
@@ -14,8 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const taban = `/dersler/${ders.slug}/${sinif.slug}/${yazili.slug}/`;
       return [
         taban,
-        ...yazili.senaryolar.map((s) => `${taban}senaryo-${s.no}/`),
-        ...yazili.konular.map((k) => `${taban}${k.slug}/`),
+        ...yazili.senaryolar.filter((s) => s.hazir).map((s) => `${taban}senaryo-${s.no}/`),
+        ...cozulebilirKonular(yazili).map((k) => `${taban}${k.slug}/`),
       ];
     }),
   ];

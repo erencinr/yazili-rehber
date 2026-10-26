@@ -5,7 +5,7 @@ import { QuestionCard } from "@/components/exam/QuestionCard";
 import { Breadcrumb, Card, Chip, Container, H2, JsonLd, PageHero } from "@/components/ui";
 import { mutlakUrl, site } from "@/config/site";
 import { SINAV_ONEK } from "@/lib/depo";
-import { baslikYap, senaryoKonuPuanlari, tumYazililar } from "@/lib/data";
+import { baslikYap, cozulebilirKonular, konuSorulari, senaryoKonuPuanlari, tumYazililar } from "@/lib/data";
 import { yaziliCozumle } from "@/lib/route";
 import type { Yazili } from "@/lib/types";
 
@@ -13,8 +13,8 @@ export function generateStaticParams() {
   return tumYazililar().flatMap(({ ders, sinif, yazili }) => {
     const ortak = { ders: ders.slug, sinif: sinif.slug, yazili: yazili.slug };
     return [
-      ...yazili.senaryolar.map((s) => ({ ...ortak, slug: `senaryo-${s.no}` })),
-      ...yazili.konular.map((k) => ({ ...ortak, slug: k.slug })),
+      ...yazili.senaryolar.filter((s) => s.hazir).map((s) => ({ ...ortak, slug: `senaryo-${s.no}` })),
+      ...cozulebilirKonular(yazili).map((k) => ({ ...ortak, slug: k.slug })),
     ];
   });
 }
@@ -27,10 +27,10 @@ async function cozumle(params: Params) {
   const { slug } = await params;
   const eslesme = /^senaryo-(\d+)$/.exec(slug);
   if (eslesme) {
-    const senaryo = r.yazili.senaryolar.find((s) => s.no === Number(eslesme[1]));
+    const senaryo = r.yazili.senaryolar.find((s) => s.no === Number(eslesme[1]) && s.hazir);
     return senaryo ? { ...r, tur: "senaryo" as const, senaryo } : null;
   }
-  const konu = r.yazili.konular.find((k) => k.slug === slug);
+  const konu = cozulebilirKonular(r.yazili).find((k) => k.slug === slug);
   return konu ? { ...r, tur: "konu" as const, konu } : null;
 }
 
@@ -63,7 +63,7 @@ type Cozulmus = NonNullable<Awaited<ReturnType<typeof cozumle>>>;
 function DigerSenaryolar({ yazili, taban, haric }: { yazili: Yazili; taban: string; haric?: number }) {
   return (
     <div className="flex flex-wrap gap-2">
-      {yazili.senaryolar.map((s) => (
+      {yazili.senaryolar.filter((s) => s.hazir).map((s) => (
         <Chip key={s.no} href={`${taban}senaryo-${s.no}/`} active={s.no === haric}>
           Senaryo {s.no}
         </Chip>
@@ -137,12 +137,14 @@ function SenaryoKagidi({ r }: { r: Extract<Cozulmus, { tur: "senaryo" }> }) {
           <DigerSenaryolar yazili={yazili} taban={taban} haric={senaryo.no} />
         </section>
 
-        {yazili.not && (
-          <Card className="no-print bg-forest-50">
-            <h3 className="font-serif text-lg">Bu kâğıt hakkında</h3>
-            <p className="mt-1 text-sm text-ink/80">{yazili.not}</p>
-          </Card>
-        )}
+        <Card className="no-print bg-forest-50">
+          <h3 className="font-serif text-lg">Bu kâğıt hakkında</h3>
+          <p className="mt-1 text-sm text-ink/80">
+            Soru sayıları ve öğrenme çıktıları {yazili.kaynak.ad} içindeki Senaryo {senaryo.no} sütununa göredir. Sorular
+            özgün çalışma sorularıdır, resmî sınav sorusu değildir.
+          </p>
+          {yazili.not && <p className="mt-2 text-sm text-ink/80">{yazili.not}</p>}
+        </Card>
       </Container>
       <JsonLd
         data={{
@@ -163,9 +165,7 @@ function SenaryoKagidi({ r }: { r: Extract<Cozulmus, { tur: "senaryo" }> }) {
 
 function KonuSayfasi({ r }: { r: Extract<Cozulmus, { tur: "konu" }> }) {
   const { ders, yazili, konu, n, taban, kirintilar } = r;
-  const sorular = yazili.senaryolar.flatMap((s) =>
-    s.sorular.filter((q) => q.konuSlug === konu.slug).map((q) => ({ senaryo: s.no, soru: q })),
-  );
+  const sorular = konuSorulari(yazili, konu.slug);
   const senaryolar = [...new Set(sorular.map((s) => s.senaryo))];
 
   return (
@@ -196,7 +196,7 @@ function KonuSayfasi({ r }: { r: Extract<Cozulmus, { tur: "konu" }> }) {
         <section className="space-y-4">
           <H2>Diğer konular</H2>
           <div className="flex flex-wrap gap-2">
-            {yazili.konular
+            {cozulebilirKonular(yazili)
               .filter((k) => k.slug !== konu.slug)
               .map((k) => (
                 <Chip key={k.slug} href={`${taban}${k.slug}/`}>

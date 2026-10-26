@@ -1,0 +1,113 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 11. Sınıf İngilizce Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/ingilizce_lise2.xlsx",
+    "dosya": "lise-ingilizce.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "E11.1.R1",
+      "unite": "future jobs",
+      "konu": "Students will be able to analyze different job ads from newspapers/websites to match them with CVs.",
+      "konuSlug": "students-will-be-able-to-analyze-different-job-ads-from-newspapers",
+      "metin": "Students will be able to analyze different job ads from newspapers/websites to match them with CVs."
+    },
+    {
+      "id": "E11.1.R2",
+      "unite": "future jobs",
+      "konu": "Students will be able to find the main idea of a text on successful entrepreneurs of the 21st century.",
+      "konuSlug": "students-will-be-able-to-find-the-main-idea-of-a-text-on-successful",
+      "metin": "Students will be able to find the main idea of a text on successful entrepreneurs of the 21st century."
+    },
+    {
+      "id": "E11.1.W1",
+      "unite": "future jobs",
+      "konu": "Students will be able to write CVs/Letters of intent for different job applications.",
+      "konuSlug": "students-will-be-able-to-write-cvs-letters-of-intent-for-different-job",
+      "metin": "Students will be able to write CVs/Letters of intent for different job applications."
+    },
+    {
+      "id": "E11.2.R1",
+      "unite": "hobbies and skills",
+      "konu": "Students will be able to identify lexis and expressions related to past abilities in a text",
+      "konuSlug": "students-will-be-able-to-identify-lexis-and-expressions-related-to",
+      "metin": "Students will be able to identify lexis and expressions related to past abilities in a text"
+    },
+    {
+      "id": "E11.2.R2",
+      "unite": "hobbies and skills",
+      "konu": "Students will be able to paraphrase information in a text about people’s choices.",
+      "konuSlug": "students-will-be-able-to-paraphrase-information-in-a-text-about",
+      "metin": "Students will be able to paraphrase information in a text about people’s choices."
+    },
+    {
+      "id": "E11.2.W1",
+      "unite": "hobbies and skills",
+      "konu": "Students will be able to write a paragraph about their interests and abilities.",
+      "konuSlug": "students-will-be-able-to-write-a-paragraph-about-their-interests-and",
+      "metin": "Students will be able to write a paragraph about their interests and abilities."
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "E11.1.R1": 1,
+        "E11.1.R2": null,
+        "E11.1.W1": 1,
+        "E11.2.R1": 1,
+        "E11.2.R2": null,
+        "E11.2.W1": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "E11.1.R1": 1,
+        "E11.1.R2": 1,
+        "E11.1.W1": 1,
+        "E11.2.R1": null,
+        "E11.2.R2": 2,
+        "E11.2.W1": null
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "E11.1.R1": 1,
+        "E11.1.R2": 1,
+        "E11.1.W1": 1,
+        "E11.2.R1": 1,
+        "E11.2.R2": 1,
+        "E11.2.W1": 1
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "E11.1.R1": null,
+        "E11.1.R2": 2,
+        "E11.1.W1": null,
+        "E11.2.R1": 1,
+        "E11.2.R2": 2,
+        "E11.2.W1": 1
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "E11.1.R1": 1,
+        "E11.1.R2": 2,
+        "E11.1.W1": null,
+        "E11.2.R1": 1,
+        "E11.2.R2": 2,
+        "E11.2.W1": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 11. Sınıf Biyoloji Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/biyoloji3_4.xlsx",
+    "dosya": "biyoloji.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "BİY.11.1.2",
+      "unite": "tepki",
+      "konu": "Bitkisel Hormonlar Bitkilerde Tepki Mekanizmaları (Tropizma, Nasti)",
+      "konuSlug": "bitkisel-hormonlar-bitkilerde-tepki-mekanizmalari-tropizma-nasti",
+      "metin": "Bitkisel hormonların etkileri hakkında akıl yürütebilme"
+    },
+    {
+      "id": "BİY.11.1.3",
+      "unite": "tepki",
+      "konu": "Bitkilerdeki tepki mekanizmalarını sınıflandırabilme",
+      "konuSlug": "bitkilerdeki-tepki-mekanizmalarini-siniflandirabilme",
+      "metin": "Bitkilerdeki tepki mekanizmalarını sınıflandırabilme"
+    },
+    {
+      "id": "BİY.11.1.4",
+      "unite": "tepki",
+      "konu": "Bitkilerde yönelme hareketlerini gözlemleyebileceği deney yapabilme",
+      "konuSlug": "bitkilerde-yonelme-hareketlerini-gozlemleyebilecegi-deney-yapabilme",
+      "metin": "Bitkilerde yönelme hareketlerini gözlemleyebileceği deney yapabilme"
+    },
+    {
+      "id": "BİY.11.1.5",
+      "unite": "tepki",
+      "konu": "Uyartıların Alınması (Reseptörler, Uyaran Çeşitleri), Nöronların Yapısı, Nöronlarda Sinyal İletimi ve Sinaps, Duyu Organları",
+      "konuSlug": "uyartilarin-alinmasi-reseptorler-uyaran-cesitleri-noronlarin-yapisi",
+      "metin": "Duyu reseptörlerini ve duyu reseptörlerinin bulunduğu duyu organlarını sınıflandırabilme"
+    },
+    {
+      "id": "BİY.11.1.6",
+      "unite": "tepki",
+      "konu": "Hayvanlardaki sinir sistemi farklılıkları ile ilgili analojik akıl yürütebilme",
+      "konuSlug": "hayvanlardaki-sinir-sistemi-farkliliklari-ile-ilgili-analojik-akil",
+      "metin": "Hayvanlardaki sinir sistemi farklılıkları ile ilgili analojik akıl yürütebilme"
+    },
+    {
+      "id": "BİY.11.1.7",
+      "unite": "tepki",
+      "konu": "İnsan Sinir Sisteminin Yapısı",
+      "konuSlug": "insan-sinir-sisteminin-yapisi",
+      "metin": "İnsanda sinir sistemi yapısını çözümleyebilme"
+    },
+    {
+      "id": "BİY.11.1.8",
+      "unite": "tepki",
+      "konu": "Refleksler",
+      "konuSlug": "refleksler",
+      "metin": "Refleks olayını yorumlayabilme"
+    },
+    {
+      "id": "BİY.11.1.9",
+      "unite": "tepki",
+      "konu": "Kemik, Eklem ve Kasların Hareketteki Rolü, Kemik ve Kasların Birlikte Çalışma İlişkisi",
+      "konuSlug": "kemik-eklem-ve-kaslarin-hareketteki-rolu-kemik-ve-kaslarin-birlikte",
+      "metin": "Harekete dayalı tepkinin oluşmasında iskelet, kas ve eklemlerin eş güdümlü çalışmasıyla ilgili eleştirel düşünebilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "BİY.11.1.2": null,
+        "BİY.11.1.3": 1,
+        "BİY.11.1.4": null,
+        "BİY.11.1.5": 1,
+        "BİY.11.1.6": 1,
+        "BİY.11.1.7": 1,
+        "BİY.11.1.8": 1,
+        "BİY.11.1.9": 2
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "BİY.11.1.2": null,
+        "BİY.11.1.3": null,
+        "BİY.11.1.4": 1,
+        "BİY.11.1.5": 1,
+        "BİY.11.1.6": 2,
+        "BİY.11.1.7": 1,
+        "BİY.11.1.8": 1,
+        "BİY.11.1.9": 2
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "BİY.11.1.2": null,
+        "BİY.11.1.3": 1,
+        "BİY.11.1.4": null,
+        "BİY.11.1.5": 1,
+        "BİY.11.1.6": 1,
+        "BİY.11.1.7": 2,
+        "BİY.11.1.8": null,
+        "BİY.11.1.9": 1
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "BİY.11.1.2": null,
+        "BİY.11.1.3": null,
+        "BİY.11.1.4": null,
+        "BİY.11.1.5": 1,
+        "BİY.11.1.6": 1,
+        "BİY.11.1.7": 2,
+        "BİY.11.1.8": 1,
+        "BİY.11.1.9": 2
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "BİY.11.1.2": 1,
+        "BİY.11.1.3": null,
+        "BİY.11.1.4": null,
+        "BİY.11.1.5": 1,
+        "BİY.11.1.6": 1,
+        "BİY.11.1.7": 2,
+        "BİY.11.1.8": 1,
+        "BİY.11.1.9": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 10. Sınıf Din Kültürü ve Ahlak Bilgisi Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/dkab_lise2.xlsx",
+    "dosya": "lise-din-kulturu.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "DKAB.10.1.1",
+      "unite": "islam’da varlık ve bilgi",
+      "konu": "İslam’da Bilgi ve Bilginin Kaynakları",
+      "konuSlug": "islamda-bilgi-ve-bilginin-kaynaklari",
+      "metin": "İslam’da bilginin yerini ve kaynaklarını çözümleyebilme"
+    },
+    {
+      "id": "DKAB.10.1.2",
+      "unite": "islam’da varlık ve bilgi",
+      "konu": "Allah-Âlem İlişkisi",
+      "konuSlug": "allah-alem-iliskisi",
+      "metin": "Allah-âlem ilişkisini müşahede edebilme"
+    },
+    {
+      "id": "DKAB.10.2.1",
+      "unite": "allah’ı tanımak",
+      "konu": "Allah’ın Varlığının Delilleri",
+      "konuSlug": "allahin-varliginin-delilleri",
+      "metin": "Allah’ın (cc) varlığının delillerini müşahede edebilme"
+    },
+    {
+      "id": "DKAB.10.2.2",
+      "unite": "allah’ı tanımak",
+      "konu": "Allah’ı İsim ve Sıfatlarıyla Tanımak",
+      "konuSlug": "allahi-isim-ve-sifatlariyla-tanimak",
+      "metin": "Allah’ı (cc) gereği gibi tanıyabilmek için O’nun isim ve sıfatlarını bağlamına uygun kullanabilme"
+    },
+    {
+      "id": "DKAB.10.2.3",
+      "unite": "allah’ı tanımak",
+      "konu": "Kur’an’dan Mesajlar",
+      "konuSlug": "kurandan-mesajlar",
+      "metin": "Haşr suresinin 22-24. ayetlerindeki mesajları anlamak için Kur’an-ı Kerim meallerine başvurabilme"
+    },
+    {
+      "id": "DKAB.10.3.1",
+      "unite": "islam’ın evrensel mesajları",
+      "konu": "İslam’ın Tevhit İlkesi",
+      "konuSlug": "islamin-tevhit-ilkesi",
+      "metin": "İslam’ın evrensel mesajlarından biri olan tevhit ilkesi hakkında bilgi toplayabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "DKAB.10.1.1": null,
+        "DKAB.10.1.2": 1,
+        "DKAB.10.2.1": 1,
+        "DKAB.10.2.2": 2,
+        "DKAB.10.2.3": 1,
+        "DKAB.10.3.1": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "DKAB.10.1.1": null,
+        "DKAB.10.1.2": 1,
+        "DKAB.10.2.1": 2,
+        "DKAB.10.2.2": 2,
+        "DKAB.10.2.3": 1,
+        "DKAB.10.3.1": null
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "DKAB.10.1.1": 1,
+        "DKAB.10.1.2": null,
+        "DKAB.10.2.1": 2,
+        "DKAB.10.2.2": 2,
+        "DKAB.10.2.3": 1,
+        "DKAB.10.3.1": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "DKAB.10.1.1": null,
+        "DKAB.10.1.2": 1,
+        "DKAB.10.2.1": 2,
+        "DKAB.10.2.2": 2,
+        "DKAB.10.2.3": 1,
+        "DKAB.10.3.1": 1
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "DKAB.10.1.1": null,
+        "DKAB.10.1.2": null,
+        "DKAB.10.2.1": 2,
+        "DKAB.10.2.2": 2,
+        "DKAB.10.2.3": 1,
+        "DKAB.10.3.1": 1
+      }
+    },
+    {
+      "no": 6,
+      "dagilim": {
+        "DKAB.10.1.1": 1,
+        "DKAB.10.1.2": 1,
+        "DKAB.10.2.1": 2,
+        "DKAB.10.2.2": 2,
+        "DKAB.10.2.3": 1,
+        "DKAB.10.3.1": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 10. Sınıf Din Kültürü ve Ahlak Bilgisi Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/dkab_lise2.xlsx",
+    "dosya": "lise-din-kulturu.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "DKAB.10.1.1",
+      "unite": "islam’da varlık ve bilgi",
+      "konu": "İslam’da Bilgi ve Bilginin Kaynakları",
+      "konuSlug": "islamda-bilgi-ve-bilginin-kaynaklari",
+      "metin": "İslam’da bilginin yerini ve kaynaklarını çözümleyebilme"
+    },
+    {
+      "id": "DKAB.10.1.2",
+      "unite": "islam’da varlık ve bilgi",
+      "konu": "Allah-Âlem İlişkisi",
+      "konuSlug": "allah-alem-iliskisi",
+      "metin": "Allah-âlem ilişkisini müşahede edebilme"
+    },
+    {
+      "id": "DKAB.10.1.3",
+      "unite": "islam’da varlık ve bilgi",
+      "konu": "Kur’an’dan Mesajlar",
+      "konuSlug": "kurandan-mesajlar",
+      "metin": "İsra suresinin 36 ve Mülk suresinin 23. ayetlerinin mesajlarını anlamak için Kur’an-ı Kerim meallerine başvurabilme"
+    },
+    {
+      "id": "DKAB.10.2.1",
+      "unite": "allah’ı tanımak",
+      "konu": "Allah’ın Varlığının Delilleri",
+      "konuSlug": "allahin-varliginin-delilleri",
+      "metin": "Allah’ın (cc) varlığının delillerini müşahede edebilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "DKAB.10.1.1": 2,
+        "DKAB.10.1.2": 3,
+        "DKAB.10.1.3": 1,
+        "DKAB.10.2.1": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "DKAB.10.1.1": 2,
+        "DKAB.10.1.2": 2,
+        "DKAB.10.1.3": 1,
+        "DKAB.10.2.1": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "DKAB.10.1.1": 1,
+        "DKAB.10.1.2": 3,
+        "DKAB.10.1.3": 1,
+        "DKAB.10.2.1": 1
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "DKAB.10.1.1": 2,
+        "DKAB.10.1.2": 3,
+        "DKAB.10.1.3": 1,
+        "DKAB.10.2.1": null
+      }
+    }
+  ]
+}

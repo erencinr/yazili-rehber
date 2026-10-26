@@ -5,7 +5,7 @@ import { useState } from "react";
 
 type Props = {
   ciktilar: { id: string; unite: string; metin: string }[];
-  senaryolar: { no: number; dagilim: Record<string, number | null> }[];
+  senaryolar: { no: number; hazir: boolean; dagilim: Record<string, number | null> }[];
   hrefOnEk: string;
 };
 
@@ -34,9 +34,13 @@ export function ScenarioTable({ ciktilar, senaryolar, hrefOnEk }: Props) {
               <th className="px-4 py-3 font-semibold">Öğrenme çıktısı</th>
               {gorunen.map((s) => (
                 <th key={s.no} className="px-4 py-3 text-center font-semibold whitespace-nowrap">
-                  <Link href={`${hrefOnEk}senaryo-${s.no}/`} className="text-forest hover:underline">
-                    Senaryo {s.no}
-                  </Link>
+                  {s.hazir ? (
+                    <Link href={`${hrefOnEk}senaryo-${s.no}/`} className="text-forest hover:underline">
+                      Senaryo {s.no}
+                    </Link>
+                  ) : (
+                    <span>Senaryo {s.no}</span>
+                  )}
                 </th>
               ))}
             </tr>
@@ -45,7 +49,8 @@ export function ScenarioTable({ ciktilar, senaryolar, hrefOnEk }: Props) {
             {ciktilar.map((c) => (
               <tr key={c.id}>
                 <td className="px-4 py-3">
-                  <span className="text-muted">{c.unite} · </span>
+                  <span className="font-semibold text-forest">{c.id}</span>
+                  <span className="text-muted"> · {c.unite} · </span>
                   {c.metin}
                 </td>
                 {gorunen.map((s) => (

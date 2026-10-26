@@ -1,0 +1,77 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 11. Sınıf Felsefe Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/felsefe3.xlsx",
+    "dosya": "felsefe.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "FEL.11.1.1",
+      "unite": "1. ünite: Çevre sorunları ve felsefe",
+      "konu": "Çevre ve İnsan İlişkisi Çevre Etiği (İnsan Merkezci Etik, Canlı Merkezci Etik, Çevre Merkezci Etik)",
+      "konuSlug": "cevre-ve-insan-iliskisi-cevre-etigi-insan-merkezci-etik-canli-merkezci",
+      "metin": "Çevre ile ilgili felsefi soru ve problemleri anlayabilme"
+    },
+    {
+      "id": "FEL.11.1.2",
+      "unite": "1. ünite: Çevre sorunları ve felsefe",
+      "konu": "Çevre ve İnsan İlişkisi Çevre Etiği (İnsan Merkezci Etik, Canlı Merkezci Etik, Çevre Merkezci Etik)",
+      "konuSlug": "cevre-ve-insan-iliskisi-cevre-etigi-insan-merkezci-etik-canli-merkezci-2",
+      "metin": "Çevre sorunlarıyla ilgili felsefi düşünce ortaya koyabilme"
+    },
+    {
+      "id": "FEL.11.2.1",
+      "unite": "2. ünite: Teknoloji ve hayat",
+      "konu": "Teknoloji ve İnsan Hayatı Teknoloji Bağlamında Ontolojik Problemler (Ontolojik Anlam Kaybı, Yabancılaşma) Teknoloji Bağlamında Aksiyolojik Problemler (Güvenlik Sorunları, Değerlerin Tahribatı, Ahlaki Eylemin İmkânı)",
+      "konuSlug": "teknoloji-ve-insan-hayati-teknoloji-baglaminda-ontolojik-problemler",
+      "metin": "Teknoloji ile ilgili felsefi soru ve problemleri anlayabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "FEL.11.1.1": 2,
+        "FEL.11.1.2": 2,
+        "FEL.11.2.1": 2
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "FEL.11.1.1": 2,
+        "FEL.11.1.2": 3,
+        "FEL.11.2.1": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "FEL.11.1.1": 3,
+        "FEL.11.1.2": 3,
+        "FEL.11.2.1": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "FEL.11.1.1": 3,
+        "FEL.11.1.2": 2,
+        "FEL.11.2.1": 1
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "FEL.11.1.1": 3,
+        "FEL.11.1.2": 3,
+        "FEL.11.2.1": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 11. Sınıf İngilizce Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/ingilizce_lise2.xlsx",
+    "dosya": "lise-ingilizce.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "E11.1.R1",
+      "unite": "future jobs",
+      "konu": "Students will be able to analyze different job ads from newspapers/websites to match them with CVs.",
+      "konuSlug": "students-will-be-able-to-analyze-different-job-ads-from-newspapers",
+      "metin": "Students will be able to analyze different job ads from newspapers/websites to match them with CVs."
+    },
+    {
+      "id": "E11.1.R2",
+      "unite": "future jobs",
+      "konu": "Students will be able to find the main idea of a text on successful entrepreneurs of the 21st century.",
+      "konuSlug": "students-will-be-able-to-find-the-main-idea-of-a-text-on-successful",
+      "metin": "Students will be able to find the main idea of a text on successful entrepreneurs of the 21st century."
+    },
+    {
+      "id": "E11.2.R1",
+      "unite": "hobbies and skills",
+      "konu": "Students will be able to identify lexis and expressions related to past abilities in a text",
+      "konuSlug": "students-will-be-able-to-identify-lexis-and-expressions-related-to",
+      "metin": "Students will be able to identify lexis and expressions related to past abilities in a text"
+    },
+    {
+      "id": "E11.2.R2",
+      "unite": "hobbies and skills",
+      "konu": "Students will be able to paraphrase information in a text about people’s choices.",
+      "konuSlug": "students-will-be-able-to-paraphrase-information-in-a-text-about",
+      "metin": "Students will be able to paraphrase information in a text about people’s choices."
+    },
+    {
+      "id": "E11.3.R1",
+      "unite": "hard times",
+      "konu": "Students will be able to answer the questions about a text on people’s habits and experiences in the past.",
+      "konuSlug": "students-will-be-able-to-answer-the-questions-about-a-text-on-peoples",
+      "metin": "Students will be able to answer the questions about a text on people’s habits and experiences in the past."
+    },
+    {
+      "id": "E11.3.R2",
+      "unite": "hard times",
+      "konu": "Students will be able to analyze a short story (plot, setting, climax, characters etc.) to summarize it.",
+      "konuSlug": "students-will-be-able-to-analyze-a-short-story-plot-setting-climax",
+      "metin": "Students will be able to analyze a short story (plot, setting, climax, characters etc.) to summarize it."
+    },
+    {
+      "id": "E11.3.R3",
+      "unite": "hard times",
+      "konu": "Students will be able to identify thesis statement, topic sentences, supporting points and examples in a given sample essay about a challenge.",
+      "konuSlug": "students-will-be-able-to-identify-thesis-statement-topic-sentences",
+      "metin": "Students will be able to identify thesis statement, topic sentences, supporting points and examples in a given sample essay about a challenge."
+    },
+    {
+      "id": "E11.3.W1",
+      "unite": "hard times",
+      "konu": "Students will be able to complete the missing parts of a short story with their own words.",
+      "konuSlug": "students-will-be-able-to-complete-the-missing-parts-of-a-short-story",
+      "metin": "Students will be able to complete the missing parts of a short story with their own words."
+    },
+    {
+      "id": "E11.4.R1",
+      "unite": "what a life",
+      "konu": "Students will be able to order the events in the biography of a famous person/ inventor/ scientist/ celebrity.",
+      "konuSlug": "students-will-be-able-to-order-the-events-in-the-biography-of-a-famous",
+      "metin": "Students will be able to order the events in the biography of a famous person/ inventor/ scientist/ celebrity."
+    },
+    {
+      "id": "E11.4.W1",
+      "unite": "what a life",
+      "konu": "Students will be able to write an essay about a well-known figure from Turkish history.",
+      "konuSlug": "students-will-be-able-to-write-an-essay-about-a-well-known-figure-from",
+      "metin": "Students will be able to write an essay about a well-known figure from Turkish history."
+    },
+    {
+      "id": "E11.5.R1",
+      "unite": "back to the past",
+      "konu": "Students will be able to analyze a text to distinguish the expressions used to express wishes, regrets and unreal past.",
+      "konuSlug": "students-will-be-able-to-analyze-a-text-to-distinguish-the-expressions",
+      "metin": "Students will be able to analyze a text to distinguish the expressions used to express wishes, regrets and unreal past."
+    },
+    {
+      "id": "E11.5.W1",
+      "unite": "back to the past",
+      "konu": "Students will be able to write their opinions and regrets according to #Iwish.",
+      "konuSlug": "students-will-be-able-to-write-their-opinions-and-regrets-according-to",
+      "metin": "Students will be able to write their opinions and regrets according to #Iwish."
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "E11.1.R1": null,
+        "E11.1.R2": 1,
+        "E11.2.R1": null,
+        "E11.2.R2": null,
+        "E11.3.R1": 1,
+        "E11.3.R2": null,
+        "E11.3.R3": null,
+        "E11.3.W1": null,
+        "E11.4.R1": null,
+        "E11.4.W1": 1,
+        "E11.5.R1": 1,
+        "E11.5.W1": null
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "E11.1.R1": null,
+        "E11.1.R2": null,
+        "E11.2.R1": 1,
+        "E11.2.R2": null,
+        "E11.3.R1": 1,
+        "E11.3.R2": null,
+        "E11.3.R3": 1,
+        "E11.3.W1": null,
+        "E11.4.R1": null,
+        "E11.4.W1": 1,
+        "E11.5.R1": 1,
+        "E11.5.W1": null
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "E11.1.R1": null,
+        "E11.1.R2": null,
+        "E11.2.R1": 1,
+        "E11.2.R2": null,
+        "E11.3.R1": null,
+        "E11.3.R2": 1,
+        "E11.3.R3": null,
+        "E11.3.W1": 1,
+        "E11.4.R1": 1,
+        "E11.4.W1": null,
+        "E11.5.R1": null,
+        "E11.5.W1": 1
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "E11.1.R1": 1,
+        "E11.1.R2": null,
+        "E11.2.R1": null,
+        "E11.2.R2": null,
+        "E11.3.R1": 1,
+        "E11.3.R2": 1,
+        "E11.3.R3": null,
+        "E11.3.W1": 1,
+        "E11.4.R1": 1,
+        "E11.4.W1": null,
+        "E11.5.R1": null,
+        "E11.5.W1": 1
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "E11.1.R1": null,
+        "E11.1.R2": null,
+        "E11.2.R1": null,
+        "E11.2.R2": 1,
+        "E11.3.R1": 1,
+        "E11.3.R2": null,
+        "E11.3.R3": 1,
+        "E11.3.W1": 1,
+        "E11.4.R1": 1,
+        "E11.4.W1": null,
+        "E11.5.R1": 1,
+        "E11.5.W1": null
+      }
+    }
+  ]
+}

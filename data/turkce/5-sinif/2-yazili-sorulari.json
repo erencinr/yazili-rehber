@@ -1,0 +1,261 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 5. Sınıf Türkçe Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/turkce2.xlsx",
+    "dosya": "turkce.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "T.O.5.5",
+      "unite": "okuma",
+      "konu": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme",
+      "konuSlug": "metinde-gecen-anlamini-bilmedigi-soz-varligi-unsurlarinin-anlamini",
+      "metin": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+      "id": "T.O.5.6",
+      "unite": "okuma",
+      "konu": "Metnin yüzey anlamını belirleyebilme",
+      "konuSlug": "metnin-yuzey-anlamini-belirleyebilme",
+      "metin": "Metnin yüzey anlamını belirleyebilme"
+    },
+    {
+      "id": "T.O.5.7",
+      "unite": "okuma",
+      "konu": "Görselle iletilen anlamı belirleyebilme",
+      "konuSlug": "gorselle-iletilen-anlami-belirleyebilme",
+      "metin": "Görselle iletilen anlamı belirleyebilme"
+    },
+    {
+      "id": "T.O.5.11",
+      "unite": "okuma",
+      "konu": "Metindeki unsurları sınıflandırabilme",
+      "konuSlug": "metindeki-unsurlari-siniflandirabilme",
+      "metin": "Metindeki unsurları sınıflandırabilme"
+    },
+    {
+      "id": "T.O.5.13",
+      "unite": "okuma",
+      "konu": "Öyküleyici metinde hikâye unsurlarını belirlemeye yönelik çözümleme yapabilme",
+      "konuSlug": "oykuleyici-metinde-hikaye-unsurlarini-belirlemeye-yonelik-cozumleme",
+      "metin": "Öyküleyici metinde hikâye unsurlarını belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+      "id": "T.O.5.15",
+      "unite": "okuma",
+      "konu": "Metnin anahtar kelimelerini belirlemeye yönelik çözümleme yapabilme",
+      "konuSlug": "metnin-anahtar-kelimelerini-belirlemeye-yonelik-cozumleme-yapabilme",
+      "metin": "Metnin anahtar kelimelerini belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+      "id": "T.O.5.17",
+      "unite": "okuma",
+      "konu": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme",
+      "konuSlug": "siirin-bicim-ozelliklerini-belirlemeye-yonelik-cozumleme-yapabilme",
+      "metin": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+      "id": "T.O.5.18",
+      "unite": "okuma",
+      "konu": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirlemeye yönelik çözümleme yapabilme",
+      "konuSlug": "bilgilendirici-metinde-dusunceyi-gelistirme-yollarini-belirlemeye",
+      "metin": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+      "id": "T.O.5.19",
+      "unite": "okuma",
+      "konu": "Metindeki söz sanatlarını belirlemeye yönelik çözümleme yapabilme",
+      "konuSlug": "metindeki-soz-sanatlarini-belirlemeye-yonelik-cozumleme-yapabilme",
+      "metin": "Metindeki söz sanatlarını belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+      "id": "T.O.5.20",
+      "unite": "okuma",
+      "konu": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
+      "konuSlug": "metinden-hareketle-soz-varligini-gelistirmeye-yonelik-cozumleme",
+      "metin": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+      "id": "T.Y.5.5",
+      "unite": "yazma",
+      "konu": "Yaratıcı yazı yazabilme",
+      "konuSlug": "yaratici-yazi-yazabilme",
+      "metin": "Yaratıcı yazı yazabilme"
+    },
+    {
+      "id": "T.Y.5.8",
+      "unite": "yazma",
+      "konu": "Yazısında sınıflandırma yapabilme",
+      "konuSlug": "yazisinda-siniflandirma-yapabilme",
+      "metin": "Yazısında sınıflandırma yapabilme"
+    },
+    {
+      "id": "T.Y.5.13",
+      "unite": "yazma",
+      "konu": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme",
+      "konuSlug": "yazisini-zenginlestirecek-bicimde-soz-varligini-kullanabilme",
+      "metin": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme"
+    },
+    {
+      "id": "T.Y.5.15",
+      "unite": "yazma",
+      "konu": "Uygun bağlantı ifadelerini kullanabilme",
+      "konuSlug": "uygun-baglanti-ifadelerini-kullanabilme",
+      "metin": "Uygun bağlantı ifadelerini kullanabilme"
+    },
+    {
+      "id": "T.Y.5.16",
+      "unite": "yazma",
+      "konu": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme",
+      "konuSlug": "yazim-ve-noktalama-isaretleriyle-ilgili-kurallari-uygulayabilme",
+      "metin": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "T.O.5.5": null,
+        "T.O.5.6": 1,
+        "T.O.5.7": null,
+        "T.O.5.11": null,
+        "T.O.5.13": 1,
+        "T.O.5.15": 1,
+        "T.O.5.17": null,
+        "T.O.5.18": null,
+        "T.O.5.19": 1,
+        "T.O.5.20": 1,
+        "T.Y.5.5": 1,
+        "T.Y.5.8": null,
+        "T.Y.5.13": null,
+        "T.Y.5.15": null,
+        "T.Y.5.16": null
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "T.O.5.5": 1,
+        "T.O.5.6": 1,
+        "T.O.5.7": null,
+        "T.O.5.11": null,
+        "T.O.5.13": 1,
+        "T.O.5.15": 1,
+        "T.O.5.17": null,
+        "T.O.5.18": null,
+        "T.O.5.19": 1,
+        "T.O.5.20": null,
+        "T.Y.5.5": null,
+        "T.Y.5.8": null,
+        "T.Y.5.13": null,
+        "T.Y.5.15": 1,
+        "T.Y.5.16": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "T.O.5.5": 1,
+        "T.O.5.6": 1,
+        "T.O.5.7": null,
+        "T.O.5.11": null,
+        "T.O.5.13": 1,
+        "T.O.5.15": null,
+        "T.O.5.17": 1,
+        "T.O.5.18": 1,
+        "T.O.5.19": 1,
+        "T.O.5.20": null,
+        "T.Y.5.5": 1,
+        "T.Y.5.8": null,
+        "T.Y.5.13": null,
+        "T.Y.5.15": null,
+        "T.Y.5.16": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "T.O.5.5": null,
+        "T.O.5.6": null,
+        "T.O.5.7": 1,
+        "T.O.5.11": null,
+        "T.O.5.13": 1,
+        "T.O.5.15": null,
+        "T.O.5.17": 1,
+        "T.O.5.18": 1,
+        "T.O.5.19": null,
+        "T.O.5.20": 1,
+        "T.Y.5.5": null,
+        "T.Y.5.8": null,
+        "T.Y.5.13": null,
+        "T.Y.5.15": 1,
+        "T.Y.5.16": 1
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "T.O.5.5": null,
+        "T.O.5.6": 1,
+        "T.O.5.7": null,
+        "T.O.5.11": 1,
+        "T.O.5.13": 1,
+        "T.O.5.15": null,
+        "T.O.5.17": 1,
+        "T.O.5.18": 1,
+        "T.O.5.19": 1,
+        "T.O.5.20": null,
+        "T.Y.5.5": 1,
+        "T.Y.5.8": 1,
+        "T.Y.5.13": null,
+        "T.Y.5.15": null,
+        "T.Y.5.16": null
+      }
+    },
+    {
+      "no": 6,
+      "dagilim": {
+        "T.O.5.5": null,
+        "T.O.5.6": null,
+        "T.O.5.7": 1,
+        "T.O.5.11": 1,
+        "T.O.5.13": 1,
+        "T.O.5.15": null,
+        "T.O.5.17": null,
+        "T.O.5.18": 1,
+        "T.O.5.19": 1,
+        "T.O.5.20": 1,
+        "T.Y.5.5": null,
+        "T.Y.5.8": 1,
+        "T.Y.5.13": 1,
+        "T.Y.5.15": null,
+        "T.Y.5.16": null
+      }
+    },
+    {
+      "no": 7,
+      "dagilim": {
+        "T.O.5.5": 1,
+        "T.O.5.6": 1,
+        "T.O.5.7": null,
+        "T.O.5.11": 1,
+        "T.O.5.13": 1,
+        "T.O.5.15": null,
+        "T.O.5.17": 1,
+        "T.O.5.18": 1,
+        "T.O.5.19": 1,
+        "T.O.5.20": null,
+        "T.Y.5.5": null,
+        "T.Y.5.8": null,
+        "T.Y.5.13": null,
+        "T.Y.5.15": 1,
+        "T.Y.5.16": 1
+      }
+    }
+  ]
+}

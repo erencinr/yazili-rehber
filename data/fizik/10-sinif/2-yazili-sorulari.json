@@ -1,0 +1,137 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 10. Sınıf Fizik Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/fizik2.xlsx",
+    "dosya": "fizik.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "FİZ.10.1.1",
+      "unite": "kuvvet ve hareket",
+      "konu": "Sabit Hızlı Hareket",
+      "konuSlug": "sabit-hizli-hareket",
+      "metin": "Yatay doğrultuda sabit hızlı hareket ile ilgili tümevarımsal akıl yürütebilme"
+    },
+    {
+      "id": "FİZ.10.1.2",
+      "unite": "kuvvet ve hareket",
+      "konu": "Bir Boyutta Sabit İvmeli Hareket",
+      "konuSlug": "bir-boyutta-sabit-ivmeli-hareket",
+      "metin": "İvme ve hız değişimi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme"
+    },
+    {
+      "id": "FİZ.10.1.3",
+      "unite": "kuvvet ve hareket",
+      "konu": "Yatay doğrultuda sabit ivmeyle hareket eden cisimlerin hareket grafiklerinden elde edilen matematiksel modelleri yorumlayabilme",
+      "konuSlug": "yatay-dogrultuda-sabit-ivmeyle-hareket-eden-cisimlerin-hareket",
+      "metin": "Yatay doğrultuda sabit ivmeyle hareket eden cisimlerin hareket grafiklerinden elde edilen matematiksel modelleri yorumlayabilme"
+    },
+    {
+      "id": "FİZ.10.2.1",
+      "unite": "enerji",
+      "konu": "İş, Enerji ve Güç",
+      "konuSlug": "is-enerji-ve-guc",
+      "metin": "Kuvvet-yer değiştirme grafiği kullanılarak iş ile ilgili tümevarımsal akıl yürütebilme"
+    },
+    {
+      "id": "FİZ.10.2.2",
+      "unite": "enerji",
+      "konu": "İş, enerji ve güç kavramlarına ilişkin çıkarım yapabilme",
+      "konuSlug": "is-enerji-ve-guc-kavramlarina-iliskin-cikarim-yapabilme",
+      "metin": "İş, enerji ve güç kavramlarına ilişkin çıkarım yapabilme"
+    },
+    {
+      "id": "FİZ.10.2.3",
+      "unite": "enerji",
+      "konu": "Enerji Biçimleri",
+      "konuSlug": "enerji-bicimleri",
+      "metin": "Enerji biçimlerini karşılaştırabilme"
+    },
+    {
+      "id": "FİZ.10.2.4",
+      "unite": "enerji",
+      "konu": "Mekanik Enerji",
+      "konuSlug": "mekanik-enerji",
+      "metin": "Mekanik enerjiyi çözümleyebilme"
+    },
+    {
+      "id": "FİZ.10.2.5",
+      "unite": "enerji",
+      "konu": "Enerji Kaynakları",
+      "konuSlug": "enerji-kaynaklari",
+      "metin": "Yenilenebilen ve yenilenemeyen enerji kaynaklarını karşılaştırabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "FİZ.10.1.1": null,
+        "FİZ.10.1.2": 1,
+        "FİZ.10.1.3": 1,
+        "FİZ.10.2.1": 1,
+        "FİZ.10.2.2": 1,
+        "FİZ.10.2.3": 1,
+        "FİZ.10.2.4": 1,
+        "FİZ.10.2.5": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "FİZ.10.1.1": 1,
+        "FİZ.10.1.2": null,
+        "FİZ.10.1.3": null,
+        "FİZ.10.2.1": 1,
+        "FİZ.10.2.2": 2,
+        "FİZ.10.2.3": 1,
+        "FİZ.10.2.4": 1,
+        "FİZ.10.2.5": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "FİZ.10.1.1": null,
+        "FİZ.10.1.2": 1,
+        "FİZ.10.1.3": 1,
+        "FİZ.10.2.1": 2,
+        "FİZ.10.2.2": 2,
+        "FİZ.10.2.3": 1,
+        "FİZ.10.2.4": null,
+        "FİZ.10.2.5": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "FİZ.10.1.1": null,
+        "FİZ.10.1.2": null,
+        "FİZ.10.1.3": null,
+        "FİZ.10.2.1": 2,
+        "FİZ.10.2.2": 2,
+        "FİZ.10.2.3": 1,
+        "FİZ.10.2.4": 1,
+        "FİZ.10.2.5": 1
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "FİZ.10.1.1": 1,
+        "FİZ.10.1.2": 1,
+        "FİZ.10.1.3": null,
+        "FİZ.10.2.1": 2,
+        "FİZ.10.2.2": 2,
+        "FİZ.10.2.3": 1,
+        "FİZ.10.2.4": 1,
+        "FİZ.10.2.5": null
+      }
+    }
+  ]
+}

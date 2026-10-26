@@ -1,0 +1,102 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 7. Sınıf Fen Bilimleri Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/fen3_2.xlsx",
+    "dosya": "fen-bilimleri.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "FB.7.1.1",
+      "unite": "1. ünite: Uzay çağı",
+      "konu": "Türkiye ve Uzay Araştırmaları",
+      "konuSlug": "turkiye-ve-uzay-arastirmalari",
+      "metin": "Uzay araştırmaları için geliştirilen teknolojileri karşılaştırabilme"
+    },
+    {
+      "id": "FB.7.1.3",
+      "unite": "1. ünite: Uzay çağı",
+      "konu": "Uzay araştırmalarının yol açabileceği problemleri çözebilme",
+      "konuSlug": "uzay-arastirmalarinin-yol-acabilecegi-problemleri-cozebilme",
+      "metin": "Uzay araştırmalarının yol açabileceği problemleri çözebilme"
+    },
+    {
+      "id": "FB.7.1.4",
+      "unite": "1. ünite: Uzay çağı",
+      "konu": "Uzayda Neler Var?",
+      "konuSlug": "uzayda-neler-var",
+      "metin": "Yıldızların yaşamını açıklayarak yapılandırabilme"
+    },
+    {
+      "id": "FB.7.1.5",
+      "unite": "1. ünite: Uzay çağı",
+      "konu": "Yıldız, galaksi ve evren kavramlarını açıklayarak yapılandırabilme",
+      "konuSlug": "yildiz-galaksi-ve-evren-kavramlarini-aciklayarak-yapilandirabilme",
+      "metin": "Yıldız, galaksi ve evren kavramlarını açıklayarak yapılandırabilme"
+    },
+    {
+      "id": "FB.7.2.1",
+      "unite": "2. ünite: Kuvvet ve enerjiyi keşfedelim",
+      "konu": "Kuvvet, İş ve Enerji İlişkisi",
+      "konuSlug": "kuvvet-is-ve-enerji-iliskisi",
+      "metin": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapabilme"
+    },
+    {
+      "id": "FB.7.2.2",
+      "unite": "2. ünite: Kuvvet ve enerjiyi keşfedelim",
+      "konu": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırabilme",
+      "konuSlug": "enerji-cesitlerinden-kinetik-ve-potansiyel-enerjiyi-karsilastirabilme",
+      "metin": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "FB.7.1.1": 2,
+        "FB.7.1.3": null,
+        "FB.7.1.4": 1,
+        "FB.7.1.5": 1,
+        "FB.7.2.1": 3,
+        "FB.7.2.2": 2
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "FB.7.1.1": 2,
+        "FB.7.1.3": 1,
+        "FB.7.1.4": null,
+        "FB.7.1.5": 1,
+        "FB.7.2.1": 3,
+        "FB.7.2.2": null
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "FB.7.1.1": 2,
+        "FB.7.1.3": 1,
+        "FB.7.1.4": 1,
+        "FB.7.1.5": null,
+        "FB.7.2.1": 2,
+        "FB.7.2.2": 2
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "FB.7.1.1": null,
+        "FB.7.1.3": 1,
+        "FB.7.1.4": 1,
+        "FB.7.1.5": 1,
+        "FB.7.2.1": 2,
+        "FB.7.2.2": 1
+      }
+    }
+  ]
+}

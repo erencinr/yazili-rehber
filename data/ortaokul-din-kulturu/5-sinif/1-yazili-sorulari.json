@@ -1,0 +1,91 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 5. Sınıf Din Kültürü ve Ahlak Bilgisi Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/dkab_orta3.xlsx",
+    "dosya": "ortaokul-din-kulturu.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "DKAB.5.1.1",
+      "unite": "allah inancı",
+      "konu": "Evrendeki Mükemmel Düzen",
+      "konuSlug": "evrendeki-mukemmel-duzen",
+      "metin": "Evrendeki mükemmel düzene ilişkin akıl yürütebilme"
+    },
+    {
+      "id": "DKAB.5.1.2",
+      "unite": "allah inancı",
+      "konu": "Allah’ın Varlığı ve Birliği",
+      "konuSlug": "allahin-varligi-ve-birligi",
+      "metin": "Evrendeki mükemmel düzenden hareketle Allah’ın (cc) varlığı ve birliğini müşahede edebilme"
+    },
+    {
+      "id": "DKAB.5.1.3",
+      "unite": "allah inancı",
+      "konu": "Allah’ın Güzel İsimleri",
+      "konuSlug": "allahin-guzel-isimleri",
+      "metin": "Allah’ın (cc) güzel isimlerini bağlamına uygun kullanabilme"
+    },
+    {
+      "id": "DKAB.5.1.4",
+      "unite": "allah inancı",
+      "konu": "Bir Sure Öğreniyorum: İhlas Suresi",
+      "konuSlug": "bir-sure-ogreniyorum-ihlas-suresi",
+      "metin": "İhlas suresini ve bu surenin anlamını okuyarak yorumlayabilme"
+    },
+    {
+      "id": "DKAB.5.2.1",
+      "unite": "namaz",
+      "konu": "Allah’ın Huzurunda Olmak: Namaz",
+      "konuSlug": "allahin-huzurunda-olmak-namaz",
+      "metin": "Namaz ibadetini özetleyebilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "DKAB.5.1.1": 1,
+        "DKAB.5.1.2": 3,
+        "DKAB.5.1.3": 2,
+        "DKAB.5.1.4": 1,
+        "DKAB.5.2.1": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "DKAB.5.1.1": 1,
+        "DKAB.5.1.2": 3,
+        "DKAB.5.1.3": 2,
+        "DKAB.5.1.4": 1,
+        "DKAB.5.2.1": null
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "DKAB.5.1.1": null,
+        "DKAB.5.1.2": 3,
+        "DKAB.5.1.3": 1,
+        "DKAB.5.1.4": 1,
+        "DKAB.5.2.1": 1
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "DKAB.5.1.1": 1,
+        "DKAB.5.1.2": 2,
+        "DKAB.5.1.3": 2,
+        "DKAB.5.1.4": 1,
+        "DKAB.5.2.1": null
+      }
+    }
+  ]
+}

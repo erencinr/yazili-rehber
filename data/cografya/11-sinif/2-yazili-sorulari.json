@@ -1,0 +1,111 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 11. Sınıf Coğrafya Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/cografya4.xlsx",
+    "dosya": "cografya.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "COĞ.11.4.1",
+      "unite": "beşerî sistemler ve süreçler",
+      "konu": "Yerleşmelerin Mekânsal Organizasyonları",
+      "konuSlug": "yerlesmelerin-mekansal-organizasyonlari",
+      "metin": "Türkiye ve dünyadaki yerleşmelerin mekânsal organizasyonunu çözümleyebilme"
+    },
+    {
+      "id": "COĞ.11.4.2",
+      "unite": "beşerî sistemler ve süreçler",
+      "konu": "Yerleşmelerin Etki Alanları",
+      "konuSlug": "yerlesmelerin-etki-alanlari",
+      "metin": "Türkiye ve dünyadaki yerleşmelerin etki alanını sorgulayabilme"
+    },
+    {
+      "id": "COĞ.11.5.1",
+      "unite": "ekonomik faaliyetler ve etkileri",
+      "konu": "Tarımsal Faaliyetler ve Gıda Güvencesi",
+      "konuSlug": "tarimsal-faaliyetler-ve-gida-guvencesi",
+      "metin": "Tarımsal faaliyetleri gıda güvencesi açısından sorgulayabilme"
+    },
+    {
+      "id": "COĞ.11.5.2",
+      "unite": "ekonomik faaliyetler ve etkileri",
+      "konu": "Tarım Uygulamalarında Sürdürülebilirlik",
+      "konuSlug": "tarim-uygulamalarinda-surdurulebilirlik",
+      "metin": "Dünya ve Türkiye’deki tarım uygulamalarını sürdürülebilirlik ölçütlerine göre değerlendirebilme"
+    },
+    {
+      "id": "COĞ.11.5.3",
+      "unite": "ekonomik faaliyetler ve etkileri",
+      "konu": "Stratejik ve Kritik Madenler",
+      "konuSlug": "stratejik-ve-kritik-madenler",
+      "metin": "Dünya ve Türkiye’de bulunan stratejik-kritik madenlerin ülke ekonomileri veülkeler arası ilişkilerdeki yerine yönelik çıkarım yapabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "COĞ.11.4.1": 1,
+        "COĞ.11.4.2": 1,
+        "COĞ.11.5.1": 1,
+        "COĞ.11.5.2": 1,
+        "COĞ.11.5.3": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "COĞ.11.4.1": 1,
+        "COĞ.11.4.2": 1,
+        "COĞ.11.5.1": 2,
+        "COĞ.11.5.2": 2,
+        "COĞ.11.5.3": null
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "COĞ.11.4.1": 1,
+        "COĞ.11.4.2": 1,
+        "COĞ.11.5.1": 2,
+        "COĞ.11.5.2": 2,
+        "COĞ.11.5.3": 1
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "COĞ.11.4.1": null,
+        "COĞ.11.4.2": 1,
+        "COĞ.11.5.1": 2,
+        "COĞ.11.5.2": 2,
+        "COĞ.11.5.3": 2
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "COĞ.11.4.1": null,
+        "COĞ.11.4.2": 1,
+        "COĞ.11.5.1": 2,
+        "COĞ.11.5.2": 2,
+        "COĞ.11.5.3": 1
+      }
+    },
+    {
+      "no": 6,
+      "dagilim": {
+        "COĞ.11.4.1": null,
+        "COĞ.11.4.2": 1,
+        "COĞ.11.5.1": 2,
+        "COĞ.11.5.2": 2,
+        "COĞ.11.5.3": null
+      }
+    }
+  ]
+}

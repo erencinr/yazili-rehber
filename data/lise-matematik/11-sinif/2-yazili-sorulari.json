@@ -1,0 +1,163 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 11. Sınıf Matematik Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/matematik2.xlsx",
+    "dosya": "lise-matematik.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "MAT.11.1.1",
+      "unite": "istatistiksel araştırma süreci",
+      "konu": "İki Nicel Değişkenli Veriler",
+      "konuSlug": "iki-nicel-degiskenli-veriler",
+      "metin": "İki nicel değişkenli veri ile çalışabilme ve iki nicel değişken arasındaki ilişkililiğe dayalı karar verebilme"
+    },
+    {
+      "id": "MAT.11.1.2",
+      "unite": "istatistiksel araştırma süreci",
+      "konu": "Başkaları Tarafından Oluşturulan İki Nicel Değişkenli Verileri İnceleme",
+      "konuSlug": "baskalari-tarafindan-olusturulan-iki-nicel-degiskenli-verileri",
+      "metin": "Başkaları tarafından oluşturulan iki nicel değişkenli verilerin ilişkililiğine dayalı istatistiksel sonuç veya yorumları tartışabilme"
+    },
+    {
+      "id": "MAT.11.2.1",
+      "unite": "geometrik şekiller",
+      "konu": "Dörtgenlerin Özellikleri",
+      "konuSlug": "dortgenlerin-ozellikleri",
+      "metin": "Üçgenlerde açı, benzerlik ve alan özelliklerinden yola çıkarak dörtgenlerin açı, kenar, köşegen, simetri ve alan özelliklerine ilişkin muhakeme yapabilme"
+    },
+    {
+      "id": "MAT.11.2.2",
+      "unite": "geometrik şekiller",
+      "konu": "Özel Dörtgenler Arasındaki İlişkiler",
+      "konuSlug": "ozel-dortgenler-arasindaki-iliskiler",
+      "metin": "Özel dörtgenlerin kenar, açı, köşegen ve simetri özelliklerinden hareketle aralarındaki ilişkileri yapılandırabilme"
+    },
+    {
+      "id": "MAT.11.2.3",
+      "unite": "geometrik şekiller",
+      "konu": "Çokgenlerin Sınıflandırılması",
+      "konuSlug": "cokgenlerin-siniflandirilmasi",
+      "metin": "Çokgenleri içbükey veya dışbükey olarak sınıflandırabilme"
+    },
+    {
+      "id": "MAT.11.2.4",
+      "unite": "geometrik şekiller",
+      "konu": "Dışbükey Çokgenlerin Özellikleri",
+      "konuSlug": "disbukey-cokgenlerin-ozellikleri",
+      "metin": "Dışbükey çokgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine dair çıkarım yapabilme"
+    },
+    {
+      "id": "MAT.11.2.5",
+      "unite": "geometrik şekiller",
+      "konu": "Çokgenlerle İlgili Problemler",
+      "konuSlug": "cokgenlerle-ilgili-problemler",
+      "metin": "Çokgenlerin kenar, açı, köşegen, simetri ve alan özelliklerini içeren problemler çözebilme"
+    },
+    {
+      "id": "MAT.11.3.1",
+      "unite": "nicelikler ve değişimler (1)",
+      "konu": "Trigonometrik Fonksiyonlar ve Nitel Özellikleri",
+      "konuSlug": "trigonometrik-fonksiyonlar-ve-nitel-ozellikleri",
+      "metin": "f (x) = sinx (x ∈ ℝ), f (x) = cosx (x ∈ ℝ), f (x) = tanx (x ∈ ℝ, x ≠ π /2 + kπ, k ∈ ℤ ) ve f (x) = cotx (x ∈ ℝ, x ≠ kπ, k ∈ ℤ) şeklinde tanımlı trigonometrik referans fonksiyonların nitel özellikleri ile bu fonksiyonlardan türetilen [g(x) = k ∙ f (mx ± r) ± s (k, m, r, s ∈ ℝ, k ≠ 0, m ≠ 0)] trigonometrik fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "MAT.11.1.1": 1,
+        "MAT.11.1.2": null,
+        "MAT.11.2.1": 1,
+        "MAT.11.2.2": 1,
+        "MAT.11.2.3": 1,
+        "MAT.11.2.4": 2,
+        "MAT.11.2.5": 1,
+        "MAT.11.3.1": 2
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "MAT.11.1.1": null,
+        "MAT.11.1.2": null,
+        "MAT.11.2.1": 2,
+        "MAT.11.2.2": 1,
+        "MAT.11.2.3": null,
+        "MAT.11.2.4": 3,
+        "MAT.11.2.5": 2,
+        "MAT.11.3.1": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "MAT.11.1.1": 2,
+        "MAT.11.1.2": null,
+        "MAT.11.2.1": 1,
+        "MAT.11.2.2": 1,
+        "MAT.11.2.3": 1,
+        "MAT.11.2.4": 3,
+        "MAT.11.2.5": 2,
+        "MAT.11.3.1": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "MAT.11.1.1": null,
+        "MAT.11.1.2": 1,
+        "MAT.11.2.1": 1,
+        "MAT.11.2.2": 1,
+        "MAT.11.2.3": null,
+        "MAT.11.2.4": 1,
+        "MAT.11.2.5": 3,
+        "MAT.11.3.1": null
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "MAT.11.1.1": 1,
+        "MAT.11.1.2": null,
+        "MAT.11.2.1": null,
+        "MAT.11.2.2": 1,
+        "MAT.11.2.3": 1,
+        "MAT.11.2.4": 2,
+        "MAT.11.2.5": 2,
+        "MAT.11.3.1": null
+      }
+    },
+    {
+      "no": 6,
+      "dagilim": {
+        "MAT.11.1.1": 1,
+        "MAT.11.1.2": null,
+        "MAT.11.2.1": 1,
+        "MAT.11.2.2": null,
+        "MAT.11.2.3": null,
+        "MAT.11.2.4": 1,
+        "MAT.11.2.5": 3,
+        "MAT.11.3.1": 1
+      }
+    },
+    {
+      "no": 7,
+      "dagilim": {
+        "MAT.11.1.1": 1,
+        "MAT.11.1.2": null,
+        "MAT.11.2.1": 1,
+        "MAT.11.2.2": 1,
+        "MAT.11.2.3": null,
+        "MAT.11.2.4": 1,
+        "MAT.11.2.5": 1,
+        "MAT.11.3.1": 1
+      }
+    }
+  ]
+}

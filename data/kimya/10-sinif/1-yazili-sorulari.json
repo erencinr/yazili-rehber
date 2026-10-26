@@ -1,0 +1,111 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 10. Sınıf Kimya Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/kimya4.xlsx",
+    "dosya": "kimya.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "KİM.10.1.1",
+      "unite": "etkileşim",
+      "konu": "Kimyasal Tepkimeler",
+      "konuSlug": "kimyasal-tepkimeler",
+      "metin": "Kimyasal değişimlere ilişkin kanıtları belirlemeye yönelik bilimsel gözlem yapabilme"
+    },
+    {
+      "id": "KİM.10.1.2",
+      "unite": "etkileşim",
+      "konu": "Kimyasal Tepkimeler",
+      "konuSlug": "kimyasal-tepkimeler-2",
+      "metin": "Kimyasal tepkimelerin oluşumunu açıklamak için bilimsel model oluşturabilme"
+    },
+    {
+      "id": "KİM.10.1.3",
+      "unite": "etkileşim",
+      "konu": "Kimyasal Tepkimeler",
+      "konuSlug": "kimyasal-tepkimeler-3",
+      "metin": "Kimyasal tepkime türlerinin oluşum sürecine ilişkin bilimsel gözlem yapabilme"
+    },
+    {
+      "id": "KİM.10.1.4",
+      "unite": "etkileşim",
+      "konu": "Kimyasal Tepkimeler",
+      "konuSlug": "kimyasal-tepkimeler-4",
+      "metin": "Mol kavramına ilişkin operasyonel tanımlama yapabilme"
+    },
+    {
+      "id": "KİM.10.1.5",
+      "unite": "etkileşim",
+      "konu": "Kimyasal Tepkimeler",
+      "konuSlug": "kimyasal-tepkimeler-5",
+      "metin": "Saf maddelerin ölçülebilir özellikleri arasındaki ilişkileri belirlemeye yönelik tümdengelimsel akıl yürütebilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "KİM.10.1.1": null,
+        "KİM.10.1.2": 1,
+        "KİM.10.1.3": 2,
+        "KİM.10.1.4": 2,
+        "KİM.10.1.5": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "KİM.10.1.1": 1,
+        "KİM.10.1.2": null,
+        "KİM.10.1.3": 2,
+        "KİM.10.1.4": 1,
+        "KİM.10.1.5": 2
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "KİM.10.1.1": 1,
+        "KİM.10.1.2": 1,
+        "KİM.10.1.3": 2,
+        "KİM.10.1.4": 1,
+        "KİM.10.1.5": 2
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "KİM.10.1.1": 1,
+        "KİM.10.1.2": 1,
+        "KİM.10.1.3": 1,
+        "KİM.10.1.4": 2,
+        "KİM.10.1.5": 1
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "KİM.10.1.1": 1,
+        "KİM.10.1.2": 1,
+        "KİM.10.1.3": 2,
+        "KİM.10.1.4": 2,
+        "KİM.10.1.5": 2
+      }
+    },
+    {
+      "no": 6,
+      "dagilim": {
+        "KİM.10.1.1": 1,
+        "KİM.10.1.2": 1,
+        "KİM.10.1.3": 2,
+        "KİM.10.1.4": 2,
+        "KİM.10.1.5": null
+      }
+    }
+  ]
+}

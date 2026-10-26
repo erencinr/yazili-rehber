@@ -1,0 +1,80 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 5. Sınıf Fen Bilimleri Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/fen3_2.xlsx",
+    "dosya": "fen-bilimleri.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "FB.5.1.2",
+      "unite": "1. ünite: Gökyüzündeki komşularımız ve biz",
+      "konu": "Gökyüzündeki Komşumuz: Ay",
+      "konuSlug": "gokyuzundeki-komsumuz-ay",
+      "metin": "Ay’ın özellikleri, dönme ve dolanma hareketleri ile ilgili bilimsel çıkarım yapabilme"
+    },
+    {
+      "id": "FB.5.1.3",
+      "unite": "1. ünite: Gökyüzündeki komşularımız ve biz",
+      "konu": "Ay’ın evrelerini temsil eden bilimsel model oluşturabilme",
+      "konuSlug": "ayin-evrelerini-temsil-eden-bilimsel-model-olusturabilme",
+      "metin": "Ay’ın evrelerini temsil eden bilimsel model oluşturabilme"
+    },
+    {
+      "id": "FB.5.1.4",
+      "unite": "1. ünite: Gökyüzündeki komşularımız ve biz",
+      "konu": "Dünya’mız ve Gökyüzündeki Komşularımız",
+      "konuSlug": "dunyamiz-ve-gokyuzundeki-komsularimiz",
+      "metin": "Güneş, Dünya ve Ay’ın birbirlerine göre hareketlerini ve hacimsel büyüklüklerini temsil eden bilimsel model oluşturabilme"
+    },
+    {
+      "id": "FB.5.2.1",
+      "unite": "2. ünite: Kuvveti tanıyalım",
+      "konu": "Kuvvet ve Kuvvetin Ölçülmesi",
+      "konuSlug": "kuvvet-ve-kuvvetin-olculmesi",
+      "metin": "Kuvveti büyüklüğü ile operasyonel tanımlayabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "FB.5.1.2": 2,
+        "FB.5.1.3": 2,
+        "FB.5.1.4": 2,
+        "FB.5.2.1": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "FB.5.1.2": 2,
+        "FB.5.1.3": 3,
+        "FB.5.1.4": 2,
+        "FB.5.2.1": null
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "FB.5.1.2": 2,
+        "FB.5.1.3": 1,
+        "FB.5.1.4": 1,
+        "FB.5.2.1": 2
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "FB.5.1.2": 2,
+        "FB.5.1.3": null,
+        "FB.5.1.4": 2,
+        "FB.5.2.1": 2
+      }
+    }
+  ]
+}

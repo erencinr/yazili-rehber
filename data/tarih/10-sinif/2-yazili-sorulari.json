@@ -1,0 +1,124 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 10. Sınıf Tarih Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/tarih3.xlsx",
+    "dosya": "tarih.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "TAR.10.1.1",
+      "unite": "1. ünite: Türkistan’dan türkiye’ye (1040-1299)",
+      "konu": "Türkistan’dan Türkiye’ye Uzanan Süreçte Meydana Gelen Önemli Askerî Mücadeleler",
+      "konuSlug": "turkistandan-turkiyeye-uzanan-surecte-meydana-gelen-onemli-askeri",
+      "metin": "Türkistan’dan Türkiye’ye uzanan süreçte 1040-1299 yılları arasında meydana gelen önemli askerî mücadelelerin Türk tarihinin seyrine etkilerini karşılaştırabilme"
+    },
+    {
+      "id": "TAR.10.1.2",
+      "unite": "1. ünite: Türkistan’dan türkiye’ye (1040-1299)",
+      "konu": "Türkistan’dan Türkiye’ye Uzanan Süreçte Türk Devlet ve Ordu Teşkilatında Meydana Gelen Değişim",
+      "konuSlug": "turkistandan-turkiyeye-uzanan-surecte-turk-devlet-ve-ordu-teskilatinda",
+      "metin": "Türkistan’dan Türkiye’ye uzanan süreçte Türklerde devlet ve ordu teşkilatında meydana gelen değişim ve sürekliliği yorumlayabilme"
+    },
+    {
+      "id": "TAR.10.1.3",
+      "unite": "1. ünite: Türkistan’dan türkiye’ye (1040-1299)",
+      "konu": "Türkistan’dan Türkiye’ye Uzanan Süreçte Türklerin Sosyal Yaşamları ve Ekonomik Faaliyetleri",
+      "konuSlug": "turkistandan-turkiyeye-uzanan-surecte-turklerin-sosyal-yasamlari-ve",
+      "metin": "Türkistan’dan Türkiye’ye uzanan süreçte Türklerin sosyoekonomik faaliyetleri ile yerleşme ve şehirleşme anlayışları arasındaki ilişkiyi sorgulayabilme"
+    },
+    {
+      "id": "TAR.10.1.4",
+      "unite": "1. ünite: Türkistan’dan türkiye’ye (1040-1299)",
+      "konu": "Türk-İslam Medeniyetinin Bilim, Kültür, Eğitim ve Sanat Alanlarında Ortaya Çıkardığı Etkiler",
+      "konuSlug": "turk-islam-medeniyetinin-bilim-kultur-egitim-ve-sanat-alanlarinda",
+      "metin": "Türkistan’dan Türkiye’ye uzanan süreçte Türk-İslam medeniyetinde bilim, kültür, eğitim ve sanat alanlarında meydana gelen gelişmeleri Anadolu’nun Türkleşme ve İslamlaşma sürecine etkisi açısından değerlendirebilme"
+    },
+    {
+      "id": "TAR.10.2.1",
+      "unite": "2. ünite: Beylikten devlete osmanlı (1299-1453)",
+      "konu": "Osmanlı Devleti’nin Kuruluşuna Dair Farklı Görüşler",
+      "konuSlug": "osmanli-devletinin-kurulusuna-dair-farkli-gorusler",
+      "metin": "Osmanlı Devleti’nin kuruluşuna dair farklı görüşleri tartışabilme"
+    },
+    {
+      "id": "TAR.10.2.2",
+      "unite": "2. ünite: Beylikten devlete osmanlı (1299-1453)",
+      "konu": "Osmanlı Devleti’nin Anadolu ve Rumeli’deki Siyasi ve Askerî Mücadeleleri",
+      "konuSlug": "osmanli-devletinin-anadolu-ve-rumelideki-siyasi-ve-askeri-mucadeleleri",
+      "metin": "1299-1453 yılları arasında Osmanlı Devleti’nin Anadolu ve Rumeli’de gerçekleştirdiği siyasi ve askerî mücadeleleri yorumlayabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "TAR.10.1.1": 1,
+        "TAR.10.1.2": null,
+        "TAR.10.1.3": null,
+        "TAR.10.1.4": 2,
+        "TAR.10.2.1": 2,
+        "TAR.10.2.2": 2
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "TAR.10.1.1": null,
+        "TAR.10.1.2": 1,
+        "TAR.10.1.3": 1,
+        "TAR.10.1.4": null,
+        "TAR.10.2.1": 2,
+        "TAR.10.2.2": 2
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "TAR.10.1.1": null,
+        "TAR.10.1.2": null,
+        "TAR.10.1.3": 1,
+        "TAR.10.1.4": 1,
+        "TAR.10.2.1": 2,
+        "TAR.10.2.2": 2
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "TAR.10.1.1": 1,
+        "TAR.10.1.2": 1,
+        "TAR.10.1.3": null,
+        "TAR.10.1.4": 1,
+        "TAR.10.2.1": 1,
+        "TAR.10.2.2": 2
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "TAR.10.1.1": null,
+        "TAR.10.1.2": 1,
+        "TAR.10.1.3": 1,
+        "TAR.10.1.4": 1,
+        "TAR.10.2.1": 1,
+        "TAR.10.2.2": 2
+      }
+    },
+    {
+      "no": 6,
+      "dagilim": {
+        "TAR.10.1.1": null,
+        "TAR.10.1.2": null,
+        "TAR.10.1.3": 2,
+        "TAR.10.1.4": 2,
+        "TAR.10.2.1": 2,
+        "TAR.10.2.2": null
+      }
+    }
+  ]
+}

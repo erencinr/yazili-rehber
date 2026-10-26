@@ -1,0 +1,101 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 9. Sınıf Kimya Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/kimya4.xlsx",
+    "dosya": "kimya.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "KİM.9.1.1",
+      "unite": "etkileşim",
+      "konu": "Kimya Hayattır",
+      "konuSlug": "kimya-hayattir",
+      "metin": "Kimya biliminin günlük hayata katkısına ilişkin bilimsel çıkarım yapabilme"
+    },
+    {
+      "id": "KİM.9.1.2",
+      "unite": "etkileşim",
+      "konu": "Kimya Hayattır",
+      "konuSlug": "kimya-hayattir-2",
+      "metin": "Farklı ortamlarda kimyasal maddelerin kullanımından kaynaklanan problemleri çözebilme"
+    },
+    {
+      "id": "KİM.9.1.3",
+      "unite": "etkileşim",
+      "konu": "Atomdan Periyodik Tabloya",
+      "konuSlug": "atomdan-periyodik-tabloya",
+      "metin": "Atom teorilerindeki varsayımları kullanarak bilimsel bilginin değişebilirliğine ilişkin bilimsel çıkarım yapabilme"
+    },
+    {
+      "id": "KİM.9.1.4",
+      "unite": "etkileşim",
+      "konu": "Atomdan Periyodik Tabloya",
+      "konuSlug": "atomdan-periyodik-tabloya-2",
+      "metin": "Atom orbitallerinin bağıl enerjilerine ilişkin bilimsel veriye dayalı tahminde bulunabilme"
+    },
+    {
+      "id": "KİM.9.1.5",
+      "unite": "etkileşim",
+      "konu": "Atomdan Periyodik Tabloya",
+      "konuSlug": "atomdan-periyodik-tabloya-3",
+      "metin": "Elektronların atom orbitallerine yerleşimine ilişkin tümevarımsal akıl yürütebilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "KİM.9.1.1": null,
+        "KİM.9.1.2": 1,
+        "KİM.9.1.3": 2,
+        "KİM.9.1.4": 2,
+        "KİM.9.1.5": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "KİM.9.1.1": 1,
+        "KİM.9.1.2": null,
+        "KİM.9.1.3": 2,
+        "KİM.9.1.4": 2,
+        "KİM.9.1.5": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "KİM.9.1.1": 1,
+        "KİM.9.1.2": 1,
+        "KİM.9.1.3": 2,
+        "KİM.9.1.4": 2,
+        "KİM.9.1.5": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "KİM.9.1.1": 1,
+        "KİM.9.1.2": 1,
+        "KİM.9.1.3": 2,
+        "KİM.9.1.4": 1,
+        "KİM.9.1.5": null
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "KİM.9.1.1": 1,
+        "KİM.9.1.2": 1,
+        "KİM.9.1.3": 2,
+        "KİM.9.1.4": 2,
+        "KİM.9.1.5": 1
+      }
+    }
+  ]
+}

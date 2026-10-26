@@ -1,0 +1,150 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 5. Sınıf Türkçe Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/turkce2.xlsx",
+    "dosya": "turkce.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "T.O.5.5",
+      "unite": "okuma",
+      "konu": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme",
+      "konuSlug": "metinde-gecen-anlamini-bilmedigi-soz-varligi-unsurlarinin-anlamini",
+      "metin": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+      "id": "T.O.5.6",
+      "unite": "okuma",
+      "konu": "Metnin yüzey anlamını belirleyebilme",
+      "konuSlug": "metnin-yuzey-anlamini-belirleyebilme",
+      "metin": "Metnin yüzey anlamını belirleyebilme"
+    },
+    {
+      "id": "T.O.5.7",
+      "unite": "okuma",
+      "konu": "Görselle iletilen anlamı belirleyebilme",
+      "konuSlug": "gorselle-iletilen-anlami-belirleyebilme",
+      "metin": "Görselle iletilen anlamı belirleyebilme"
+    },
+    {
+      "id": "T.O.5.15",
+      "unite": "okuma",
+      "konu": "Metnin anahtar kelimelerini belirlemeye yönelik çözümleme yapabilme",
+      "konuSlug": "metnin-anahtar-kelimelerini-belirlemeye-yonelik-cozumleme-yapabilme",
+      "metin": "Metnin anahtar kelimelerini belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+      "id": "T.O.5.20",
+      "unite": "okuma",
+      "konu": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
+      "konuSlug": "metinden-hareketle-soz-varligini-gelistirmeye-yonelik-cozumleme",
+      "metin": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+      "id": "T.Y.5.3",
+      "unite": "yazma",
+      "konu": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme",
+      "konuSlug": "yazisinda-icerik-ve-yapiya-yonelik-secimlerini-yonetebilme",
+      "metin": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme"
+    },
+    {
+      "id": "T.Y.5.13",
+      "unite": "yazma",
+      "konu": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme",
+      "konuSlug": "yazisini-zenginlestirecek-bicimde-soz-varligini-kullanabilme",
+      "metin": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme"
+    },
+    {
+      "id": "T.Y.5.16",
+      "unite": "yazma",
+      "konu": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme",
+      "konuSlug": "yazim-ve-noktalama-isaretleriyle-ilgili-kurallari-uygulayabilme",
+      "metin": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "T.O.5.5": null,
+        "T.O.5.6": 2,
+        "T.O.5.7": 1,
+        "T.O.5.15": null,
+        "T.O.5.20": 1,
+        "T.Y.5.3": null,
+        "T.Y.5.13": 1,
+        "T.Y.5.16": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "T.O.5.5": 1,
+        "T.O.5.6": 1,
+        "T.O.5.7": 2,
+        "T.O.5.15": 1,
+        "T.O.5.20": null,
+        "T.Y.5.3": null,
+        "T.Y.5.13": null,
+        "T.Y.5.16": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "T.O.5.5": 1,
+        "T.O.5.6": 2,
+        "T.O.5.7": 1,
+        "T.O.5.15": 1,
+        "T.O.5.20": null,
+        "T.Y.5.3": null,
+        "T.Y.5.13": 1,
+        "T.Y.5.16": 1
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "T.O.5.5": null,
+        "T.O.5.6": 2,
+        "T.O.5.7": 2,
+        "T.O.5.15": null,
+        "T.O.5.20": 1,
+        "T.Y.5.3": null,
+        "T.Y.5.13": 1,
+        "T.Y.5.16": 1
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "T.O.5.5": 1,
+        "T.O.5.6": 2,
+        "T.O.5.7": 1,
+        "T.O.5.15": null,
+        "T.O.5.20": 1,
+        "T.Y.5.3": 1,
+        "T.Y.5.13": 1,
+        "T.Y.5.16": null
+      }
+    },
+    {
+      "no": 6,
+      "dagilim": {
+        "T.O.5.5": 1,
+        "T.O.5.6": 2,
+        "T.O.5.7": 1,
+        "T.O.5.15": 1,
+        "T.O.5.20": 1,
+        "T.Y.5.3": 1,
+        "T.Y.5.13": null,
+        "T.Y.5.16": 1
+      }
+    }
+  ]
+}

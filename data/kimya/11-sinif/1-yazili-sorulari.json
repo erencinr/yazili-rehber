@@ -1,0 +1,101 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 11. Sınıf Kimya Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/kimya4.xlsx",
+    "dosya": "kimya.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "KİM.11.1.1",
+      "unite": "etkileşim",
+      "konu": "Enerji",
+      "konuSlug": "enerji",
+      "metin": "Fiziksel ve kimyasal olaylardaki enerji değişimine ilişkin deney yapabilme"
+    },
+    {
+      "id": "KİM.11.1.2",
+      "unite": "etkileşim",
+      "konu": "Enerji",
+      "konuSlug": "enerji-2",
+      "metin": "Maddelerin enerji kaynağı olma potansiyeline ilişkin hipotezler oluşturabilme"
+    },
+    {
+      "id": "KİM.11.1.3",
+      "unite": "etkileşim",
+      "konu": "Enerji",
+      "konuSlug": "enerji-3",
+      "metin": "Bağ enerjileri temelinde tepkimelerin entalpi değişimine ilişkin tümevarımsal akıl yürütebilme"
+    },
+    {
+      "id": "KİM.11.1.4",
+      "unite": "etkileşim",
+      "konu": "Enerji",
+      "konuSlug": "enerji-4",
+      "metin": "Kimyasal tepkimelerin standart tepkime entalpilerini standart oluşum entalpi verilerini kullanarak tahmin edebilme"
+    },
+    {
+      "id": "KİM.11.1.5",
+      "unite": "etkileşim",
+      "konu": "Kimyasal Tepkimelerde Hız",
+      "konuSlug": "kimyasal-tepkimelerde-hiz",
+      "metin": "Kimyasal tepkimelerin gerçekleşme şartlarını açıklamak için kanıt kullanabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "KİM.11.1.1": 1,
+        "KİM.11.1.2": 2,
+        "KİM.11.1.3": 1,
+        "KİM.11.1.4": 3,
+        "KİM.11.1.5": null
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "KİM.11.1.1": null,
+        "KİM.11.1.2": 2,
+        "KİM.11.1.3": 1,
+        "KİM.11.1.4": 2,
+        "KİM.11.1.5": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "KİM.11.1.1": 1,
+        "KİM.11.1.2": 1,
+        "KİM.11.1.3": 1,
+        "KİM.11.1.4": 3,
+        "KİM.11.1.5": 1
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "KİM.11.1.1": 1,
+        "KİM.11.1.2": 2,
+        "KİM.11.1.3": 1,
+        "KİM.11.1.4": 1,
+        "KİM.11.1.5": 1
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "KİM.11.1.1": 1,
+        "KİM.11.1.2": 2,
+        "KİM.11.1.3": 1,
+        "KİM.11.1.4": 3,
+        "KİM.11.1.5": null
+      }
+    }
+  ]
+}

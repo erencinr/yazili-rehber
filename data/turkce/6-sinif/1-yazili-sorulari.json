@@ -1,0 +1,137 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "1-yazili-sorulari",
+  "ad": "1. dönem 1. yazılı",
+  "sira": 1,
+  "kaynak": {
+    "ad": "ÖDSGM 6. Sınıf Türkçe Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/turkce2.xlsx",
+    "dosya": "turkce.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "T.O.6.5",
+      "unite": "okuma",
+      "konu": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme",
+      "konuSlug": "metinde-gecen-anlamini-bilmedigi-soz-varligi-unsurlarinin-anlamini",
+      "metin": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+      "id": "T.O.6.6",
+      "unite": "okuma",
+      "konu": "Metnin yüzey anlamını belirleyebilme",
+      "konuSlug": "metnin-yuzey-anlamini-belirleyebilme",
+      "metin": "Metnin yüzey anlamını belirleyebilme"
+    },
+    {
+      "id": "T.O.6.16",
+      "unite": "okuma",
+      "konu": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme",
+      "konuSlug": "bilgilendirici-metinde-anahtar-kelimeleri-belirlemeye-yonelik",
+      "metin": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+      "id": "T.O.6.21",
+      "unite": "okuma",
+      "konu": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
+      "konuSlug": "metinden-hareketle-soz-varligini-gelistirmeye-yonelik-cozumleme",
+      "metin": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+      "id": "T.Y.6.3",
+      "unite": "yazma",
+      "konu": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme",
+      "konuSlug": "yazisinda-icerik-ve-yapiya-yonelik-secimlerini-yonetebilme",
+      "metin": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme"
+    },
+    {
+      "id": "T.Y.6.18",
+      "unite": "yazma",
+      "konu": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme",
+      "konuSlug": "yazisini-zenginlestirecek-bicimde-soz-varligini-kullanabilme",
+      "metin": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme"
+    },
+    {
+      "id": "T.Y.6.21",
+      "unite": "yazma",
+      "konu": "Yazım kuralları ve noktalama işaretlerini uygulayabilme",
+      "konuSlug": "yazim-kurallari-ve-noktalama-isaretlerini-uygulayabilme",
+      "metin": "Yazım kuralları ve noktalama işaretlerini uygulayabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "T.O.6.5": 1,
+        "T.O.6.6": 2,
+        "T.O.6.16": null,
+        "T.O.6.21": 1,
+        "T.Y.6.3": null,
+        "T.Y.6.18": 1,
+        "T.Y.6.21": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "T.O.6.5": null,
+        "T.O.6.6": 2,
+        "T.O.6.16": 1,
+        "T.O.6.21": 1,
+        "T.Y.6.3": 1,
+        "T.Y.6.18": null,
+        "T.Y.6.21": 1
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "T.O.6.5": 1,
+        "T.O.6.6": 1,
+        "T.O.6.16": 1,
+        "T.O.6.21": 1,
+        "T.Y.6.3": null,
+        "T.Y.6.18": 1,
+        "T.Y.6.21": 1
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "T.O.6.5": null,
+        "T.O.6.6": 2,
+        "T.O.6.16": null,
+        "T.O.6.21": 2,
+        "T.Y.6.3": 1,
+        "T.Y.6.18": null,
+        "T.Y.6.21": 1
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "T.O.6.5": null,
+        "T.O.6.6": 2,
+        "T.O.6.16": 1,
+        "T.O.6.21": 2,
+        "T.Y.6.3": 1,
+        "T.Y.6.18": null,
+        "T.Y.6.21": 1
+      }
+    },
+    {
+      "no": 6,
+      "dagilim": {
+        "T.O.6.5": 1,
+        "T.O.6.6": 2,
+        "T.O.6.16": 1,
+        "T.O.6.21": 1,
+        "T.Y.6.3": null,
+        "T.Y.6.18": 1,
+        "T.Y.6.21": 1
+      }
+    }
+  ]
+}

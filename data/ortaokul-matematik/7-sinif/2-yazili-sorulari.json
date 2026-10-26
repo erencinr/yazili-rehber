@@ -1,0 +1,149 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 7. Sınıf Matematik Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/ilkmat2.xlsx",
+    "dosya": "ortaokul-matematik.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "MAT.7.1.4",
+      "unite": "sayılar ve nicelikler (1)",
+      "konu": "Rasyonel Sayılarla İşlemler ve Problem Çözme",
+      "konuSlug": "rasyonel-sayilarla-islemler-ve-problem-cozme",
+      "metin": "Rasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme"
+    },
+    {
+      "id": "MAT.7.4.1",
+      "unite": "geometrik nicelikler (1)",
+      "konu": "Cisimlerin Farklı Yönlerden Görünümleri",
+      "konuSlug": "cisimlerin-farkli-yonlerden-gorunumleri",
+      "metin": "Eş küplerle oluşturulan yapılar ile görünümleri arasındaki ilişkiyi çözümleyebilme"
+    },
+    {
+      "id": "MAT.7.4.2",
+      "unite": "geometrik nicelikler (1)",
+      "konu": "Dikdörtgenler Prizmasının Hacmi ve Yüzey Alanı",
+      "konuSlug": "dikdortgenler-prizmasinin-hacmi-ve-yuzey-alani",
+      "metin": "Dikdörtgenler prizmasının yüzey alanını yorumlayabilme"
+    },
+    {
+      "id": "MAT.7.4.3",
+      "unite": "geometrik nicelikler (1)",
+      "konu": "Dikdörtgenler prizmasının hacmini eş nesneler aracılığıyla yorumlayabilme",
+      "konuSlug": "dikdortgenler-prizmasinin-hacmini-es-nesneler-araciligiyla",
+      "metin": "Dikdörtgenler prizmasının hacmini eş nesneler aracılığıyla yorumlayabilme"
+    },
+    {
+      "id": "MAT.7.4.4",
+      "unite": "geometrik nicelikler (1)",
+      "konu": "Dikdörtgenler prizmasının hacim bağıntısını değerlendirebilme",
+      "konuSlug": "dikdortgenler-prizmasinin-hacim-bagintisini-degerlendirebilme",
+      "metin": "Dikdörtgenler prizmasının hacim bağıntısını değerlendirebilme"
+    },
+    {
+      "id": "MAT.7.4.5",
+      "unite": "geometrik nicelikler (1)",
+      "konu": "Hacim Ölçme Birimleri",
+      "konuSlug": "hacim-olcme-birimleri",
+      "metin": "Hacim ölçme birimleri arasındaki ilişkileri değerlendirebilme"
+    },
+    {
+      "id": "MAT.7.4.6",
+      "unite": "geometrik nicelikler (1)",
+      "konu": "Dikdörtgenler Prizmasının Hacmi ve Yüzey Alanı",
+      "konuSlug": "dikdortgenler-prizmasinin-hacmi-ve-yuzey-alani-2",
+      "metin": "Günlük hayat durumlarında dikdörtgenler prizmaları ile modellenen cisimlerin yüzey alanı ve hacmine yönelik problem çözebilme"
+    },
+    {
+      "id": "MAT.7.6.1",
+      "unite": "istatistiksel araştırma süreci",
+      "konu": "Kategorik ve Nicel (Sürekli) Veri Dağılımları",
+      "konuSlug": "kategorik-ve-nicel-surekli-veri-dagilimlari",
+      "metin": "Kategorik veya nicel (sürekli) veri ile çalışabilme ve veriye dayalı karar verebilme"
+    },
+    {
+      "id": "MAT.7.6.2",
+      "unite": "istatistiksel araştırma süreci",
+      "konu": "Başkaları tarafından oluşturulan kategorik veya nicel (sürekli) veriye dayalı istatistiksel sonuç veya yorumları tartışabilme",
+      "konuSlug": "baskalari-tarafindan-olusturulan-kategorik-veya-nicel-surekli-veriye",
+      "metin": "Başkaları tarafından oluşturulan kategorik veya nicel (sürekli) veriye dayalı istatistiksel sonuç veya yorumları tartışabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "MAT.7.1.4": null,
+        "MAT.7.4.1": 1,
+        "MAT.7.4.2": 1,
+        "MAT.7.4.3": null,
+        "MAT.7.4.4": 1,
+        "MAT.7.4.5": 1,
+        "MAT.7.4.6": 2,
+        "MAT.7.6.1": 2,
+        "MAT.7.6.2": 1
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "MAT.7.1.4": 1,
+        "MAT.7.4.1": null,
+        "MAT.7.4.2": 2,
+        "MAT.7.4.3": null,
+        "MAT.7.4.4": 1,
+        "MAT.7.4.5": 1,
+        "MAT.7.4.6": 2,
+        "MAT.7.6.1": 2,
+        "MAT.7.6.2": null
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "MAT.7.1.4": null,
+        "MAT.7.4.1": null,
+        "MAT.7.4.2": 2,
+        "MAT.7.4.3": null,
+        "MAT.7.4.4": 1,
+        "MAT.7.4.5": 1,
+        "MAT.7.4.6": 1,
+        "MAT.7.6.1": 2,
+        "MAT.7.6.2": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "MAT.7.1.4": 1,
+        "MAT.7.4.1": 1,
+        "MAT.7.4.2": null,
+        "MAT.7.4.3": 1,
+        "MAT.7.4.4": null,
+        "MAT.7.4.5": 1,
+        "MAT.7.4.6": 2,
+        "MAT.7.6.1": 1,
+        "MAT.7.6.2": null
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "MAT.7.1.4": 2,
+        "MAT.7.4.1": null,
+        "MAT.7.4.2": null,
+        "MAT.7.4.3": 1,
+        "MAT.7.4.4": 1,
+        "MAT.7.4.5": 1,
+        "MAT.7.4.6": 2,
+        "MAT.7.6.1": null,
+        "MAT.7.6.2": null
+      }
+    }
+  ]
+}

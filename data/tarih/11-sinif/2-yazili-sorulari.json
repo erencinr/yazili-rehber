@@ -1,0 +1,124 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 11. Sınıf Tarih Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/tarih3.xlsx",
+    "dosya": "tarih.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "TAR.11.1.1",
+      "unite": "1. ünite: Değişen dünyada osmanlı (1683-1789)",
+      "konu": "Osmanlı Devleti’nin 1683-1789 Yılları Arasındaki Siyasi ve Askerî Mücadeleleri",
+      "konuSlug": "osmanli-devletinin-1683-1789-yillari-arasindaki-siyasi-ve-askeri",
+      "metin": "Osmanlı Devleti’nin 1683-1789 yılları arasındaki siyasi ve askerî mücadelelerini sonuçları açısından değerlendirebilme"
+    },
+    {
+      "id": "TAR.11.1.2",
+      "unite": "1. ünite: Değişen dünyada osmanlı (1683-1789)",
+      "konu": "Lale Devri’nin Devlet ve Toplum Hayatına Etkileri",
+      "konuSlug": "lale-devrinin-devlet-ve-toplum-hayatina-etkileri",
+      "metin": "Lale Devri’nde Osmanlı devlet ve toplum hayatında meydana gelen değişimi tarihsel bağlamı içerisinde yorumlayabilme"
+    },
+    {
+      "id": "TAR.11.1.3",
+      "unite": "1. ünite: Değişen dünyada osmanlı (1683-1789)",
+      "konu": "1755 Lizbon ve 1766 İstanbul Depremlerinin Etkileri",
+      "konuSlug": "1755-lizbon-ve-1766-istanbul-depremlerinin-etkileri",
+      "metin": "1755 Lizbon ve 1766 İstanbul depremlerini ortaya çıkardığı etkiler bakımından karşılaştırabilme"
+    },
+    {
+      "id": "TAR.11.1.4",
+      "unite": "1. ünite: Değişen dünyada osmanlı (1683-1789)",
+      "konu": "Sanayi Devrimi’nin Meydana Getirdiği Siyasi, Sosyal ve Ekonomik Değişim",
+      "konuSlug": "sanayi-devriminin-meydana-getirdigi-siyasi-sosyal-ve-ekonomik-degisim",
+      "metin": "Sanayi Devrimi’nin meydana getirdiği siyasi, sosyal ve ekonomik değişimi neden ve sonuçlarıyla birlikte yorumlayabilme"
+    },
+    {
+      "id": "TAR.11.2.1",
+      "unite": "2. ünite: Dönüşüm sürecinde osmanlı (1789-1908)",
+      "konu": "Fransız İhtilali’nin Devlet ve Toplum Hayatında Meydana Getirdiği Değişim",
+      "konuSlug": "fransiz-ihtilalinin-devlet-ve-toplum-hayatinda-meydana-getirdigi",
+      "metin": "Fransız İhtilali’nin devlet ve toplum hayatında meydana getirdiği değişimi neden ve sonuçlarıyla yorumlayabilme"
+    },
+    {
+      "id": "TAR.11.2.2",
+      "unite": "2. ünite: Dönüşüm sürecinde osmanlı (1789-1908)",
+      "konu": "1789-1908 Yılları Arasında Osmanlı Devleti’nde Meydana Gelen Siyasi, Askerî ve İdari Gelişmeler",
+      "konuSlug": "1789-1908-yillari-arasinda-osmanli-devletinde-meydana-gelen-siyasi",
+      "metin": "1789-1908 yılları arasında meydana gelen siyasi, askerî ve idari gelişmelerin Osmanlı Devleti’nin yönetim ve toplum yapısına etkilerini sorgulayabilme"
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "TAR.11.1.1": 1,
+        "TAR.11.1.2": null,
+        "TAR.11.1.3": null,
+        "TAR.11.1.4": 2,
+        "TAR.11.2.1": 2,
+        "TAR.11.2.2": 2
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "TAR.11.1.1": null,
+        "TAR.11.1.2": 1,
+        "TAR.11.1.3": 1,
+        "TAR.11.1.4": null,
+        "TAR.11.2.1": 2,
+        "TAR.11.2.2": 2
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "TAR.11.1.1": null,
+        "TAR.11.1.2": null,
+        "TAR.11.1.3": 1,
+        "TAR.11.1.4": 1,
+        "TAR.11.2.1": 2,
+        "TAR.11.2.2": 2
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "TAR.11.1.1": 1,
+        "TAR.11.1.2": 1,
+        "TAR.11.1.3": null,
+        "TAR.11.1.4": 1,
+        "TAR.11.2.1": 1,
+        "TAR.11.2.2": 2
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "TAR.11.1.1": null,
+        "TAR.11.1.2": 1,
+        "TAR.11.1.3": 1,
+        "TAR.11.1.4": 1,
+        "TAR.11.2.1": 1,
+        "TAR.11.2.2": 2
+      }
+    },
+    {
+      "no": 6,
+      "dagilim": {
+        "TAR.11.1.1": null,
+        "TAR.11.1.2": null,
+        "TAR.11.1.3": 2,
+        "TAR.11.1.4": 2,
+        "TAR.11.2.1": 2,
+        "TAR.11.2.2": null
+      }
+    }
+  ]
+}

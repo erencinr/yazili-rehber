@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ScenarioTable } from "@/components/ScenarioTable";
+import { UlkeGeneliKutusu } from "@/components/UlkeGeneliKutusu";
 import { Breadcrumb, Card, Chip, Container, FaqAccordion, H2, PageHero } from "@/components/ui";
 import { site } from "@/config/site";
-import { getDers, getDersler, getYazililar, sinifNo } from "@/lib/data";
+import { getDers, getDersler, getYazililar, senaryoSoruSayisi, sinifNo } from "@/lib/data";
 
 export function generateStaticParams() {
   return getDersler().flatMap((d) => d.siniflar.map((s) => ({ ders: d.slug, sinif: s.slug })));
@@ -35,7 +36,7 @@ export default async function SinifPage({ params }: PageProps<"/dersler/[ders]/[
   const n = sinifNo(sinif.slug);
   const yazililar = getYazililar(ders.slug, sinif.slug);
   const taban = `/dersler/${ders.slug}/${sinif.slug}/`;
-  const ilk = yazililar[0];
+  const ilk = yazililar.find((y) => !y.ulkeGeneli);
   const ayniSinifDersleri = getDersler().filter((d) => d.slug !== ders.slug && d.siniflar.some((s) => s.slug === sinif.slug));
 
   return (
@@ -51,6 +52,7 @@ export default async function SinifPage({ params }: PageProps<"/dersler/[ders]/[
         <p className="text-lg text-ink/80">
           Her yazılı için senaryoların hangi öğrenme çıktısından kaç soru içerdiğini tabloda gör, kâğıdı aç ve çöz.
         </p>
+        {sinif.not && <p className="rounded-xl bg-forest-50 p-3 text-sm text-ink/85">{sinif.not}</p>}
       </PageHero>
       <Container className="space-y-14 py-12">
         {yazililar.length === 0 ? (
@@ -70,7 +72,14 @@ export default async function SinifPage({ params }: PageProps<"/dersler/[ders]/[
                 </Link>
               </div>
               {y.tarihAraligi && <p className="text-sm text-muted">Tarih aralığı: {y.tarihAraligi}</p>}
-              <ScenarioTable ciktilar={y.ciktilar} senaryolar={y.senaryolar} hrefOnEk={`${taban}${y.slug}/`} />
+              {y.ulkeGeneli ? (
+                <UlkeGeneliKutusu duyuru={y.duyuru} />
+              ) : (
+                <>
+                  <ScenarioTable ciktilar={y.ciktilar} senaryolar={y.senaryolar} hrefOnEk={`${taban}${y.slug}/`} />
+                  <p className="text-sm text-muted">Kaynak: {y.kaynak.ad}. Bağlantılı başlıklar çözülebilir kâğıtlardır.</p>
+                </>
+              )}
             </section>
           ))
         )}
@@ -79,17 +88,18 @@ export default async function SinifPage({ params }: PageProps<"/dersler/[ders]/[
           <h3 className="font-serif text-xl">Bu tablo nasıl okunur?</h3>
           <p className="mt-2 text-ink/80">
             Satırlar öğrenme çıktılarını, sütunlar senaryoları gösterir. Hücredeki sayı o senaryoda o çıktıdan kaç soru
-            sorulduğunu, “—” ise hiç soru olmadığını belirtir. Sütun başlığına tıklayarak kâğıdı açabilirsin.
+            sorulacağını, “—” ise hiç soru olmadığını belirtir. Sayılar ÖDSGM’nin yayımladığı resmî tablodan alınmıştır.
+            Bağlantılı sütun başlıklarına tıklayarak kâğıdı çözebilirsin.
           </p>
         </Card>
 
         {ilk && (
           <FaqAccordion
             items={[
-              { soru: `${n}. sınıf ${ders.ad} ${ilk.ad}sında kaç soru var?`, cevap: `Senaryoya göre değişir: ${ilk.senaryolar.map((s) => `Senaryo ${s.no}'de ${s.sorular.length}`).join(", ")} soru bulunuyor.` },
+              { soru: `${n}. sınıf ${ders.ad} ${ilk.ad}sında kaç soru var?`, cevap: `Resmî tabloya göre senaryoya değişir: ${ilk.senaryolar.map((s) => `Senaryo ${s.no}'de ${senaryoSoruSayisi(s)}`).join(", ")} soru.` },
               { soru: `${n}. sınıf ${ders.ad} yazılısı kaç puan?`, cevap: "Her senaryo kâğıdı toplam 100 puandır. Puanlar soruların alt maddelerine dağıtılmıştır." },
               { soru: "Sınavda hangi senaryo çıkacak?", cevap: "Hangi senaryonun uygulanacağı sınavdan önce belirlenir. Bu yüzden tüm senaryolara çalışmak en güvenli yoldur." },
-              { soru: `${n}. sınıf ${ders.ad} yazılısı ne kadar sürer?`, cevap: `Bu sitedeki kâğıtlar ${ilk.senaryolar[0].sureDk} dakikalık süreyle hazırlanmıştır.` },
+              { soru: `${n}. sınıf ${ders.ad} yazılısı ne kadar sürer?`, cevap: "Sınav süresini okul belirler; bu sitedeki çalışma kâğıtları 40 dakikalık süreyle hazırlanmıştır." },
               { soru: `${n}. sınıf ${ders.ad} ${ilk.ad} ne zaman?`, cevap: ilk.tarihAraligi ? `Planlanan aralık: ${ilk.tarihAraligi}. Kesin tarih için takvim sayfasına bak.` : "Takvim sayfasında güncel tarihleri bulabilirsin." },
             ]}
           />

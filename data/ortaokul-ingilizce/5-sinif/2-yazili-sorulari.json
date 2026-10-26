@@ -1,0 +1,245 @@
+{
+  "$aciklama": "Bu dosya scripts/tablo-aktar.mjs ile ÖDSGM tablosundan üretilir; elle düzenleme. Sorular .sorular.json dosyasında.",
+  "slug": "2-yazili-sorulari",
+  "ad": "1. dönem 2. yazılı",
+  "sira": 2,
+  "kaynak": {
+    "ad": "ÖDSGM 5. Sınıf İngilizce Konu Soru Dağılım Tablosu",
+    "url": "https://cdn.eba.gov.tr/yardimcikaynaklar/2026/09/KSDT/ingilizce_orta2.xlsx",
+    "dosya": "ortaokul-ingilizce.xlsx",
+    "alindi": "2026-10-26"
+  },
+  "ciktilar": [
+    {
+      "id": "ENG.5.1.R2",
+      "unite": "school lıfe",
+      "konu": "Students can bring information about the current content on “school life with people, places and rules at school; school clubs; countries; national days and celebrations” through skimming (looking quickly at) the audio-visual elements and reading the content very quickly.",
+      "konuSlug": "students-can-bring-information-about-the-current-content-on-school",
+      "metin": "Students can bring information about the current content on “school life with people, places and rules at school; school clubs; countries; national days and celebrations” through skimming (looking quickly at) the audio-visual elements and reading the content very quickly."
+    },
+    {
+      "id": "ENG.5.1.R3",
+      "unite": "school lıfe",
+      "konu": "Students can make meaning of / derive meaning from the current content about “school life with people, places and rules at school; school clubs; countries; national days and celebrations” by reading it carefully.",
+      "konuSlug": "students-can-make-meaning-of-derive-meaning-from-the-current-content",
+      "metin": "Students can make meaning of / derive meaning from the current content about “school life with people, places and rules at school; school clubs; countries; national days and celebrations” by reading it carefully."
+    },
+    {
+      "id": "ENG.5.1.V1",
+      "unite": "school lıfe",
+      "konu": "Students can select and use the target vocabulary of the current content about “school life with people, places and rules at school; school clubs; countries; national days and celebrations” accurately, authentically, spontaneously, and naturally and use it appropriately and effectively when communicating with others.",
+      "konuSlug": "students-can-select-and-use-the-target-vocabulary-of-the-current",
+      "metin": "Students can select and use the target vocabulary of the current content about “school life with people, places and rules at school; school clubs; countries; national days and celebrations” accurately, authentically, spontaneously, and naturally and use it appropriately and effectively when communicating with others."
+    },
+    {
+      "id": "ENG.5.1.G1",
+      "unite": "school lıfe",
+      "konu": "Students can select and use the target grammatical elements of the current content about “school life with people, places and rules at school; school clubs; countries; national days and celebrations” accurately, authentically, spontaneously, and naturally and use it appropriately and effectively when communicating with others.",
+      "konuSlug": "students-can-select-and-use-the-target-grammatical-elements-of-the",
+      "metin": "Students can select and use the target grammatical elements of the current content about “school life with people, places and rules at school; school clubs; countries; national days and celebrations” accurately, authentically, spontaneously, and naturally and use it appropriately and effectively when communicating with others."
+    },
+    {
+      "id": "ENG.5.1.W3",
+      "unite": "school lıfe",
+      "konu": "Students can organise a content for the assigned writing task on the current content “school life with people, places and rules at school; school clubs; countries; national days and celebrations” based on the model/example provided.",
+      "konuSlug": "students-can-organise-a-content-for-the-assigned-writing-task-on-the",
+      "metin": "Students can organise a content for the assigned writing task on the current content “school life with people, places and rules at school; school clubs; countries; national days and celebrations” based on the model/example provided."
+    },
+    {
+      "id": "ENG.5.1.W4",
+      "unite": "school lıfe",
+      "konu": "Students can individually construct/form content for the assigned writing task on the current content “school life with people, places and rules at school; school clubs; countries; national days and celebrations”.",
+      "konuSlug": "students-can-individually-construct-form-content-for-the-assigned",
+      "metin": "Students can individually construct/form content for the assigned writing task on the current content “school life with people, places and rules at school; school clubs; countries; national days and celebrations”."
+    },
+    {
+      "id": "ENG.5.2.R2",
+      "unite": "classroom lıfe",
+      "konu": "Students can bring information about the current content on “classroom life with classroom rules and language; school subjects; timetables; classroom objects; days of the week; time” through skimming (looking quickly at) the audio-visual elements and reading the content very quickly.",
+      "konuSlug": "students-can-bring-information-about-the-current-content-on-classroom",
+      "metin": "Students can bring information about the current content on “classroom life with classroom rules and language; school subjects; timetables; classroom objects; days of the week; time” through skimming (looking quickly at) the audio-visual elements and reading the content very quickly."
+    },
+    {
+      "id": "ENG.5.2.R3",
+      "unite": "classroom lıfe",
+      "konu": "Students can make meaning of / derive meaning from the current content about “classroom life with classroom rules and language; school subjects; timetables; classroom objects; days of the week; time” by reading it carefully.",
+      "konuSlug": "students-can-make-meaning-of-derive-meaning-from-the-current-content-2",
+      "metin": "Students can make meaning of / derive meaning from the current content about “classroom life with classroom rules and language; school subjects; timetables; classroom objects; days of the week; time” by reading it carefully."
+    },
+    {
+      "id": "ENG.5.2.V1",
+      "unite": "classroom lıfe",
+      "konu": "Students can select and use the target vocabulary of the current content about “classroom life with classroom rules and language; school subjects; timetables; classroom objects; days of the week; time” accurately, authentically, spontaneously, and naturally and use it appropriately and effectively when communicating with others.",
+      "konuSlug": "students-can-select-and-use-the-target-vocabulary-of-the-current-2",
+      "metin": "Students can select and use the target vocabulary of the current content about “classroom life with classroom rules and language; school subjects; timetables; classroom objects; days of the week; time” accurately, authentically, spontaneously, and naturally and use it appropriately and effectively when communicating with others."
+    },
+    {
+      "id": "ENG.5.2.G1",
+      "unite": "classroom lıfe",
+      "konu": "Students can select and use the target grammatical elements of the current content about “classroom life with classroom rules and language; school subjects; timetables; classroom objects; days of the week; time” accurately, authentically, spontaneously, and naturally and use it appropriately and effectively when communicating with others.",
+      "konuSlug": "students-can-select-and-use-the-target-grammatical-elements-of-the-2",
+      "metin": "Students can select and use the target grammatical elements of the current content about “classroom life with classroom rules and language; school subjects; timetables; classroom objects; days of the week; time” accurately, authentically, spontaneously, and naturally and use it appropriately and effectively when communicating with others."
+    },
+    {
+      "id": "ENG.5.2.W3",
+      "unite": "classroom lıfe",
+      "konu": "Students can organise a content for the assigned writing task on the current content “classroom life with classroom rules and language; school subjects; timetables; classroom objects; days of the week; time” based on the model/example provided.",
+      "konuSlug": "students-can-organise-a-content-for-the-assigned-writing-task-on-the-2",
+      "metin": "Students can organise a content for the assigned writing task on the current content “classroom life with classroom rules and language; school subjects; timetables; classroom objects; days of the week; time” based on the model/example provided."
+    },
+    {
+      "id": "ENG.5.2.W4",
+      "unite": "classroom lıfe",
+      "konu": "Students can individually construct/form content for the assigned writing task on the current content “classroom life with classroom rules and language; school subjects; timetables; classroom objects; days of the week; time”.",
+      "konuSlug": "students-can-individually-construct-form-content-for-the-assigned-2",
+      "metin": "Students can individually construct/form content for the assigned writing task on the current content “classroom life with classroom rules and language; school subjects; timetables; classroom objects; days of the week; time”."
+    },
+    {
+      "id": "ENG.5.3.R2",
+      "unite": "personal lıfe",
+      "konu": "Students can bring information about the current content on “personal life with basic body parts and physical features; clothes; daily routines and activities” through skimming (looking quickly at) the audio-visual elements and reading the content very quickly.",
+      "konuSlug": "students-can-bring-information-about-the-current-content-on-personal",
+      "metin": "Students can bring information about the current content on “personal life with basic body parts and physical features; clothes; daily routines and activities” through skimming (looking quickly at) the audio-visual elements and reading the content very quickly."
+    },
+    {
+      "id": "ENG.5.3.R3",
+      "unite": "personal lıfe",
+      "konu": "Students can make meaning of / derive meaning from the current content about “personal life with basic body parts and physical features; clothes; daily routines and activities” by reading it carefully.",
+      "konuSlug": "students-can-make-meaning-of-derive-meaning-from-the-current-content-3",
+      "metin": "Students can make meaning of / derive meaning from the current content about “personal life with basic body parts and physical features; clothes; daily routines and activities” by reading it carefully."
+    },
+    {
+      "id": "ENG.5.3.V1",
+      "unite": "personal lıfe",
+      "konu": "Students can select and use the target vocabulary of the current content about “personal life with basic body parts and physical features; clothes; daily routines and activities” accurately, authentically, spontaneously, and naturally and use it appropriately and effectively when communicating with others.",
+      "konuSlug": "students-can-select-and-use-the-target-vocabulary-of-the-current-3",
+      "metin": "Students can select and use the target vocabulary of the current content about “personal life with basic body parts and physical features; clothes; daily routines and activities” accurately, authentically, spontaneously, and naturally and use it appropriately and effectively when communicating with others."
+    },
+    {
+      "id": "ENG.5.3.G1",
+      "unite": "personal lıfe",
+      "konu": "Students can select and use the target grammatical elements of the current content about “personal life with basic body parts and physical features; clothes; daily routines and activities” accurately, authentically, spontaneously, and naturally and use it appropriately and effectively when communicating with others.",
+      "konuSlug": "students-can-select-and-use-the-target-grammatical-elements-of-the-3",
+      "metin": "Students can select and use the target grammatical elements of the current content about “personal life with basic body parts and physical features; clothes; daily routines and activities” accurately, authentically, spontaneously, and naturally and use it appropriately and effectively when communicating with others."
+    },
+    {
+      "id": "ENG.5.3.W3",
+      "unite": "personal lıfe",
+      "konu": "Students can organise a content for the assigned writing task on the current content “personal life with basic body parts and physical features; clothes; daily routines and activities” based on the model/example provided.",
+      "konuSlug": "students-can-organise-a-content-for-the-assigned-writing-task-on-the-3",
+      "metin": "Students can organise a content for the assigned writing task on the current content “personal life with basic body parts and physical features; clothes; daily routines and activities” based on the model/example provided."
+    }
+  ],
+  "senaryolar": [
+    {
+      "no": 1,
+      "dagilim": {
+        "ENG.5.1.R2": null,
+        "ENG.5.1.R3": 1,
+        "ENG.5.1.V1": null,
+        "ENG.5.1.G1": 1,
+        "ENG.5.1.W3": null,
+        "ENG.5.1.W4": 1,
+        "ENG.5.2.R2": null,
+        "ENG.5.2.R3": 1,
+        "ENG.5.2.V1": null,
+        "ENG.5.2.G1": null,
+        "ENG.5.2.W3": null,
+        "ENG.5.2.W4": null,
+        "ENG.5.3.R2": 1,
+        "ENG.5.3.R3": null,
+        "ENG.5.3.V1": null,
+        "ENG.5.3.G1": null,
+        "ENG.5.3.W3": null
+      }
+    },
+    {
+      "no": 2,
+      "dagilim": {
+        "ENG.5.1.R2": 1,
+        "ENG.5.1.R3": null,
+        "ENG.5.1.V1": null,
+        "ENG.5.1.G1": 1,
+        "ENG.5.1.W3": null,
+        "ENG.5.1.W4": null,
+        "ENG.5.2.R2": null,
+        "ENG.5.2.R3": 1,
+        "ENG.5.2.V1": 1,
+        "ENG.5.2.G1": null,
+        "ENG.5.2.W3": 1,
+        "ENG.5.2.W4": null,
+        "ENG.5.3.R2": null,
+        "ENG.5.3.R3": null,
+        "ENG.5.3.V1": 1,
+        "ENG.5.3.G1": null,
+        "ENG.5.3.W3": null
+      }
+    },
+    {
+      "no": 3,
+      "dagilim": {
+        "ENG.5.1.R2": null,
+        "ENG.5.1.R3": 1,
+        "ENG.5.1.V1": 1,
+        "ENG.5.1.G1": null,
+        "ENG.5.1.W3": null,
+        "ENG.5.1.W4": null,
+        "ENG.5.2.R2": 1,
+        "ENG.5.2.R3": null,
+        "ENG.5.2.V1": null,
+        "ENG.5.2.G1": null,
+        "ENG.5.2.W3": null,
+        "ENG.5.2.W4": 1,
+        "ENG.5.3.R2": 1,
+        "ENG.5.3.R3": null,
+        "ENG.5.3.V1": null,
+        "ENG.5.3.G1": 1,
+        "ENG.5.3.W3": null
+      }
+    },
+    {
+      "no": 4,
+      "dagilim": {
+        "ENG.5.1.R2": 1,
+        "ENG.5.1.R3": null,
+        "ENG.5.1.V1": null,
+        "ENG.5.1.G1": null,
+        "ENG.5.1.W3": 1,
+        "ENG.5.1.W4": null,
+        "ENG.5.2.R2": 1,
+        "ENG.5.2.R3": null,
+        "ENG.5.2.V1": 1,
+        "ENG.5.2.G1": 1,
+        "ENG.5.2.W3": null,
+        "ENG.5.2.W4": null,
+        "ENG.5.3.R2": null,
+        "ENG.5.3.R3": 1,
+        "ENG.5.3.V1": 1,
+        "ENG.5.3.G1": null,
+        "ENG.5.3.W3": null
+      }
+    },
+    {
+      "no": 5,
+      "dagilim": {
+        "ENG.5.1.R2": 1,
+        "ENG.5.1.R3": null,
+        "ENG.5.1.V1": 1,
+        "ENG.5.1.G1": null,
+        "ENG.5.1.W3": null,
+        "ENG.5.1.W4": null,
+        "ENG.5.2.R2": 1,
+        "ENG.5.2.R3": 1,
+        "ENG.5.2.V1": 1,
+        "ENG.5.2.G1": null,
+        "ENG.5.2.W3": null,
+        "ENG.5.2.W4": null,
+        "ENG.5.3.R2": 1,
+        "ENG.5.3.R3": null,
+        "ENG.5.3.V1": null,
+        "ENG.5.3.G1": 1,
+        "ENG.5.3.W3": 1
+      }
+    }
+  ]
+}

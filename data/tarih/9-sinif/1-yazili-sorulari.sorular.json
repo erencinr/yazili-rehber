@@ -1,0 +1,189 @@
+{
+  "not": "TASLAK: Kaynak metinler kurgusaldır. Sorular yayın öncesi bir tarih öğretmeni tarafından gözden geçirilmelidir.",
+  "konuKisaAdlari": {
+    "tarih-ogrenmenin-faydalari": "Tarihin faydaları",
+    "tarihin-dogasi": "Tarihin doğası",
+    "tarihsel-bilginin-uretim-sureci": "Bilginin üretimi"
+  },
+  "senaryolar": [
+    {
+      "no": 1,
+      "sureDk": 40,
+      "sorular": [
+        {
+          "no": 1,
+          "konuSlug": "tarih-ogrenmenin-faydalari",
+          "baslik": "Geçmişin Kaydı, Bugünün Kararı",
+          "puan": 14,
+          "kaynaklar": [
+            {"etiket":"Kaynak A","metin":"Bir kıyı kasabasının arşivinde yüz yılı aşkın süre önce tutulmuş bir kayıt bulunur: \"Büyük fırtınada deniz, çarşının ikinci sokağına kadar yükseldi. Kuyular tuzlu suyla doldu, aşağı mahalle günlerce boşaltıldı.\"","dipnot":"Kurgusal kaynak; sınav için hazırlanmıştır."},
+            {"etiket":"Kaynak B","metin":"Kasaba belediyesi, yeni sağlık ocağının yerini belirlerken arşivdeki bu kaydı inceler ve binayı çarşının yukarısındaki tepeye yaptırmaya karar verir."}
+          ],
+          "maddeler": [
+            {"no":"1.1","puan":14,"soru":"Kaynak A'daki kaydın bugün kasaba halkı için neden değerli olduğunu Kaynak B'den yararlanarak açıklayınız.","cevapOrnegi":"Kayıt, geçmişte denizin nereye kadar yükseldiğini gösterir. Belediye bu bilgiyle yeni binayı su baskını riski olmayan bir yere yaptırır; yani geçmişin bilgisi bugünün kararlarına yol gösterir.","rubrik":[{"aciklama":"Kaydın geçmişteki bir tehlikeyi/olayı belgelediğini belirtti","puan":6},{"aciklama":"Kaynak B'deki karara bağlayarak bugüne etkisini açıkladı","puan":8}]}
+          ]
+        },
+        {
+          "no": 2,
+          "konuSlug": "tarih-ogrenmenin-faydalari",
+          "baslik": "Dedemin Göç Belgesi",
+          "puan": 14,
+          "kaynaklar": [
+            {"etiket":"Kaynak","metin":"Ece, dedesinin sandığında ailesinin Balkanlardan Türkiye'ye göç ederken aldığı bir belge bulur. Belgede ailenin geldiği köy, yolculuk tarihi ve yerleştirildikleri kasaba yazılıdır. Ece, belgeyi okuduktan sonra ailesinin neden bazı yemekleri yaptığını ve bayramlarda neden belirli türküleri söylediğini daha iyi anladığını söyler.","dipnot":"Kurgusal kaynak."}
+          ],
+          "maddeler": [
+            {"no":"2.1","puan":14,"soru":"Ece'nin yaşadığı deneyimden yola çıkarak tarih öğrenmenin bireyin kimlik ve aidiyet duygusuna katkısını açıklayınız.","cevapOrnegi":"Belge, Ece'ye ailesinin nereden geldiğini ve hangi yollardan geçtiğini gösterir. Böylece ailesindeki gelenekleri geçmişle ilişkilendirir; kim olduğunu ve nereye ait olduğunu daha iyi anlar. Tarih bilgisi bireyin kendini tanımasına ve kökleriyle bağ kurmasına yardım eder.","rubrik":[{"aciklama":"Belgenin ailenin geçmişine dair bilgi verdiğini belirtti","puan":4},{"aciklama":"Ailedeki geleneklerle geçmiş arasında bağ kurdu","puan":4},{"aciklama":"Kimlik ve aidiyet duygusuna katkıyı açıkladı","puan":6}]}
+          ]
+        },
+        {
+          "no": 3,
+          "konuSlug": "tarih-ogrenmenin-faydalari",
+          "baslik": "Mahallenin Eski Hamamı",
+          "puan": 15,
+          "kaynaklar": [
+            {"etiket":"Kaynak A","metin":"Bir mahallede eski bir hamamın yıkılıp yerine otopark yapılması tartışılır. Mahallenin yaşlıları hamamın, düğün ve bayram hazırlıklarında herkesin buluştuğu bir yer olduğunu anlatır.","dipnot":"Kurgusal kaynak."},
+            {"etiket":"Kaynak B","metin":"Belediye, hamamın geçmişini araştıran lise öğrencilerinin hazırladığı sunumu dinledikten sonra binayı onarıp kültür merkezine dönüştürmeye karar verir."}
+          ],
+          "maddeler": [
+            {"no":"3.1","puan":15,"soru":"Öğrencilerin araştırmasının belediyenin kararını nasıl etkilediğini açıklayınız. Bu örnekten yola çıkarak tarih bilgisinin kültürel mirasın korunmasına katkısını yazınız.","cevapOrnegi":"Araştırma, hamamın mahallenin ortak hafızasındaki yerini ortaya koymuş ve belediyeyi binayı yıkmak yerine korumaya yöneltmiştir. Tarih bilgisi, bir yapının yalnızca bina olmadığını, bir topluluğun yaşamına tanıklık ettiğini gösterir; bu da insanları mirası korumaya istekli kılar.","rubrik":[{"aciklama":"Araştırmanın ortaya çıkardığı bilgiyi belirtti","puan":4},{"aciklama":"Bu bilgiyi belediyenin kararıyla ilişkilendirdi","puan":5},{"aciklama":"Tarih bilgisinin kültürel mirasın korunmasına katkısını açıkladı","puan":6}]}
+          ]
+        },
+        {
+          "no": 4,
+          "konuSlug": "tarihin-dogasi",
+          "baslik": "Bir Köprü, İki Anlatım",
+          "puan": 14,
+          "kaynaklar": [
+            {"etiket":"Kaynak A","metin":"Saray kâtibinin kaydı: \"Köprü, padişahın emriyle üç yılda tamamlandı. Açılış günü halk büyük bir coşkuyla toplandı, şehrin iki yakası birleşti.\"","dipnot":"Kurgusal kaynak."},
+            {"etiket":"Kaynak B","metin":"Aynı yıllardan kalan bir köylü mektubu: \"Köprü işinde çalışmak için tarladan alındık. Hasat yarım kaldı, kışı zor geçirdik.\"","dipnot":"Kurgusal kaynak."}
+          ],
+          "maddeler": [
+            {"no":"4.1","puan":6,"soru":"Kaynak A ve Kaynak B'nin köprünün yapımını kimin bakış açısından anlattığını yazınız.","cevapOrnegi":"Kaynak A, yönetimin (sarayın) bakış açısından köprüyü bir başarı olarak anlatır. Kaynak B ise köprüde çalıştırılan köylülerin bakış açısından yaşanan zorluğu anlatır.","rubrik":[{"aciklama":"Kaynak A'nın yönetimin/sarayın bakış açısını yansıttığını belirtti","puan":3},{"aciklama":"Kaynak B'nin halkın/köylünün bakış açısını yansıttığını belirtti","puan":3}]},
+            {"no":"4.2","puan":8,"soru":"Bu köprünün yapılışını araştıran bir tarihçi neden yalnızca tek bir kaynağa dayanmamalıdır? Açıklayınız.","cevapOrnegi":"Her kaynak, yazanın konumunu ve amacını yansıtır. Yalnızca saray kaydına bakan tarihçi köylülerin yaşadığı zorluğu göremez. Kaynakları karşılaştırmak daha dengeli ve kanıta dayalı bir yorum yapmayı sağlar.","rubrik":[{"aciklama":"Kaynakların yazarın konumunu/amacını yansıttığını belirtti","puan":4},{"aciklama":"Karşılaştırmanın daha dengeli yorum sağladığını açıkladı","puan":4}]}
+          ]
+        },
+        {
+          "no": 5,
+          "konuSlug": "tarihin-dogasi",
+          "baslik": "Aynı Savaş, İki Ödev",
+          "puan": 13,
+          "kaynaklar": [
+            {"etiket":"Kaynak","metin":"İki öğrenci, aynı savaşı anlatan ödevlerini sınıfta okur. Ayşe savaşın nedenini ülkedeki ekonomik sıkıntılara, Can ise iki hükümdar arasındaki rekabete bağlar. İki öğrenci de ödevinde dönemin belgelerinden alıntı yapmıştır."}
+          ],
+          "maddeler": [
+            {"no":"5.1","puan":13,"soru":"Sizce bu iki açıklamadan biri mutlaka yanlış mıdır? Tarihin doğasına ilişkin bilginizi kullanarak görüşünüzü gerekçelendiriniz.","cevapOrnegi":"Hayır. Tarihî olayların çoğu tek bir nedene bağlı değildir; ekonomik sıkıntılar ve hükümdarlar arasındaki rekabet birlikte etkili olmuş olabilir. Kanıta dayandıkları sürece iki yorum da geçerli olabilir ve birbirini tamamlar.","rubrik":[{"aciklama":"Gerekçeli bir görüş bildirdi","puan":4},{"aciklama":"Olayların çok nedenli olabileceğini belirtti","puan":4},{"aciklama":"Kanıta dayalı yorumların birlikte geçerli olabileceğini açıkladı","puan":5}]}
+          ]
+        },
+        {
+          "no": 6,
+          "konuSlug": "tarihsel-bilginin-uretim-sureci",
+          "baslik": "Kazı Alanı ve Gezi Kitabı",
+          "puan": 15,
+          "kaynaklar": [
+            {"etiket":"Kaynak A","metin":"Bir höyükte yapılan kazıda toprak kaplar, kömürleşmiş buğday taneleri, öğütme taşları ve ocak kalıntıları bulunur.","dipnot":"Kurgusal kaynak."},
+            {"etiket":"Kaynak B","metin":"Aynı bölge hakkında yüzyıllar sonra yazılmış bir gezi kitabında \"Buranın eski halkı yalnızca avcılıkla geçinirdi.\" ifadesi yer alır.","dipnot":"Kurgusal kaynak."}
+          ],
+          "maddeler": [
+            {"no":"6.1","puan":6,"soru":"Kaynak A ve Kaynak B'yi birinci el ve ikinci el kaynak olarak sınıflandırıp gerekçesini yazınız.","cevapOrnegi":"Kaynak A birinci el kaynaktır, çünkü doğrudan o dönemin insanlarından kalmıştır. Kaynak B ikinci el kaynaktır, çünkü olaylardan çok sonra başka birinin anlatımıyla yazılmıştır.","rubrik":[{"aciklama":"Kaynak A'yı doğru sınıflandırıp gerekçelendirdi","puan":3},{"aciklama":"Kaynak B'yi doğru sınıflandırıp gerekçelendirdi","puan":3}]},
+            {"no":"6.2","puan":9,"soru":"Bölge halkının geçim kaynağı konusunda hangi kaynak daha güçlü kanıt sunar? Gerekçesiyle açıklayınız.","cevapOrnegi":"Buğday taneleri ve öğütme taşları tarım yapıldığını gösterirken gezi kitabı yalnızca avcılıktan söz eder. Kazı buluntuları dönemin kendisinden kaldığı için daha güçlü kanıttır. Yine de kesin bir sonuç için başka kazı ve belgelerle karşılaştırma yapılmalıdır.","rubrik":[{"aciklama":"Kaynaklar arasındaki çelişkiyi belirledi","puan":3},{"aciklama":"Daha güçlü kanıtı gerekçesiyle seçti","puan":4},{"aciklama":"Ek kanıt/karşılaştırma gereğine değindi","puan":2}]}
+          ]
+        },
+        {
+          "no": 7,
+          "konuSlug": "tarihsel-bilginin-uretim-sureci",
+          "baslik": "Bir Tanığın Anlattıkları",
+          "puan": 15,
+          "kaynaklar": [
+            {"etiket":"Kaynak","metin":"Bir lise öğrencisi, yıllar önce şehirlerinde yaşanan büyük depremi hatırlayan komşusuyla görüşür ve anlatılanları ses kaydına alır. Komşusu o geceyi, insanların birbirine nasıl yardım ettiğini ayrıntılarıyla anlatır; ancak depremin saatini ve bazı binaların yerini yanlış hatırlar.","dipnot":"Kurgusal kaynak."}
+          ],
+          "maddeler": [
+            {"no":"7.1","puan":15,"soru":"Sözlü tarih kaynaklarının tarihsel bilginin üretimine katkısını ve sınırlılığını kaynaktan yararlanarak açıklayınız. Öğrencinin bu tanıklığı nasıl doğrulayabileceğine bir örnek veriniz.","cevapOrnegi":"Sözlü tanıklıklar, yazılı belgelerde yer almayan duyguları ve gündelik yaşamı gösterir; insanların birbirine yardımı buna örnektir. Ancak insan hafızası zamanla yanılabilir; komşunun saati ve bina yerlerini yanlış hatırlaması bunu gösterir. Öğrenci anlatılanları dönemin gazeteleri, resmî kayıtlar veya başka tanıklarla karşılaştırarak doğrulayabilir.","rubrik":[{"aciklama":"Sözlü kaynağın katkısını açıkladı","puan":5},{"aciklama":"Hafızaya dayalı sınırlılığı kaynaktan örnekle açıkladı","puan":5},{"aciklama":"Uygun bir doğrulama yolu önerdi","puan":5}]}
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "sureDk": 40,
+      "sorular": [
+        {
+          "no": 1,
+          "konuSlug": "tarih-ogrenmenin-faydalari",
+          "baslik": "Karantina Defteri",
+          "puan": 16,
+          "kaynaklar": [
+            {"etiket":"Kaynak A","metin":"Bir liman şehrinde 19. yüzyılda tutulan sağlık kayıtlarında, salgın sırasında gemilerden inen yolcuların on gün boyunca ayrı bir binada bekletildiği ve hastalığın şehirde daha yavaş yayıldığı yazmaktadır.","dipnot":"Kurgusal kaynak."},
+            {"etiket":"Kaynak B","metin":"Günümüzde bir sağlık uzmanı, salgınlara karşı plan hazırlarken geçmişteki karantina uygulamalarını ve sonuçlarını incelediğini söyler."}
+          ],
+          "maddeler": [
+            {"no":"1.1","puan":16,"soru":"Kaynaklardan yararlanarak geçmişteki deneyimlerin bugün karşılaşılan sorunların çözümüne nasıl katkı sağlayabileceğini açıklayınız.","cevapOrnegi":"Geçmiş kayıtlar hangi önlemlerin işe yaradığını gösterir. Kaynak A'da karantinanın salgını yavaşlattığı görülür; Kaynak B'deki uzman bu bilgiyi bugünkü salgın planlarında kullanır. Böylece toplum geçmişin deneyiminden yararlanarak daha doğru kararlar alır.","rubrik":[{"aciklama":"Kaynak A'daki uygulamanın sonucunu belirtti","puan":5},{"aciklama":"Kaynak B ile bugüne bağlantı kurdu","puan":5},{"aciklama":"Geçmişten ders çıkarmanın topluma faydasını açıkladı","puan":6}]}
+          ]
+        },
+        {
+          "no": 2,
+          "konuSlug": "tarih-ogrenmenin-faydalari",
+          "baslik": "Mera Anlaşmazlığı",
+          "puan": 17,
+          "kaynaklar": [
+            {"etiket":"Kaynak","metin":"İki köy arasında bir meranın kime ait olduğu konusunda anlaşmazlık çıkar. Köylerden biri, arşivde bulunan yüz yıllık bir tapu kaydını ve sınırları gösteren eski bir krokiyi getirir. Kayıtlar incelendikten sonra iki köy, meranın sınırları konusunda uzlaşır.","dipnot":"Kurgusal kaynak."}
+          ],
+          "maddeler": [
+            {"no":"2.1","puan":8,"soru":"Arşiv kayıtlarının anlaşmazlığın çözümündeki rolünü açıklayınız.","cevapOrnegi":"Tapu kaydı ve kroki, meranın sınırlarını gösteren somut kanıtlar sunmuştur. İki köy de bu kanıtları kabul ettiği için anlaşmazlık uzlaşmayla sonuçlanmıştır.","rubrik":[{"aciklama":"Kayıtların sınırlar hakkında kanıt sunduğunu belirtti","puan":4},{"aciklama":"Kanıtların uzlaşmayı sağladığını açıkladı","puan":4}]},
+            {"no":"2.2","puan":9,"soru":"Bu örnekten yola çıkarak geçmişin kayıt altına alınmasının ve korunmasının topluma faydasını yazınız.","cevapOrnegi":"Kayıtlar korunursa toplum, haklar ve sınırlar gibi konularda ortak bir dayanak bulur. Bu da anlaşmazlıkların barışçıl yollarla çözülmesine ve toplumsal huzura katkı sağlar.","rubrik":[{"aciklama":"Kayıtların ortak bir dayanak/kanıt sağladığını belirtti","puan":4},{"aciklama":"Barışçıl çözüme ve toplumsal huzura katkısını açıkladı","puan":5}]}
+          ]
+        },
+        {
+          "no": 3,
+          "konuSlug": "tarihin-dogasi",
+          "baslik": "Geçmiş mi, Tarih mi?",
+          "puan": 17,
+          "kaynaklar": [
+            {"etiket":"Kaynak","metin":"Bir tarih öğretmeni sınıfta şöyle der: \"Geçmiş, yaşanmış ve bitmiş olayların tümüdür. Tarih ise bu olaylardan geriye kalan izlerin, tarihçiler tarafından incelenip yorumlanmasıyla ortaya çıkan bilgidir. Bu yüzden geçmiş değişmez ama tarih yazımı yeni kanıtlarla değişebilir.\""}
+          ],
+          "maddeler": [
+            {"no":"3.1","puan":8,"soru":"Öğretmenin açıklamasına göre \"geçmiş\" ile \"tarih\" arasındaki farkı yazınız.","cevapOrnegi":"Geçmiş, yaşanmış olayların kendisidir ve değişmez. Tarih ise bu olaylardan kalan izlerin tarihçiler tarafından incelenip yorumlanmasıyla oluşan bilgidir.","rubrik":[{"aciklama":"Geçmişi yaşanmış olayların tümü olarak tanımladı","puan":4},{"aciklama":"Tarihi izlerin incelenip yorumlanmasıyla oluşan bilgi olarak tanımladı","puan":4}]},
+            {"no":"3.2","puan":9,"soru":"Tarih yazımının yeni kanıtlarla değişebilmesini tarihin doğası açısından değerlendiriniz.","cevapOrnegi":"Tarihçi geçmişe doğrudan ulaşamaz; elindeki kaynaklara göre yorum yapar. Yeni bir belge veya buluntu ortaya çıktığında eski yorum düzeltilebilir ya da genişletilebilir. Bu, tarihsel bilginin kanıta dayalı ve gelişmeye açık olduğunu gösterir.","rubrik":[{"aciklama":"Tarih yazımının kaynaklara dayalı yorum olduğunu belirtti","puan":4},{"aciklama":"Tarihsel bilginin kanıta dayalı ve gelişmeye açık olduğunu açıkladı","puan":5}]}
+          ]
+        },
+        {
+          "no": 4,
+          "konuSlug": "tarihin-dogasi",
+          "baslik": "Bulunan Mektup",
+          "puan": 16,
+          "kaynaklar": [
+            {"etiket":"Kaynak A","metin":"Uzun süre, bir kale komutanının şehri savaşmadan teslim ettiği ve bu yüzden korkak olduğu yazılmıştır.","dipnot":"Kurgusal kaynak."},
+            {"etiket":"Kaynak B","metin":"Yakın zamanda bulunan bir mektupta komutan, şehirde salgın çıktığını, erzakın bittiğini ve halkın canını korumak için teslim olmaya karar verdiğini yazmaktadır.","dipnot":"Kurgusal kaynak."}
+          ],
+          "maddeler": [
+            {"no":"4.1","puan":16,"soru":"Kaynak B'nin ortaya çıkmasının komutan hakkındaki yorumu nasıl etkileyebileceğini açıklayınız. Açıklamanızda tarihçinin farklı kaynakları birlikte değerlendirmesinin önemine değininiz.","cevapOrnegi":"Mektup, teslim olmanın nedenlerini gösterir; komutan korkaklıktan değil halkı korumak için teslim olmuş olabilir. Böylece eski yorum sorgulanır ve değişebilir. Tarihçi tek bir anlatıya bağlı kalmamalı, farklı kaynakları karşılaştırarak daha dengeli bir sonuca ulaşmalıdır.","rubrik":[{"aciklama":"Mektubun teslimin nedenlerine dair yeni bilgi sunduğunu belirtti","puan":5},{"aciklama":"Komutan hakkındaki yorumun değişebileceğini açıkladı","puan":5},{"aciklama":"Farklı kaynakları birlikte değerlendirmenin önemini açıkladı","puan":6}]}
+          ]
+        },
+        {
+          "no": 5,
+          "konuSlug": "tarihsel-bilginin-uretim-sureci",
+          "baslik": "Bir Araştırmanın Basamakları",
+          "puan": 17,
+          "kaynaklar": [
+            {"etiket":"Kaynak","metin":"Zeynep, mahallesindeki eski çeşmenin tarihini araştırır. Yaptıklarını karışık sırayla not etmiştir: (I) Çeşmenin kitabesini, belediye arşivindeki kayıtları ve eski fotoğrafları topladı. (II) Bulgularını bir rapor hâlinde yazdı. (III) \"Bu çeşme ne zaman, kim tarafından ve neden yaptırıldı?\" sorusunu belirledi. (IV) Topladığı kaynakların güvenilir olup olmadığını ve birbirleriyle çelişip çelişmediğini inceledi."}
+          ],
+          "maddeler": [
+            {"no":"5.1","puan":9,"soru":"Zeynep'in çalışmasındaki basamakları doğru sırayla yazınız ve her basamağın tarih araştırmasındaki karşılığını belirtiniz.","cevapOrnegi":"III → I → IV → II. III: Konunun ve araştırma sorusunun belirlenmesi. I: Kaynakların taranıp toplanması. IV: Kaynakların eleştirisi ve çözümlenmesi. II: Bulguların birleştirilip yazılması.","rubrik":[{"aciklama":"Basamakları doğru sıraladı (III, I, IV, II)","puan":5},{"aciklama":"Basamakların araştırmadaki karşılıklarını doğru belirtti","puan":4}]},
+            {"no":"5.2","puan":8,"soru":"Zeynep IV numaralı basamağı atlasaydı araştırmasının sonucu nasıl etkilenebilirdi? Açıklayınız.","cevapOrnegi":"Kaynaklar incelenmeden kullanılırsa yanlış veya çelişkili bilgiler rapora girebilir. Örneğin eski bir fotoğrafın tarihi yanlış yazılmışsa çeşmenin yapılış tarihi hatalı belirlenir; bu da araştırmanın güvenilirliğini azaltır.","rubrik":[{"aciklama":"Yanlış/çelişkili bilginin rapora girebileceğini belirtti","puan":4},{"aciklama":"Araştırmanın güvenilirliğinin azalacağını örnekle açıkladı","puan":4}]}
+          ]
+        },
+        {
+          "no": 6,
+          "konuSlug": "tarihsel-bilginin-uretim-sureci",
+          "baslik": "Müzeye Bağışlanan Ferman",
+          "puan": 17,
+          "kaynaklar": [
+            {"etiket":"Kaynak","metin":"Bir müzeye, 16. yüzyıla ait olduğu söylenen bir ferman bağışlanır. Uzmanlar belgeyi incelediğinde kâğıdın üzerindeki filigranın 19. yüzyılda üretilen kâğıtlara ait olduğunu ve mürekkebin de 16. yüzyıla uygun olmadığını tespit eder.","dipnot":"Kurgusal kaynak."}
+          ],
+          "maddeler": [
+            {"no":"6.1","puan":17,"soru":"Uzmanların yaptığı incelemenin tarihsel bilginin üretim sürecindeki yerini açıklayınız. Bu inceleme yapılmasaydı ortaya çıkabilecek bir sorunu yazınız.","cevapOrnegi":"Uzmanlar belgenin dış özelliklerini (kâğıt, filigran, mürekkep) inceleyerek belgenin gerçek olup olmadığını sınamıştır. Bu, kaynak eleştirisi aşamasıdır ve tarihçinin güvenilir kanıt kullanmasını sağlar. İnceleme yapılmasaydı sahte bir belge gerçek kabul edilip 16. yüzyıl hakkında yanlış bilgiler üretilebilirdi.","rubrik":[{"aciklama":"Belgenin dış özelliklerinin incelenerek gerçekliğinin sınandığını belirtti","puan":6},{"aciklama":"Bunun kaynak eleştirisi aşaması olduğunu ve güvenilirlik sağladığını açıkladı","puan":6},{"aciklama":"İnceleme yapılmazsa yanlış bilgi üretilebileceğini yazdı","puan":5}]}
+          ]
+        }
+      ]
+    }
+  ]
+}
