@@ -1,26 +1,105 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-paper: #f6f6f1;
+  --color-ink: #172033;
+  --color-forest: #0d4f45;
+  --color-forest-50: #e7f0ee;
+  --color-line: #e4e4dc;
+  --color-muted: #5b6475;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-serif: var(--font-literata), Georgia, serif;
+  --font-sans: var(--font-manrope), system-ui, sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1,
+h2 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(to right, rgb(23 32 51 / 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(23 32 51 / 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details > summary .faq-isaret::after {
+  content: "+";
+}
+details[open] > summary .faq-isaret::after {
+  content: "−";
+}
+
+/* ---------- Sınav kâğıdı ---------- */
+.exam[data-phase="hazir"] .exam-questions {
+  display: none;
+}
+.exam:not([data-phase="puanlama"]):not([data-phase="sonuc"]) .solution {
+  display: none;
+}
+.print-only {
+  display: none;
+}
+
+@media print {
+  @page {
+    margin: 14mm;
+  }
+  body {
+    background: #fff;
+    font-size: 12pt;
+  }
+  .no-print,
+  .site-header,
+  .site-footer,
+  .breadcrumb {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .exam .exam-questions {
+    display: block !important;
+  }
+  .question-card {
+    break-inside: avoid;
+    border: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin-bottom: 18pt;
+  }
+  html:not([data-print="anahtar"]) .solution {
+    display: none !important;
+  }
+  html[data-print="anahtar"] .solution {
+    display: block !important;
+  }
+  html[data-print="anahtar"] .answer-area {
+    display: none !important;
+  }
+  .answer-area textarea {
+    display: none !important;
+  }
+  html:not([data-print="anahtar"]) .answer-lines {
+    display: block !important;
+  }
 }

@@ -1,0 +1,9 @@
+{
+  "okulGeneli": [
+    {"donem":"1. dönem","yazili":"1. yazılı","baslangic":"ÖRNEK: 2026-11-02","bitis":"ÖRNEK: 2026-11-13"},
+    {"donem":"1. dönem","yazili":"2. yazılı","baslangic":"ÖRNEK: 2027-01-04","bitis":"ÖRNEK: 2027-01-15"}
+  ],
+  "ulkeGeneli": [
+    {"sinif":9,"ders":"Tarih","donem":"1. dönem","yazili":"1. yazılı","tarih":"ÖRNEK: resmî tarih girilecek"}
+  ]
+}

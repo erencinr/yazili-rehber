@@ -1,0 +1,19 @@
+[
+  {"slug":"turkce","ad":"Türkçe","kademe":"ortaokul","siniflar":[{"slug":"5-sinif","ad":"5. sınıf"},{"slug":"6-sinif","ad":"6. sınıf"},{"slug":"7-sinif","ad":"7. sınıf"}],"uniteler":[]},
+  {"slug":"ortaokul-matematik","ad":"Matematik","kademe":"ortaokul","siniflar":[{"slug":"5-sinif","ad":"5. sınıf"},{"slug":"6-sinif","ad":"6. sınıf"},{"slug":"7-sinif","ad":"7. sınıf"}],"uniteler":[]},
+  {"slug":"fen-bilimleri","ad":"Fen Bilimleri","kademe":"ortaokul","siniflar":[{"slug":"5-sinif","ad":"5. sınıf"},{"slug":"6-sinif","ad":"6. sınıf"},{"slug":"7-sinif","ad":"7. sınıf"}],"uniteler":[]},
+  {"slug":"sosyal-bilgiler","ad":"Sosyal Bilgiler","kademe":"ortaokul","siniflar":[{"slug":"5-sinif","ad":"5. sınıf"},{"slug":"6-sinif","ad":"6. sınıf"},{"slug":"7-sinif","ad":"7. sınıf"}],"uniteler":[]},
+  {"slug":"ortaokul-din-kulturu","ad":"Din Kültürü ve Ahlak Bilgisi","kademe":"ortaokul","siniflar":[{"slug":"5-sinif","ad":"5. sınıf"},{"slug":"6-sinif","ad":"6. sınıf"},{"slug":"7-sinif","ad":"7. sınıf"}],"uniteler":[]},
+  {"slug":"ortaokul-ingilizce","ad":"İngilizce","kademe":"ortaokul","siniflar":[{"slug":"5-sinif","ad":"5. sınıf"},{"slug":"6-sinif","ad":"6. sınıf"},{"slug":"7-sinif","ad":"7. sınıf"}],"uniteler":[]},
+
+  {"slug":"turk-dili-ve-edebiyati","ad":"Türk Dili ve Edebiyatı","kademe":"lise","siniflar":[{"slug":"9-sinif","ad":"9. sınıf"},{"slug":"10-sinif","ad":"10. sınıf"},{"slug":"11-sinif","ad":"11. sınıf"}],"uniteler":[]},
+  {"slug":"lise-matematik","ad":"Matematik","kademe":"lise","siniflar":[{"slug":"9-sinif","ad":"9. sınıf"},{"slug":"10-sinif","ad":"10. sınıf"},{"slug":"11-sinif","ad":"11. sınıf"}],"uniteler":[]},
+  {"slug":"fizik","ad":"Fizik","kademe":"lise","siniflar":[{"slug":"9-sinif","ad":"9. sınıf"},{"slug":"10-sinif","ad":"10. sınıf"},{"slug":"11-sinif","ad":"11. sınıf"}],"uniteler":[]},
+  {"slug":"kimya","ad":"Kimya","kademe":"lise","siniflar":[{"slug":"9-sinif","ad":"9. sınıf"},{"slug":"10-sinif","ad":"10. sınıf"},{"slug":"11-sinif","ad":"11. sınıf"}],"uniteler":[]},
+  {"slug":"biyoloji","ad":"Biyoloji","kademe":"lise","siniflar":[{"slug":"9-sinif","ad":"9. sınıf"},{"slug":"10-sinif","ad":"10. sınıf"},{"slug":"11-sinif","ad":"11. sınıf"}],"uniteler":[]},
+  {"slug":"tarih","ad":"Tarih","kademe":"lise","siniflar":[{"slug":"9-sinif","ad":"9. sınıf"},{"slug":"10-sinif","ad":"10. sınıf"},{"slug":"11-sinif","ad":"11. sınıf"}],"uniteler":["Geçmişin inşa sürecinde tarih","Eski çağ medeniyetleri"]},
+  {"slug":"cografya","ad":"Coğrafya","kademe":"lise","siniflar":[{"slug":"9-sinif","ad":"9. sınıf"},{"slug":"10-sinif","ad":"10. sınıf"},{"slug":"11-sinif","ad":"11. sınıf"}],"uniteler":[]},
+  {"slug":"felsefe","ad":"Felsefe","kademe":"lise","siniflar":[{"slug":"10-sinif","ad":"10. sınıf"},{"slug":"11-sinif","ad":"11. sınıf"}],"uniteler":[]},
+  {"slug":"lise-din-kulturu","ad":"Din Kültürü ve Ahlak Bilgisi","kademe":"lise","siniflar":[{"slug":"9-sinif","ad":"9. sınıf"},{"slug":"10-sinif","ad":"10. sınıf"},{"slug":"11-sinif","ad":"11. sınıf"}],"uniteler":[]},
+  {"slug":"lise-ingilizce","ad":"İngilizce","kademe":"lise","siniflar":[{"slug":"9-sinif","ad":"9. sınıf"},{"slug":"10-sinif","ad":"10. sınıf"},{"slug":"11-sinif","ad":"11. sınıf"}],"uniteler":[]}
+]
