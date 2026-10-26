@@ -13,6 +13,10 @@ export const site = {
     favicon: "https://atomica.com.tr/favicon.png",
     oyna: "https://games.atomica.com.tr/",
     paketler: "https://atomica.com.tr/paketler/",
+    // Üyelik Atomica hesabıyla: giriş/kayıt Atomica'nın kendi sayfalarında yapılır (bkz. docs/uyelik-entegrasyon.md).
+    giris: "https://atomica.com.tr/login",
+    kayit: "https://atomica.com.tr/register/student",
+    cikis: "https://atomica.com.tr/logout",
     yasal: [
       { ad: "KVKK", href: "https://atomica.com.tr/yasal/kvkk.html" },
       { ad: "Gizlilik", href: "https://atomica.com.tr/yasal/gizlilik.html" },

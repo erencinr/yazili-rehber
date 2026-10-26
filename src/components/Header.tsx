@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { site } from "@/config/site";
+import { UyelikDugmesi } from "./uyelik/UyelikDugmesi";
 
 function Logo() {
   return (
@@ -34,18 +35,18 @@ export function Header() {
   const [acik, setAcik] = useState(false);
   const aktif = (href: string) => yol === href || (href !== "/" && yol.startsWith(href));
   const linkCls = (href: string) =>
-    `rounded-[10px] px-2.5 py-2 text-[13.5px] font-semibold ${aktif(href) ? "bg-navy-tint text-navy" : "text-ink-soft hover:text-navy"}`;
+    `rounded-[10px] px-2.5 py-2 text-[13.5px] font-semibold whitespace-nowrap ${aktif(href) ? "bg-navy-tint text-navy" : "text-ink-soft hover:text-navy"}`;
   const kapat = () => setAcik(false);
   const oynaCls =
-    "items-center gap-1.5 rounded-full bg-white px-4 py-2.5 text-sm font-extrabold text-turq shadow-[inset_0_0_0_2px_var(--color-turq)] hover:bg-turq-tint";
+    "items-center gap-1.5 rounded-full bg-white px-4 whitespace-nowrap py-2.5 text-sm font-extrabold text-turq shadow-[inset_0_0_0_2px_var(--color-turq)] hover:bg-turq-tint";
   const paketCls =
-    "items-center rounded-full bg-navy px-4 py-2.5 text-sm font-extrabold text-white shadow-[0_18px_44px_-16px_rgb(0_20_110/0.4)] hover:bg-navy-2";
+    "items-center rounded-full bg-navy px-4 whitespace-nowrap py-2.5 text-sm font-extrabold text-white shadow-[0_18px_44px_-16px_rgb(0_20_110/0.4)] hover:bg-navy-2";
 
   return (
     <header className="site-header sticky top-0 z-40 border-b border-line bg-white/90 backdrop-blur">
       <div className="mx-auto flex h-[76px] max-w-[1200px] items-center justify-between gap-4 px-4 sm:px-6">
         <Logo />
-        <nav className="hidden items-center gap-0.5 lg:flex" aria-label="Ana menü">
+        <nav className="hidden items-center gap-0.5 xl:flex" aria-label="Ana menü">
           {site.nav.map((l) => (
             <Link key={l.href} href={l.href} className={linkCls(l.href)}>
               {l.ad}
@@ -53,6 +54,7 @@ export function Header() {
           ))}
         </nav>
         <div className="flex items-center gap-2">
+          <UyelikDugmesi />
           <a href={site.atomica.oyna} className={`${oynaCls} hidden sm:inline-flex`}>
             <OynaIkonu />
             Şimdi Oyna
@@ -62,7 +64,7 @@ export function Header() {
           </a>
           <button
             type="button"
-            className="grid size-10 place-items-center rounded-full text-navy hover:bg-navy-tint lg:hidden"
+            className="grid size-10 place-items-center rounded-full text-navy hover:bg-navy-tint xl:hidden"
             aria-expanded={acik}
             aria-controls="mobil-menu"
             aria-label={acik ? "Menüyü kapat" : "Menüyü aç"}
@@ -75,7 +77,7 @@ export function Header() {
         </div>
       </div>
       {acik && (
-        <nav id="mobil-menu" className="border-t border-line bg-white px-4 pb-5 lg:hidden" aria-label="Mobil menü">
+        <nav id="mobil-menu" className="border-t border-line bg-white px-4 pb-5 xl:hidden" aria-label="Mobil menü">
           <div className="flex flex-col gap-1 pt-3">
             {site.nav.map(
               (l) => (
@@ -84,6 +86,9 @@ export function Header() {
                 </Link>
               ),
             )}
+          </div>
+          <div className="mt-4 md:hidden">
+            <UyelikDugmesi mobil />
           </div>
           <div className="mt-4 flex gap-2 sm:hidden">
             <a href={site.atomica.oyna} className={`${oynaCls} inline-flex`}>

@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { SEVIYE_ADI, SEVIYE_RENK, SEVIYELER, senaryoGruplari, varlik } from "@/lib/kagit";
+import { kagitAnahtari, SEVIYE_ADI, SEVIYE_RENK, SEVIYELER, senaryoGruplari, varlik } from "@/lib/kagit";
+import { KagitIsareti } from "./uyelik/KagitIsareti";
 import type { Yazili } from "@/lib/types";
 
 /** Bir yazılının Atomica kâğıtları: senaryo başına Kolay / Orta / Zor ya da seviyeye göre provalar. */
@@ -18,8 +19,9 @@ export function KagitIzgarasi({ yazili, taban }: { yazili: Yazili; taban: string
                 <p className="w-24 font-extrabold text-navy">{SEVIYE_ADI[seviye]}</p>
                 <div className="flex flex-wrap gap-2">
                   {liste.map((k) => (
-                    <Link key={k.slug} href={`${taban}${k.slug}/`} className={dugme(seviye)}>
+                    <Link key={k.slug} href={`${taban}${k.slug}/`} prefetch={false} className={dugme(seviye)}>
                       Prova {k.no}
+                      <KagitIsareti kagit={kagitAnahtari(taban, k.slug)} />
                     </Link>
                   ))}
                 </div>
@@ -36,8 +38,9 @@ export function KagitIzgarasi({ yazili, taban }: { yazili: Yazili; taban: string
                 {SEVIYELER.map((seviye) => {
                   const k = liste.find((x) => x.seviye === seviye);
                   return k ? (
-                    <Link key={seviye} href={`${taban}${k.slug}/`} className={dugme(seviye)}>
+                    <Link key={seviye} href={`${taban}${k.slug}/`} prefetch={false} className={dugme(seviye)}>
                       {SEVIYE_ADI[seviye]}
+                      <KagitIsareti kagit={kagitAnahtari(taban, k.slug)} />
                     </Link>
                   ) : null;
                 })}

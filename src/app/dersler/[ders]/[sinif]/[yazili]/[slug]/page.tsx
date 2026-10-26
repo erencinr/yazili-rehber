@@ -9,7 +9,7 @@ import { mutlakUrl, site } from "@/config/site";
 import { SINAV_ONEK } from "@/lib/depo";
 import { baslikYap, cozulebilirKonular, konuSorulari, senaryoKonuPuanlari, tumYazililar } from "@/lib/data";
 import { yaziliCozumle } from "@/lib/route";
-import { kagitAdi, SEVIYE_ADI, SEVIYELER, sonrakiKagit, varlik } from "@/lib/kagit";
+import { kagitAdi, kagitAnahtari, SEVIYE_ADI, SEVIYELER, sonrakiKagit, varlik } from "@/lib/kagit";
 import type { Yazili } from "@/lib/types";
 
 // Yalnızca generateStaticParams'taki adresler üretilir; diğerleri 404.
@@ -263,7 +263,7 @@ function AtomicaKagidi({ r }: { r: Extract<Cozulmus, { tur: "kagit" }> }) {
           </nav>
         </div>
 
-        <KagitAraclari />
+        <KagitAraclari kagit={kagitAnahtari(taban, kagit.slug)} />
 
         <div className="mx-auto max-w-[860px] space-y-6">
           {kagit.sayfalar.map((s, i) => (

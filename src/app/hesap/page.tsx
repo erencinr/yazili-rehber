@@ -1,24 +1,39 @@
 import type { Metadata } from "next";
-import { HesapListesi } from "@/components/HesapListesi";
+import { Calismalarim, type KatalogKagidi } from "@/components/uyelik/Calismalarim";
 import { Breadcrumb, Container, PageHero } from "@/components/ui";
+import { baslikYap, getDersler, getYazililar, sinifNo } from "@/lib/data";
+import { kagitAdi, kagitAnahtari } from "@/lib/kagit";
 
 export const metadata: Metadata = {
-  title: "Hesabım: Çözdüğüm kâğıtlar ve puanlarım",
-  description: "Bu tarayıcıda çözdüğün yazılı kâğıtları, puanlarını ve en zayıf konularını gör.",
+  title: "Çalışmalarım",
+  description: "Atomica hesabınla çözdüğün matematik yazılı kâğıtları ve süreleri.",
   robots: { index: false },
 };
 
 export default function HesapPage() {
+  // Tüm kâğıtların listesi; öğrencinin ilerlemesi tarayıcıda bununla eşleştirilir.
+  const katalog: KatalogKagidi[] = getDersler().flatMap((d) =>
+    d.siniflar.flatMap((s) =>
+      getYazililar(d.slug, s.slug).flatMap((y) => {
+        const taban = `/dersler/${d.slug}/${s.slug}/${y.slug}/`;
+        return y.kagitlar.map((k) => ({
+          anahtar: kagitAnahtari(taban, k.slug),
+          href: `${taban}${k.slug}/`,
+          grup: `${sinifNo(s.slug)}. sınıf ${d.ad.toLocaleLowerCase("tr")} · ${baslikYap(y.ad)}`,
+          ad: kagitAdi(k),
+        }));
+      }),
+    ),
+  );
+
   return (
     <>
-      <Breadcrumb items={[{ ad: "Hesabım", href: "/hesap/" }]} />
-      <PageHero eyebrow="Hesabım" baslik="Çözdüğüm kâğıtlar">
-        <p className="text-lg text-ink/80">
-          Üyelik yok: puanların yalnızca bu tarayıcıda saklanır. Başka cihazda veya gizli pencerede görünmez.
-        </p>
+      <Breadcrumb items={[{ ad: "Çalışmalarım", href: "/hesap/" }]} />
+      <PageHero eyebrow="Atomica hesabın" baslik="Çalışmalarım">
+        <p className="text-lg text-ink-soft">Bitirdiğin kâğıtlar ve süren burada. Sıradaki kâğıdına buradan devam edebilirsin.</p>
       </PageHero>
       <Container className="py-10">
-        <HesapListesi />
+        <Calismalarim katalog={katalog} />
       </Container>
     </>
   );

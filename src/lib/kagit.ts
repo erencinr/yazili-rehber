@@ -25,6 +25,11 @@ export function senaryoGruplari(yazili: Yazili) {
   return [...gruplar.entries()].sort((a, b) => a[0] - b[0]);
 }
 
+/** İlerleme kaydının anahtarı: "<ders>/<sinif>/<yazili>/<kagit>". `taban` yazılının adresidir (/dersler/…/). */
+export function kagitAnahtari(taban: string, kagitSlug: string) {
+  return `${taban.replace(/^\/dersler\//, "").replace(/\/$/, "")}/${kagitSlug}`;
+}
+
 /** Öğrenciye nereden başlayacağını söyleyen kısa yönlendirme. */
 export function baslangicOnerisi(yazili: Yazili | undefined) {
   if (yazili?.kagitTuru === "prova")

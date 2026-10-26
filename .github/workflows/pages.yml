@@ -31,6 +31,8 @@ jobs:
           BASE_PATH: /${{ github.event.repository.name }}
           # Asıl adres atomica.com.tr/yazili; canonical ve sitemap oraya işaret eder.
           NEXT_PUBLIC_SITE_URL: https://atomica.com.tr/yazili
+          # GitHub Pages'te Atomica sunucusu yok; üyelik akışı sahte öğrenciyle gösterilir.
+          NEXT_PUBLIC_UYELIK_MODU: demo
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out

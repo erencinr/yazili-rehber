@@ -46,6 +46,11 @@ Site atomica.com.tr/yazili/ altında yayınlanacak; tasarım Atomica'nın renk/y
 - Görsel/PDF adresleri `varlik()` ile alt yol (BASE_PATH) eklenerek verilir; iç sayfa bağlantılarında her zaman `next/link` kullan (düz <a> alt yolu eklemez).
 - 8. sınıf PDF'i ("8. Sınıf Matematik Yazılı Provaları") MEB/TEGM materyali, Atomica'nın değil ve OYSS kapsamı dışında; eklenmedi.
 
+## Üyelik
+Öğrenci **Atomica hesabıyla** girer; kâğıtlar herkese açık, üyelik yalnızca ilerlemeyi (başlandı/tamamlandı + süre) kaydeder.
+Ön yüz hazır (`src/lib/uyelik.ts`, `src/components/uyelik/`); Atomica sunucusundaki 3 API ve /login?next yönlendirmesi yazılımcıda: `docs/uyelik-entegrasyon.md`.
+`NEXT_PUBLIC_UYELIK_MODU`: `atomica` (build:atomica) veya `demo` (varsayılan; sahte öğrenci, localStorage). API'ye ulaşılamazsa site misafir olarak çalışır.
+
 ## Mevcut durum (26 Ekim 2026)
 - Aşama 1-5 yapıldı: iskelet, bileşenler, veri katmanı (zod + 100 puan kontrolü), tüm üretilen sayfalar, interaktif sınav, /hesap.
 - 16 dersin resmî tabloları aktarıldı (`npm run tablolar`, kaynak listesi: `data/resmi/kaynaklar.json`). 4 yazılı ülke geneli (tablo sınav öncesi yayımlanacak).
