@@ -41,3 +41,6 @@ Amaç: aynı mimariye ve kullanıcı deneyimine sahip, **kendi içeriğimiz ve k
 
 ## Yeni ders/yazılı eklemek
 `data/{ders-slug}/{sinif-slug}/{yazili-slug}.json` dosyası ekle (şema: `src/lib/types.ts`). Sayfalar build'de kendiliğinden üretilir. Rubrik toplamı = madde puanı, madde toplamı = soru puanı, soru toplamı = 100 olmalı; değilse build hata verir.
+
+## Bilinen tuzak: CSS önbelleği
+`src/app/globals.css` değişikliği bazen ne dev sunucusuna ne `next build` çıktısına yansıyor (`@tailwindcss/turbopack` önbelleği). Stil değişmiyorsa `rm -rf .next/cache` yapıp yeniden derle / dev sunucusunu yeniden başlat.

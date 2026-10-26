@@ -81,7 +81,7 @@ function SenaryoKagidi({ r }: { r: Extract<Cozulmus, { tur: "senaryo" }> }) {
   return (
     <>
       <Breadcrumb items={[...kirintilar, { ad: `Senaryo ${senaryo.no}`, href: yol }]} />
-      <PageHero eyebrow="Çöz ve kendini puanla" baslik={`${baslik} Soruları`}>
+      <PageHero eyebrow="Çöz ve kendini puanla" baslik={`${baslik} Soruları`} className="no-print">
         <p className="text-lg text-ink/80">
           Kâğıdı süre tutarak çöz. Bitirince örnek cevaplar ve puanlama ölçütleri açılır; karşıladığın ölçütleri işaretle,
           puanın kendiliğinden hesaplanır.

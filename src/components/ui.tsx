@@ -194,14 +194,16 @@ export function PageHero({
   baslik,
   children,
   yan,
+  className = "",
 }: {
   eyebrow: string;
   baslik: string;
   children?: ReactNode;
   yan?: ReactNode;
+  className?: string;
 }) {
   return (
-    <section className="hero-grid border-b border-line">
+    <section className={`hero-grid border-b border-line ${className}`}>
       <Container className={`grid gap-8 py-10 sm:py-14 ${yan ? "lg:grid-cols-[1fr_320px]" : ""}`}>
         <div className="max-w-[760px] space-y-4">
           <Eyebrow>{eyebrow}</Eyebrow>

@@ -57,7 +57,7 @@ function SubItem({ m, e }: { m: Madde; e?: Etkilesim }) {
   const isaretli = e?.isaretler[m.no] ?? [];
   const statik = !e;
   return (
-    <div className="space-y-3 border-t border-line pt-4">
+    <div className="sub-item space-y-3 border-t border-line pt-4">
       <p>
         <span className="font-semibold">{m.no}.</span> {m.soru}{" "}
         <span className="text-sm font-semibold whitespace-nowrap text-forest">({m.puan} puan)</span>
@@ -75,7 +75,7 @@ function SubItem({ m, e }: { m: Madde; e?: Etkilesim }) {
             />
           ) : (
             e.cevaplar[m.no] && (
-              <div className="rounded-xl border border-dashed border-line bg-white p-3 text-sm whitespace-pre-wrap">
+              <div className="student-answer rounded-xl border border-dashed border-line bg-white p-3 text-sm whitespace-pre-wrap">
                 <p className="mb-1 text-xs font-semibold text-muted">Senin cevabın</p>
                 {e.cevaplar[m.no]}
               </div>
@@ -138,18 +138,24 @@ export function QuestionCard({ soru, konuAdi, e, baslikEki }: { soru: Soru; konu
           <span className="font-semibold text-forest">{soru.puan} puan</span>
         </p>
       </header>
-      {soru.kaynaklar.length > 0 && (
-        <div className={`grid gap-3 ${soru.kaynaklar.length > 1 ? "md:grid-cols-2" : ""}`}>
-          {soru.kaynaklar.map((k) => (
-            <SourceBlock key={k.etiket} kaynak={k} />
+      {/* Kaynaklar ilk maddeyle birlikte durur; yazdırırken sayfa sonunda yalnız kalmaz. */}
+      <div className="sources-with-first space-y-4">
+        {soru.kaynaklar.length > 0 && (
+          <div className={`grid gap-3 ${soru.kaynaklar.length > 1 ? "md:grid-cols-2" : ""}`}>
+            {soru.kaynaklar.map((k) => (
+              <SourceBlock key={k.etiket} kaynak={k} />
+            ))}
+          </div>
+        )}
+        <SubItem m={soru.maddeler[0]} e={e} />
+      </div>
+      {soru.maddeler.length > 1 && (
+        <div className="space-y-4">
+          {soru.maddeler.slice(1).map((m) => (
+            <SubItem key={m.no} m={m} e={e} />
           ))}
         </div>
       )}
-      <div className="space-y-4">
-        {soru.maddeler.map((m) => (
-          <SubItem key={m.no} m={m} e={e} />
-        ))}
-      </div>
     </article>
   );
 }

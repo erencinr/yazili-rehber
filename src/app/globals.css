@@ -80,12 +80,24 @@ details[open] > summary .faq-isaret::after {
   .exam .exam-questions {
     display: block !important;
   }
+  /* Kart sayfalar arasında bölünebilir; kaynaklar ve alt maddeler bölünmez. */
   .question-card {
-    break-inside: avoid;
     border: 0 !important;
     box-shadow: none !important;
     padding: 0 !important;
     margin-bottom: 18pt;
+  }
+  .question-card > header {
+    break-after: avoid;
+  }
+  .sources-with-first,
+  .question-card figure,
+  .sub-item,
+  .solution {
+    break-inside: avoid;
+  }
+  .student-answer {
+    display: none !important;
   }
   html:not([data-print="anahtar"]) .solution {
     display: none !important;
