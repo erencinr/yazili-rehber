@@ -12,49 +12,49 @@
   "ciktilar": [
     {
       "id": "MAT.5.3.1",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Temel Geometrik Çizimler ve İnşalar",
       "konuSlug": "temel-geometrik-cizimler-ve-insalar",
       "metin": "Temel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme"
     },
     {
       "id": "MAT.5.3.2",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Temel geometrik çizimlere dayalı deneyimlerini yansıtabilme",
       "konuSlug": "temel-geometrik-cizimlere-dayali-deneyimlerini-yansitabilme",
       "metin": "Temel geometrik çizimlere dayalı deneyimlerini yansıtabilme"
     },
     {
       "id": "MAT.5.3.3",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Açı Ölçme",
       "konuSlug": "aci-olcme",
       "metin": "Açıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme"
     },
     {
       "id": "MAT.5.3.4",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Düzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme",
       "konuSlug": "duzlemde-iki-veya-uc-dogrunun-birbirine-gore-durumuna-bagli-olarak",
       "metin": "Düzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme"
     },
     {
       "id": "MAT.5.3.5",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Çokgenler ve Çember",
       "konuSlug": "cokgenler-ve-cember",
       "metin": "Çokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme"
     },
     {
       "id": "MAT.5.3.6",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Çokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme",
       "konuSlug": "cokgenlerin-ozellikleri-ile-ilgili-edindigi-deneyimleri-yansitabilme",
       "metin": "Çokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme"
     },
     {
       "id": "MAT.5.3.7",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Matematiksel araç ve teknoloji yardımıyla düzlemde iki noktada kesişen çember çiftinin merkezleri ve kesişim noktalarından biri ile inşa edilen üçgenlerin kenar özelliklerine yönelik çıkarım yapabilme",
       "konuSlug": "matematiksel-arac-ve-teknoloji-yardimiyla-duzlemde-iki-noktada-kesisen",
       "metin": "Matematiksel araç ve teknoloji yardımıyla düzlemde iki noktada kesişen çember çiftinin merkezleri ve kesişim noktalarından biri ile inşa edilen üçgenlerin kenar özelliklerine yönelik çıkarım yapabilme"

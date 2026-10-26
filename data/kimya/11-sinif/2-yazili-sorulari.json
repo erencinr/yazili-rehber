@@ -12,63 +12,63 @@
   "ciktilar": [
     {
       "id": "KİM.11.1.2",
-      "unite": "etkileşim",
+      "unite": "Etkileşim",
       "konu": "Enerji",
       "konuSlug": "enerji",
       "metin": "Maddelerin enerji kaynağı olma potansiyeline ilişkin hipotezler oluşturabilme"
     },
     {
       "id": "KİM.11.1.4",
-      "unite": "etkileşim",
+      "unite": "Etkileşim",
       "konu": "Enerji",
       "konuSlug": "enerji-2",
       "metin": "Kimyasal tepkimelerin standart tepkime entalpilerini standart oluşum entalpi verilerini kullanarak tahmin edebilme"
     },
     {
       "id": "KİM.11.1.5",
-      "unite": "etkileşim",
+      "unite": "Etkileşim",
       "konu": "Kimyasal Tepkimelerde Hız",
       "konuSlug": "kimyasal-tepkimelerde-hiz",
       "metin": "Kimyasal tepkimelerin gerçekleşme şartlarını açıklamak için kanıt kullanabilme"
     },
     {
       "id": "KİM.11.1.6",
-      "unite": "etkileşim",
+      "unite": "Etkileşim",
       "konu": "Kimyasal Tepkimelerde Hız",
       "konuSlug": "kimyasal-tepkimelerde-hiz-2",
       "metin": "Tepkime hızının zamanla değişimini bilimsel veriye dayalı tahmin edebilme"
     },
     {
       "id": "KİM.11.1.7",
-      "unite": "etkileşim",
+      "unite": "Etkileşim",
       "konu": "Kimyasal Tepkimelerde Hız",
       "konuSlug": "kimyasal-tepkimelerde-hiz-3",
       "metin": "Tepkime hızına etki eden faktörleri bilimsel sorgulayabilme"
     },
     {
       "id": "KİM.11.1.8",
-      "unite": "etkileşim",
+      "unite": "Etkileşim",
       "konu": "Kimyasal Tepkimelerde Hız",
       "konuSlug": "kimyasal-tepkimelerde-hiz-4",
       "metin": "Kimyasal tepkimelerin hız denklemini bilimsel veriye dayalı tahmin edebilme"
     },
     {
       "id": "KİM.11.2.1",
-      "unite": "çeşitlilik",
+      "unite": "Çeşitlilik",
       "konu": "Denge",
       "konuSlug": "denge",
       "metin": "Tepkimelerin tersinir olabileceğine ilişkin bilimsel gözlem yapabilme"
     },
     {
       "id": "KİM.11.2.2",
-      "unite": "çeşitlilik",
+      "unite": "Çeşitlilik",
       "konu": "Denge",
       "konuSlug": "denge-2",
       "metin": "Tepkimelerdeki denge sürecine ilişkin bilimsel gözleme dayalı tahminde bulunabilme"
     },
     {
       "id": "KİM.11.2.3",
-      "unite": "çeşitlilik",
+      "unite": "Çeşitlilik",
       "konu": "Denge",
       "konuSlug": "denge-3",
       "metin": "Denge sabiti ifadesinin oluşturulmasına ilişkin tümevarımsal akıl yürütebilme"

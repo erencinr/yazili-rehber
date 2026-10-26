@@ -10,7 +10,7 @@ export function DersChipleri({ haric, kademe }: { haric?: string; kademe?: "orta
   const dersler = getDersler();
   return (
     <div className="space-y-5">
-      {KADEMELER.filter((k) => !kademe || k.kademe === kademe).map((k) => (
+      {KADEMELER.filter((k) => (!kademe || k.kademe === kademe) && dersler.some((d) => d.kademe === k.kademe)).map((k) => (
         <div key={k.kademe} className="space-y-2.5">
           {!kademe && <h3 className="font-medium text-muted">{k.baslik}</h3>}
           <div className="flex flex-wrap gap-2">

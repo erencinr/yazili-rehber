@@ -122,7 +122,9 @@ function slugYap(metin) {
 // "1. ÜNİTE: GEÇMİŞİN İNŞA SÜRECİNDE TARİH" → "1. ünite: Geçmişin inşa sürecinde tarih"
 function uniteAdi(metin) {
   const kucuk = metin.toLocaleLowerCase("tr");
-  return kucuk.replace(/:\s*(\p{L})/u, (_, h) => `: ${h.toLocaleUpperCase("tr")}`);
+  const buyut = (h) => h.toLocaleUpperCase("tr");
+  // "geometrik şekiller" gibi numarasız adlarda da ilk harf büyük olsun.
+  return kucuk.replace(/:\s*(\p{L})/u, (_, h) => `: ${buyut(h)}`).replace(/^\p{L}/u, buyut);
 }
 
 // "TAR.9.1.1. …", "T.O.6.5. …", "ENG.9.1.V1. …", "E11.1.R1.Students…", "SB.5.2.3.Yaşadığı…", "TDE2.2. …", "1.1. …"

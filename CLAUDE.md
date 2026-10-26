@@ -35,6 +35,10 @@ Amaç: aynı mimariye ve kullanıcı deneyimine sahip, **kendi içeriğimiz ve k
 ## Atomica
 Site atomica.com.tr/yazili/ altında yayınlanacak; tasarım Atomica'nın renk/yazı tipi değişkenleriyle aynı (`src/app/globals.css`: navy, turq, purple, yellow, Inter). Derleme ve Express kurulumu: `docs/atomica-entegrasyon.md` (`npm run build:atomica`).
 
+## Yayındaki kapsam
+Şimdilik yalnızca **ortaokul Matematik (5, 6, 7)** yayında: `src/config/site.ts` → `yayindakiDersler`. Diğer 15 dersin tabloları (ve Tarih 9 soruları) `data/` altında duruyor ama sayfası üretilmiyor; açmak için slug'ı listeye ekle. Statik derlemede en az bir derste sorusu yazılmış (hazır) bir senaryo olmalı, yoksa `output: export` boş generateStaticParams yüzünden build kırılır.
+Sorusu yazılan matematik: 5. sınıf 1. yazılı Senaryo 1 (7 soru, TASLAK).
+
 ## Mevcut durum (26 Ekim 2026)
 - Aşama 1-5 yapıldı: iskelet, bileşenler, veri katmanı (zod + 100 puan kontrolü), tüm üretilen sayfalar, interaktif sınav, /hesap.
 - 16 dersin resmî tabloları aktarıldı (`npm run tablolar`, kaynak listesi: `data/resmi/kaynaklar.json`). 4 yazılı ülke geneli (tablo sınav öncesi yayımlanacak).

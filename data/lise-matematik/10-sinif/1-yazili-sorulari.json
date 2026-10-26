@@ -12,35 +12,35 @@
   "ciktilar": [
     {
       "id": "10.1.1",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Dik Üçgende Trigonometrik Oranlar ve Trigonometrik Özdeşlikler",
       "konuSlug": "dik-ucgende-trigonometrik-oranlar-ve-trigonometrik-ozdeslikler",
       "metin": "Dik üçgende trigonometrik oranlara (sinüs, kosinüs, tanjant, kotanjant) ve trigonometrik özdeşliklere ilişkin çıkarım yapabilme"
     },
     {
       "id": "10.1.2",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Üçgende Yardımcı Elemanlar",
       "konuSlug": "ucgende-yardimci-elemanlar",
       "metin": "Üçgenin yardımcı elemanlarının özellikleri ile ilgili çıkarım yapabilme"
     },
     {
       "id": "10.1.3",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Üçgenin Alanı",
       "konuSlug": "ucgenin-alani",
       "metin": "Üçgenin bir kenarı ve o kenara ait yüksekliğinin değişimine bağlı olarak alanının değişimine ilişkin çıkarım yapabilme"
     },
     {
       "id": "10.1.4",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Sinüs ve Kosinüs Teoremleri",
       "konuSlug": "sinus-ve-kosinus-teoremleri",
       "metin": "Sinüs ve kosinüs teoremlerini doğrulayabilme veya ispatlayabilme"
     },
     {
       "id": "10.2.1",
-      "unite": "istatistiksel araştırma süreci",
+      "unite": "İstatistiksel araştırma süreci",
       "konu": "İki Kategorik Değişkenli Veriler",
       "konuSlug": "iki-kategorik-degiskenli-veriler",
       "metin": "İki kategorik değişkenli veri ile çalışabilme ve iki kategorik değişken arasındaki ilişkililiğe dayalı karar verebilme"

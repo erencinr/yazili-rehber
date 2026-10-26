@@ -52,7 +52,7 @@ export default function Home() {
         </section>
 
         <section className="space-y-5">
-          <H2>Tüm dersler</H2>
+          <H2>Dersler</H2>
           <DersChipleri />
         </section>
       </Container>

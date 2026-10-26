@@ -1,0 +1,109 @@
+{
+  "not": "TASLAK: Durumlar kurgusaldır. Sorular yayın öncesi bir matematik öğretmeni tarafından gözden geçirilmelidir.",
+  "konuKisaAdlari": {
+    "temel-geometrik-cizimler-ve-insalar": "Temel çizimler",
+    "temel-geometrik-cizimlere-dayali-deneyimlerini-yansitabilme": "Çizim deneyimleri",
+    "aci-olcme": "Açı ölçme",
+    "duzlemde-iki-veya-uc-dogrunun-birbirine-gore-durumuna-bagli-olarak": "Doğruların oluşturduğu açılar",
+    "cokgenler-ve-cember": "Çokgenler",
+    "cokgenlerin-ozellikleri-ile-ilgili-edindigi-deneyimleri-yansitabilme": "Çokgenlerin özellikleri",
+    "matematiksel-arac-ve-teknoloji-yardimiyla-duzlemde-iki-noktada-kesisen": "Çember ve üçgen"
+  },
+  "senaryolar": [
+    {
+      "no": 1,
+      "sureDk": 40,
+      "sorular": [
+        {
+          "no": 1,
+          "konuSlug": "temel-geometrik-cizimler-ve-insalar",
+          "baslik": "Cetvelle Çizim",
+          "puan": 14,
+          "kaynaklar": [
+            {"etiket":"Durum","metin":"Elif defterine A ve B adında iki nokta işaretliyor. Önce cetvelle A'dan başlayıp B'de biten bir çizgi çiziyor. Sonra A'dan başlayıp B'nin üzerinden geçen ve \"Bu çizgi B'den sonra sonsuza kadar devam ediyor.\" dediği ikinci bir çizgi çiziyor."}
+          ],
+          "maddeler": [
+            {"no":"1.1","puan":8,"soru":"Elif'in çizdiği iki geometrik şeklin adlarını yazınız ve sembolle gösteriniz.","cevapOrnegi":"Birinci çizgi A ve B noktalarıyla sınırlı olduğu için doğru parçasıdır: [AB]. İkinci çizgi A noktasından başlayıp B yönünde sonsuza uzandığı için ışındır: [AB.","rubrik":[{"aciklama":"Birinci şeklin doğru parçası olduğunu yazıp [AB] ile gösterdi","puan":4},{"aciklama":"İkinci şeklin ışın olduğunu yazıp [AB ile gösterdi","puan":4}]},
+            {"no":"1.2","puan":6,"soru":"Elif, AB doğru parçasına A noktasında dik olan bir doğru çizmek istiyor. Hangi aracı nasıl kullanmalıdır? Açıklayınız.","cevapOrnegi":"Gönye kullanmalıdır. Gönyenin dik açılı köşesini A noktasına, bir kenarını AB doğru parçasının üzerine yerleştirir ve gönyenin diğer kenarı boyunca çizer. Böylece AB'ye A noktasında dik olan bir doğru elde eder.","rubrik":[{"aciklama":"Doğru aracı (gönye) seçti","puan":2},{"aciklama":"Gönyenin dik köşesini A'ya, bir kenarını AB üzerine yerleştirmeyi açıkladı","puan":4}]}
+          ]
+        },
+        {
+          "no": 2,
+          "konuSlug": "temel-geometrik-cizimlere-dayali-deneyimlerini-yansitabilme",
+          "baslik": "Kaç Doğru Geçer?",
+          "puan": 14,
+          "kaynaklar": [
+            {"etiket":"Durum","metin":"Sınıfta iki öğrenci tartışıyor. Can: \"Bir noktadan yalnızca bir doğru geçer.\" Defne: \"İki farklı noktadan geçen birden fazla doğru çizilebilir.\""}
+          ],
+          "maddeler": [
+            {"no":"2.1","puan":14,"soru":"Can'ın ve Defne'nin ifadelerinin doğru olup olmadığını, cetvelle yaptığınız çizim deneyimlerinize dayanarak açıklayınız.","cevapOrnegi":"İkisi de yanlıştır. Bir noktaya cetveli dayayıp cetveli farklı yönlere çevirdiğimizde o noktadan sonsuz sayıda doğru çizebiliriz. İki farklı noktayı ise cetvel yalnızca tek bir konumda birlikte keser; bu yüzden iki farklı noktadan yalnızca bir doğru geçer.","rubrik":[{"aciklama":"Can'ın ifadesinin yanlış olduğunu ve bir noktadan sonsuz doğru geçtiğini belirtti","puan":5},{"aciklama":"Defne'nin ifadesinin yanlış olduğunu ve iki noktadan tek doğru geçtiğini belirtti","puan":5},{"aciklama":"Açıklamasını cetvelle çizim deneyimine dayandırdı","puan":4}]}
+          ]
+        },
+        {
+          "no": 3,
+          "konuSlug": "aci-olcme",
+          "baslik": "İletkiyle Ölçüm",
+          "puan": 14,
+          "kaynaklar": [
+            {"etiket":"Durum","metin":"Mert bir açıyı iletkiyle ölçüyor. İletkinin merkezini açının köşesine yerleştiriyor ve açının bir kolunu iletkinin sıfır çizgisiyle çakıştırıyor. Açının diğer kolu iletkinin bir sırasında 50, diğer sırasında 130 sayısının üzerinden geçiyor. Mert açının dik açıdan küçük olduğunu görüyor."}
+          ],
+          "maddeler": [
+            {"no":"3.1","puan":8,"soru":"Açının ölçüsü kaç derecedir? Hangi sayıyı neden seçtiğinizi açıklayınız.","cevapOrnegi":"Açının ölçüsü 50°'dir. Açı dik açıdan, yani 90°'den küçük olduğu için 130° olamaz; bu yüzden 50° okunmalıdır. (Sıfırın bulunduğu sıradan okumak da aynı sonucu verir.)","rubrik":[{"aciklama":"Açının ölçüsünü 50° olarak buldu","puan":4},{"aciklama":"Seçimini dik açıyla karşılaştırarak veya sıfırın bulunduğu sırayla gerekçelendirdi","puan":4}]},
+            {"no":"3.2","puan":6,"soru":"Mert'in ölçtüğü açıyı ölçüsüne göre sınıflandırınız. 130°'lik bir açı hangi sınıfa girer?","cevapOrnegi":"50°'lik açı dar açıdır, çünkü 0° ile 90° arasındadır. 130°'lik açı geniş açıdır, çünkü 90° ile 180° arasındadır.","rubrik":[{"aciklama":"50°'lik açının dar açı olduğunu yazdı","puan":3},{"aciklama":"130°'lik açının geniş açı olduğunu yazdı","puan":3}]}
+          ]
+        },
+        {
+          "no": 4,
+          "konuSlug": "duzlemde-iki-veya-uc-dogrunun-birbirine-gore-durumuna-bagli-olarak",
+          "baslik": "Kesişen İki Yol",
+          "puan": 14,
+          "kaynaklar": [
+            {"etiket":"Durum","metin":"İki düz yol bir kavşakta kesişiyor ve dört açı oluşturuyor. Yollar iki doğru gibi düşünüldüğünde, açılardan birinin ölçüsü 40° olarak ölçülüyor."}
+          ],
+          "maddeler": [
+            {"no":"4.1","puan":14,"soru":"Kavşakta oluşan diğer üç açının ölçülerini bulunuz ve nasıl bulduğunuzu açıklayınız.","cevapOrnegi":"40°'lik açının yanındaki (komşu) açıyla birlikte doğru açı, yani 180° oluşur: 180° − 40° = 140°. Kesişen iki doğrunun oluşturduğu karşılıklı (ters) açılar eşittir. Bu yüzden dört açı sırasıyla 40°, 140°, 40° ve 140°'dir.","rubrik":[{"aciklama":"Komşu açıyı 140° olarak buldu","puan":5},{"aciklama":"Karşılıklı açıları (40° ve 140°) doğru buldu","puan":5},{"aciklama":"Doğru açı (180°) ve karşılıklı açıların eşitliğiyle açıkladı","puan":4}]}
+          ]
+        },
+        {
+          "no": 5,
+          "konuSlug": "cokgenler-ve-cember",
+          "baslik": "Kapalı Şekil mi?",
+          "puan": 14,
+          "kaynaklar": [
+            {"etiket":"Durum","metin":"Zeynep kâğıda dört doğru çiziyor. Her doğru bir sonrakini kesiyor, dördüncü doğru da birinciyi keserek ortada kapalı bir şekil oluşturuyor. Arkadaşı Ali ise uçları birbirine değmeyen üç doğru parçasından oluşan bir şekil çiziyor."}
+          ],
+          "maddeler": [
+            {"no":"5.1","puan":8,"soru":"Zeynep'in oluşturduğu kapalı şeklin adını, kenar ve köşe sayısını yazınız.","cevapOrnegi":"Şekil bir dörtgendir. 4 kenarı ve 4 köşesi vardır.","rubrik":[{"aciklama":"Şeklin dörtgen olduğunu yazdı","puan":4},{"aciklama":"4 kenar ve 4 köşe olduğunu yazdı","puan":4}]},
+            {"no":"5.2","puan":6,"soru":"Ali'nin çizdiği şekil bir çokgen midir? Gerekçesiyle açıklayınız.","cevapOrnegi":"Hayır. Çokgen, doğru parçalarının uç uca birleşmesiyle oluşan kapalı bir şekildir. Ali'nin şeklinde uçlar birleşmediği için şekil kapalı değildir; bu yüzden çokgen değildir.","rubrik":[{"aciklama":"Şeklin çokgen olmadığını belirtti","puan":2},{"aciklama":"Kapalı olmama gerekçesini açıkladı","puan":4}]}
+          ]
+        },
+        {
+          "no": 6,
+          "konuSlug": "cokgenlerin-ozellikleri-ile-ilgili-edindigi-deneyimleri-yansitabilme",
+          "baslik": "Parktaki Şekiller",
+          "puan": 15,
+          "kaynaklar": [
+            {"etiket":"Durum","metin":"Bir parktaki çiçek tarhı 6 köşeli bir çokgen biçimindedir. Parktaki havuz ise daire biçimindedir."}
+          ],
+          "maddeler": [
+            {"no":"6.1","puan":9,"soru":"Çiçek tarhının kaç kenarı ve kaç iç açısı vardır? Bu çokgenin adı nedir? Bir çokgenin kenar, köşe ve iç açı sayıları arasındaki ilişkiyi yazınız.","cevapOrnegi":"Çiçek tarhının 6 kenarı ve 6 iç açısı vardır; adı altıgendir. Bir çokgenin kenar, köşe ve iç açı sayıları birbirine eşittir.","rubrik":[{"aciklama":"6 kenar ve 6 iç açı olduğunu yazdı","puan":3},{"aciklama":"Çokgenin adını altıgen olarak yazdı","puan":3},{"aciklama":"Kenar, köşe ve iç açı sayılarının eşit olduğunu belirtti","puan":3}]},
+            {"no":"6.2","puan":6,"soru":"Havuzun biçimi neden bir çokgen değildir? Açıklayınız.","cevapOrnegi":"Dairenin sınırı (çember) doğru parçalarından değil eğri bir çizgiden oluşur; kenarı ve köşesi yoktur. Bu yüzden çokgen değildir.","rubrik":[{"aciklama":"Sınırının eğri çizgiden oluştuğunu belirtti","puan":3},{"aciklama":"Kenarı ve köşesi olmadığını belirtti","puan":3}]}
+          ]
+        },
+        {
+          "no": 7,
+          "konuSlug": "matematiksel-arac-ve-teknoloji-yardimiyla-duzlemde-iki-noktada-kesisen",
+          "baslik": "İki Çember, Bir Üçgen",
+          "puan": 15,
+          "kaynaklar": [
+            {"etiket":"Durum","metin":"Ece pergelle merkezi A olan 4 cm yarıçaplı bir çember ve merkezi B olan 4 cm yarıçaplı başka bir çember çiziyor. A ile B arasındaki uzaklık 6 cm'dir. Çemberler iki noktada kesişiyor; Ece bu noktalardan birine C adını veriyor ve A, B, C noktalarını birleştirerek bir üçgen oluşturuyor."}
+          ],
+          "maddeler": [
+            {"no":"7.1","puan":9,"soru":"ABC üçgeninin kenar uzunluklarını bulunuz ve nasıl bulduğunuzu açıklayınız.","cevapOrnegi":"C noktası A merkezli çemberin üzerinde olduğu için |AC| bu çemberin yarıçapına eşittir: 4 cm. C noktası B merkezli çemberin de üzerinde olduğu için |BC| = 4 cm'dir. |AB| = 6 cm olarak verilmiştir.","rubrik":[{"aciklama":"|AC| = 4 cm buldu ve yarıçapla gerekçelendirdi","puan":3},{"aciklama":"|BC| = 4 cm buldu ve yarıçapla gerekçelendirdi","puan":3},{"aciklama":"|AB| = 6 cm olduğunu yazdı","puan":3}]},
+            {"no":"7.2","puan":6,"soru":"Bu üçgen kenar uzunluklarına göre hangi tür üçgendir? A ile B arasındaki uzaklık kaç cm olsaydı üçgen eşkenar üçgen olurdu?","cevapOrnegi":"İki kenarı eşit (4 cm) olduğu için ikizkenar üçgendir. A ile B arasındaki uzaklık da 4 cm olsaydı üç kenar eşit olur ve üçgen eşkenar üçgen olurdu.","rubrik":[{"aciklama":"Üçgenin ikizkenar olduğunu yazdı","puan":3},{"aciklama":"Eşkenar olması için uzaklığın 4 cm olması gerektiğini yazdı","puan":3}]}
+          ]
+        }
+      ]
+    }
+  ]
+}

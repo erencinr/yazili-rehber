@@ -12,49 +12,49 @@
   "ciktilar": [
     {
       "id": "COĞ.9.1.1",
-      "unite": "coğrafyanın doğası",
+      "unite": "Coğrafyanın doğası",
       "konu": "Coğrafya Biliminin Konusu ve Bölümleri",
       "konuSlug": "cografya-biliminin-konusu-ve-bolumleri",
       "metin": "Coğrafya biliminin konusu ve bölümlerini çözümleyebilme"
     },
     {
       "id": "COĞ.9.1.2",
-      "unite": "coğrafyanın doğası",
+      "unite": "Coğrafyanın doğası",
       "konu": "Niçin Coğrafya Öğrenmeliyiz?",
       "konuSlug": "nicin-cografya-ogrenmeliyiz",
       "metin": "Örnek olay, olgu veya konu üzerinden mekânsal düşünme ile coğrafya öğrenmenin önemini çözümleyebilme"
     },
     {
       "id": "COĞ.9.1.3",
-      "unite": "coğrafyanın doğası",
+      "unite": "Coğrafyanın doğası",
       "konu": "Coğrafya Biliminin Gelişimi",
       "konuSlug": "cografya-biliminin-gelisimi",
       "metin": "Coğrafya biliminin gelişimi hakkında bilgi toplayabilme"
     },
     {
       "id": "COĞ.9.2.1",
-      "unite": "mekânsal bilgi teknolojileri",
+      "unite": "Mekânsal bilgi teknolojileri",
       "konu": "Mekânın Aynası Haritalar",
       "konuSlug": "mekanin-aynasi-haritalar",
       "metin": "Harita uygulamaları yapabilme"
     },
     {
       "id": "COĞ.9.2.2",
-      "unite": "mekânsal bilgi teknolojileri",
+      "unite": "Mekânsal bilgi teknolojileri",
       "konu": "Türkiye’nin Coğrafi Konumu",
       "konuSlug": "turkiyenin-cografi-konumu",
       "metin": "Türkiye’nin konum özelliklerini algılayabilme"
     },
     {
       "id": "COĞ.9.2.3",
-      "unite": "mekânsal bilgi teknolojileri",
+      "unite": "Mekânsal bilgi teknolojileri",
       "konu": "Mekânsal Bilgi Teknolojilerinin Bileşenleri",
       "konuSlug": "mekansal-bilgi-teknolojilerinin-bilesenleri",
       "metin": "Mekânsal bilgi teknolojilerini oluşturan bileşenleri çözümleyebilme"
     },
     {
       "id": "COĞ.9.3.1",
-      "unite": "doğal sistemler ve süreçler",
+      "unite": "Doğal sistemler ve süreçler",
       "konu": "Hava Olayları ve Günlük Hayata Etkileri",
       "konuSlug": "hava-olaylari-ve-gunluk-hayata-etkileri",
       "metin": "Hava olaylarının günlük hayata etkisini gözleme dayalı tahmin edebilme"

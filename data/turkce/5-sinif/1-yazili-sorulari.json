@@ -12,56 +12,56 @@
   "ciktilar": [
     {
       "id": "T.O.5.5",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme",
       "konuSlug": "metinde-gecen-anlamini-bilmedigi-soz-varligi-unsurlarinin-anlamini",
       "metin": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
     },
     {
       "id": "T.O.5.6",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metnin yüzey anlamını belirleyebilme",
       "konuSlug": "metnin-yuzey-anlamini-belirleyebilme",
       "metin": "Metnin yüzey anlamını belirleyebilme"
     },
     {
       "id": "T.O.5.7",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Görselle iletilen anlamı belirleyebilme",
       "konuSlug": "gorselle-iletilen-anlami-belirleyebilme",
       "metin": "Görselle iletilen anlamı belirleyebilme"
     },
     {
       "id": "T.O.5.15",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metnin anahtar kelimelerini belirlemeye yönelik çözümleme yapabilme",
       "konuSlug": "metnin-anahtar-kelimelerini-belirlemeye-yonelik-cozumleme-yapabilme",
       "metin": "Metnin anahtar kelimelerini belirlemeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.O.5.20",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
       "konuSlug": "metinden-hareketle-soz-varligini-gelistirmeye-yonelik-cozumleme",
       "metin": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.Y.5.3",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme",
       "konuSlug": "yazisinda-icerik-ve-yapiya-yonelik-secimlerini-yonetebilme",
       "metin": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme"
     },
     {
       "id": "T.Y.5.13",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme",
       "konuSlug": "yazisini-zenginlestirecek-bicimde-soz-varligini-kullanabilme",
       "metin": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme"
     },
     {
       "id": "T.Y.5.16",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme",
       "konuSlug": "yazim-ve-noktalama-isaretleriyle-ilgili-kurallari-uygulayabilme",
       "metin": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme"

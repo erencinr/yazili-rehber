@@ -12,126 +12,126 @@
   "ciktilar": [
     {
       "id": "T.O.6.5",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme",
       "konuSlug": "metinde-gecen-anlamini-bilmedigi-soz-varligi-unsurlarinin-anlamini",
       "metin": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
     },
     {
       "id": "T.O.6.6",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metnin yüzey anlamını belirleyebilme",
       "konuSlug": "metnin-yuzey-anlamini-belirleyebilme",
       "metin": "Metnin yüzey anlamını belirleyebilme"
     },
     {
       "id": "T.O.6.7",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Görselle iletilen anlamı belirleyebilme",
       "konuSlug": "gorselle-iletilen-anlami-belirleyebilme",
       "metin": "Görselle iletilen anlamı belirleyebilme"
     },
     {
       "id": "T.O.6.8",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metnin derin anlamını belirlemeye yönelik basit çıkarımlar yapabilme",
       "konuSlug": "metnin-derin-anlamini-belirlemeye-yonelik-basit-cikarimlar-yapabilme",
       "metin": "Metnin derin anlamını belirlemeye yönelik basit çıkarımlar yapabilme"
     },
     {
       "id": "T.O.6.9",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metnin derin anlamını belirlemeye yönelik üst düzey çıkarımlar yapabilme",
       "konuSlug": "metnin-derin-anlamini-belirlemeye-yonelik-ust-duzey-cikarimlar",
       "metin": "Metnin derin anlamını belirlemeye yönelik üst düzey çıkarımlar yapabilme"
     },
     {
       "id": "T.O.6.10",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metin içi karşılaştırma yapabilme",
       "konuSlug": "metin-ici-karsilastirma-yapabilme",
       "metin": "Metin içi karşılaştırma yapabilme"
     },
     {
       "id": "T.O.6.11",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metinler arası karşılaştırma yapabilme",
       "konuSlug": "metinler-arasi-karsilastirma-yapabilme",
       "metin": "Metinler arası karşılaştırma yapabilme"
     },
     {
       "id": "T.O.6.12",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metindeki unsurları sınıflandırabilme",
       "konuSlug": "metindeki-unsurlari-siniflandirabilme",
       "metin": "Metindeki unsurları sınıflandırabilme"
     },
     {
       "id": "T.O.6.16",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme",
       "konuSlug": "bilgilendirici-metinde-anahtar-kelimeleri-belirlemeye-yonelik",
       "metin": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.O.6.18",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme",
       "konuSlug": "siirin-bicim-ozelliklerini-belirlemeye-yonelik-cozumleme-yapabilme",
       "metin": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.O.6.19",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirlemeye yönelik çözümleme yapabilme",
       "konuSlug": "bilgilendirici-metinde-dusunceyi-gelistirme-yollarini-belirlemeye",
       "metin": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirlemeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.O.6.21",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
       "konuSlug": "metinden-hareketle-soz-varligini-gelistirmeye-yonelik-cozumleme",
       "metin": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.Y.6.7",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yaratıcı yazı yazabilme",
       "konuSlug": "yaratici-yazi-yazabilme",
       "metin": "Yaratıcı yazı yazabilme"
     },
     {
       "id": "T.Y.6.9",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yazısında karşılaştırma yapabilme",
       "konuSlug": "yazisinda-karsilastirma-yapabilme",
       "metin": "Yazısında karşılaştırma yapabilme"
     },
     {
       "id": "T.Y.6.10",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yazısında sınıflandırma yapabilme",
       "konuSlug": "yazisinda-siniflandirma-yapabilme",
       "metin": "Yazısında sınıflandırma yapabilme"
     },
     {
       "id": "T.Y.6.11",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yorumunu yazılı olarak ifade edebilme",
       "konuSlug": "yorumunu-yazili-olarak-ifade-edebilme",
       "metin": "Yorumunu yazılı olarak ifade edebilme"
     },
     {
       "id": "T.Y.6.17",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yazısında düşünceyi geliştirme yollarını kullanabilme",
       "konuSlug": "yazisinda-dusunceyi-gelistirme-yollarini-kullanabilme",
       "metin": "Yazısında düşünceyi geliştirme yollarını kullanabilme"
     },
     {
       "id": "T.Y.6.21",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yazım kuralları ve noktalama işaretlerini uygulayabilme",
       "konuSlug": "yazim-kurallari-ve-noktalama-isaretlerini-uygulayabilme",
       "metin": "Yazım kuralları ve noktalama işaretlerini uygulayabilme"

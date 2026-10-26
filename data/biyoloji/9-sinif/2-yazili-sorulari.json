@@ -12,28 +12,28 @@
   "ciktilar": [
     {
       "id": "BİY.9.1.1",
-      "unite": "yaşam",
+      "unite": "Yaşam",
       "konu": "Biyolojinin Önemi, Biyoloji Biliminin Gelişimindeki Dönüm Noktaları",
       "konuSlug": "biyolojinin-onemi-biyoloji-biliminin-gelisimindeki-donum-noktalari",
       "metin": "Biyolojideki dönüm noktalarının insan hayatına katkılarını sorgulayabilme"
     },
     {
       "id": "BİY.9.1.2",
-      "unite": "yaşam",
+      "unite": "Yaşam",
       "konu": "Bilimin Doğası, Bilimsel Araştırma Süreçleri",
       "konuSlug": "bilimin-dogasi-bilimsel-arastirma-surecleri",
       "metin": "Bilimsel araştırma süreçlerinde bilimin doğasını yorumlayabilme"
     },
     {
       "id": "BİY.9.1.4",
-      "unite": "yaşam",
+      "unite": "Yaşam",
       "konu": "Hücresel Yapı, Organizasyon, Beslenme, Enerji Üretimi ve Tüketimi, Boşaltım, Büyüme ve Gelişme, Metabolizma, Uyarılara Tepki, Homeostazi, Üreme, Varyasyon ve Adaptasyon",
       "konuSlug": "hucresel-yapi-organizasyon-beslenme-enerji-uretimi-ve-tuketimi",
       "metin": "Çevresindeki canlıların özelliklerini bilimsel olarak gözlemleyebilme"
     },
     {
       "id": "BİY.9.1.5",
-      "unite": "yaşam",
+      "unite": "Yaşam",
       "konu": "İnorganik Moleküller (Su, Mineraller)",
       "konuSlug": "inorganik-molekuller-su-mineraller",
       "metin": "İnorganik moleküllerin önemi hakkında bilimsel çıkarım yapabilme"

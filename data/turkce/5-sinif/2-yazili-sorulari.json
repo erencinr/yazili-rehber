@@ -12,105 +12,105 @@
   "ciktilar": [
     {
       "id": "T.O.5.5",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme",
       "konuSlug": "metinde-gecen-anlamini-bilmedigi-soz-varligi-unsurlarinin-anlamini",
       "metin": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
     },
     {
       "id": "T.O.5.6",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metnin yüzey anlamını belirleyebilme",
       "konuSlug": "metnin-yuzey-anlamini-belirleyebilme",
       "metin": "Metnin yüzey anlamını belirleyebilme"
     },
     {
       "id": "T.O.5.7",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Görselle iletilen anlamı belirleyebilme",
       "konuSlug": "gorselle-iletilen-anlami-belirleyebilme",
       "metin": "Görselle iletilen anlamı belirleyebilme"
     },
     {
       "id": "T.O.5.11",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metindeki unsurları sınıflandırabilme",
       "konuSlug": "metindeki-unsurlari-siniflandirabilme",
       "metin": "Metindeki unsurları sınıflandırabilme"
     },
     {
       "id": "T.O.5.13",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Öyküleyici metinde hikâye unsurlarını belirlemeye yönelik çözümleme yapabilme",
       "konuSlug": "oykuleyici-metinde-hikaye-unsurlarini-belirlemeye-yonelik-cozumleme",
       "metin": "Öyküleyici metinde hikâye unsurlarını belirlemeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.O.5.15",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metnin anahtar kelimelerini belirlemeye yönelik çözümleme yapabilme",
       "konuSlug": "metnin-anahtar-kelimelerini-belirlemeye-yonelik-cozumleme-yapabilme",
       "metin": "Metnin anahtar kelimelerini belirlemeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.O.5.17",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme",
       "konuSlug": "siirin-bicim-ozelliklerini-belirlemeye-yonelik-cozumleme-yapabilme",
       "metin": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.O.5.18",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirlemeye yönelik çözümleme yapabilme",
       "konuSlug": "bilgilendirici-metinde-dusunceyi-gelistirme-yollarini-belirlemeye",
       "metin": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirlemeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.O.5.19",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metindeki söz sanatlarını belirlemeye yönelik çözümleme yapabilme",
       "konuSlug": "metindeki-soz-sanatlarini-belirlemeye-yonelik-cozumleme-yapabilme",
       "metin": "Metindeki söz sanatlarını belirlemeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.O.5.20",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
       "konuSlug": "metinden-hareketle-soz-varligini-gelistirmeye-yonelik-cozumleme",
       "metin": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.Y.5.5",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yaratıcı yazı yazabilme",
       "konuSlug": "yaratici-yazi-yazabilme",
       "metin": "Yaratıcı yazı yazabilme"
     },
     {
       "id": "T.Y.5.8",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yazısında sınıflandırma yapabilme",
       "konuSlug": "yazisinda-siniflandirma-yapabilme",
       "metin": "Yazısında sınıflandırma yapabilme"
     },
     {
       "id": "T.Y.5.13",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme",
       "konuSlug": "yazisini-zenginlestirecek-bicimde-soz-varligini-kullanabilme",
       "metin": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme"
     },
     {
       "id": "T.Y.5.15",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Uygun bağlantı ifadelerini kullanabilme",
       "konuSlug": "uygun-baglanti-ifadelerini-kullanabilme",
       "metin": "Uygun bağlantı ifadelerini kullanabilme"
     },
     {
       "id": "T.Y.5.16",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme",
       "konuSlug": "yazim-ve-noktalama-isaretleriyle-ilgili-kurallari-uygulayabilme",
       "metin": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme"

@@ -12,49 +12,49 @@
   "ciktilar": [
     {
       "id": "MAT.5.3.5",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Çokgenler ve Çember",
       "konuSlug": "cokgenler-ve-cember",
       "metin": "Çokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme"
     },
     {
       "id": "MAT.5.3.6",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Çokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme",
       "konuSlug": "cokgenlerin-ozellikleri-ile-ilgili-edindigi-deneyimleri-yansitabilme",
       "metin": "Çokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme"
     },
     {
       "id": "MAT.5.3.7",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Matematiksel araç ve teknoloji yardımıyla düzlemde iki noktada kesişen çember çiftinin merkezleri ve kesişim noktalarından biri ile inşa edilen üçgenlerin kenar özelliklerine yönelik çıkarım yapabilme",
       "konuSlug": "matematiksel-arac-ve-teknoloji-yardimiyla-duzlemde-iki-noktada-kesisen",
       "metin": "Matematiksel araç ve teknoloji yardımıyla düzlemde iki noktada kesişen çember çiftinin merkezleri ve kesişim noktalarından biri ile inşa edilen üçgenlerin kenar özelliklerine yönelik çıkarım yapabilme"
     },
     {
       "id": "MAT.5.1.1",
-      "unite": "sayılar ve nicelikler (1)",
+      "unite": "Sayılar ve nicelikler (1)",
       "konu": "Basamak Değerlerini Çözümleme",
       "konuSlug": "basamak-degerlerini-cozumleme",
       "metin": "Altı basamaklı sayıları okuma ve yazmayı çok basamaklı sayılara genelleyebilme"
     },
     {
       "id": "MAT.5.1.2",
-      "unite": "sayılar ve nicelikler (1)",
+      "unite": "Sayılar ve nicelikler (1)",
       "konu": "Doğal Sayılarla Dört İşlem İçeren Problem Çözme",
       "konuSlug": "dogal-sayilarla-dort-islem-iceren-problem-cozme",
       "metin": "Doğal sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme"
     },
     {
       "id": "MAT.5.4.1",
-      "unite": "geometrik nicelikler",
+      "unite": "Geometrik nicelikler",
       "konu": "Dikdörtgenin Çevre Uzunluğu ve Alanı",
       "konuSlug": "dikdortgenin-cevre-uzunlugu-ve-alani",
       "metin": "Kenar uzunlukları doğal sayı olan bir dikdörtgenin çevre uzunluğu verildiğinde kenar uzunluklarını yorumlayabilme"
     },
     {
       "id": "MAT.5.4.2",
-      "unite": "geometrik nicelikler",
+      "unite": "Geometrik nicelikler",
       "konu": "Birim karelerden yola çıkarak dikdörtgenin alanını değerlendirebilme",
       "konuSlug": "birim-karelerden-yola-cikarak-dikdortgenin-alanini-degerlendirebilme",
       "metin": "Birim karelerden yola çıkarak dikdörtgenin alanını değerlendirebilme"

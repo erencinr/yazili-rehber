@@ -12,21 +12,21 @@
   "ciktilar": [
     {
       "id": "MAT.11.1.1",
-      "unite": "istatistiksel araştırma süreci",
+      "unite": "İstatistiksel araştırma süreci",
       "konu": "İki Nicel Değişkenli Veriler",
       "konuSlug": "iki-nicel-degiskenli-veriler",
       "metin": "İki nicel değişkenli veri ile çalışabilme ve iki nicel değişken arasındaki ilişkililiğe dayalı karar verebilme"
     },
     {
       "id": "MAT.11.1.2",
-      "unite": "istatistiksel araştırma süreci",
+      "unite": "İstatistiksel araştırma süreci",
       "konu": "Başkaları Tarafından Oluşturulan İki Nicel Değişkenli Verileri İnceleme",
       "konuSlug": "baskalari-tarafindan-olusturulan-iki-nicel-degiskenli-verileri",
       "metin": "Başkaları tarafından oluşturulan iki nicel değişkenli verilerin ilişkililiğine dayalı istatistiksel sonuç veya yorumları tartışabilme"
     },
     {
       "id": "MAT.11.2.1",
-      "unite": "geometrik şekiller",
+      "unite": "Geometrik şekiller",
       "konu": "Dörtgenlerin Özellikleri",
       "konuSlug": "dortgenlerin-ozellikleri",
       "metin": "Üçgenlerde açı, benzerlik ve alan özelliklerinden yola çıkarak dörtgenlerin açı, kenar, köşegen, simetri ve alan özelliklerine ilişkin muhakeme yapabilme"

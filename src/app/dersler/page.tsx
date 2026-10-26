@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Breadcrumb, Container, CtaStrip, FaqAccordion, H2, PageHero } from "@/components/ui";
+import { Breadcrumb, Container, FaqAccordion, H2, PageHero } from "@/components/ui";
 import { site } from "@/config/site";
 import { getDersler, getYazililar, sinifNo } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: `OYSS dersleri: Ortaokul ve lise yazılı soruları ${site.egitimYili}`,
+  title: `OYSS dersleri ve yazılı soruları ${site.egitimYili}`,
   description: "Ortak yazılı sınava giren tüm dersler. Sınıfını seç, senaryo kâğıtlarını çöz ve kendini puanla.",
   alternates: { canonical: "/dersler/" },
 };
@@ -24,8 +24,7 @@ export default function DerslerPage() {
         <p className="text-lg text-ink/80">Dersini ve sınıfını seç; senaryo kâğıtlarını çözüp kendini puanla.</p>
       </PageHero>
       <Container className="space-y-14 py-12">
-        <CtaStrip href="/dersler/tarih/9-sinif/1-yazili-sorulari/">Örnek kâğıt: 9. sınıf Tarih 1. yazılı</CtaStrip>
-        {gruplar.map((g) => (
+        {gruplar.filter((g) => dersler.some((d) => d.kademe === g.kademe)).map((g) => (
           <section key={g.kademe} className="space-y-5">
             <H2>{g.baslik}</H2>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
+import { site } from "@/config/site";
 import { DersSchema, SorularSchema, TabloSchema, TakvimSchema, type Ders, type Senaryo, type Yazili } from "./types";
 
 const DATA_DIR = path.join(process.cwd(), "data");
@@ -82,7 +83,9 @@ function yaziliOku(klasor: string, dosya: string): Yazili {
 
 let derslerOnbellek: Ders[] | undefined;
 export function getDersler(): Ders[] {
-  derslerOnbellek ??= okuJson("dersler.json", z.array(DersSchema));
+  derslerOnbellek ??= okuJson("dersler.json", z.array(DersSchema)).filter((d) =>
+    (site.yayindakiDersler as readonly string[]).includes(d.slug),
+  );
   return derslerOnbellek;
 }
 

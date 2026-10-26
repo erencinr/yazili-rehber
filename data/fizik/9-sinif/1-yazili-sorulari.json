@@ -12,49 +12,49 @@
   "ciktilar": [
     {
       "id": "FİZ.9.1.1",
-      "unite": "fizik bilimi ve kariyer keşfi",
+      "unite": "Fizik bilimi ve kariyer keşfi",
       "konu": "Fizik Bilimi",
       "konuSlug": "fizik-bilimi",
       "metin": "Fizik biliminin tanımına yönelik tümevarımsal akıl yürütebilme"
     },
     {
       "id": "FİZ.9.1.2",
-      "unite": "fizik bilimi ve kariyer keşfi",
+      "unite": "Fizik bilimi ve kariyer keşfi",
       "konu": "Fizik Biliminin Alt Dalları",
       "konuSlug": "fizik-biliminin-alt-dallari",
       "metin": "Fizik biliminin alt dallarını sınıflandırabilme"
     },
     {
       "id": "FİZ.9.1.3",
-      "unite": "fizik bilimi ve kariyer keşfi",
+      "unite": "Fizik bilimi ve kariyer keşfi",
       "konu": "Fizik Bilimine Yön Verenler",
       "konuSlug": "fizik-bilimine-yon-verenler",
       "metin": "Fizik bilimine katkıda bulunmuş bilim insanlarının deneyimlerini yansıtabilme"
     },
     {
       "id": "FİZ.9.1.4",
-      "unite": "fizik bilimi ve kariyer keşfi",
+      "unite": "Fizik bilimi ve kariyer keşfi",
       "konu": "Fizik Bilimi İle İlgili Kariyer Keşfi",
       "konuSlug": "fizik-bilimi-ile-ilgili-kariyer-kesfi",
       "metin": "Bilim ve teknoloji alanında faaliyet gösteren kurum veya kuruluşlarda fizik bilimi ile ilişkili kariyer olanaklarını sorgulayabilme"
     },
     {
       "id": "FİZ.9.2.1",
-      "unite": "kuvvet ve hareket",
+      "unite": "Kuvvet ve hareket",
       "konu": "Temel ve Türetilmiş Nicelikler",
       "konuSlug": "temel-ve-turetilmis-nicelikler",
       "metin": "Birimleri SI birim sisteminde verilen temel ve türetilmiş nicelikleri sınıflandırabilme"
     },
     {
       "id": "FİZ.9.2.2",
-      "unite": "kuvvet ve hareket",
+      "unite": "Kuvvet ve hareket",
       "konu": "Skaler ve Vektörel Nicelikler",
       "konuSlug": "skaler-ve-vektorel-nicelikler",
       "metin": "Skaler ve vektörel nicelikleri karşılaştırabilme"
     },
     {
       "id": "FİZ.9.2.3",
-      "unite": "kuvvet ve hareket",
+      "unite": "Kuvvet ve hareket",
       "konu": "Vektörler",
       "konuSlug": "vektorler",
       "metin": "Aynı doğrultu üzerinde yer alan farklı vektörlerin yön ve büyüklüklerine yönelik bilimsel çıkarım yapabilme"

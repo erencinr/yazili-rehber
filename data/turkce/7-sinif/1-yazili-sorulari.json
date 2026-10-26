@@ -12,70 +12,70 @@
   "ciktilar": [
     {
       "id": "T.O.7.4",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme",
       "konuSlug": "metinde-gecen-anlamini-bilmedigi-soz-varligi-unsurlarinin-anlamini",
       "metin": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
     },
     {
       "id": "T.O.7.5",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metnin yüzey anlamını belirleyebilme",
       "konuSlug": "metnin-yu-zey-anlamini-belirleyebilme",
       "metin": "Metnin yüzey anlamını belirleyebilme"
     },
     {
       "id": "T.O.7.7",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metnin derin anlamını belirlemeye yönelik basit çıkarımlar yapabilme",
       "konuSlug": "metnin-derin-anlamini-belirlemeye-yonelik-basit-cikarimlar-yapabilme",
       "metin": "Metnin derin anlamını belirlemeye yönelik basit çıkarımlar yapabilme"
     },
     {
       "id": "T.O.7.8",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metnin derin anlamını belirlemeye yönelik üst düzey çıkarımlar yapabilme",
       "konuSlug": "metnin-derin-anlamini-belirlemeye-yonelik-u-st-du-zey-cikarimlar",
       "metin": "Metnin derin anlamını belirlemeye yönelik üst düzey çıkarımlar yapabilme"
     },
     {
       "id": "T.O.7.14",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Bilgilendirici metinlerde metin yapılarından hareketle önemli bilgileri belirlemeye yönelik çözümleme yapabilme",
       "konuSlug": "bilgilendirici-metinlerde-metin-yapilarindan-hareketle-onemli",
       "metin": "Bilgilendirici metinlerde metin yapılarından hareketle önemli bilgileri belirlemeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.O.7.15",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme",
       "konuSlug": "bilgilendirici-metinde-anahtar-kelimeleri-belirlemeye-yonelik-cozu",
       "metin": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.O.7.21",
-      "unite": "okuma",
+      "unite": "Okuma",
       "konu": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
       "konuSlug": "metinden-hareketle-soz-varligini-gelistirmeye-yonelik-cozu-mleme",
       "metin": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
     },
     {
       "id": "T.Y.7.3",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme",
       "konuSlug": "yazisinda-icerik-ve-yapiya-yonelik-secimlerini-yonetebilme",
       "metin": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme"
     },
     {
       "id": "T.Y.7.18",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme",
       "konuSlug": "yazisini-zenginlestirecek-bicimde-soz-varligini-kullanabilme",
       "metin": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme"
     },
     {
       "id": "T.Y.7.21",
-      "unite": "yazma",
+      "unite": "Yazma",
       "konu": "Yazım kuralları ve noktalama işaretlerini uygulayabilme",
       "konuSlug": "yazim-kurallari-ve-noktalama-isaretlerini-uygulayabilme",
       "metin": "Yazım kuralları ve noktalama işaretlerini uygulayabilme"

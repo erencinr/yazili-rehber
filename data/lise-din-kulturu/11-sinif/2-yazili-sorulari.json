@@ -12,56 +12,56 @@
   "ciktilar": [
     {
       "id": "DKAB.11.1.1",
-      "unite": "kader, irade ve sorumluluk",
+      "unite": "Kader, irade ve sorumluluk",
       "konu": "İnsan ve Kader",
       "konuSlug": "insan-ve-kader",
       "metin": "Kader ve kaderle ilgili kavramları yapılandırabilme"
     },
     {
       "id": "DKAB.11.1.2",
-      "unite": "kader, irade ve sorumluluk",
+      "unite": "Kader, irade ve sorumluluk",
       "konu": "Akıl, İrade ve Sorumluluk Sahibi Bir Varlık Olarak İnsan",
       "konuSlug": "akil-irade-ve-sorumluluk-sahibi-bir-varlik-olarak-insan",
       "metin": "İnsan, akıl, irade ve sorumluluk kavramları arasındaki ilişki hakkında eleştirel düşünebilme"
     },
     {
       "id": "DKAB.11.2.1",
-      "unite": "din, felsefe, bilim ve sanat",
+      "unite": "Din, felsefe, bilim ve sanat",
       "konu": "Din",
       "konuSlug": "din",
       "metin": "Din tanımlarını ve farklı disiplinlerin dine yaklaşımları arasında mukayese yapabilme"
     },
     {
       "id": "DKAB.11.2.2",
-      "unite": "din, felsefe, bilim ve sanat",
+      "unite": "Din, felsefe, bilim ve sanat",
       "konu": "Din, Felsefe ve Bilim",
       "konuSlug": "din-felsefe-ve-bilim",
       "metin": "Dinin felsefe ve bilimle ilişkisini sorgulayabilme"
     },
     {
       "id": "DKAB.11.2.3",
-      "unite": "din, felsefe, bilim ve sanat",
+      "unite": "Din, felsefe, bilim ve sanat",
       "konu": "Din ve Sanat",
       "konuSlug": "din-ve-sanat",
       "metin": "Din ve sanat arasındaki ilişkiyi çözümleyebilme"
     },
     {
       "id": "DKAB.11.2.4",
-      "unite": "din, felsefe, bilim ve sanat",
+      "unite": "Din, felsefe, bilim ve sanat",
       "konu": "Kur’an’dan Mesajlar",
       "konuSlug": "kurandan-mesajlar",
       "metin": "Al-i İmran suresinin 190-191. ayetlerindeki mesajları anlamak için Kur’an-ı Kerim meallerine başvurabilme"
     },
     {
       "id": "DKAB.11.3.1",
-      "unite": "islam medeniyeti ve gönül coğrafyamız",
+      "unite": "İslam medeniyeti ve gönül coğrafyamız",
       "konu": "Medeniyetin Oluşumu",
       "konuSlug": "medeniyetin-olusumu",
       "metin": "Medeniyetin oluşumuna etki eden unsurları çözümleyebilme"
     },
     {
       "id": "DKAB.11.3.2",
-      "unite": "islam medeniyeti ve gönül coğrafyamız",
+      "unite": "İslam medeniyeti ve gönül coğrafyamız",
       "konu": "İslam Medeniyetinin İzleri",
       "konuSlug": "islam-medeniyetinin-izleri",
       "metin": "İslam medeniyetinin izlerini özetleyebilme"

@@ -21,6 +21,9 @@ export const site = {
     ],
   },
   egitimYili: "2026-2027",
+  // Sitede yayınlanan dersler (dersler.json'daki slug'lar). Diğer derslerin verisi data/ altında durur;
+  // yayına almak için slug'ı buraya eklemek yeterli.
+  yayindakiDersler: ["ortaokul-matematik"],
   nav: [
     { ad: "OYSS nedir", href: "/oyss-nedir/" },
     { ad: "Nasıl çalışır", href: "/oyss-nasil-calisir/" },

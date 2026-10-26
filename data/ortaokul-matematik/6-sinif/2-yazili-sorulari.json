@@ -12,42 +12,42 @@
   "ciktilar": [
     {
       "id": "MAT.6.6.1",
-      "unite": "veriden olasılığa",
+      "unite": "Veriden olasılığa",
       "konu": "Deneysel Olasılık",
       "konuSlug": "deneysel-olasilik",
       "metin": "Bir olayın olasılığını gözleme dayalı tahmin edebilme"
     },
     {
       "id": "MAT.6.1.5",
-      "unite": "sayılar ve nicelikler (2)",
+      "unite": "Sayılar ve nicelikler (2)",
       "konu": "Ondalık Gösterimleri Çözümleme",
       "konuSlug": "ondalik-gosterimleri-cozumleme",
       "metin": "Gerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme"
     },
     {
       "id": "MAT.6.1.6",
-      "unite": "sayılar ve nicelikler (2)",
+      "unite": "Sayılar ve nicelikler (2)",
       "konu": "Kesir-Bölme İlişkisi",
       "konuSlug": "kesir-bolme-iliskisi",
       "metin": "Kesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme"
     },
     {
       "id": "MAT.6.1.7",
-      "unite": "sayılar ve nicelikler (2)",
+      "unite": "Sayılar ve nicelikler (2)",
       "konu": "Kesirlerle Dört İşlem İçeren Problem Çözme",
       "konuSlug": "kesirlerle-dort-islem-iceren-problem-cozme",
       "metin": "Gerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme"
     },
     {
       "id": "MAT.6.1.8",
-      "unite": "sayılar ve nicelikler (2)",
+      "unite": "Sayılar ve nicelikler (2)",
       "konu": "Uzunluk Ölçme",
       "konuSlug": "uzunluk-olcme",
       "metin": "Karşılaştığı günlük hayat ya da matematiksel durumlarda standart uzunluk ölçme birimlerini değerlendirebilme"
     },
     {
       "id": "MAT.6.5.1",
-      "unite": "istatistiksel araştırma süreci",
+      "unite": "İstatistiksel araştırma süreci",
       "konu": "Kategorik ve Nicel (Kesikli) Veri Dağılımları",
       "konuSlug": "kategorik-ve-nicel-kesikli-veri-dagilimlari",
       "metin": "Kategorik veya nicel (kesikli) veri ile çalışabilme ve veriye dayalı karar verebilme"

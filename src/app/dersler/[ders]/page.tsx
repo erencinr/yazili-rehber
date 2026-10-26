@@ -91,10 +91,12 @@ export default async function DersPage({ params }: PageProps<"/dersler/[ders]">)
           ]}
         />
 
-        <section className="space-y-4">
-          <H2>Diğer {ders.kademe === "lise" ? "lise" : "ortaokul"} dersleri</H2>
-          <DersChipleri kademe={ders.kademe} haric={ders.slug} />
-        </section>
+        {getDersler().some((d) => d.kademe === ders.kademe && d.slug !== ders.slug) && (
+          <section className="space-y-4">
+            <H2>Diğer {ders.kademe === "lise" ? "lise" : "ortaokul"} dersleri</H2>
+            <DersChipleri kademe={ders.kademe} haric={ders.slug} />
+          </section>
+        )}
       </Container>
     </>
   );
