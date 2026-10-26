@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "tablo": "node scripts/tablo-aktar.mjs",
-    "tablolar": "node scripts/tablo-aktar.mjs --hepsi"
+    "tablolar": "node scripts/tablo-aktar.mjs --hepsi",
+    "build:atomica": "BASE_PATH=/yazili NEXT_PUBLIC_SITE_URL=https://atomica.com.tr/yazili next build"
   },
   "dependencies": {
     "next": "16.4.3",

@@ -9,8 +9,8 @@ export function maddePuani(m: Madde, isaretli: number[] = []) {
 
 export function SourceBlock({ kaynak }: { kaynak: Soru["kaynaklar"][number] }) {
   return (
-    <figure className="rounded-xl border border-line bg-paper p-4">
-      <figcaption className="mb-1 text-sm font-semibold text-forest">{kaynak.etiket}</figcaption>
+    <figure className="rounded-xl border border-line bg-soft p-4">
+      <figcaption className="mb-1 text-sm font-semibold text-navy">{kaynak.etiket}</figcaption>
       <blockquote className="text-ink/90">{kaynak.metin}</blockquote>
       {kaynak.dipnot && <p className="mt-2 text-xs text-muted">{kaynak.dipnot}</p>}
     </figure>
@@ -35,17 +35,17 @@ function RubricChecklist({ m, isaretli, isaretle, aktif }: { m: Madde; isaretli:
             {aktif ? (
               <input
                 type="checkbox"
-                className="mt-1 size-4 accent-forest"
+                className="mt-1 size-4 accent-navy"
                 checked={isaretli.includes(i)}
                 onChange={() => isaretle?.(i)}
               />
             ) : (
-              <span className="mt-0.5 text-forest" aria-hidden>
+              <span className="mt-0.5 text-navy" aria-hidden>
                 •
               </span>
             )}
             <span className="flex-1">{r.aciklama}</span>
-            <span className="font-semibold whitespace-nowrap text-forest tabular-nums">{r.puan} puan</span>
+            <span className="font-semibold whitespace-nowrap text-navy tabular-nums">{r.puan} puan</span>
           </label>
         </li>
       ))}
@@ -60,7 +60,7 @@ function SubItem({ m, e }: { m: Madde; e?: Etkilesim }) {
     <div className="sub-item space-y-3 border-t border-line pt-4">
       <p>
         <span className="font-semibold">{m.no}.</span> {m.soru}{" "}
-        <span className="text-sm font-semibold whitespace-nowrap text-forest">({m.puan} puan)</span>
+        <span className="text-sm font-semibold whitespace-nowrap text-navy">({m.puan} puan)</span>
       </p>
       {e && (
         <div className="answer-area">
@@ -71,7 +71,7 @@ function SubItem({ m, e }: { m: Madde; e?: Etkilesim }) {
               value={e.cevaplar[m.no] ?? ""}
               onChange={(ev) => e.cevapYaz?.(m.no, ev.target.value)}
               placeholder="Cevabını buraya yazabilirsin (isteğe bağlı)"
-              className="w-full rounded-xl border border-line bg-white p-3 text-sm outline-none focus:border-forest"
+              className="w-full rounded-xl border border-line bg-white p-3 text-sm outline-none focus:border-navy"
             />
           ) : (
             e.cevaplar[m.no] && (
@@ -89,8 +89,8 @@ function SubItem({ m, e }: { m: Madde; e?: Etkilesim }) {
         </div>
       )}
       {statik ? (
-        <details className="rounded-xl bg-forest-50">
-          <summary className="flex cursor-pointer items-center justify-between px-4 py-3 text-sm font-semibold text-forest">
+        <details className="rounded-xl bg-navy-tint">
+          <summary className="flex cursor-pointer items-center justify-between px-4 py-3 text-sm font-semibold text-navy">
             Çözüm ve puanlama <span className="faq-isaret text-lg" aria-hidden />
           </summary>
           <div className="space-y-3 px-4 pb-4">
@@ -99,9 +99,9 @@ function SubItem({ m, e }: { m: Madde; e?: Etkilesim }) {
           </div>
         </details>
       ) : (
-        <div className="solution space-y-3 rounded-xl bg-forest-50 p-4">
+        <div className="solution space-y-3 rounded-xl bg-navy-tint p-4">
           <div className="flex items-center justify-between gap-3">
-            <p className="text-sm font-semibold text-forest">Çözüm ve puanlama</p>
+            <p className="text-sm font-semibold text-navy">Çözüm ve puanlama</p>
             {e.puanlamaAcik && (
               <p className="text-sm font-semibold tabular-nums">
                 {maddePuani(m, isaretli)}/{m.puan}
@@ -127,7 +127,7 @@ function Cozum({ m }: { m: Madde }) {
 
 export function QuestionCard({ soru, konuAdi, e, baslikEki }: { soru: Soru; konuAdi?: string; e?: Etkilesim; baslikEki?: string }) {
   return (
-    <article id={e ? `soru-${soru.no}` : undefined} className="question-card scroll-mt-36 space-y-4 rounded-2xl border border-line bg-white p-5 shadow-sm sm:p-6">
+    <article id={e ? `soru-${soru.no}` : undefined} className="question-card scroll-mt-40 space-y-4 rounded-[22px] border border-line bg-white p-5 shadow-sm sm:p-6">
       <header className="flex flex-wrap items-baseline justify-between gap-2">
         <h3 className="font-serif text-xl">
           {soru.no}. {soru.baslik}
@@ -135,7 +135,7 @@ export function QuestionCard({ soru, konuAdi, e, baslikEki }: { soru: Soru; konu
         </h3>
         <p className="text-sm text-muted">
           {konuAdi && <span>{konuAdi} · </span>}
-          <span className="font-semibold text-forest">{soru.puan} puan</span>
+          <span className="font-semibold text-navy">{soru.puan} puan</span>
         </p>
       </header>
       {/* Kaynaklar ilk maddeyle birlikte durur; yazdırırken sayfa sonunda yalnız kalmaz. */}

@@ -32,8 +32,8 @@ export default function DerslerPage() {
               {dersler
                 .filter((d) => d.kademe === g.kademe)
                 .map((d) => (
-                  <div key={d.slug} className="rounded-2xl border border-line bg-white p-5 shadow-sm">
-                    <Link href={`/dersler/${d.slug}/`} className="font-serif text-xl hover:text-forest">
+                  <div key={d.slug} className="rounded-[22px] border border-line bg-white p-5 shadow-sm">
+                    <Link href={`/dersler/${d.slug}/`} className="font-serif text-xl hover:text-navy">
                       OYSS {d.ad}
                     </Link>
                     <div className="mt-3 flex flex-wrap gap-2">
@@ -44,7 +44,7 @@ export default function DerslerPage() {
                             key={s.slug}
                             href={`/dersler/${d.slug}/${s.slug}/`}
                             className={`rounded-full border px-3 py-1 text-sm ${
-                              hazir ? "border-forest bg-forest-50 font-semibold text-forest" : "border-line text-muted"
+                              hazir ? "border-navy bg-navy-tint font-semibold text-navy" : "border-line text-muted"
                             }`}
                           >
                             {sinifNo(s.slug)}. sınıf

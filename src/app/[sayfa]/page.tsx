@@ -49,7 +49,7 @@ export default async function SayfaPage({ params }: PageProps<"/[sayfa]">) {
                     </p>
                   ))}
                   {b.liste && (
-                    <ul className="list-disc space-y-1.5 pl-6 text-ink/85 marker:text-forest">
+                    <ul className="list-disc space-y-1.5 pl-6 text-ink/85 marker:text-navy">
                       {b.liste.map((m) => (
                         <li key={m}>{m}</li>
                       ))}
@@ -59,12 +59,12 @@ export default async function SayfaPage({ params }: PageProps<"/[sayfa]">) {
               ))}
             </article>
             <aside className="hidden lg:block">
-              <nav aria-label="Bu sayfada" className="sticky top-24 rounded-2xl border border-line bg-white p-5 text-sm shadow-sm">
-                <p className="mb-2 font-semibold text-forest">Bu sayfada</p>
+              <nav aria-label="Bu sayfada" className="sticky top-28 rounded-[22px] border border-line bg-white p-5 text-sm shadow-sm">
+                <p className="mb-2 font-semibold text-navy">Bu sayfada</p>
                 <ul className="space-y-1.5">
                   {s.bolumler.map((b) => (
                     <li key={b.id}>
-                      <a href={`#${b.id}`} className="hover:text-forest hover:underline">
+                      <a href={`#${b.id}`} className="hover:text-navy hover:underline">
                         {b.baslik}
                       </a>
                     </li>

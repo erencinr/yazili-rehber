@@ -13,7 +13,7 @@ export function ScenarioTable({ ciktilar, senaryolar, hrefOnEk }: Props) {
   const [secili, setSecili] = useState<number | null>(null);
   const gorunen = secili === null ? senaryolar : senaryolar.filter((s) => s.no === secili);
   const chip = (aktif: boolean) =>
-    `rounded-full border px-3 py-1.5 text-sm font-medium ${aktif ? "border-forest bg-forest text-white" : "border-line bg-white hover:border-forest/40"}`;
+    `rounded-full border px-3 py-1.5 text-sm font-medium ${aktif ? "border-navy bg-navy text-white" : "border-line bg-white hover:border-navy/40"}`;
 
   return (
     <div className="space-y-3">
@@ -27,15 +27,15 @@ export function ScenarioTable({ ciktilar, senaryolar, hrefOnEk }: Props) {
           </button>
         ))}
       </div>
-      <div className="overflow-x-auto rounded-2xl border border-line bg-white shadow-sm">
+      <div className="overflow-x-auto rounded-[22px] border border-line bg-white shadow-sm">
         <table className="w-full min-w-[560px] text-sm">
-          <thead className="bg-forest-50 text-left">
+          <thead className="bg-navy-tint text-left">
             <tr>
               <th className="px-4 py-3 font-semibold">Öğrenme çıktısı</th>
               {gorunen.map((s) => (
                 <th key={s.no} className="px-4 py-3 text-center font-semibold whitespace-nowrap">
                   {s.hazir ? (
-                    <Link href={`${hrefOnEk}senaryo-${s.no}/`} className="text-forest hover:underline">
+                    <Link href={`${hrefOnEk}senaryo-${s.no}/`} className="text-navy hover:underline">
                       Senaryo {s.no}
                     </Link>
                   ) : (
@@ -49,7 +49,7 @@ export function ScenarioTable({ ciktilar, senaryolar, hrefOnEk }: Props) {
             {ciktilar.map((c) => (
               <tr key={c.id}>
                 <td className="px-4 py-3">
-                  <span className="font-semibold text-forest">{c.id}</span>
+                  <span className="font-semibold text-navy">{c.id}</span>
                   <span className="text-muted"> · {c.unite} · </span>
                   {c.metin}
                 </td>
@@ -60,7 +60,7 @@ export function ScenarioTable({ ciktilar, senaryolar, hrefOnEk }: Props) {
                 ))}
               </tr>
             ))}
-            <tr className="bg-paper font-semibold">
+            <tr className="bg-soft font-semibold">
               <td className="px-4 py-3">Toplam soru</td>
               {gorunen.map((s) => (
                 <td key={s.no} className="px-4 py-3 text-center tabular-nums">

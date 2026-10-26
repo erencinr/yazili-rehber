@@ -1,6 +1,7 @@
 // localStorage erişimi. Gizli pencere veya engellenmiş depolamada sessizce boş döner.
 
-export const SINAV_ONEK = "sinav:";
+// atomica.com.tr ana uygulamasıyla aynı origin; anahtarlar çakışmasın diye ön ekli.
+export const SINAV_ONEK = "atomica-yazili:sinav:";
 
 export type Faz = "hazir" | "cozuluyor" | "puanlama" | "sonuc";
 

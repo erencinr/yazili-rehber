@@ -24,10 +24,10 @@ export function HesapListesi() {
 
   if (kayitlar.length === 0) {
     return (
-      <div className="rounded-2xl border border-line bg-white p-6 shadow-sm">
+      <div className="rounded-[22px] border border-line bg-white p-6 shadow-sm">
         <p className="font-serif text-xl">Henüz kâğıt çözmedin</p>
         <p className="mt-1 text-ink/80">
-          <Link href="/dersler/" className="font-semibold text-forest underline">
+          <Link href="/dersler/" className="font-semibold text-navy underline">
             Dersler
           </Link>{" "}
           sayfasından bir kâğıt seçip başlayabilirsin.
@@ -44,9 +44,9 @@ export function HesapListesi() {
 
   return (
     <div className="space-y-4">
-      <div className="overflow-x-auto rounded-2xl border border-line bg-white shadow-sm">
+      <div className="overflow-x-auto rounded-[22px] border border-line bg-white shadow-sm">
         <table className="w-full min-w-[640px] text-sm">
-          <thead className="bg-forest-50 text-left">
+          <thead className="bg-navy-tint text-left">
             <tr>
               <th className="px-4 py-3 font-semibold">Kâğıt</th>
               <th className="px-4 py-3 font-semibold">Durum</th>
@@ -59,7 +59,7 @@ export function HesapListesi() {
             {kayitlar.map(({ anahtar, kayit }) => (
               <tr key={anahtar}>
                 <td className="px-4 py-3">
-                  <Link href={kayit.url} className="font-medium text-forest hover:underline">
+                  <Link href={kayit.url} className="font-medium text-navy hover:underline">
                     {kayit.baslik}
                   </Link>
                 </td>
@@ -70,7 +70,7 @@ export function HesapListesi() {
                 <td className="px-4 py-3 font-semibold tabular-nums">{kayit.puan ?? "—"}</td>
                 <td className="px-4 py-3">
                   {kayit.enZayif ? (
-                    <Link href={kayit.enZayif.href} className="hover:text-forest hover:underline">
+                    <Link href={kayit.enZayif.href} className="hover:text-navy hover:underline">
                       {kayit.enZayif.ad} (%{kayit.enZayif.yuzde})
                     </Link>
                   ) : (

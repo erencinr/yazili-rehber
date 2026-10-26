@@ -63,7 +63,7 @@ export default async function YaziliPage({ params }: PageProps<"/dersler/[ders]/
                 {adimlar.map((a, i) => (
                   <li key={a.baslik}>
                     <Card className="h-full">
-                      <span className="grid size-9 place-items-center rounded-full bg-forest-50 font-semibold text-forest">
+                      <span className="grid size-9 place-items-center rounded-full bg-navy-tint font-semibold text-navy">
                         {i + 1}
                       </span>
                       <h3 className="mt-3 font-serif text-lg">{a.baslik}</h3>
@@ -78,7 +78,7 @@ export default async function YaziliPage({ params }: PageProps<"/dersler/[ders]/
               <H2>Senaryolar neyi soruyor?</H2>
               <ResponsiveTable>
                 <table className="w-full min-w-[520px] text-sm">
-                  <thead className="bg-forest-50 text-left">
+                  <thead className="bg-navy-tint text-left">
                     <tr>
                       <th className="px-4 py-3 font-semibold">Senaryo</th>
                       <th className="px-4 py-3 font-semibold">Konular</th>
@@ -105,7 +105,7 @@ export default async function YaziliPage({ params }: PageProps<"/dersler/[ders]/
                           {s.hazir ? (
                             <Link
                               href={`${taban}senaryo-${s.no}/`}
-                              className="font-semibold text-forest hover:underline"
+                              className="font-semibold text-navy hover:underline"
                             >
                               Çöz →
                             </Link>
@@ -124,7 +124,7 @@ export default async function YaziliPage({ params }: PageProps<"/dersler/[ders]/
                   <>
                     {" "}
                     (
-                    <a href={yazili.kaynak.url} className="underline hover:text-forest" rel="noopener noreferrer">
+                    <a href={yazili.kaynak.url} className="underline hover:text-navy" rel="noopener noreferrer">
                       resmî dosya
                     </a>
                     )
@@ -141,8 +141,8 @@ export default async function YaziliPage({ params }: PageProps<"/dersler/[ders]/
                   const adet = konuSorulari(yazili, k.slug).length;
                   const icerik = (
                     <>
-                      <p className="text-xs font-semibold text-forest">{k.ciktiId}</p>
-                      <p className="mt-1 font-serif text-lg group-hover:text-forest">{k.ad}</p>
+                      <p className="text-xs font-semibold text-navy">{k.ciktiId}</p>
+                      <p className="mt-1 font-serif text-lg group-hover:text-navy">{k.ad}</p>
                       <p className="mt-1 text-sm text-muted">
                         {adet > 0 ? `${adet} soru · tüm senaryolardan` : "Sorular hazırlanıyor"}
                       </p>
@@ -152,12 +152,12 @@ export default async function YaziliPage({ params }: PageProps<"/dersler/[ders]/
                     <Link
                       key={k.slug}
                       href={`${taban}${k.slug}/`}
-                      className="group rounded-2xl border border-line bg-white p-5 shadow-sm hover:border-forest/40"
+                      className="group rounded-[22px] border border-line bg-white p-5 shadow-sm hover:border-navy/40"
                     >
                       {icerik}
                     </Link>
                   ) : (
-                    <div key={k.slug} className="rounded-2xl border border-line bg-white/60 p-5">
+                    <div key={k.slug} className="rounded-[22px] border border-line bg-white/60 p-5">
                       {icerik}
                     </div>
                   );

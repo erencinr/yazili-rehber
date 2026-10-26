@@ -47,8 +47,8 @@ export default async function DersPage({ params }: PageProps<"/dersler/[ders]">)
               const yazililar = getYazililar(ders.slug, s.slug);
               const senaryoSayisi = yazililar.reduce((t, y) => t + y.senaryolar.filter((s) => s.hazir).length, 0);
               return (
-                <div key={s.slug} className="rounded-2xl border border-line bg-white p-5 shadow-sm">
-                  <Link href={`/dersler/${ders.slug}/${s.slug}/`} className="font-serif text-xl hover:text-forest">
+                <div key={s.slug} className="rounded-[22px] border border-line bg-white p-5 shadow-sm">
+                  <Link href={`/dersler/${ders.slug}/${s.slug}/`} className="font-serif text-xl hover:text-navy">
                     {sinifNo(s.slug)}. sınıf {ders.ad}
                   </Link>
                   <p className="mt-1 text-sm text-muted">
@@ -58,7 +58,7 @@ export default async function DersPage({ params }: PageProps<"/dersler/[ders]">)
                     <ul className="mt-3 space-y-1 text-sm">
                       {yazililar.map((y) => (
                         <li key={y.slug}>
-                          <Link href={`/dersler/${ders.slug}/${s.slug}/${y.slug}/`} className="font-medium text-forest hover:underline">
+                          <Link href={`/dersler/${ders.slug}/${s.slug}/${y.slug}/`} className="font-medium text-navy hover:underline">
                             {y.ad} soruları →
                           </Link>
                         </li>

@@ -8,7 +8,7 @@ export function KaynakListesi({ kaynaklar }: { kaynaklar: Kaynak[] }) {
       <ul className="space-y-1.5 text-sm">
         {kaynaklar.map((k) => (
           <li key={k.url}>
-            <a href={k.url} target="_blank" rel="noopener noreferrer" className="text-forest hover:underline">
+            <a href={k.url} target="_blank" rel="noopener noreferrer" className="text-navy hover:underline">
               {k.ad} ↗
             </a>
           </li>

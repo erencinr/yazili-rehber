@@ -1,39 +1,52 @@
 @import "tailwindcss";
 
+/* Atomica (atomica.com.tr) tasarım değişkenleriyle aynı renkler */
 @theme {
-  --color-paper: #f6f6f1;
-  --color-ink: #172033;
-  --color-forest: #0d4f45;
-  --color-forest-50: #e7f0ee;
-  --color-line: #e4e4dc;
-  --color-muted: #5b6475;
+  --color-navy: #00146e;
+  --color-navy-2: #001a8c;
+  --color-navy-tint: #e6eaff;
+  --color-turq: #0091c1;
+  --color-turq-tint: #e2f4fb;
+  --color-purple: #6541a8;
+  --color-purple-tint: #efe9fa;
+  --color-yellow: #ffaa00;
+  --color-yellow-tint: #fff3da;
+  --color-ink: #131a33;
+  --color-ink-soft: #45507a;
+  --color-muted: #6b76a0;
+  --color-line: #e4e8f4;
+  --color-soft: #f4f6fd;
 }
 
 @theme inline {
-  --font-serif: var(--font-literata), Georgia, serif;
-  --font-sans: var(--font-manrope), system-ui, sans-serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* Eski "serif" başlık sınıfları da Atomica gibi kalın Inter kullanır. */
+  --font-serif: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 body {
-  background: var(--color-paper);
+  background: #fff;
   color: var(--color-ink);
   font-family: var(--font-sans);
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.6;
 }
 
 h1,
 h2 {
-  font-family: var(--font-serif);
-  font-weight: 400;
-  line-height: 1.4;
+  color: var(--color-navy);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.font-serif {
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 .hero-grid {
-  background-image:
-    linear-gradient(to right, rgb(23 32 51 / 0.04) 1px, transparent 1px),
-    linear-gradient(to bottom, rgb(23 32 51 / 0.04) 1px, transparent 1px);
-  background-size: 32px 32px;
+  background: linear-gradient(135deg, #e3f2f9 0%, #ece6f6 100%);
 }
 
 details > summary {

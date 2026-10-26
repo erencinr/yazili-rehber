@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <section className="hero-grid border-b border-line">
         <Container className="space-y-5 py-14 sm:py-20">
-          <p className="text-sm font-semibold text-forest">OYSS rehberi · {site.egitimYili}</p>
+          <p className="text-sm font-semibold text-navy">OYSS rehberi · {site.egitimYili}</p>
           <h1 className="max-w-[820px] text-[34px] sm:text-[48px]">
             Ortak Yazılı Sınav Sistemi nedir? Öğrenci, öğretmen ve veli rehberi
           </h1>
@@ -43,7 +43,7 @@ export default function Home() {
           <div className="grid gap-4 sm:grid-cols-3">
             {evreler.map((e, i) => (
               <Card key={e.baslik}>
-                <span className="grid size-9 place-items-center rounded-full bg-forest-50 font-semibold text-forest">{i + 1}</span>
+                <span className="grid size-9 place-items-center rounded-full bg-navy-tint font-semibold text-navy">{i + 1}</span>
                 <h3 className="mt-3 font-serif text-xl">{e.baslik}</h3>
                 <p className="mt-1 text-ink/80">{e.metin}</p>
               </Card>

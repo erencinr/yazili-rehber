@@ -55,14 +55,14 @@ export default async function SinifPage({ params }: PageProps<"/dersler/[ders]/[
         <p className="text-lg text-ink/80">
           Her yazılı için senaryoların hangi öğrenme çıktısından kaç soru içerdiğini tabloda gör, kâğıdı aç ve çöz.
         </p>
-        {sinif.not && <p className="rounded-xl bg-forest-50 p-3 text-sm text-ink/85">{sinif.not}</p>}
+        {sinif.not && <p className="rounded-xl bg-navy-tint p-3 text-sm text-ink/85">{sinif.not}</p>}
       </PageHero>
       <Container className="space-y-14 py-12">
         {yazililar.length === 0 ? (
           <Card>
             <p className="font-serif text-xl">Bu sınıfın kâğıtları hazırlanıyor</p>
             <p className="mt-1 text-ink/80">
-              Şimdilik örnek olarak <Link href="/dersler/tarih/9-sinif/1-yazili-sorulari/" className="font-semibold text-forest underline">9. sınıf Tarih 1. yazılı</Link> kâğıtlarını inceleyebilirsin.
+              Şimdilik örnek olarak <Link href="/dersler/tarih/9-sinif/1-yazili-sorulari/" className="font-semibold text-navy underline">9. sınıf Tarih 1. yazılı</Link> kâğıtlarını inceleyebilirsin.
             </p>
           </Card>
         ) : (
@@ -70,7 +70,7 @@ export default async function SinifPage({ params }: PageProps<"/dersler/[ders]/[
             <section key={y.slug} className="space-y-4">
               <div className="flex flex-wrap items-end justify-between gap-3">
                 <H2 id={y.slug}>{y.ad}</H2>
-                <Link href={`${taban}${y.slug}/`} className="text-sm font-semibold text-forest hover:underline">
+                <Link href={`${taban}${y.slug}/`} className="text-sm font-semibold text-navy hover:underline">
                   {y.ad} sorularına git →
                 </Link>
               </div>
@@ -87,7 +87,7 @@ export default async function SinifPage({ params }: PageProps<"/dersler/[ders]/[
           ))
         )}
 
-        <Card className="bg-forest-50">
+        <Card className="bg-navy-tint">
           <h3 className="font-serif text-xl">Bu tablo nasıl okunur?</h3>
           <p className="mt-2 text-ink/80">
             Satırlar öğrenme çıktılarını, sütunlar senaryoları gösterir. Hücredeki sayı o senaryoda o çıktıdan kaç soru

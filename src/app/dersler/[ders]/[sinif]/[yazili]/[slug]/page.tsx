@@ -100,7 +100,7 @@ function SenaryoKagidi({ r }: { r: Extract<Cozulmus, { tur: "senaryo" }> }) {
                 { e: "Süre", d: `${senaryo.sureDk} dk` },
                 { e: "Toplam", d: "100 puan" },
               ].map((x) => (
-                <div key={x.e} className="rounded-xl bg-paper p-3">
+                <div key={x.e} className="rounded-xl bg-soft p-3">
                   <dt className="text-xs text-muted">{x.e}</dt>
                   <dd className="font-serif text-xl font-semibold">{x.d}</dd>
                 </div>
@@ -110,7 +110,7 @@ function SenaryoKagidi({ r }: { r: Extract<Cozulmus, { tur: "senaryo" }> }) {
               {konuDagilimi.map((k) => (
                 <li key={k.konu.slug} className="flex justify-between border-b border-line py-1.5 last:border-0">
                   <span>{k.konu.ad}</span>
-                  <span className="font-semibold text-forest">{k.puan} puan</span>
+                  <span className="font-semibold text-navy">{k.puan} puan</span>
                 </li>
               ))}
             </ul>
@@ -140,7 +140,7 @@ function SenaryoKagidi({ r }: { r: Extract<Cozulmus, { tur: "senaryo" }> }) {
           <DigerSenaryolar yazili={yazili} taban={taban} haric={senaryo.no} />
         </section>
 
-        <Card className="no-print bg-forest-50">
+        <Card className="no-print bg-navy-tint">
           <h3 className="font-serif text-lg">Bu kâğıt hakkında</h3>
           <p className="mt-1 text-sm text-ink/80">
             Soru sayıları ve öğrenme çıktıları {yazili.kaynak.ad} içindeki Senaryo {senaryo.no} sütununa göredir. Sorular

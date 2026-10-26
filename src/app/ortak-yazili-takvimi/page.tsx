@@ -34,7 +34,7 @@ export default function TakvimPage() {
             {kademeler.map((k) => (
               <ResponsiveTable key={k}>
                 <table className="w-full text-sm">
-                  <thead className="bg-forest-50 text-left">
+                  <thead className="bg-navy-tint text-left">
                     <tr>
                       <th className={th}>{k}</th>
                       <th className={th}>Tarih</th>
@@ -65,7 +65,7 @@ export default function TakvimPage() {
           <H2 id="ulke-geneli">Ülke geneli ortak yazılı sınavlar</H2>
           <ResponsiveTable>
             <table className="w-full min-w-[520px] text-sm">
-              <thead className="bg-forest-50 text-left">
+              <thead className="bg-navy-tint text-left">
                 <tr>
                   <th className={th}>Sınıf</th>
                   <th className={th}>Ders</th>

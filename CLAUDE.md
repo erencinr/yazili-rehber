@@ -15,7 +15,7 @@ Amaç: aynı mimariye ve kullanıcı deneyimine sahip, **kendi içeriğimiz ve k
 - İçerik: `data/` altındaki JSON dosyalarından okunur (veritabanı yok)
 - Hesabım + kullanıcı puanları: `localStorage` (giriş sistemi yok, v1)
 - Yayın: Vercel
-- Fontlar (next/font/google): **Literata** (başlıklar, serif, 400) + **Manrope** (gövde)
+- Font: **Inter** (Atomica ile aynı). Not: paketteki ilk tasarım Literata/Manrope + krem/yeşil idi, Atomica'ya uyum için değiştirildi.
 
 ## Okuma sırası
 1. `docs/01-site-haritasi.md` – tüm sayfalar ve URL yapısı
@@ -32,6 +32,9 @@ Amaç: aynı mimariye ve kullanıcı deneyimine sahip, **kendi içeriğimiz ve k
 
 @AGENTS.md
 
+## Atomica
+Site atomica.com.tr/yazili/ altında yayınlanacak; tasarım Atomica'nın renk/yazı tipi değişkenleriyle aynı (`src/app/globals.css`: navy, turq, purple, yellow, Inter). Derleme ve Express kurulumu: `docs/atomica-entegrasyon.md` (`npm run build:atomica`).
+
 ## Mevcut durum (26 Ekim 2026)
 - Aşama 1-5 yapıldı: iskelet, bileşenler, veri katmanı (zod + 100 puan kontrolü), tüm üretilen sayfalar, interaktif sınav, /hesap.
 - 16 dersin resmî tabloları aktarıldı (`npm run tablolar`, kaynak listesi: `data/resmi/kaynaklar.json`). 4 yazılı ülke geneli (tablo sınav öncesi yayımlanacak).
@@ -39,7 +42,7 @@ Amaç: aynı mimariye ve kullanıcı deneyimine sahip, **kendi içeriğimiz ve k
 - Rehber sayfaları `src/content/sayfalar.ts` içinde; metinler OYSS Uygulama Kılavuzu (Ekim 2026) ve resmî takvimlerden yazıldı, kaynaklar `KAYNAK` sabitinde. Takvim: `data/takvim.json`. Yeni bilgi eklerken resmî kaynağını da ekle.
 - Kılavuza göre 7. ve 11. sınıf İngilizce OYSS kapsamı dışında (dersler.json'da sınıf notu var).
 - Next.js 16.4, Cache Components **kapalı** (statik dışa aktarma/PPR ile uyumsuz). Dinamik sayfalarda `generateStaticParams` + `dynamicParams = false`; robots/sitemap `dynamic = "force-static"`. İstek anında sunucu gerektiren özellik (cookies, headers, route handler, server action) ekleme: GitHub Pages derlemesi kırılır.
-- Yayın: GitHub Pages, `.github/workflows/pages.yml` main'e her push'ta `PAGES_BASE_PATH=/yazili-rehber` ile `out/` üretip yayınlar → https://erencinr.github.io/yazili-rehber/ . Yerelde dene: `PAGES_BASE_PATH=/yazili-rehber npm run build`.
+- Yayın: GitHub Pages, `.github/workflows/pages.yml` main'e her push'ta `BASE_PATH=/yazili-rehber` ile `out/` üretip yayınlar → https://erencinr.github.io/yazili-rehber/ . Yerelde dene: `BASE_PATH=/yazili-rehber npm run build`.
 - Repo: github.com/erencinr/yazili-rehber. Bu makinede aktif gh hesabı educat-ai; push için `GH_TOKEN=$(gh auth token --user erencinr)` kullan.
 - `docs/` klasörü yapım paketinin dokümanlarıdır.
 
