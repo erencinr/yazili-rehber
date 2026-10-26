@@ -64,6 +64,23 @@ export const SorularSchema = z.object({
   ),
 });
 
+/** data/<ders>/<sinif>/<yazili>.kagitlar.json — Atomica kitapçığından scripts/kagit-aktar.mjs ile üretilir. */
+export const KagitlarSchema = z.object({
+  kaynak: z.string(),
+  kitapcik: z.string(),
+  tur: z.enum(["senaryo", "prova"]),
+  kagitlar: z.array(
+    z.object({
+      slug: z.string(),
+      tur: z.enum(["senaryo", "prova"]),
+      no: z.number().int().positive(),
+      seviye: z.enum(["kolay", "orta", "zor"]),
+      sorular: z.array(z.object({ no: z.number().int(), puan: z.number().positive(), cikti: z.string().nullable() })),
+      sayfalar: z.array(z.object({ src: z.string(), genislik: z.number(), yukseklik: z.number(), metin: z.string() })).min(1),
+    }),
+  ),
+});
+
 export const TakvimSchema = z.object({
   okulGeneli: z.object({
     baslik: z.string(),
@@ -79,6 +96,9 @@ export type Ders = z.infer<typeof DersSchema>;
 export type Soru = z.infer<typeof SoruSchema>;
 export type Madde = Soru["maddeler"][number];
 export type Takvim = z.infer<typeof TakvimSchema>;
+export type Kagitlar = z.infer<typeof KagitlarSchema>;
+export type Kagit = Kagitlar["kagitlar"][number];
+export type Seviye = Kagit["seviye"];
 export type Konu = { slug: string; ad: string; kisaAd: string; ciktiId: string };
 
 export type Senaryo = {
@@ -103,4 +123,8 @@ export type Yazili = {
   ciktilar: { id: string; unite: string; metin: string }[];
   konular: Konu[];
   senaryolar: Senaryo[];
+  /** Atomica kâğıtları (görsel); yoksa boş dizi. */
+  kagitlar: Kagit[];
+  kitapcik?: string;
+  kagitTuru?: Kagitlar["tur"];
 };

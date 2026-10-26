@@ -32,14 +32,10 @@ function OynaIkonu() {
 export function Header() {
   const yol = usePathname();
   const [acik, setAcik] = useState(false);
-  const [kimler, setKimler] = useState(false);
   const aktif = (href: string) => yol === href || (href !== "/" && yol.startsWith(href));
   const linkCls = (href: string) =>
     `rounded-[10px] px-2.5 py-2 text-[13.5px] font-semibold ${aktif(href) ? "bg-navy-tint text-navy" : "text-ink-soft hover:text-navy"}`;
-  const kapat = () => {
-    setAcik(false);
-    setKimler(false);
-  };
+  const kapat = () => setAcik(false);
   const oynaCls =
     "items-center gap-1.5 rounded-full bg-white px-4 py-2.5 text-sm font-extrabold text-turq shadow-[inset_0_0_0_2px_var(--color-turq)] hover:bg-turq-tint";
   const paketCls =
@@ -49,34 +45,12 @@ export function Header() {
     <header className="site-header sticky top-0 z-40 border-b border-line bg-white/90 backdrop-blur">
       <div className="mx-auto flex h-[76px] max-w-[1200px] items-center justify-between gap-4 px-4 sm:px-6">
         <Logo />
-        <nav className="hidden items-center gap-0.5 xl:flex" aria-label="Ana menü">
+        <nav className="hidden items-center gap-0.5 lg:flex" aria-label="Ana menü">
           {site.nav.map((l) => (
             <Link key={l.href} href={l.href} className={linkCls(l.href)}>
               {l.ad}
             </Link>
           ))}
-          <div className="relative">
-            <button
-              type="button"
-              onClick={() => setKimler((v) => !v)}
-              aria-expanded={kimler}
-              className="rounded-[10px] px-2.5 py-2 text-[13.5px] font-semibold text-ink-soft hover:text-navy"
-            >
-              Kimler için ▾
-            </button>
-            {kimler && (
-              <div className="absolute right-0 mt-2 w-56 rounded-[14px] border border-line bg-white p-1.5 shadow-[0_14px_40px_-16px_rgb(19_26_51/0.22)]">
-                {site.kimlerIcin.map((k) => (
-                  <Link key={k.href} href={k.href} onClick={kapat} className="block rounded-[10px] px-3 py-2 text-sm hover:bg-navy-tint">
-                    {k.ad} rehberi
-                  </Link>
-                ))}
-                <Link href="/hesap/" onClick={kapat} className="block rounded-[10px] px-3 py-2 text-sm hover:bg-navy-tint">
-                  Çözdüğüm kâğıtlar
-                </Link>
-              </div>
-            )}
-          </div>
         </nav>
         <div className="flex items-center gap-2">
           <a href={site.atomica.oyna} className={`${oynaCls} hidden sm:inline-flex`}>
@@ -88,7 +62,7 @@ export function Header() {
           </a>
           <button
             type="button"
-            className="grid size-10 place-items-center rounded-full text-navy hover:bg-navy-tint xl:hidden"
+            className="grid size-10 place-items-center rounded-full text-navy hover:bg-navy-tint lg:hidden"
             aria-expanded={acik}
             aria-controls="mobil-menu"
             aria-label={acik ? "Menüyü kapat" : "Menüyü aç"}
@@ -101,9 +75,9 @@ export function Header() {
         </div>
       </div>
       {acik && (
-        <nav id="mobil-menu" className="border-t border-line bg-white px-4 pb-5 xl:hidden" aria-label="Mobil menü">
+        <nav id="mobil-menu" className="border-t border-line bg-white px-4 pb-5 lg:hidden" aria-label="Mobil menü">
           <div className="flex flex-col gap-1 pt-3">
-            {[...site.nav, ...site.kimlerIcin.map((k) => ({ ad: `${k.ad} rehberi`, href: k.href })), { ad: "Çözdüğüm kâğıtlar", href: "/hesap/" }].map(
+            {site.nav.map(
               (l) => (
                 <Link key={l.href} href={l.href} onClick={kapat} className={linkCls(l.href)}>
                   {l.ad}

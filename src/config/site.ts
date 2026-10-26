@@ -3,7 +3,7 @@ export const site = {
   marka: "Atomica Yazılıya Hazırlık",
   altBaslik: "Yazılıya Hazırlık",
   aciklama:
-    "Ortak Yazılı Sınav Sistemi (OYSS) için öğrenci, öğretmen ve veli rehberi; gerçek formatta yazılı kâğıtlarını çöz ve kendini puanla.",
+    "5, 6 ve 7. sınıf matematik yazılı soruları: MEB senaryolarına uygun, kolay, orta ve zor seviyede kâğıtlar. Ekranda çöz ya da yazdır.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://atomica.com.tr/yazili",
   // Ana site: menü, logo ve "Şimdi Oyna / Paketler" bağlantıları buraya gider.
   atomica: {
@@ -24,12 +24,13 @@ export const site = {
   // Sitede yayınlanan dersler (dersler.json'daki slug'lar). Diğer derslerin verisi data/ altında durur;
   // yayına almak için slug'ı buraya eklemek yeterli.
   yayindakiDersler: ["ortaokul-matematik"],
+  // Üst menü: önce sınıflar (kâğıtlara tek tıkla ulaşmak için), sonra takvim ve rehber.
   nav: [
-    { ad: "OYSS nedir", href: "/oyss-nedir/" },
-    { ad: "Nasıl çalışır", href: "/oyss-nasil-calisir/" },
-    { ad: "Kılavuz", href: "/oyss-kilavuzu/" },
+    { ad: "5. Sınıf", href: "/dersler/ortaokul-matematik/5-sinif/" },
+    { ad: "6. Sınıf", href: "/dersler/ortaokul-matematik/6-sinif/" },
+    { ad: "7. Sınıf", href: "/dersler/ortaokul-matematik/7-sinif/" },
     { ad: "Takvim", href: "/ortak-yazili-takvimi/" },
-    { ad: "Dersler", href: "/dersler/" },
+    { ad: "OYSS nedir", href: "/oyss-nedir/" },
   ],
   kimlerIcin: [
     { ad: "Öğretmen", kart: "Öğretmenim", href: "/oyss-ogretmen-rehberi/", soru: "Sınavı nasıl kurarım?" },

@@ -1,0 +1,839 @@
+{
+  "$aciklama": "scripts/kagit-aktar.mjs ile Atomica kitapçığından üretilir; elle düzenleme.",
+  "kaynak": "ortaokul-matematik-7-sinif-1-yazili.pdf",
+  "kitapcik": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/kitapcik.pdf",
+  "tur": "senaryo",
+  "kagitlar": [
+    {
+      "slug": "senaryo-1-kolay",
+      "tur": "senaryo",
+      "no": 1,
+      "seviye": "kolay",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 16,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 16,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 3,
+          "puan": 16,
+          "cikti": "MAT.7.1.4"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 5,
+          "puan": 13,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 6,
+          "puan": 13,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 13,
+          "cikti": "MAT.7.1.4"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-kolay/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · KOLAY\n1. YAZILI\n1. SENARYO · KOLAY\n7. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\nMAT.7.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nBir ortaokul binasında zemin kat 0 kabul ediliyor. Kütüphane zeminin 3 kat üstünde, fen\n16 puan laboratuvarı 2 kat üstünde, müzik sınıfı 1 kat üstündedir. Yemekhane zeminin 1 kat altında,\nspor salonu ise 2 kat altındadır. Aşağıda binanın kesiti ve katları gösteren dikey sayı doğrusu\nverilmiştir.\nKütüphane\nFen laboratuvarı\nMüzik sınıfı\nGiriş (zemin kat)\nYemekhane\nSpor salonu\nBuna göre\na) Spor salonunun, yemekhanenin ve kütüphanenin bulunduğu katları tam sayılarla\nifade ediniz.\nb) Kütüphaneden spor salonuna gitmek için asansörle kaç kat inmek gerekir?\nc) Zemin kata uzaklığı, yemekhanenin zemin kata uzaklığına eşit olan bölüm hangisidir?\nBu iki bölümün bulunduğu katları gösteren tam sayıların mutlak değerlerini yazınız.\n1. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-kolay/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · KOLAY\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nEce’nin kek tarifinde kullanılan malzemelerden bazılarının miktarları aşağıdaki tarif kartında\n16 puan verilmiştir.\nTarif kartı · Ece'nin keki\nMiktar\nSüt\nsu bardağı\nŞeker\nsu bardağı\nSıvı yağ\nsu bardağı\nMalzeme\nBuna göre\na) Süt miktarının ondalık gösterimini bölme işlemi yaparak bulunuz.\nb) Şeker miktarının ondalık gösterimini bölme işlemi yaparak bulunuz.\nc) Sıvı yağ miktarının ondalık gösterimini bölme işlemi yaparak bulunuz. Bu ondalık\ngösterim sonlu mu, devirli mi?\n1. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-kolay/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · KOLAY\nMAT.7.1.4.\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\nBir okulda 10 sorudan oluşan bir bilgi yarışması düzenleniyor. Yarışmanın puanlama kuralları ve\n16 puan üç yarışmacının doğru, yanlış ve boş soru sayıları aşağıdaki tablolarda verilmiştir.\nPuanlama\nYarışmacı\nDoğru\nYanlış\nBoş\nDoğru cevap\n+5 puan\nAyşe\nYanlış cevap\n−2 puan\nMert\nBoş soru\n0 puan\nCan\nBuna göre\na) Ayşe’nin toplam puanını tam sayılarla işlem yaparak bulunuz.\nb) Mert’in toplam puanını tam sayılarla işlem yaparak bulunuz.\nc) Can’ın toplam puanı −4’tür. Can kaç soruyu yanlış cevaplamıştır?\n1. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-kolay/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · KOLAY\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nAşağıdaki rasyonel sayıların paydalarını 10’un bir kuvvetine genişleterek ondalık\n13 puan gösterimlerini yazınız. Sonuçlarınızı bölme işlemi yaparak kontrol ediniz.\nMAT.7.1.3.\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nBir takımın attığı gol sayısından yediği gol sayısı çıkarılarak o takımın averajı bulunur. Futbol\n13 puan liglerinde puanları eşit olan takımlardan averajı büyük olan, ligde daha üst sırada yer alır. Bir\nokul futbol liginde puanları eşit olan dört takımın averajları aşağıdaki tabloda verilmiştir.\nTakım\nPuan\nAveraj\nKartallar\nYıldızlar\nŞimşekler\nAslanlar\nBuna göre takımların averajlarını küçükten büyüğe doğru sıralayınız. Bu dört takımın\nligdeki sırasını üstten alta doğru yazınız.\n1. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-kolay/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · KOLAY\nMAT.7.1.3.\nAşağıdaki kutulara <, > ya da = sembollerinden uygun olanı yazınız.\n13 puan\na) −\nMAT.7.1.4.\nc) −\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\nkg unun ’ini börek yapmak için kullanmıştır.\n13 puan Buna göre Zeynep’in börek için kullandığı un ve geriye kalan un kaç kilogramdır?\nZeynep, evdeki 2\nSınav bitti. Cevaplarınızı kontrol ediniz.\n1. Senaryo · Kolay"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-1-orta",
+      "tur": "senaryo",
+      "no": 1,
+      "seviye": "orta",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 16,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 16,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 3,
+          "puan": 16,
+          "cikti": "MAT.7.1.4"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 5,
+          "puan": 13,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 6,
+          "puan": 13,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 13,
+          "cikti": "MAT.7.1.4"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-orta/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · ORTA\n1. SENARYO · ORTA\n1. YAZILI\n7. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\nMAT.7.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nAşağıdaki termometrenin ölçeğinde −10 °C ile 20 °C arası 12 eş parçaya bölünmüştür.\n16 puan Termometrede A ile gösterilen çizgi, −10 °C çizgisinden sonraki 3. çizgi; B ile gösterilen çizgi\nise 7. çizgidir.\n20 °C\n−10 °C\nBuna göre\na) Termometrede ardışık iki çizgi arası kaç °C’tur? Sonucu rasyonel sayı olarak yazınız.\nb) A ile gösterilen sıcaklığı\nbiçiminde bir rasyonel sayı olarak yazınız.\nc) A ve B ile gösterilen sıcaklıklar arasında kaç tane tam sayı vardır?\n1. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-orta/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · ORTA\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nBir sınıfta bilim şenliği için hazırlanan malzemeler gruplara ya da saksılara eşit olarak\n16 puan paylaştırılacaktır. Malzemelerin miktarları ve kaç parçaya paylaştırılacakları aşağıdaki kartlarda\nverilmiştir.\n15 m ip\n8 gruba paylaştırılacak\nKil\n5 kg kil\n12 gruba paylaştırılacak\n2 L su\n27 saksıya paylaştırılacak\nBuna göre\nb) Her gruba düşen kilin kütlesini bölme işlemi yaparak bulunuz ve ondalık gösterimini\ndevir çizgisiyle yazınız.\nc) Her saksıya düşen su miktarını bölme işlemi yaparak bulunuz ve ondalık gösterimini\ndevir çizgisiyle yazınız.\n1. Senaryo · Orta\na) Her gruba düşen ipin uzunluğunu bölme işlemi yaparak bulunuz ve ondalık\ngösterimle yazınız."
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-orta/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · ORTA\nMAT.7.1.4.\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\nAynı anda farklı şehirlerde saatler farklıdır. Şehirlerin saatleri, başlangıç kabul edilen UTC’ye\n16 puan göre tam sayılarla ifade edilir: UTC’den ileri olan şehirler pozitif, geri olan şehirler negatif bir tam\nsayıyla gösterilir. Aşağıdaki kartlarda dört şehrin kış aylarındaki saat dilimleri verilmiştir.\nİstanbul\nUTC+3\nLondra\nDubai\nUTC+0\nUTC+4\nNew York\nUTC–5\nBuna göre\na) İstanbul’un saatinin, Londra’nın ve New York’un saatine göre kaç saat ileride\nolduğunu tam sayılarla işlem yaparak bulunuz.\nb) İstanbul’da saat 15.00 iken Dubai’de saat kaçtır?\nc) New York’ta yerel saatle 20.00’de başlayan bir basketbol maçı İstanbul saatiyle kaçta\nbaşlar?\n1. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-orta/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · ORTA\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nsayısının ondalık gösterimini bulmak için hesap makinesinde 11’i 12’ye bölmüştür.\nHesap\nmakinesinin\nekranı virgülden sonraki ilk 6 basamağı gösterdiğinden ekranda aşağıdaki\n13 puan\nsayı görünmüştür.\nDeniz,\n0,916666\n’nin ondalık gösterimini bölme işlemi yaparak bulunuz ve devir çizgisiyle\nyazınız. Ekrandaki 0,916666 sayısı\n’ye eşit midir?\nMAT.7.1.3.\nBuna göre\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\n< olduğu biliniyor.\n12 36 3\n13 puan Buna göre x’in alabileceği en küçük ve en büyük değerleri bulunuz.\nx bir tam sayı olmak üzere\n1. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-orta/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · ORTA\nMAT.7.1.3.\nAşağıdaki sayıları küçükten büyüğe doğru sıralayınız.\n13 puan\nMAT.7.1.4.\n− 1,3\n0,2\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\nAyşe’nin banyoda kullandığı 125 g’lık bir sabunun kütlesi, her hafta bir önceki haftaki kütlesinin\n13 puan\n’ine inmektedir.\n× 45\n× 45\n× 45\n125 g\nBaşlangıç\n1 hafta sonra\n2 hafta sonra\n3 hafta sonra\nBuna göre sabunun 3 hafta sonraki kütlesini gösteren işlemi üslü ifade kullanarak\nyazınız ve bu kütleyi bulunuz.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n1. Senaryo · Orta\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-1-zor",
+      "tur": "senaryo",
+      "no": 1,
+      "seviye": "zor",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 16,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 16,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 3,
+          "puan": 16,
+          "cikti": "MAT.7.1.4"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 5,
+          "puan": 13,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 6,
+          "puan": 13,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 13,
+          "cikti": "MAT.7.1.4"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-zor/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · ZOR\n1. YAZILI\n1. SENARYO · ZOR\n7. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\nMAT.7.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nDüz bir oyun pisti, başlangıç noktası 0 olan bir sayı doğrusu olarak modellenmiştir. Pistteki\n16 puan kırmızı oyuncak araba 0’a\nbirim uzaklıktadır. Mavi oyuncak araba ise kırmızı arabaya 4 birim\nuzaklıktadır. Aşağıdaki sayı doğrusunu çözümünüzde kullanabilirsiniz.\nbaşlangıç\nBuna göre\na) Kırmızı arabanın bulunabileceği noktalara karşılık gelen rasyonel sayıları yazınız.\nb) Kırmızı araba 0’ın solunda ise mavi arabanın bulunabileceği noktalara karşılık gelen\nrasyonel sayıları yazınız.\nc) Kırmızı araba 0’ın solunda ve mavi arabanın 0’a uzaklığı 2 birimden az ise iki araba\narasında kaç tam sayı vardır?\n1. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-zor/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · ZOR\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nsayısının ondalık gösterimini kâğıt üzerinde bölme işlemi yaparak bulmaktadır.\n16 puan Buna göre\n’ün ondalık gösteriminde virgülden sonraki ilk 7 basamağı bulunuz.\nMert,\n’ün ondalık gösterimini devir çizgisiyle yazınız.\nsayısının ondalık gösterimini bölme işlemi yaparak bulunuz ve devir çizgisiyle\nyazınız. Bu iki sayının devreden kısımlarında aynı rakamlar mı bulunmaktadır?\n1. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-zor/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · ZOR\nMAT.7.1.4.\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\nBir alışveriş merkezinde zemin kat 0 kabul ediliyor ve ardışık iki kat arasındaki yükseklik\n16 puan 4\nm’dir. Otopark zeminin 3 kat altındadır. Alışveriş merkezindeki asansör saniyede m yol\nalmaktadır.\nasansör\n3. kat\n2. kat\n1. kat\nZemin kat\n−2. kat\nOtopark\nBuna göre\na) Otoparkın zemine göre konumunu metre cinsinden bir rasyonel sayıyla ifade ediniz.\nb) Asansör otoparktan 2. kata kaç saniyede çıkar?\nc) Asansör 2. kattan hareket ederek 18 saniye boyunca aşağı iniyor. Asansör hangi\nkatta durur?\n1. Senaryo · Zor\n−1. kat"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-zor/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · ZOR\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\na, 1 ile 20 arasında (1 ve 20 dâhil) bir doğal sayıdır.\n13 puan Buna göre\nrasyonel sayısının ondalık gösteriminin sonlu olması için a kaç farklı\ndeğer alabilir?\nMAT.7.1.3.\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nÜzerinde −3, 2, 5 ve 7 yazan dört karttan ikisi seçiliyor. Seçilen kartlardan biri paya, diğeri\n13 puan paydaya yazılarak bir rasyonel sayı oluşturuluyor.\npay\npayda\nBuna göre oluşturulabilecek en büyük ve en küçük rasyonel sayıları bulunuz.\nOluşturulabilecek negatif rasyonel sayılardan 0’a en yakın olanı hangisidir?\n1. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-1-zor/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n1. SENARYO · ZOR\nMAT.7.1.3.\nAşağıdaki sayıları büyükten küçüğe doğru sıralayınız.\n13 puan\nMAT.7.1.4.\n− 0,9\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\n’i müzeye otobüsle, kalan öğrencilerin ’ü tramvayla\n13 puan gitmiştir. Geri kalan 15 öğrenci ise müzeye yürüyerek gitmiştir.\nBir okul gezisine katılan öğrencilerin\nBuna göre geziye kaç öğrenci katılmıştır?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n1. Senaryo · Zor"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-2-kolay",
+      "tur": "senaryo",
+      "no": 2,
+      "seviye": "kolay",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 24,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 24,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 3,
+          "puan": 24,
+          "cikti": "MAT.7.1.4"
+        },
+        {
+          "no": 4,
+          "puan": 14,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.7.1.4"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-2-kolay/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n2. SENARYO · KOLAY\n2. SENARYO · KOLAY\n1. YAZILI\n7. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\nMAT.7.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nBir matematik etkinliğinde masaya, her birinin üzerinde bir sayı yazan sekiz kart konmuştur.\n24 puan\n2,5\nBuna göre\na) Doğal sayı belirten kartlardaki sayıları yazınız.\nb) Tam sayı olup doğal sayı olmayan sayıları belirten kartlardaki sayıları yazınız.\nc) Tam sayı olmayan rasyonel sayıları belirten kartlardaki sayıları yazınız.\n2. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-2-kolay/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n2. SENARYO · KOLAY\nMAT.7.1.3.\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nAşağıdaki hava durumu panosunda, bir kış sabahı bazı illerde ölçülen hava sıcaklıkları\n24 puan gösterilmiştir.\nHAVA DURUMU · Bir kış sabahı ölçülen sıcaklıklar\nAnkara\nAntalya\nErzurum\n−2 °C\n+13 °C\n−11 °C\nİzmir\nKars\nVan\n+9 °C\n−14 °C\n−6 °C\nBuna göre\na) Bu iller arasında hava sıcaklığı en düşük olan il ile en yüksek olan ili yazınız.\nb) İllerdeki hava sıcaklıklarını küçükten büyüğe doğru sıralayınız.\nc) Hava sıcaklığı Van’daki hava sıcaklığından düşük olan illeri yazınız.\n2. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-2-kolay/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n2. SENARYO · KOLAY\nMAT.7.1.4.\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\nBir ilde sabah saat 07.00’de hava sıcaklığı −4 °C’tur. Hava sıcaklığı öğlene kadar 9 °C artmış,\n24 puan öğleden akşama kadar 6 °C azalmış, akşamdan geceye kadar da 5 °C daha azalmıştır.\n−4 °C\nAkşam\nÖğle\nSabah 07.00\nGece\n+9 °C\n−6 °C\n−5 °C\nartış\nazalış\nazalış\n? °C\n? °C\n? °C\nBuna göre\na) Öğle saatindeki hava sıcaklığını bulunuz.\nb) Akşam saatindeki hava sıcaklığını bulunuz.\nc) Gece saatindeki hava sıcaklığını bulunuz. Bu dört zamanda ölçülen en yüksek\nsıcaklık ile en düşük sıcaklık arasındaki fark kaç °C’tur?\n2. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-2-kolay/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n2. SENARYO · KOLAY\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nve −1 rasyonel sayılarının ondalık gösterimlerini bölme işlemi yaparak bulunuz.\n14 puan Devirli olan ondalık gösterimi devir çizgisi kullanarak yazınız.\nMAT.7.1.4.\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\nBir köy evinin bahçesindeki kuyuda, ipe bağlı kova yer seviyesinden (0) harekete başlayarak her\n14 puan saniye 2 m aşağı inmektedir. Kuyudaki su yüzeyi yer seviyesinin 24 m altındadır. Yer seviyesinin\naltındaki konumlar negatif tam sayılarla gösterilmektedir.\n0 (yer seviyesi)\nKova her\nsaniye 2 m\naşağı iner.\n−24 m (su yüzeyi)\nBuna göre kovanın harekete başladıktan 9 saniye sonraki konumunu bir tam sayıyla ifade\nediniz. Kova suya kaç saniyede ulaşır?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n2. Senaryo · Kolay"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-2-orta",
+      "tur": "senaryo",
+      "no": 2,
+      "seviye": "orta",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 24,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 24,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 3,
+          "puan": 24,
+          "cikti": "MAT.7.1.4"
+        },
+        {
+          "no": 4,
+          "puan": 14,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.7.1.4"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-2-orta/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n2. SENARYO · ORTA\n1. YAZILI\n2. SENARYO · ORTA\n7. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\nMAT.7.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nDüz bir caddedeki otobüs durağının bulunduğu nokta 0 kabul ediliyor. Cadde üzerinde durağın\n24 puan doğusundaki konumlar pozitif, batısındaki konumlar negatif sayılarla gösteriliyor. Bu cadde\nüzerinde bulunan Ece durağa 120 m, Kaan ise durağa 75 m uzaklıktadır.\nBatı (negatif yön)\nDoğu (pozitif yön)\nBuna göre\na) Ece’nin konumunu gösterebilecek sayıları yazınız.\nb) Ece ile Kaan arasındaki uzaklık en az ve en fazla kaç metre olabilir?\nc) Ece durağın batısında, Kaan ise durağın doğusundadır. Okul, Ece ile Kaan’ın tam\nortasındaki noktadadır.\nOkulun konumunu gösteren sayıyı ve okulun durağa uzaklığını bulunuz.\n2. Senaryo · Orta\nDURAK"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-2-orta/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n2. SENARYO · ORTA\nMAT.7.1.3.\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nOkul futbol takımındaki Ece, Ada ve Su’nun penaltı çalışmasındaki atış ve gol sayıları aşağıdaki\n24 puan tabloda verilmiştir. Bir öğrencinin penaltı başarısı, attığı gol sayısının yaptığı atış sayısına\nbölümüyle bulunan rasyonel sayıdır. Örneğin 10 atışta 7 gol atan Ece’nin penaltı başarısı\nolarak ifade edilir.\nÖğrenci\nAtış sayısı\nGol sayısı\nEce\nAda\nBuna göre\na) Penaltı başarısı en yüksek olan öğrenci kimdir?\nb) Öğrencileri penaltı başarılarına göre büyükten küçüğe doğru sıralayınız.\nc) Takıma yeni katılan Ela, 12 penaltı atışı yapacaktır.\nEla’nın penaltı başarısının Ada’nınkinden fazla, Su’nunkinden az olması için Ela kaç\ngol atmalıdır?\n2. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-2-orta/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n2. SENARYO · ORTA\nMAT.7.1.4.\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\nKapadokya’da bir sabah, sıcak hava balonunun kalktığı yerde hava sıcaklığı 4 °C’tur. Balon\n24 puan yükseldikçe hava sıcaklığı her 150 m’de 1 °C azalmaktadır.\nyükseklik (m)\n1200\n900\n600\nYükseldikçe her 150 m’de\nhava sıcaklığı 1 °C azalır.\n300\nkalkış yeri: 4 °C\nBuna göre\na) Balon 900 m yükseklikteyken hava sıcaklığı kaç °C’tur?\nb) Hava sıcaklığının −3 °C olduğu yükseklik kaç metredir?\nc) Balon, 1200 m yükseklikten dakikada 40 m alçalarak inmeye başlıyor.\nBalon inmeye başladıktan 15 dakika sonra, bulunduğu yükseklikteki hava sıcaklığı\nkaç °C’tur?\n2. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-2-orta/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n2. SENARYO · ORTA\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nrasyonel sayılarının ondalık gösterimlerini bölme işlemi yaparak bulunuz.\n14 puan\nBulduğunuz ondalık gösterimlerdeki örüntüyü kullanarak\nrasyonel sayısının ondalık\ngösterimini devir çizgisiyle yazınız ve sonucunuzu bölme işlemiyle kontrol ediniz.\n14 puan\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\nBir evin çatısındaki su deposunun\nolmaktadır.\n’i doludur. Depoya 120 L su eklendiğinde deponun ’i dolu\nMAT.7.1.4.\n120 L su eklenir\nÖnce\n120 L eklendikten sonra\nBuna göre deponun tamamı kaç litre su alır? Deponun tamamen dolması için depoya kaç\nlitre daha su eklenmelidir?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n2. Senaryo · Orta"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-2-zor",
+      "tur": "senaryo",
+      "no": 2,
+      "seviye": "zor",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 24,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 24,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 3,
+          "puan": 24,
+          "cikti": "MAT.7.1.4"
+        },
+        {
+          "no": 4,
+          "puan": 14,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.7.1.4"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-2-zor/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n2. SENARYO · ZOR\n2. SENARYO · ZOR\n1. YAZILI\n7. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\nMAT.7.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nMatematik dersinde öğretmen tahtaya aşağıdaki ifadeyi yazmış ve öğrencilerinden x yerine −5\n24 puan ile 5 arasındaki (−5 ve 5 dâhil) tam sayıları yazmalarını istemiştir.\nx−4\nx+2\n(x bir tam sayı)\nBuna göre\na) x’in hangi değeri için ifade bir rasyonel sayı belirtmez? İfadenin değeri tam sayı olan\nx değerlerini bulunuz.\nb) İfadenin değeri doğal sayı olan x değerlerini bulunuz.\nc) İfadenin tam sayı olmayan değerlerinden 0’a en yakın olanı hangisidir?\n2. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-2-zor/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n2. SENARYO · ZOR\nMAT.7.1.3.\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nEce, Ada ve Su, okul bahçesindeki bisiklet parkurunda bisiklet sürmüştür. Üç arkadaşın gittikleri\n24 puan yollar aşağıdaki tabloda verilmiştir.\nArkadaş\nGidilen yol (km)\nEce\nAda\n0,87\nBuna göre\nb) Ada’nın gittiği yol ile Ece’nin gittiği yol arasında olan üç farklı rasyonel sayı yazınız.\nc) Can’ın gittiği yol, Ada’nın gittiği yoldan fazla, Ece’nin gittiği yoldan azdır. Can’ın gittiği yol,\npaydası 400 olan bir rasyonel sayıyla gösterilmektedir.\nCan kaç km yol gitmiştir?\n2. Senaryo · Zor\na) Arkadaşların gittikleri yolları küçükten büyüğe doğru sıralayınız."
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-2-zor/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n2. SENARYO · ZOR\nMAT.7.1.4.\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\nBir fen etkinliğinde ölçülen fasulye fidesinin boyu 16 cm’dir. Fidenin boyu her hafta, bir önceki\n24 puan haftaki boyunun\nkatına çıkmaktadır.\nÖlçüm günü\n1 hafta sonra\n2 hafta sonra\n3 hafta sonra\nŞekil ölçekli değildir.\nBuna göre\na) Fidenin 2 hafta sonraki boyunu bulunuz.\nb) Fidenin 4 hafta sonraki boyunu gösteren işlemi üslü ifade kullanarak yazınız ve bu\nboyu bulunuz.\nc) Fidenin boyu kaçıncı haftanın sonunda ilk kez 1 metreyi geçer?\n2. Senaryo · Zor\n16 cm"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-2-zor/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n2. SENARYO · ZOR\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nrasyonel sayısının ondalık gösterimini bölme işlemi yaparak bulunuz ve devir çizgisi\nkullanarak\nyazınız. Bu ondalık gösterimde virgülden sonraki 50. basamakta hangi rakam\n14 puan\nvardır?\nMAT.7.1.4.\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\nm’dir. Bahçenin\n14 puan\nkenarları boyunca, her köşeye birer fidan gelecek ve ardışık iki fidan arasındaki uzaklık 1 m\nolacak biçimde fidan dikilecektir.\nOkulun dikdörtgen biçimindeki bahçesinin kenar uzunlukları 15 m ve 7\n15 m\nfidan\nOkul bahçesi\nBuna göre bahçeye toplam kaç fidan dikilir?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n2. Senaryo · Zor"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-3-kolay",
+      "tur": "senaryo",
+      "no": 3,
+      "seviye": "kolay",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 16,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 16,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 3,
+          "puan": 16,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 5,
+          "puan": 13,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 6,
+          "puan": 13,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 13,
+          "cikti": "MAT.7.1.4"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-kolay/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · KOLAY\n1. YAZILI\n3. SENARYO · KOLAY\n7. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\nMAT.7.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nOkulun hava gözlem istasyonunda bir kış günü beş farklı saatte ölçülen hava sıcaklıkları\n16 puan aşağıdaki grafikte gösterilmiştir.\nSıcaklık (°C)\nSaat\n+3 °C\n+4 °C\n−1 °C\n−2 °C\n−5 °C\n06.00\n09.00\n12.00\n15.00\n18.00\nBuna göre\na) Sıcaklığın 0 °C’un altında olduğu saatleri yazınız.\nb) 06.00’da ve 15.00’te ölçülen sıcaklıklara karşılık gelen noktalar arasındaki uzaklık,\nsayı doğrusunda kaç birimdir?\nc) Sıcaklığın 0 °C’a en yakın olduğu saat hangisidir? Bu saatte ölçülen sıcaklığı\ngösteren tam sayının mutlak değerini yazınız.\n3. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-kolay/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · KOLAY\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nBir sınıfta düzenlenen pizza partisinde öğrenciler üç gruba ayrılmıştır. Her gruptaki pizzalar,\n16 puan o gruptaki öğrenciler arasında eşit olarak paylaştırılmıştır. Grupların pizza ve öğrenci sayıları\naşağıda gösterilmiştir.\n1. GRUP\n2. GRUP\n3. GRUP\n5 pizza\n7 pizza\n2 pizza\n4 öğrenci\n6 öğrenci\n9 öğrenci\nBuna göre\na) Her gruptaki bir öğrencinin aldığı pizza miktarını rasyonel sayı olarak ve bölme işlemi\nolarak yazınız.\nb) 1. gruptaki bir öğrencinin aldığı pizza miktarını bölme işlemi yaparak ondalık\ngösterimle yazınız.\nc) 2. ve 3. gruplardaki birer öğrencinin aldığı pizza miktarlarını bölme işlemi yaparak\nbulunuz. Bulduğunuz ondalık gösterimleri devir çizgisiyle yazınız.\n3. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-kolay/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · KOLAY\nMAT.7.1.3.\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nAşağıdaki maddelerde verilen rasyonel sayıları karşılaştırınız.\n16 puan\na) − , − ve − sayılarını küçükten büyüğe doğru sıralayınız.\n3 3\nsayılarını küçükten büyüğe doğru sıralayınız.\n5 8\nile\nsayılarını paydalarını eşitleyerek karşılaştırınız.\n3. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-kolay/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · KOLAY\n13 puan\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nAşağıdaki sayıların her birini\nhangileri tam sayıdır?\nMAT.7.1.2.\nbiçiminde bir rasyonel sayı olarak yazınız. Bu sayılardan\n2,5\n− 0,75\nMAT.7.1.1.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nsayısını ondalık gösterime çeviriniz. Bölme işleminin her\n13 puan\nadımında elde edilen kalan kaçtır? ’un ondalık gösterimini devir çizgisiyle yazınız.\nBölme işlemi yaparak\n3. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-kolay/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · KOLAY\nMAT.7.1.3.\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nBir baraj gölünün seviye göstergesinde normal su seviyesi 0 kabul edilmiştir. Göstergedeki\n13 puan çizgiler tam sayılara karşılık gelir ve ardışık iki çizgi arası 1 m’dir. Göldeki su seviyesi ocak\nayında −\nm, nisan ayında\nm olarak ölçülmüştür.\nBuna göre ocak ayındaki su seviyesinin hemen altındaki çizginin ve nisan ayındaki su\nseviyesinin hemen üstündeki çizginin gösterdiği tam sayıları yazınız.\nMAT.7.1.4.\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\n’ünü, ikinci gün ise kitabın tamamının ’ünü okumuştur.\n13 puan Buna göre Yusuf’un kitabı bitirmek için okuması gereken kaç sayfa kalmıştır?\nYusuf, 240 sayfalık bir kitabın ilk gün\nSınav bitti. Cevaplarınızı kontrol ediniz.\n3. Senaryo · Kolay"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-3-orta",
+      "tur": "senaryo",
+      "no": 3,
+      "seviye": "orta",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 16,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 16,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 3,
+          "puan": 16,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 5,
+          "puan": 13,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 13,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 13,
+          "cikti": "MAT.7.1.4"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-orta/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · ORTA\n1. YAZILI\n3. SENARYO · ORTA\n7. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\nMAT.7.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nBir evin koridoru aşağıdaki gibi bir sayı doğrusu olarak modellenmiştir. Bir robot süpürge,\n16 puan bu sayı doğrusunda −\nsayısına karşılık gelen noktadan harekete başlamış ve düz bir yol\nizleyerek\nsayısına karşılık gelen noktaya ulaşmıştır.\nBuna göre\na) −\nsayısını tam sayılı kesir olarak yazınız ve bu sayının sayı doğrusunda hangi iki\nardışık tam sayı arasında olduğunu belirtiniz.\nsayısını tam sayılı kesir olarak yazınız ve bu sayının hangi iki ardışık tam sayı\narasında olduğunu belirtiniz.\nc) Robot süpürge, hareketi boyunca tam sayılara karşılık gelen kaç noktanın üzerinden\ngeçmiştir?\n3. Senaryo · Orta\nBitiş\nBaşlangıç"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-orta/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · ORTA\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nAşağıdaki kartlarda dört rasyonel sayı yazılıdır.\n16 puan\nBuna göre\na) Kartlardaki sayıların en sade hâllerini yazınız.\nb) Bölme işlemi yaparak kartlardaki sayıların ondalık gösterimlerini bulunuz.\nc) Ondalık gösterimi devirli olan sayıları ve bu sayıların ondalık gösterimlerinde\ndevreden kısımları yazınız.\n3. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-orta/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · ORTA\nMAT.7.1.3.\n16 puan\nRasyonel sayılar karşılaştırılırken bu sayıların\n’ye ya da 1’e yakınlıklarından yararlanılabilir.\nile\nsayılarını\nile karşılaştırarak hangisinin daha büyük olduğunu bulunuz.\nile\nsayılarını 1’e yakınlıklarına göre karşılaştırınız.\nc) b maddesindeki sonucu kullanarak −\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nile −\nsayılarını karşılaştırınız.\n3. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-orta/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · ORTA\nMAT.7.1.1.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nMutlak değeri 2’den küçük ve paydası 3 olan negatif rasyonel sayıları yazınız. Bu\n13 puan sayılardan hangisi bir tam sayıya eşittir?\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nve − sayılarının ondalık gösterimlerini bulunuz. Bu\n13 puan sayıların her birinin, sayı doğrusunda virgülden sonra bir basamaklı hangi iki ardışık\nondalık gösterim arasında olduğunu yazınız.\nBölme işlemi yaparak −\n(Örneğin 0,45 sayısı, 0,4 ile 0,5 arasındadır.)\n3. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-orta/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · ORTA\nMAT.7.1.3.\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nBir buz pateni pistinin zemin sıcaklığı −5,5 °C’tan yüksek, −2,5 °C’tan düşük tutulmalıdır. Pistin\n13 puan zemin sıcaklığı pazartesi −4\n°C, salı −2 °C, çarşamba −\n°C olarak ölçülmüştür.\nBuna göre hangi günlerde ölçülen zemin sıcaklığı pist için uygundur?\nMAT.7.1.4.\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\nm uzunluğundaki bir kumaştan 5 yastık kılıfı dikmiştir. Her yastık kılıfı için m kumaş\n13 puan kullanmış, kalan kumaşı da 2 eş parçaya ayırmıştır.\nAyşe, 4\nBuna göre kalan kumaştan elde edilen parçaların her biri kaç metredir?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n3. Senaryo · Orta"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-3-zor",
+      "tur": "senaryo",
+      "no": 3,
+      "seviye": "zor",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 16,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 16,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 3,
+          "puan": 16,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 5,
+          "puan": 13,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 13,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 13,
+          "cikti": "MAT.7.1.4"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-zor/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · ZOR\n1. YAZILI\n3. SENARYO · ZOR\n7. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\nMAT.7.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nsayısına, E noktası\nsayısına karşılık gelmektedir. A\n16 puan ile E noktaları arası B, C ve D noktalarıyla 4 eş parçaya bölünmüştür.\nAşağıdaki sayı doğrusunda A noktası −\nBuna göre\na) Her bir parçanın uzunluğu kaç birimdir?\nb) B, C ve D noktalarına karşılık gelen rasyonel sayıları bulunuz.\nc) B, C ve D noktalarından hangisi bir tam sayıya karşılık gelir? Bu üç noktadan hangisi\n0’a en yakındır?\n3. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-zor/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · ZOR\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nsayısının ondalık gösterimi, pay paydaya bölünerek bulunacaktır.\n16 puan\na) Bölme işlemini yaparak ondalık gösterimde virgülden sonraki ilk 5 basamağı\nbulunuz.\nBu soruda\nb) Bölme işleminin adımlarında elde edilen kalanları sırasıyla yazınız. İlk kez tekrar eden\nkalan hangisidir?\n’nin ondalık gösterimini devir çizgisiyle yazınız.\n3. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-zor/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · ZOR\n16 puan\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nSayı doğrusunda\nile sayıları arasında birçok rasyonel sayı bulunur.\nile\narasında bulunan ve paydası 12 olan rasyonel sayıyı yazınız.\nile\narasında bulunan ve paydası 24 olan rasyonel sayıların tamamını yazınız.\nile\narasında bulunan ve payı 4 olan rasyonel sayıların tamamını yazınız.\n3. Senaryo · Zor\nMAT.7.1.3."
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-zor/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · ZOR\nMAT.7.1.1.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nbirim olan noktalara karşılık gelen rasyonel sayıları\n13 puan bulunuz. Bu iki nokta arasında kaç tane tam sayı vardır?\nSayı doğrusunda 2’ye uzaklığı\nMAT.7.1.2.\n13 puan\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nBölme işlemi yaparak\nçizgisiyle yazınız.\nsayılarının ondalık gösterimlerini bulunuz ve devir\n3. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-3-zor/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n3. SENARYO · ZOR\nMAT.7.1.3.\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\na = − , b = −0,83, c = −\nve d = −0,83 sayıları veriliyor.\n13 puan Buna göre bu sayıları küçükten büyüğe doğru sıralayınız. Birbirine eşit olan sayılar varsa\nbelirtiniz.\nMAT.7.1.4.\nRasyonel sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme\nBir limonata tarifinde 12 bardak limonata için 2 L su ve kg şeker kullanılmaktadır. Elif, bu\n13 puan\ntarifteki miktarların ’ünü kullanarak limonata yapacaktır. Elif’in evinde kg şeker vardır.\nBuna göre Elif’in kullanacağı su kaç litredir? Elif’in şeker için kaç kilogram daha alması\ngerekir?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n3. Senaryo · Zor"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-4-kolay",
+      "tur": "senaryo",
+      "no": 4,
+      "seviye": "kolay",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 18,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 18,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 3,
+          "puan": 18,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 5,
+          "puan": 15,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 16,
+          "cikti": "MAT.7.1.3"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-4-kolay/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n4. SENARYO · KOLAY\n1. YAZILI\n4. SENARYO · KOLAY\n7. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\nMAT.7.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nBeden eğitimi dersinde öğrencilerin bir parkuru 180 saniyede koşması hedefleniyor. Bir\n18 puan öğrencinin süresi hedef süreden kısaysa aradaki fark negatif, uzunsa pozitif bir tam sayıyla\ngösteriliyor. Dört öğrencinin süreleri aşağıdaki tabloda verilmiştir.\nHedef süre\nSüre\nAli\n175 s\nBora\n186 s\nCem\n180 s\nDeniz\n172 s\nHedefe göre\nfark\nHata\nmiktarı\n180 s\nÖğrenci\nBuna göre\na) Her öğrencinin süresinin hedef süreye göre farkını bir tam sayıyla ifade ederek\ntablodaki ilgili sütuna yazınız.\nb) Her öğrencinin hata miktarını (farkı gösteren sayının mutlak değerini) tablodaki ilgili\nsütuna yazınız.\nc) Süresi hedef süreye en uzak olan öğrenci kimdir?\n4. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-4-kolay/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n4. SENARYO · KOLAY\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nAyşe Hanım evdeki 11 kg unu eş torbalara paylaştırarak saklamak istiyor. Unu kaç torbaya\n18 puan paylaştırabileceğine ilişkin üç seçenek aşağıda gösterilmiştir.\n4 eş torbaya\n5 eş torbaya\n11 kg\n3 eş torbaya\nBuna göre\na) 11 kg un 4 eş torbaya paylaştırılıyor. Bir torbadaki un miktarını bölme işlemi yaparak\nbulunuz ve ondalık gösterimle yazınız.\nb) 11 kg un 5 eş torbaya paylaştırılıyor. Bir torbadaki un miktarını bölme işlemi yaparak\nbulunuz ve ondalık gösterimle yazınız.\nc) 11 kg un 3 eş torbaya paylaştırılıyor. Bir torbadaki un miktarını bölme işlemi yaparak\nbulunuz ve devir çizgisi kullanarak yazınız. Bölme işleminde tekrar eden kalan kaçtır?\n4. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-4-kolay/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n4. SENARYO · KOLAY\nMAT.7.1.3.\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nBeden eğitimi dersinde yapılan uzun atlama çalışmasında derece, atlama tahtası ile kumdaki iz\n18 puan arasındaki uzaklıktır. Dört öğrencinin dereceleri aşağıdaki tabloda verilmiştir.\nderece\natlama\ntahtası\nÖğrenci\nAli\nDerece\n3,45 m\nkum havuzu\nVeli\nCan\nEfe\n3,4 m\nkoşu yolu\nBuna göre\na) En uzun atlayan öğrenci kimdir?\nb) Öğrencilerin derecelerini küçükten büyüğe doğru sıralayınız. Eşit derece yapan\nöğrenciler varsa belirtiniz.\nc) Fırat’ın derecesi Ali’nin derecesinden fazla, Veli’nin derecesinden azdır. Fırat’ın derecesi\niçin iki farklı değer yazınız.\n4. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-4-kolay/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n4. SENARYO · KOLAY\nMAT.7.1.1.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nBir okulun koridorunda duvar boyunca eşit aralıklarla 7 duyuru panosu asılmıştır. Koridor sayı\n15 puan doğrusu olarak modellenmiş ve müdür odasının kapısının bulunduğu nokta 0 kabul edilmiştir;\nkapının doğusu pozitif, batısı negatif yöndür. İlk pano −11 m, son pano 7 m noktasındadır.\ndoğu\nbatı\n−11\nBuna göre ardışık iki pano arasındaki uzaklık kaç metredir? Kapıya en yakın panonun\nkonumunu gösteren sayıyı ve bu sayının mutlak değerini yazınız. Kapının batısında kaç\npano vardır?\n4. Senaryo · Kolay\nMüdür odası kapısı (0)"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-4-kolay/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n4. SENARYO · KOLAY\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nAşağıdaki tabloda verilen rasyonel sayıların ondalık gösterimlerini bölme işlemi yaparak\n15 puan bulunuz ve tabloya yazınız. Ondalık gösterimin sonlu mu devirli mi olduğunu ilgili sütuna\n(✓) işareti koyarak belirtiniz.\nRasyonel\nsayı\nOndalık gösterim\nSonlu (✓)\nDevirli (✓)\nMAT.7.1.3.\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\n−3,5 ile 2,25 arasında bulunan tam sayıları yazınız. Bu tam sayılardan kaç tane vardır?\n16 puan\nSınav bitti. Cevaplarınızı kontrol ediniz.\n4. Senaryo · Kolay"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-4-orta",
+      "tur": "senaryo",
+      "no": 4,
+      "seviye": "orta",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 18,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 18,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 3,
+          "puan": 18,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 5,
+          "puan": 15,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 16,
+          "cikti": "MAT.7.1.3"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-4-orta/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n4. SENARYO · ORTA\n1. YAZILI\n4. SENARYO · ORTA\n7. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\nMAT.7.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nMatematik öğretmeni tahtaya aşağıdaki altı ifadeyi yazmıştır.\n−12\n−18\n18 puan\nBuna göre\na) Bir rasyonel sayı belirtmeyen ifade hangisidir?\nb) Birbirine eşit olan ifadeleri yazınız.\nc) Doğal sayı belirten ifadeleri yazınız.\n4. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-4-orta/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n4. SENARYO · ORTA\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nEce, ödev çalışmalarına ayırdığı süreleri saat cinsinden ondalık gösterimle yazmak istiyor.\n18 puan Ece’nin bir günlük ödev çizelgesi aşağıda verilmiştir (1 saat = 60 dakika).\nEce’nin ödev çizelgesi\nMatematik\nTürkçe\nFen Bilimleri\n45 dakika\n50 dakika\n1 saat 20 dakika\nBuna göre\na) Matematik ödevine ayırdığı 45 dakikanın kaç saat olduğunu rasyonel sayı olarak ve\nondalık gösterimle yazınız.\nb) Türkçe ödevine ayırdığı 50 dakikanın kaç saat olduğunu bölme işlemi yaparak\nbulunuz ve devir çizgisi kullanarak yazınız.\nc) Fen bilimleri ödevine ayırdığı 1 saat 20 dakikanın kaç saat olduğunu bölme işlemi\nyaparak bulunuz ve devir çizgisi kullanarak yazınız.\n4. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-4-orta/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n4. SENARYO · ORTA\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nMAT.7.1.3.\nAşağıda bir bahçenin dikey kesiti gösterilmiştir. Yer seviyesi 0 kabul edilmiş; yer seviyesinin\n18 puan üstündeki konumlar pozitif, altındaki konumlar negatif sayılarla gösterilmiştir. Köstebek −\nsolucan −0,6 m, tohum − m ve ağaçtaki kuş yuvası +2 m konumundadır.\nKuş yuvası +2\nyer seviyesi\nTohum −\nSolucan −0,6 m\nKöstebek −\nŞekil ölçekli değildir.\nBuna göre\na) Konumları gösteren sayıları küçükten büyüğe doğru sıralayınız.\nb) Bir böcek, tohumun aşağısında ve solucanın yukarısındadır. Böceğin konumunu\ngösterebilecek iki farklı rasyonel sayı yazınız.\nc) Köstebeğin konumunu gösteren sayıdan küçük olan en büyük tam sayıyı yazınız.\n4. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-4-orta/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n4. SENARYO · ORTA\nMAT.7.1.1.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\na ve b birer rasyonel sayıdır. a ve b sayılarının mutlak değerleri eşittir, a < b’dir ve sayı\n15 puan doğrusunda a ile b arasındaki uzaklık 9 birimdir.\nBuna göre a ve b sayılarını bulunuz. a ile b arasında kaç tane tam sayı vardır?\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nsayılarından ondalık gösterimi sonlu olanları belirleyiniz ve bu\n16 12 20\n15 puan sayıların ondalık gösterimlerini yazınız.\nMAT.7.1.3.\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nDondurmalar −18 °C’ta ya da daha düşük sıcaklıklarda saklanmalıdır. Bir derin dondurucunun\n16 puan ayarlanabildiği dört sıcaklık aşağıdaki tabloda verilmiştir.\nAyar\n1. ayar\n2. ayar\n3. ayar\n4. ayar\nSıcaklık\n−17,5 °C\n−18,6 °C\n−17,8 °C\n−18,25 °C\nBuna göre bu ayarlardan hangileri dondurma saklamak için uygundur? Uygun ayarlardan\n−18 °C’a en yakın olanı hangisidir?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n4. Senaryo · Orta"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-4-zor",
+      "tur": "senaryo",
+      "no": 4,
+      "seviye": "zor",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 18,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 18,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 3,
+          "puan": 18,
+          "cikti": "MAT.7.1.3"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.7.1.1"
+        },
+        {
+          "no": 5,
+          "puan": 15,
+          "cikti": "MAT.7.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 16,
+          "cikti": "MAT.7.1.3"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-4-zor/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n4. SENARYO · ZOR\n1. YAZILI\n4. SENARYO · ZOR\n7. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\nMAT.7.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nAşağıdaki sayı doğrusunda −2 ile 0 arası 3 eş parçaya, 0 ile 3 arası 4 eş parçaya bölünmüştür.\n18 puan K noktası 0’ın solundaki 2. çizgide, L noktası 0’ın sağındaki 3. çizgidedir.\nBuna göre\nb) K ve L noktalarına karşılık gelen sayıların mutlak değerlerini yazınız. Bu noktalardan\nhangisi 0’a daha yakındır?\nc) 0’a uzaklığı K noktasının 0’a uzaklığına eşit olan pozitif sayı, 0’ın sağındaki hangi iki\nardışık çizgi arasındadır?\n4. Senaryo · Zor\na) K ve L noktalarına karşılık gelen rasyonel sayıları bulunuz."
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-4-zor/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n4. SENARYO · ZOR\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nsayısının ondalık gösterimini bulunuz.\nsayısının ondalık gösterimini bölme işlemi yaparak bulunuz ve devir çizgisi\nkullanarak yazınız.\n18 puan\nsayısının ondalık gösterimi sonlu\nolacak şekilde n’nin alabileceği değerleri bulunuz.\nc) n, 30’dan büyük ve 40’tan küçük bir doğal sayıdır.\n4. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-4-zor/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n4. SENARYO · ZOR\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\nMAT.7.1.3.\nDeniz seviyesi 0 kabul edildiğinde deniz seviyesinin altındaki konumlar negatif sayılarla\n18 puan gösterilir. Yaz tatilinde dalış eğitimi alan Ali, Banu ve Cem’in bir andaki konumları aşağıda\ngösterilmiştir.\ndeniz seviyesi\nAli −12\nBanu −12,7 m\nCem −12,78 m\nŞekil ölçekli değildir.\nBuna göre\na) En derinde bulunan dalgıç kimdir?\nb) Dalgıçların konumlarını gösteren sayıları büyükten küçüğe doğru sıralayınız.\nc) Duru adlı dalgıç, Ali’den daha derinde ama Cem’den daha yukarıdadır. Duru’nun konumu\n−12,7 m biçiminde, virgülden sonra iki basamaklı bir sayıyla gösterilmektedir. yerine\nyazılabilecek rakamları bulunuz.\n4. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-4-zor/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n4. SENARYO · ZOR\nMAT.7.1.1.\nGerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme\nBir bahçede yer seviyesi 0 kabul ediliyor. Bahçedeki kuyunun dibi yer seviyesinin 15 m\n15 puan\naltında, kuyunun yanındaki su deposunun tepesi ise yer seviyesinin 8 m üstündedir. Kuyunun\ndibinden başlayan dikey bir boru, deponun yanından yukarı doğru deponun tepesi hizasına\nkadar uzanmaktadır.\nBoru\nyer seviyesi (0)\nKuyu\nŞekil ölçekli değildir.\nBoru üzerinde, yer seviyesine göre konumu bir tam sayıya karşılık gelen her noktaya birer işaret\nkonulacaktır.\nBuna göre borunun alt ve üst uçlarının konumlarını gösteren rasyonel sayıları yazınız.\nBoru üzerindeki en alttaki ve en üstteki işaretlerin konumlarını ve boruya konulan toplam\nişaret sayısını bulunuz.\n4. Senaryo · Zor\nSu deposu"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/7-sinif/1-yazili-sorulari/senaryo-4-zor/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "7. SINIF MATEMATİK\n4. SENARYO · ZOR\nMAT.7.1.2.\nGerçek yaşam durumlarında rasyonel sayıların ondalık gösterimlerini yansıtabilme · a) Bölme işlemini kullanarak her rasyonel\nsayının bir ondalık gösterimi olduğunu inceler.\nsayılarının ondalık gösterimlerini bulunuz ve\n15 150\n1500\ndevir\nçizgisi\nkullanarak\nyazınız.\nondalık\ngösterimlerin her birinde virgülden sonra\n15 puan\ndevretmeyen kaç basamak vardır?\nBölme işlemi yaparak\nMAT.7.1.3.\nRasyonel sayıların karşılaştırma ve sıralama ilişkilerini yorumlayabilme\n13 b\n< olduğu biliniyor.\n16 puan Buna göre a’nın alabileceği en büyük değer ile b’nin alabileceği en küçük değeri bulunuz.\na ve b birer tam sayıdır ve\nSınav bitti. Cevaplarınızı kontrol ediniz.\n4. Senaryo · Zor"
+        }
+      ]
+    }
+  ]
+}

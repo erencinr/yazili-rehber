@@ -12,7 +12,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: `${site.marka}: OYSS rehberi ve yazılı soruları`, template: "%s | Atomica" },
+  title: { default: "5, 6 ve 7. Sınıf Matematik Yazılı Soruları", template: "%s | Atomica" },
   description: site.aciklama,
   openGraph: { siteName: site.marka, locale: "tr_TR", type: "website" },
   icons: { icon: site.atomica.favicon },

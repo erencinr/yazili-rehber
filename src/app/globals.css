@@ -128,3 +128,26 @@ details[open] > summary .faq-isaret::after {
     display: block !important;
   }
 }
+
+/* ---------- Atomica kâğıdı (görsel sayfalar) yazdırma ---------- */
+/* Kitapçık sayfalarının kendi kenar boşluğu var; tarayıcı boşluğu eklenmeden tam A4 basılır. */
+@page kagit {
+  margin: 0;
+}
+@media print {
+  .kagit-sayfa {
+    page: kagit;
+    width: 210mm;
+    margin: 0 !important;
+    break-after: page;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+  .kagit-sayfa:last-child {
+    break-after: auto;
+  }
+  main:has(.kagit-sayfa) .breadcrumb {
+    display: none;
+  }
+}

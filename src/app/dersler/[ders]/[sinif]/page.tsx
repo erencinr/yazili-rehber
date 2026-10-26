@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { KagitIzgarasi } from "@/components/KagitIzgarasi";
 import { ScenarioTable } from "@/components/ScenarioTable";
 import { UlkeGeneliKutusu } from "@/components/UlkeGeneliKutusu";
 import { Breadcrumb, Card, Chip, Container, FaqAccordion, H2, PageHero } from "@/components/ui";
 import { site } from "@/config/site";
-import { getDers, getDersler, getYazililar, senaryoSoruSayisi, sinifNo } from "@/lib/data";
+import { baslikYap, getDers, getDersler, getYazililar, sinifNo } from "@/lib/data";
+import { baslangicOnerisi } from "@/lib/kagit";
+import type { Yazili } from "@/lib/types";
 
 // Yalnızca generateStaticParams'taki adresler üretilir; diğerleri 404.
 export const dynamicParams = false;
@@ -26,10 +29,26 @@ export async function generateMetadata({ params }: PageProps<"/dersler/[ders]/[s
   if (!r) return {};
   const n = sinifNo(r.sinif.slug);
   return {
-    title: `${n}. Sınıf ${r.ders.ad} yazılı senaryoları ${site.egitimYili}`,
-    description: `${n}. sınıf ${r.ders.ad} ortak yazılısında hangi senaryoda hangi konudan kaç soru var? Dağılım tablosu ve çözülebilir kâğıtlar.`,
+    title: `${n}. Sınıf ${r.ders.ad} Yazılı Soruları ${site.egitimYili}`,
+    description: `${n}. sınıf ${r.ders.ad.toLocaleLowerCase("tr")} yazılı sınav kâğıtları: MEB senaryolarına uygun, kolay, orta ve zor seviyede. Ekranda çöz veya yazdır.`,
     alternates: { canonical: `/dersler/${r.ders.slug}/${r.sinif.slug}/` },
   };
+}
+
+function DagilimTablosu({ yazili, taban }: { yazili: Yazili; taban: string }) {
+  if (yazili.ulkeGeneli || yazili.senaryolar.length === 0) return null;
+  return (
+    <details className="group rounded-[18px] border border-line bg-white">
+      <summary className="flex cursor-pointer items-center justify-between gap-3 px-5 py-4 text-sm font-semibold text-ink-soft">
+        Resmî soru dağılımını gör (MEB konu-soru dağılım tablosu)
+        <span className="faq-isaret text-lg text-navy" aria-hidden />
+      </summary>
+      <div className="space-y-2 px-5 pb-5">
+        <ScenarioTable ciktilar={yazili.ciktilar} senaryolar={yazili.senaryolar} hrefOnEk={taban} />
+        <p className="text-xs text-muted">Kaynak: {yazili.kaynak.ad}.</p>
+      </div>
+    </details>
+  );
 }
 
 export default async function SinifPage({ params }: PageProps<"/dersler/[ders]/[sinif]">) {
@@ -37,120 +56,75 @@ export default async function SinifPage({ params }: PageProps<"/dersler/[ders]/[
   if (!r) notFound();
   const { ders, sinif } = r;
   const n = sinifNo(sinif.slug);
+  const dersAdi = ders.ad.toLocaleLowerCase("tr");
   const yazililar = getYazililar(ders.slug, sinif.slug);
   const taban = `/dersler/${ders.slug}/${sinif.slug}/`;
-  const ilk = yazililar.find((y) => !y.ulkeGeneli);
-  const ayniSinifDersleri = getDersler().filter(
-    (d) => d.slug !== ders.slug && d.siniflar.some((s) => s.slug === sinif.slug),
-  );
+  const digerSiniflar = ders.siniflar.filter((s) => s.slug !== sinif.slug);
 
   return (
     <>
-      <Breadcrumb
-        items={[
-          { ad: "Dersler", href: "/dersler/" },
-          { ad: ders.ad, href: `/dersler/${ders.slug}/` },
-          { ad: `${n}. sınıf`, href: taban },
-        ]}
-      />
-      <PageHero
-        eyebrow={`${n}. sınıf ${ders.ad}`}
-        baslik={`${n}. Sınıf ${ders.ad} yazılı senaryoları ${site.egitimYili}`}
-      >
-        <p className="text-lg text-ink/80">
-          Her yazılı için senaryoların hangi öğrenme çıktısından kaç soru içerdiğini tabloda gör, kâğıdı aç ve çöz.
-        </p>
-        {sinif.not && <p className="rounded-xl bg-navy-tint p-3 text-sm text-ink/85">{sinif.not}</p>}
+      <Breadcrumb items={[{ ad: `${n}. sınıf ${dersAdi}`, href: taban }]} />
+      <PageHero eyebrow={`${n}. sınıf ${dersAdi}`} baslik={`${n}. Sınıf ${ders.ad} Yazılı Soruları`}>
+        <p className="text-lg text-ink-soft">{baslangicOnerisi(yazililar.find((y) => y.kagitlar.length > 0))}</p>
+        {sinif.not && <p className="rounded-xl bg-white/70 p-3 text-sm text-ink-soft">{sinif.not}</p>}
       </PageHero>
-      <Container className="space-y-14 py-12">
-        {yazililar.length === 0 ? (
-          <Card>
-            <p className="font-serif text-xl">Bu sınıfın kâğıtları hazırlanıyor</p>
-            <p className="mt-1 text-ink/80">Resmî konu-soru dağılım tablosu yayımlandığında burada görünecek.</p>
-          </Card>
-        ) : (
-          yazililar.map((y) => (
+
+      <Container className="space-y-12 py-10">
+        {yazililar.map((y) => {
+          const yTaban = `${taban}${y.slug}/`;
+          return (
             <section key={y.slug} className="space-y-4">
-              <div className="flex flex-wrap items-end justify-between gap-3">
-                <H2 id={y.slug}>{y.ad}</H2>
-                <Link href={`${taban}${y.slug}/`} className="text-sm font-semibold text-navy hover:underline">
-                  {y.ad} sorularına git →
-                </Link>
+              <div className="flex flex-wrap items-baseline justify-between gap-2">
+                <H2 id={y.slug}>{baslikYap(y.ad)}</H2>
+                {y.ciktilar[0] && <p className="text-sm text-muted">Konu: {y.ciktilar[0].unite}</p>}
               </div>
-              {y.tarihAraligi && <p className="text-sm text-muted">Tarih aralığı: {y.tarihAraligi}</p>}
-              {y.ulkeGeneli ? (
-                <UlkeGeneliKutusu duyuru={y.duyuru} />
+              {y.ulkeGeneli && <UlkeGeneliKutusu duyuru={y.duyuru} kagitVar={y.kagitlar.length > 0} />}
+              {y.kagitlar.length > 0 ? (
+                <KagitIzgarasi yazili={y} taban={yTaban} />
               ) : (
-                <>
-                  <ScenarioTable ciktilar={y.ciktilar} senaryolar={y.senaryolar} hrefOnEk={`${taban}${y.slug}/`} />
-                  <p className="text-sm text-muted">
-                    Kaynak: {y.kaynak.ad}. Bağlantılı başlıklar çözülebilir kâğıtlardır.
+                <Card className="bg-soft">
+                  <p className="font-extrabold text-navy">Kâğıtlar hazırlanıyor</p>
+                  <p className="mt-1 text-sm text-ink-soft">
+                    Bu yazılının kâğıtları yakında burada olacak. Sınav tarihini{" "}
+                    <Link href="/ortak-yazili-takvimi/" className="font-semibold text-turq hover:underline">
+                      takvimde
+                    </Link>{" "}
+                    görebilirsin.
                   </p>
-                </>
+                </Card>
               )}
+              <DagilimTablosu yazili={y} taban={yTaban} />
             </section>
-          ))
-        )}
+          );
+        })}
 
-        <Card className="bg-navy-tint">
-          <h3 className="font-serif text-xl">Bu tablo nasıl okunur?</h3>
-          <p className="mt-2 text-ink/80">
-            Satırlar öğrenme çıktılarını, sütunlar senaryoları gösterir. Hücredeki sayı o senaryoda o çıktıdan kaç soru
-            sorulacağını, “—” ise hiç soru olmadığını belirtir. Sayılar ÖDSGM’nin yayımladığı resmî tablodan alınmıştır.
-            Bağlantılı sütun başlıklarına tıklayarak kâğıdı çözebilirsin.
-          </p>
-        </Card>
+        <FaqAccordion
+          items={[
+            {
+              soru: "Hangi kâğıdı çözmeliyim?",
+              cevap:
+                "Okulunun seçtiği senaryoyu öğretmenine sor ve o senaryonun kâğıtlarını çöz. Bilmiyorsan Senaryo 1 · Kolay ile başla; her senaryoda kolay, orta ve zor olmak üzere üç kâğıt var.",
+            },
+            {
+              soru: "Kâğıtlar gerçek sınava benziyor mu?",
+              cevap:
+                "Evet. Kâğıtlar MEB'in yayımladığı senaryolardaki öğrenme çıktılarına ve soru sayılarına uygun hazırlandı; süre 40 dakika, toplam 100 puan.",
+            },
+            {
+              soru: "Kâğıdı yazdırabilir miyim?",
+              cevap:
+                "Evet. Kâğıt sayfasındaki “Kâğıdı yazdır” düğmesiyle yazdırabilir ya da tüm kitapçığı PDF olarak indirebilirsin.",
+            },
+          ]}
+        />
 
-        {ilk && (
-          <FaqAccordion
-            items={[
-              {
-                soru: `${n}. sınıf ${ders.ad} ${ilk.ad}sında kaç soru var?`,
-                cevap: `Resmî tabloya göre senaryoya değişir: ${ilk.senaryolar.map((s) => `Senaryo ${s.no}'de ${senaryoSoruSayisi(s)}`).join(", ")} soru.`,
-              },
-              {
-                soru: `${n}. sınıf ${ders.ad} yazılısı kaç puan?`,
-                cevap: "Her senaryo kâğıdı toplam 100 puandır. Puanlar soruların alt maddelerine dağıtılmıştır.",
-              },
-              {
-                soru: "Sınavda hangi senaryo çıkacak?",
-                cevap:
-                  "Hangi senaryonun uygulanacağı sınavdan önce belirlenir. Bu yüzden tüm senaryolara çalışmak en güvenli yoldur.",
-              },
-              {
-                soru: `${n}. sınıf ${ders.ad} yazılısı ne kadar sürer?`,
-                cevap:
-                  "Sınav süresini okul belirler; bu sitedeki çalışma kâğıtları 40 dakikalık süreyle hazırlanmıştır.",
-              },
-              {
-                soru: `${n}. sınıf ${ders.ad} ${ilk.ad} ne zaman?`,
-                cevap: ilk.tarihAraligi
-                  ? `Planlanan aralık: ${ilk.tarihAraligi}. Kesin tarih için takvim sayfasına bak.`
-                  : "Takvim sayfasında güncel tarihleri bulabilirsin.",
-              },
-            ]}
-          />
-        )}
-
-        <section className="space-y-4">
-          <H2>{ders.ad} dersinin diğer sınıfları</H2>
-          <div className="flex flex-wrap gap-2">
-            {ders.siniflar
-              .filter((s) => s.slug !== sinif.slug)
-              .map((s) => (
-                <Chip key={s.slug} href={`/dersler/${ders.slug}/${s.slug}/`}>
-                  {sinifNo(s.slug)}. sınıf {ders.ad}
-                </Chip>
-              ))}
-          </div>
-        </section>
-        {ayniSinifDersleri.length > 0 && (
+        {digerSiniflar.length > 0 && (
           <section className="space-y-4">
-            <H2>{n}. sınıfın diğer dersleri</H2>
+            <H2>Diğer sınıflar</H2>
             <div className="flex flex-wrap gap-2">
-              {ayniSinifDersleri.map((d) => (
-                <Chip key={d.slug} href={`/dersler/${d.slug}/${sinif.slug}/`}>
-                  {d.ad}
+              {digerSiniflar.map((s) => (
+                <Chip key={s.slug} href={`/dersler/${ders.slug}/${s.slug}/`}>
+                  {sinifNo(s.slug)}. sınıf {dersAdi}
                 </Chip>
               ))}
             </div>

@@ -3,32 +3,66 @@
     "baslik": "1. dönem 1. yazılı (okul geneli OYSS)",
     "not": "Günde tek sınav varsa 2. ders saatinde, iki sınav varsa 2. ve 4. ders saatlerinde yapılır; süre 40 dakikadır. 10 Kasım sınavları 4. ders saatinde yapılabilir. Okul müdürlüğü gerekirse farklı bir ders saati planlayabilir. Mazeret sınavları 23-27 Kasım 2026.",
     "sinavlar": [
-      {"kademe": "Ortaokul (5-7)", "ders": "Fen Bilimleri", "tarih": "3 Kasım 2026"},
-      {"kademe": "Ortaokul (5-7)", "ders": "Matematik", "tarih": "5 Kasım 2026"},
-      {"kademe": "Ortaokul (5-7)", "ders": "Sosyal Bilgiler", "tarih": "6 Kasım 2026"},
-      {"kademe": "Ortaokul (5-7)", "ders": "Türkçe", "tarih": "10 Kasım 2026"},
-      {"kademe": "Ortaokul (5-7)", "ders": "İngilizce", "tarih": "12 Kasım 2026"},
-      {"kademe": "Ortaokul (5-7)", "ders": "Din Kültürü ve Ahlak Bilgisi", "tarih": "13 Kasım 2026"},
-      {"kademe": "Lise (9-11)", "ders": "Biyoloji", "tarih": "3 Kasım 2026"},
-      {"kademe": "Lise (9-11)", "ders": "Kimya", "tarih": "4 Kasım 2026"},
-      {"kademe": "Lise (9-11)", "ders": "Tarih", "tarih": "4 Kasım 2026"},
-      {"kademe": "Lise (9-11)", "ders": "Matematik", "tarih": "5 Kasım 2026"},
-      {"kademe": "Lise (9-11)", "ders": "Fizik", "tarih": "6 Kasım 2026"},
-      {"kademe": "Lise (9-11)", "ders": "Felsefe", "tarih": "6 Kasım 2026"},
-      {"kademe": "Lise (9-11)", "ders": "Coğrafya", "tarih": "10 Kasım 2026"},
-      {"kademe": "Lise (9-11)", "ders": "Türk Dili ve Edebiyatı", "tarih": "11 Kasım 2026"},
-      {"kademe": "Lise (9-11)", "ders": "Din Kültürü ve Ahlak Bilgisi", "tarih": "11 Kasım 2026"},
-      {"kademe": "Lise (9-11)", "ders": "İngilizce", "tarih": "13 Kasım 2026"}
+      {
+        "kademe": "Ortaokul (5-7)",
+        "ders": "Fen Bilimleri",
+        "tarih": "3 Kasım 2026"
+      },
+      {
+        "kademe": "Ortaokul (5-7)",
+        "ders": "Matematik",
+        "tarih": "5 Kasım 2026"
+      },
+      {
+        "kademe": "Ortaokul (5-7)",
+        "ders": "Sosyal Bilgiler",
+        "tarih": "6 Kasım 2026"
+      },
+      {
+        "kademe": "Ortaokul (5-7)",
+        "ders": "Türkçe",
+        "tarih": "10 Kasım 2026"
+      },
+      {
+        "kademe": "Ortaokul (5-7)",
+        "ders": "İngilizce",
+        "tarih": "12 Kasım 2026"
+      },
+      {
+        "kademe": "Ortaokul (5-7)",
+        "ders": "Din Kültürü ve Ahlak Bilgisi",
+        "tarih": "13 Kasım 2026"
+      }
     ]
   },
   "ulkeGeneli": [
-    {"sinif": 6, "ders": "Matematik", "donem": "1. dönem", "yazili": "1. yazılı", "tarih": "11 Kasım 2026 Çarşamba"},
-    {"sinif": 10, "ders": "Türk Dili ve Edebiyatı", "donem": "1. dönem", "yazili": "1. yazılı", "tarih": "12 Kasım 2026 Perşembe"},
-    {"sinif": 7, "ders": "Türkçe", "donem": "1. dönem", "yazili": "2. yazılı", "tarih": "5 Ocak 2027 Salı"},
-    {"sinif": 9, "ders": "Matematik", "donem": "1. dönem", "yazili": "2. yazılı", "tarih": "6 Ocak 2027 Çarşamba"},
-    {"sinif": 7, "ders": "Matematik", "donem": "2. dönem", "yazili": "1. yazılı", "tarih": "6 Nisan 2027 Salı"},
-    {"sinif": 9, "ders": "Türk Dili ve Edebiyatı", "donem": "2. dönem", "yazili": "1. yazılı", "tarih": "7 Nisan 2027 Çarşamba"},
-    {"sinif": 6, "ders": "Türkçe", "donem": "2. dönem", "yazili": "2. yazılı", "tarih": "8 Haziran 2027 Salı"},
-    {"sinif": 10, "ders": "Matematik", "donem": "2. dönem", "yazili": "2. yazılı", "tarih": "9 Haziran 2027 Çarşamba"}
+    {
+      "sinif": 6,
+      "ders": "Matematik",
+      "donem": "1. dönem",
+      "yazili": "1. yazılı",
+      "tarih": "11 Kasım 2026 Çarşamba"
+    },
+    {
+      "sinif": 7,
+      "ders": "Türkçe",
+      "donem": "1. dönem",
+      "yazili": "2. yazılı",
+      "tarih": "5 Ocak 2027 Salı"
+    },
+    {
+      "sinif": 7,
+      "ders": "Matematik",
+      "donem": "2. dönem",
+      "yazili": "1. yazılı",
+      "tarih": "6 Nisan 2027 Salı"
+    },
+    {
+      "sinif": 6,
+      "ders": "Türkçe",
+      "donem": "2. dönem",
+      "yazili": "2. yazılı",
+      "tarih": "8 Haziran 2027 Salı"
+    }
   ]
 }

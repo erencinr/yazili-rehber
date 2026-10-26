@@ -7,7 +7,7 @@ import { getTakvim } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: `Ortak yazılı takvimi ${site.egitimYili}: OYSS ve ülke geneli sınav tarihleri`,
-  description: "2026-2027 okul geneli OYSS 1. dönem 1. yazılı tarihleri ve 8 ülke geneli ortak yazılı sınavın tarihleri.",
+  description: "2026-2027 ortaokul (5, 6, 7. sınıf) ortak yazılı tarihleri: okul geneli OYSS 1. dönem 1. yazılı ve ülke geneli sınavlar.",
   alternates: { canonical: "/ortak-yazili-takvimi/" },
 };
 
@@ -30,7 +30,7 @@ export default function TakvimPage() {
       <Container className="space-y-14 py-12">
         <section className="space-y-4">
           <H2 id="okul-geneli">Okul geneli: {takvim.okulGeneli.baslik}</H2>
-          <div className="grid gap-6 lg:grid-cols-2">
+          <div className="max-w-[640px]">
             {kademeler.map((k) => (
               <ResponsiveTable key={k}>
                 <table className="w-full text-sm">
@@ -56,8 +56,8 @@ export default function TakvimPage() {
           </div>
           <p className="text-sm text-muted">{takvim.okulGeneli.not}</p>
           <p className="text-sm text-muted">
-            6. sınıf Matematik ve 10. sınıf Türk Dili ve Edebiyatı 1. yazılıları okul geneli değil, ülke geneli olarak
-            yapılır (aşağıdaki tabloya bakın). Diğer yazılıların okul geneli takvimi henüz yayımlanmadı.
+            6. sınıf Matematik 1. yazılısı okul geneli değil, ülke geneli olarak yapılır (aşağıdaki tabloya bakın).
+            Diğer yazılıların okul geneli takvimi henüz yayımlanmadı.
           </p>
         </section>
 

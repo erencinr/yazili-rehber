@@ -8,7 +8,6 @@ export function Footer() {
   const rehberler = sayfalar.filter((s) => !s.yasal);
   // Gizlilik ve kullanım koşulları için Atomica'nın kendi yasal sayfaları gösterilir.
   const yasal = sayfalar.filter((s) => s.slug === "hakkinda" || s.slug === "sorumluluk-reddi");
-  const kademeAdi = (k: string) => (k === "ortaokul" ? "Ortaokul" : "Lise");
   const link = "text-white/75 hover:text-white";
 
   return (
@@ -47,15 +46,17 @@ export function Footer() {
           </ul>
         </div>
         <div>
-          <p className="mb-3 text-sm font-extrabold text-yellow">Dersler</p>
+          <p className="mb-3 text-sm font-extrabold text-yellow">Yazılı soruları</p>
           <ul className="space-y-1.5 text-sm">
-            {dersler.map((d) => (
-              <li key={d.slug}>
-                <Link href={`/dersler/${d.slug}/`} className={link}>
-                  {d.ad} <span className="text-white/50">({kademeAdi(d.kademe)})</span>
-                </Link>
-              </li>
-            ))}
+            {dersler.flatMap((d) =>
+              d.siniflar.map((s) => (
+                <li key={`${d.slug}-${s.slug}`}>
+                  <Link href={`/dersler/${d.slug}/${s.slug}/`} className={link}>
+                    {s.ad} {d.ad.toLocaleLowerCase("tr")}
+                  </Link>
+                </li>
+              )),
+            )}
           </ul>
         </div>
         <div>

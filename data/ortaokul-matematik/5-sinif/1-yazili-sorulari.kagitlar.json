@@ -1,0 +1,1160 @@
+{
+  "$aciklama": "scripts/kagit-aktar.mjs ile Atomica kitapçığından üretilir; elle düzenleme.",
+  "kaynak": "ortaokul-matematik-5-sinif-1-yazili.pdf",
+  "kitapcik": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/kitapcik.pdf",
+  "tur": "senaryo",
+  "kagitlar": [
+    {
+      "slug": "senaryo-1-kolay",
+      "tur": "senaryo",
+      "no": 1,
+      "seviye": "kolay",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.5.3.7"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.5.3.2"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 6,
+          "puan": 14,
+          "cikti": "MAT.5.3.5"
+        },
+        {
+          "no": 7,
+          "puan": 14,
+          "cikti": "MAT.5.3.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-kolay/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · KOLAY\n1. YAZILI\n1. SENARYO · KOLAY\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.1.\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nElif, kareli defterine aşağıdaki çizimleri yapmıştır. Defterdeki her karenin bir kenar uzunluğu 1\n15 puan birimdir (br).\nBuna göre\na) A, B, C, D, E ve F noktalarıyla verilen çizimlerden doğru parçasını, ışını ve doğruyu\nsembolle gösteriniz.\nb) Bu çizimlerden uzunluğu ölçülebilen hangisidir? Bu çizimin uzunluğunu sembol\nkullanarak yazınız.\nc) Şekildeki açıyı üç farklı biçimde sembolle gösteriniz ve açının köşesini yazınız.\n1. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-kolay/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · KOLAY\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nAyşe, arkadaşına göndereceği mektubun zarfını masaya arka yüzü üstte kalacak biçimde\n15 puan koymuştur. Zarfın arka yüzündeki katlama çizgileri KM ve LN doğruları ile modellenmiştir. Bu\n̂ = 70∘ ’dir.\ndoğrular O noktasında kesişmektedir ve m(LOM)\n70∘\nBuna göre\na) ̂\nLOM ile komşu olan açıları sembolle yazınız.\n̂ açısının ters açısını sembolle yazınız ve bu açının ölçüsünü bulunuz.\nb) LOM\nc) m( ̂\nKOL) kaç derecedir?\n1. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-kolay/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · KOLAY\n5.3.7.\nMatematiksel araç ve teknoloji yardımıyla düzlemde iki noktada kesişen çember çiftinin merkezleri ve kesişim noktalarından biri ile inşa\nedilen üçgenlerin kenar özelliklerine yönelik çıkarım yapabilme\nSelin, pergelinin açıklığını değiştirmeden A ve B merkezli iki çember çizmiştir. Çemberler K ve\n15 puan L noktalarında kesişmektedir. Selin daha sonra A, B ve K noktalarını birleştirerek ABK üçgenini\noluşturmuştur. Kareli zemindeki her karenin bir kenar uzunluğu 1 br’dir.\nBuna göre\na) [AK] ve [BK], çemberlerin hangi elemanıdır? Bu doğru parçalarının uzunluklarını\nyazınız.\nb) |AB| kaç birimdir?\nc) ABK üçgeni kenarlarına göre hangi çeşit üçgendir?\n1. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-kolay/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · KOLAY\n5.3.2.\nTemel geometrik çizimlere dayalı deneyimlerini yansıtabilme\nAşağıdaki kareli zeminde A ve B noktaları verilmiştir.\n13 puan\n5.3.3.\nBuna göre A noktasından geçen iki farklı doğru çiziniz. Hem A hem de B noktasından\ngeçen kaç farklı doğru çizilebilir? Bu doğruyu da çiziniz.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nKerem, KOL açısının ölçüsünü açıölçerle şekildeki gibi ölçmüştür.\n14 puan\n110\n120\n130\n100\n100\n110\n130\n150\n170\n180\n140\n160\n120\n140\n150\n160\n170\n180\nBuna göre m( ̂\nKOL) kaç derecedir? Bu açı, ölçüsüne göre hangi çeşit açıdır?\n1. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-kolay/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · KOLAY\n5.3.5.\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nDüzlemde ardışık olarak kesişen doğrularla kapalı şekiller oluşturuluyor. Her çizimde son çizilen\n14 puan doğru, ilk çizilen doğruyu kesmektedir.\nKullanılan doğru\nsayısı\nOluşan çokgenin adı\nÇokgenin kenar\nsayısı\nüçgen (örnek)\n3 (örnek)\nBuna göre tablodaki boş kutuları doldurunuz.\nÇokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme\n5.3.6.\nAşağıda ABCDE beşgeni verilmiştir.\n14 puan\nBuna göre aşağıdaki tablonun boş kutularını doldurunuz.\nİstenen\nCevap\nBeşgenin kenar sayısı ve iç açı sayısı\n[AB] dışındaki kenarlardan ikisi (sembolle)\nB köşesindeki iç açı (sembolle)\nD köşesinden çizilebilen köşegenler (sembolle)\nSınav bitti. Cevaplarınızı kontrol ediniz.\n1. Senaryo · Kolay"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-1-orta",
+      "tur": "senaryo",
+      "no": 1,
+      "seviye": "orta",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.5.3.7"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.5.3.2"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 6,
+          "puan": 14,
+          "cikti": "MAT.5.3.5"
+        },
+        {
+          "no": 7,
+          "puan": 14,
+          "cikti": "MAT.5.3.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-orta/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · ORTA\n1. YAZILI\n1. SENARYO · ORTA\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.1.\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nKaan, pergelinin açıklığını cetvel üzerinde Şekil 1’deki gibi ayarlamıştır. Ardından pergelin\n15 puan açıklığını değiştirmeden M merkezli bir çember çizmiş ve çemberin üzerinde A, B, C, D ve E\nnoktalarını işaretlemiştir (Şekil 2).\nsivri uç\nkalem ucu\nŞekil 1\nŞekil 2\nBuna göre\na) Pergelin açıklığı kaç milimetredir? Buna göre çemberin yarıçap uzunluğunu yazınız.\nb) |MA| ve |MC| kaçar milimetredir?\nc) Şekil 2’deki doğru parçalarından hangisi çemberin çapıdır? Sembolle yazınız.\n1. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-orta/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · ORTA\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nBir pencerenin demir korkuluğundaki üç çubuk O noktasında kesişmektedir. Çubuklar KL, MN\n15 puan ve PR doğruları ile modellenmiştir. KL ve MN doğruları birbirine diktir ve m(POM) = 55 ’dir.\n55∘\nBuna göre\n̂ açısının komşu tümler açısını sembolle yazınız ve ölçüsünü bulunuz.\na) POM\n̂ açısının ters açısını sembolle yazınız ve ölçüsünü bulunuz.\nb) POM\n̂ kaç derecedir?\nc) m(POL)\n1. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-orta/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · ORTA\n5.3.7.\nMatematiksel araç ve teknoloji yardımıyla düzlemde iki noktada kesişen çember çiftinin merkezleri ve kesişim noktalarından biri ile inşa\nedilen üçgenlerin kenar özelliklerine yönelik çıkarım yapabilme\nMert, A ve B merkezli iki çemberi kareli zemine şekildeki gibi çizmiştir. Çemberler K ve L\n15 puan noktalarında kesişmektedir. Kareli zemindeki her karenin bir kenar uzunluğu 1 br’dir.\nBuna göre\na) |AK| ve |BK| kaç birimdir?\nb) ABK üçgeninin kenar uzunluklarını yazınız. Bu üçgen kenarlarına göre hangi çeşit\nüçgendir?\nc) A merkezli çember aynı kalmak koşuluyla B merkezli çember, yarıçapı 5 br olacak\nbiçimde yeniden çizilirse oluşan ABK üçgeni kenarlarına göre hangi çeşit üçgen\nolur?\n1. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-orta/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · ORTA\n5.3.2.\nTemel geometrik çizimlere dayalı deneyimlerini yansıtabilme\nDeniz, bir kurdeleye düğme yerlerini eşit aralıklarla işaretleyecektir. Kurdelenin kenarı [AB ışını\n13 puan ile modellenmiştir. Deniz, pergelinin açıklığını 18 mm’ye ayarlamış ve açıklığı hiç değiştirmeden\nA noktasından başlayarak art arda yaylar çizip ışın üzerinde C, D, E, F ve G noktalarını\nişaretlemiştir.\nŞekil ölçekli değildir.\n5.3.3.\nBuna göre |AG| ve |DG| kaç milimetredir?\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nBora, ABC açısının ölçüsünü açıölçerle şekildeki gibi ölçmüştür. Açının köşesi açıölçerin\n14 puan merkezinde, [BA kolu ise açıölçerin sol tarafındaki 0 çizgisindedir.\n110\n120\n130\n100\n100\n170\n180\n140\n160\n130\n150\n110\n120\n140\n150\n160\n170\n180\n̂ kaç derecedir? Bu açı, ölçüsüne göre hangi çeşit açıdır?\nBuna göre m(ABC)\n1. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-orta/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · ORTA\n5.3.5.\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nEla, bir vitray (renkli cam) pencere için d1 , d2 , d3 , d4 ve d5 doğrularını kullanarak bir desen\n14 puan çizmiş ve doğruların kesişimiyle oluşan 1 ve 2 numaralı kapalı bölgeleri boyamıştır.\nBuna göre 1 ve 2 numaralı çokgenlerin her birinin hangi doğruların ardışık kesişimiyle\noluştuğunu yazınız. Bu çokgenlerin adlarını yazınız.\n1. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-orta/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · ORTA\n5.3.6.\nÇokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme\nBir yelkenli teknenin üçgen biçimindeki yelkeni ABC üçgeni ile modellenmiştir. Yelkenin A\n14 puan köşesindeki iç açının ölçüsü 48 , B köşesindeki iç açının ölçüsü 67 ’dir.\n48∘\n67∘\nBuna göre yelkenin C köşesindeki iç açının ölçüsünü bulunuz. Yelken, açılarına göre\nhangi çeşit üçgen modelidir?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n1. Senaryo · Orta"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-1-zor",
+      "tur": "senaryo",
+      "no": 1,
+      "seviye": "zor",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.5.3.7"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.5.3.2"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 6,
+          "puan": 14,
+          "cikti": "MAT.5.3.6"
+        },
+        {
+          "no": 7,
+          "puan": 14,
+          "cikti": "MAT.5.3.5"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-zor/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · ZOR\n1. YAZILI\n1. SENARYO · ZOR\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.1.\n15 puan\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nDefne, okul panosu için bir rozet tasarlamaktadır. Tasarımın çizim adımları aşağıda verilmiştir.\nI. Uzunluğu 6 cm olan [AB] çizilir.\nII. A noktasından başlayan ve [AB] ile 60∘ ’lik açı oluşturan [AC ışını çizilir.\nIII. C noktasından AB doğrusuna dikme çizilir; dikmenin AB doğrusunu kestiği nokta D olarak\nadlandırılır.\nIV. A merkezli ve B noktasından geçen çember çizilir; bu çemberin [AC ışınını kestiği nokta E\nolarak adlandırılır.\n60∘\nŞekil ölçekli değildir.\nBuna göre\na) Her adımda kullanılması gereken matematiksel aracı yazınız.\nb) Defne’nin cetvelinin 0 ile 2 arasındaki kısmı kırıktır; cetvel 2 çizgisinden başlayıp 15\nçizgisinde bitmektedir. Defne, I. adımdaki doğru parçasını bu cetvelle çizmek için\ncetvelin hangi iki çizgisini kullanabilir? Bir örnek yazınız.\nc) Çizilen çemberin yarıçap uzunluğu kaç santimetredir? |AE| kaç santimetredir?\n1. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-zor/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · ZOR\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nBir bahçe çitinin birbirine paralel iki yatay çıtası d1 ve d2 doğruları ile, çıtaları kesen çapraz\n15 puan çıta k doğrusu ile modellenmiştir. Kesişim noktalarında oluşan açılar 1’den 8’e kadar\nnumaralandırılmıştır. 2 numaralı açının ölçüsü, 1 numaralı açının ölçüsünden 50∘ fazladır.\nBuna göre\na) 1 ve 2 numaralı açıların ölçülerini bulunuz.\nb) Numaralandırılmış açılardan ölçüsü 1 numaralı açının ölçüsüne eşit olanları yazınız.\nc) Çapraz çıta, yatay çıtalara dik olacak biçimde yeniden yerleştirilirse kesişim\nnoktalarında kaç dik açı oluşur? Bu durumda 6 numaralı açının ölçüsü kaç derece\nolur?\n1. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-zor/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · ZOR\n5.3.7.\nMatematiksel araç ve teknoloji yardımıyla düzlemde iki noktada kesişen çember çiftinin merkezleri ve kesişim noktalarından biri ile inşa\nedilen üçgenlerin kenar özelliklerine yönelik çıkarım yapabilme\nKareli zemindeki A ve B noktaları arasındaki uzaklık 4 br’dir. Burak, bu noktaları merkez\n15 puan kabul eden çember çiftleri çizerek ABK üçgenleri oluşturmaktadır (K, çemberlerin kesişim\nnoktalarından biridir). Şekilde, A merkezli 4 br ve B merkezli 3 br yarıçaplı çemberlerle\noluşturduğu üçgen gösterilmiştir. Kareli zemindeki her karenin bir kenar uzunluğu 1 br’dir.\nBuna göre\na) Şekildeki ABK üçgeninin kenar uzunluklarını yazınız. Bu üçgen kenarlarına göre\nhangi çeşit üçgendir?\nb) Burak, eşkenar bir ABK üçgeni oluşturmak için çemberlerin yarıçaplarını kaçar birim\nseçmelidir?\nc) Burak, A merkezli çemberin yarıçapını 5 br seçerek kenar uzunlukları toplamı 15 br\nolan bir ABK üçgeni oluşturmak istiyor. B merkezli çemberin yarıçapını kaç birim\nseçmelidir? Oluşan üçgen kenarlarına göre hangi çeşit üçgendir?\n1. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-zor/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · ZOR\n5.3.2.\nTemel geometrik çizimlere dayalı deneyimlerini yansıtabilme\nDüz bir sulama kanalı d doğrusu ile, kanalın yakınındaki A, B ve C evleri kareli zemindeki\n13 puan noktalarla modellenmiştir. Her evden kanala en kısa yoldan birer boru döşenecektir. Kareli\nzemindeki her karenin bir kenar uzunluğu 10 metredir.\nkanal\nBuna göre her evden kanala döşenecek boruyu şekil üzerinde çiziniz. Kanalın aynı\nkenarına yapılacak D evinden de kanala en kısa yoldan boru döşenecek ve dört evin\nborularının toplam uzunluğu 150 m olacaktır. D evi kanala kaç metre uzaklıkta olmalıdır?\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nBir robot süpürgenin telefon uygulamasındaki açı göstergesine göre robot, her “Dön” komutunda\n14 puan bulunduğu yerde ve hep aynı yönde 30 döner. Şekilde robotun başlangıç yönü ile 1. komuttan\nsonraki yönü gösterilmiştir.\n1. komuttan sonraki yön\n30∘\nbaşlangıç yönü\nBuna göre robot, en az kaç “Dön” komutundan sonra başlangıç yönünün tam tersine\nbakar? Robotun 4 “Dön” komutundan sonraki yönü ile başlangıç yönü arasındaki açının\nölçüsünü ve çeşidini yazınız.\n1. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-1-zor/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n1. SENARYO · ZOR\n14 puan\n5.3.6.\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nAli, 7 doğruyu ardışık olarak kesiştirerek bir sekizgen oluşturduğunu söylemektedir.\nBuna göre 7 doğrunun ardışık olarak kesişmesiyle oluşan çokgen hangisidir? Bir\nsekizgen oluşturmak için kaç doğru gerekir? Aşağıdaki kareli zemine 7 doğru kullanarak\nbu çokgeni çiziniz.\nÇokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme\nBir kaydırağın yan yüzündeki üçgen biçimli destek parçası ABC üçgeni ile modellenmiştir. [AB],\n14 puan B noktasından E noktasına doğru uzatılmıştır. m(CBE) = 130 ve m(BAC) = 25 ’dir.\n130∘\n25∘\n̂ kaç derecedir? ABC üçgeni açılarına göre hangi çeşit üçgendir?\nBuna göre m(ACB)\nSınav bitti. Cevaplarınızı kontrol ediniz.\n1. Senaryo · Zor\n5.3.5."
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-2-kolay",
+      "tur": "senaryo",
+      "no": 2,
+      "seviye": "kolay",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.5.3.6"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.5.3.2"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 6,
+          "puan": 14,
+          "cikti": "MAT.5.3.5"
+        },
+        {
+          "no": 7,
+          "puan": 14,
+          "cikti": "MAT.5.3.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-kolay/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · KOLAY\n1. YAZILI\n2. SENARYO · KOLAY\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.1.\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nEce, kalem kutusundaki pastel boyayı, kurşun kalemi ve silgiyi cetvellerin üzerine şekildeki gibi\n15 puan yerleştirmiştir. Her eşya bir doğru parçası modeli olarak düşünülmüş ve uç noktaları harflerle\ngösterilmiştir.\npastel boya\nkurşun kalem\nsilgi\nBuna göre\na) Pastel boyanın modeli olan [AB]’nin uzunluğunu sembol kullanarak santimetre\ncinsinden yazınız.\nb) Kurşun kalemin modeli olan [CD]’nin uzunluğunu sembol kullanarak santimetre\ncinsinden yazınız.\nc) Silginin modeli olan [EF]’nin uzunluğunu sembol kullanarak milimetre cinsinden\nyazınız.\n2. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-kolay/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · KOLAY\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nZeynep, defterine O noktasından başlayan [OA, [OB ve [OC ışınlarını çizmiş ve açıölçeri\n15 puan şekildeki gibi yerleştirmiştir.\n110\n120\n130\n100\n100\n110\n140\n130\n150\n170\n180\n140\n160\n120\n150\n160\n170\n180\nBuna göre\n̂ kaç derecedir?\na) m(AOB)\n̂ kaç derecedir?\nb) m(AOC)\nc) m( ̂\nBOC) kaç derecedir? Bu açı, ölçüsüne göre hangi çeşit açıdır?\n2. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-kolay/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · KOLAY\n5.3.6.\nÇokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme\nMelis, defterine aşağıdaki KLMNPR altıgenini çizmiştir.\n15 puan\nBuna göre\na) Altıgeni M köşesinden başlayarak iki farklı biçimde adlandırınız.\nb) L köşesinden çizilebilen köşegenleri sembolle gösteriniz.\nc) [KL]’yi L noktasından uzatarak L köşesindeki dış açıyı şekil üzerinde çiziniz ve\nsembolle yazınız.\n2. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-kolay/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · KOLAY\n5.3.2.\nTemel geometrik çizimlere dayalı deneyimlerini yansıtabilme\nAşağıdaki kareli zeminde d doğrusu ile A, B, C, D ve E noktaları verilmiştir.\n13 puan\nBuna göre d doğrusuna 2 kare uzaklıkta olan noktaları belirleyip bu noktalardan geçen\ndoğruyu çiziniz ve m ile adlandırınız. m ve d doğrularının birbirine göre durumunu\nsembolle yazınız.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\n5.3.4.\nAşağıdaki kareli zeminde d, k, m ve n doğruları çizilmiştir.\n14 puan\nBuna göre tablodaki boş kutuları doldurunuz.\nDoğru çifti\nBirbirine göre\ndurumu\nSembolle\ngösterim (paralel\nya da dik ise)\nKesişimde oluşan açılar\n(sayısı ve çeşidi)\nd ile k\nm ile k\nn ile d\n2. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-kolay/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · KOLAY\n5.3.5.\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nBir çokgen, en az üç doğrunun ardışık olarak kesişmesiyle oluşan kapalı bir şekildir; son çizilen\n14 puan doğru, ilk çizilen doğruyu keser.\nBuna göre aşağıdaki kareli zemine 4 doğru kullanarak bir dörtgen çiziniz. Doğruları d1 ,\nd2 , d3 ve d4 olarak adlandırınız ve dörtgenin iç bölgesini tarayınız.\n2. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-kolay/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · KOLAY\n5.3.6.\nÇokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme\nAşağıda iç açılarının ölçüleri verilen ABC, DEF ve KLM üçgenleri gösterilmiştir.\n14 puan\n70∘\n90∘\n60∘\n50∘\n55∘\n35∘\n110∘\n40∘\n30∘\nBuna göre her üçgenin açılarına göre çeşidini tabloya yazınız.\nABC üçgeni\nDEF üçgeni\nKLM üçgeni\nSınav bitti. Cevaplarınızı kontrol ediniz.\n2. Senaryo · Kolay"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-2-orta",
+      "tur": "senaryo",
+      "no": 2,
+      "seviye": "orta",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.5.3.6"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.5.3.2"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 6,
+          "puan": 14,
+          "cikti": "MAT.5.3.5"
+        },
+        {
+          "no": 7,
+          "puan": 14,
+          "cikti": "MAT.5.3.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-orta/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · ORTA\n1. YAZILI\n2. SENARYO · ORTA\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.1.\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nBurak, gönyesini şekildeki gibi yerleştirerek A noktasından d doğrusuna bir dikme çizmiştir.\n15 puan Ardından A noktasını d doğrusu üzerindeki diğer noktalarla da birleştirmiştir. Kareli zemindeki\nher karenin bir kenar uzunluğu 1 br’dir.\nBuna göre\na) Burak’ın çizdiği dikmeyi sembolle gösteriniz.\nb) A noktasını d doğrusuna birleştiren doğru parçalarından en kısası hangisidir? Bu\ndoğru parçasının uzunluğu kaç birimdir?\nc) B noktasından d doğrusuna bir dikme çiziniz. Dikmenin d doğrusunu kestiği noktayı\nH ile gösteriniz. |BH| kaç birimdir?\n2. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-orta/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · ORTA\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nAyşe’nin doğum günü pastası, merkezinden geçen kesimlerle 8 eş dilime ayrılmıştır. Ayşe,\n15 puan şekildeki taralı 3 dilimi bir tabağa almıştır.\nBuna göre\na) Bir dilimin pastanın merkezinde oluşturduğu açının ölçüsü kaç derecedir?\nb) Taralı parçanın merkezde oluşturduğu açının ölçüsü kaç derecedir? Bu açı, ölçüsüne\ngöre hangi çeşit açıdır?\nc) Kaç dilim birlikte merkezde doğru açı oluşturur? Kaç dilim birlikte merkezde dik açı\noluşturur?\n2. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-orta/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · ORTA\n5.3.6.\nÇokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme\nBir mutfak duvarındaki düzgün altıgen biçimli fayanslardan biri ABCDEF düzgün altıgeni ile\n15 puan modellenmiştir. Fayansın [AB] kenarının uzunluğu 4 cm, A köşesindeki iç açısının ölçüsü\n120∘ ’dir. [AB], B noktasından G noktasına doğru uzatılmıştır.\n4 cm\n120∘\nBuna göre\na) [CD]’nin uzunluğu kaç santimetredir? Fayansın kenar uzunlukları toplamı kaç\nsantimetredir?\nb) Fayansın D köşesindeki iç açının ölçüsü kaç derecedir? Bu açı, ölçüsüne göre hangi\nçeşit açıdır?\n̂ kaç derecedir?\nc) CBG açısı, fayansın B köşesindeki hangi açısıdır? m(CBG)\n2. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-orta/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · ORTA\n5.3.2.\nTemel geometrik çizimlere dayalı deneyimlerini yansıtabilme\nOkulun hentbol takımı için kareli zemine doğru parçalarıyla “HT” logosu tasarlanmıştır. Kareli\n13 puan zemindeki her karenin bir kenar uzunluğu 1 br’dir.\nBuna göre logodaki doğru parçaları iki yönde uzatıldığında AB doğrusuna paralel olan\ndoğruları sembolle yazınız. C ve M noktalarından KL doğrusuna çizilen dikmelerin\nuzunlukları kaçar birimdir?\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nEfe ve Damla defterlerine birer açı çizmiştir. Efe’nin çizdiği açının bütünler açısının ölçüsü 130∘ ,\n14 puan Damla’nın çizdiği açının tümler açısının ölçüsü 25 ’dir.\nBuna göre Efe’nin çizdiği açının tümler açısının ölçüsü kaç derecedir? Damla’nın çizdiği\naçının bütünler açısının ölçüsü kaç derecedir?\n2. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-orta/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · ORTA\n5.3.5.\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nAyaz, mahallesindeki parkın planını defterine çizmiştir. Plandaki düz yürüyüş yolları d1 , d2 ,\n14 puan d3 , d4 , d5 ve d6 doğruları ile, yarım daire biçimli süs havuzunun kenarı bir çember yayı ile\nmodellenmiştir. d4 ve d6 yolları havuzun üzerinden köprüyle geçmektedir. Plandaki kapalı\nbölgelerden altısı 1’den 6’ya kadar numaralandırılmıştır.\nsüs havuzu\nBuna göre numaralı bölgelerden çokgen olanların adlarını yazınız. 5 numaralı bölgenin\nsınırındaki yay yerine, yayın iki ucunu birleştiren bir doğru parçası çizilirse bu bölge\nhangi çokgen olur?\n2. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-orta/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · ORTA\n5.3.6.\nÇokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme\nBeşgen biçimli bir parkın köşelerinde K, L, M, N ve P noktalarıyla gösterilen birer çeşme\n14 puan vardır. Parkın kenarları çitle çevrilidir. Her çeşmeden, kendisiyle aynı kenar üzerinde olmayan\nçeşmelere parkın içinden düz birer yol yapılacaktır. İki çeşme arasına yalnız bir yol yapılacaktır.\nBuna göre beşgenin köşegenlerini modelleyen bu yolları şekil üzerinde çiziniz ve\nsembolle yazınız. Toplam kaç yol yapılır?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n2. Senaryo · Orta"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-2-zor",
+      "tur": "senaryo",
+      "no": 2,
+      "seviye": "zor",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.5.3.6"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.5.3.2"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 6,
+          "puan": 14,
+          "cikti": "MAT.5.3.5"
+        },
+        {
+          "no": 7,
+          "puan": 14,
+          "cikti": "MAT.5.3.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-zor/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · ZOR\n1. YAZILI\n2. SENARYO · ZOR\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.1.\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nİpek ile Onur, kareli kâğıt üzerinde “hazine haritası” oyunu oynamaktadır. İpek, kareli zemine K,\n15 puan L ve P noktalarını işaretlemiş ve Onur’dan aşağıdaki yönergeleri sırayla uygulamasını istemiştir.\nHazine, son yönergede bulunan R noktasındadır. Kareli zemindeki her karenin bir kenar\nuzunluğu 1 br’dir.\nBuna göre\na) K ve L noktalarından geçen doğruyu çiziniz ve sembolle gösteriniz.\nb) P noktasından KL doğrusuna dikme çiziniz; dikmenin KL doğrusunu kestiği noktayı H\nile gösteriniz. Dikmeyi sembolle yazınız. |PH| kaç birimdir?\nc) H merkezli ve P noktasından geçen çemberi pergelle çiziniz. Çemberin KL doğrusunu\nkestiği noktalardan L’ye yakın olanını R ile gösteriniz. |HR| ve |LR| kaç birimdir?\n2. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-zor/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · ZOR\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nSelim, defterine O köşeli AOB açısını çizmiş ve açıölçeri, açının köşesi açıölçerin merkezinde ve\n15 puan [OA kolu açıölçerin sol tarafındaki 0 çizgisinde olacak biçimde yerleştirmiştir. Ardından açıölçerin\nsağ tarafındaki 0 çizgisi üzerinde bulunan [OT ışınını çizmiştir.\n120\n130\n100\n100\n170\n180\n140\n160\n130\n150\n110\n120\n140\n150\n160\n170\n180\n110\nBuna göre\n̂ kaç derecedir? Bu açı, ölçüsüne göre hangi çeşit açıdır?\na) m(AOB)\n̂ kaç derecedir? Bu açı, ölçüsüne göre hangi çeşit açıdır?\nb) m(BOT)\nc) Selim, AOC açısı geniş açı, BOC açısı dar açı olacak biçimde O noktasından başlayan\nbir [OC ışını çizecektir. [OC ışını, açıölçerin iç ölçeğinde 10’un katı olan hangi sayıları\ngösterebilir?\n2. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-zor/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · ZOR\n5.3.6.\nÇokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme\nOkulda düzenlenen “Çevremizdeki üçgenler” sergisi için üç nesne üçgenlerle modellenmiştir.\n15 puan Şekil 1’deki trafik levhasının kenar uzunlukları 90 cm, 90 cm ve 90 cm’dir. Şekil 2’deki\n̂ = 35∘ ’dir. Şekil 3’teki gönyede m(KLM)\n̂ = 90∘ ve\nkulübe çatısında |DE| = |DF| ve m(DEF)\nm(LKM) = 30 ’dir.\n35∘\nŞekil 1\nŞekil 2\n30∘\nŞekil 3\nBuna göre\na) Trafik levhasının iç açılarının ölçülerini bulunuz.\n̂ kaç derecedir? Çatı, açılarına göre hangi çeşit üçgendir?\nb) Çatının tepe açısı m(EDF)\nc) Gönyenin M köşesindeki iç açının ölçüsü kaç derecedir?\n2. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-zor/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · ZOR\n5.3.2.\nTemel geometrik çizimlere dayalı deneyimlerini yansıtabilme\nEge, kareli kâğıda A, B, C noktalarını ve D, E, F noktalarını işaretlemiştir. Ege, her iki noktadan\n13 puan geçen doğruyu çizerek kaç farklı doğru oluştuğunu bulmak istemektedir.\n5.3.4.\nBuna göre A, B, C noktalarından ikişer ikişer geçen bütün doğruları ve D, E, F\nnoktalarından ikişer ikişer geçen bütün doğruları çiziniz. Her nokta üçlüsü için kaç\nfarklı doğru çizilebildiğini yazınız.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nAli, iki kalemi masanın üzerine şekildeki gibi çapraz olarak koymuştur. Kalemler, E noktasında\n14 puan kesişen AC ve BD doğruları ile modellenmiştir. m(AEB), m(BEC)’nin 4 katıdır.\n̂ ve m(AEB)\n̂ kaç derecedir? Kesişim noktasında oluşan diğer iki açının\nBuna göre m(BEC)\nölçülerini de yazınız.\n2. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-zor/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · ZOR\n5.3.5.\n14 puan\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nCem, bir altıgen çizmek için aşağıdaki kurala uymak istemektedir.\n• Her adımda bir doğru çizilir ve bu doğru, bir önceki adımda çizilen doğruyu keser.\n• Son adımda çizilen doğru, ilk adımda çizilen doğruyu da keser ve kapalı şekil tamamlanır.\nAdım\nÇizilen doğru\nÖnceki doğrulardan kestikleri\nd1 , d2\nd1 , d2\nd1 , d2 , d3 , d4\nd2 , d3 , d4 , d5\nCem, 6 adımda d1 , d2 , d3 , d4 , d5 ve d6 doğrularını çizmiş ancak kapalı bir altıgen elde\nedememiştir. Her adımda çizilen doğrunun, önceki adımlarda çizilen doğrulardan hangilerini\nkestiği tabloda verilmiştir.\nBuna göre Cem kuralı hangi adımlarda bozmuştur? Kapalı bir altıgen elde edebilmesi\niçin bu adımlarda çizdiği doğruların hangi doğruları kesmesi gerekir?\n2. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-2-zor/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n2. SENARYO · ZOR\n5.3.6.\nÇokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme\nOkul bahçesindeki çiçek tarhı ABCDE düzgün beşgeni ile modellenmiştir (Şekil 1). Tarhın\n14 puan içinden B ve E köşelerini birleştiren düz bir yol yapılmıştır. Tarhın bir iç açısının ölçüsü 108 ’dir.\nBahçedeki çardağın zemini ise bir düzgün sekizgen ile modellenmiştir (Şekil 2); zeminin bir\nkenarı uzatılarak oluşturulan dış açının ölçüsü 45∘ ’dir.\n108∘\nŞekil 1\n45∘\nŞekil 2\n̂ kaç derecedir? Çardak zemininin her bir iç açısının ölçüsü kaç\nBuna göre m(ABE)\nderecedir?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n2. Senaryo · Zor"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-3-kolay",
+      "tur": "senaryo",
+      "no": 3,
+      "seviye": "kolay",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.5.3.6"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 6,
+          "puan": 14,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 7,
+          "puan": 14,
+          "cikti": "MAT.5.3.5"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-kolay/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · KOLAY\n1. YAZILI\n3. SENARYO · KOLAY\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.3.\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nAşağıda merkezleri O, K ve P noktaları olan üç açıölçer verilmiştir. Her açıölçerde, çizilecek\n15 puan açının bir kolu açıölçerin 0 çizgisi üzerinde ışın olarak çizilmiştir.\n110\n130 60\n140 50\n150\n160\n100 90 80\n80 90 100\n110\n120\n130\n140\n150\n120\n130 60\n140 50\n160\n170 10\n180 0\n170 10\n180 0\n160\n170 10\n180 0\n150\n100 90 80\n110\n80 90 100\n120\n130\n140\n150\n160\n170 10\n180 0\n110\n1. açıölçer\n120\n2. açıölçer\n120\n110\n130 60\n140 50\n150\n160\n100 90 80\n80 90 100\n110\n120\n130\n140\n150\n160\n170 10\n180 0\n170 10\n180 0\n3. açıölçer\nBuna göre\na) 1. açıölçerde [OA ışınını kol kabul eden ve ölçüsü 40∘ olan AOB açısını çiziniz. Bu açı,\nölçüsüne göre hangi çeşit açıdır?\nb) 2. açıölçerde [KL ışınını kol kabul eden ve ölçüsü 90∘ olan LKM açısını çiziniz. Bu açı,\nölçüsüne göre hangi çeşit açıdır?\nc) 3. açıölçerde [PR ışınını kol kabul eden ve ölçüsü 125∘ olan RPS açısını çiziniz. Bu\naçı, ölçüsüne göre hangi çeşit açıdır?\n3. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-kolay/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · KOLAY\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nOkulun spor salonundaki voleybol sahasının kuşbakışı çizimi üzerine doğrular çizilmiştir.\n15 puan Sahanın yan çizgileri AB ve CD doğruları; dip çizgileri KL ve MN doğruları; orta çizgisi PR\ndoğrusu ile modellenmiştir. Yan çizgiler birbirine paraleldir. Dip çizgileri ile orta çizgi de birbirine\nparaleldir ve yan çizgilere diktir.\nfile\nBuna göre\na) Şekildeki doğrulardan birbirine paralel olanları sembolle gösteriniz.\nb) Orta çizgiyi modelleyen PR doğrusu ile AB doğrusunun birbirine göre durumunu\nsembolle gösteriniz. PR doğrusu, şekildeki hangi doğrulara diktir?\nc) KL ve CD doğrularının kesiştiği noktada kaç açı oluşur? Bu açılar, ölçülerine göre\nhangi çeşit açılardır?\n3. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-kolay/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · KOLAY\n5.3.6.\nÇokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme\nEce, renkli kartondan PRS, TUV ve XYZ üçgenlerini kesmiş ve iç açılarının ölçülerini üzerlerine\n15 puan yazmıştır. Ece, her üçgende uzunlukları eşit olan kenarları aynı çentikle işaretlemiştir; çentiksiz\nkenarların uzunlukları, üçgenin diğer kenarlarının uzunluklarından farklıdır.\n60∘\n120∘\n30∘\n30∘\nŞekil 2\nŞekil 1\n50∘\n90∘\n40∘\nŞekil 3\nBuna göre\na) PRS üçgeni kenarlarına göre ve açılarına göre hangi çeşit üçgendir?\nb) TUV üçgeni kenarlarına göre ve açılarına göre hangi çeşit üçgendir?\nc) XYZ üçgeni kenarlarına göre ve açılarına göre hangi çeşit üçgendir?\n3. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-kolay/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · KOLAY\n5.3.1.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nZehra’nın kalem kutusunda çizgeç (ölçüsüz cetvel), cetvel, pergel, gönye ve açıölçer vardır.\n13 puan Zehra, aşağıdaki tabloda verilen işlerin her birinde en uygun aracı kullanacak ve her aracı\nyalnızca bir kez kullanacaktır.\nYapılacak iş\nMatematik kitabının bir kenarının uzunluğunu milimetre\ncinsinden ölçmek\nKâğıda yuvarlak bir saat kadranı çizmek\nÇalışma masasının köşesinin dik olup olmadığını kontrol\netmek\nAçık duran bir makasın kolları arasındaki açıyı ölçmek\nDefterdeki iki noktayı birleştiren, uzunluğu önemli\nolmayan düz bir çizgi çizmek\nKullanılacak araç\nBuna göre tablodaki boş kutulara kullanılacak araçları yazınız.\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nAşağıdaki tabloda bazı açılar sözle tarif edilmiştir.\n14 puan\nAçı\nÖlçüsü\nDik açı\nDoğru açı\nTam açı\nBir ışının yarım tur dönmesiyle oluşan açı\nBir ışının çeyrek tur dönmesiyle oluşan açı\nBir kolu açıölçerin 0 çizgisinde, diğer kolu aynı sayı\ndizisindeki 45 çizgisinde olan açı\nBuna göre tablodaki boş kutulara açıların ölçülerini yazınız. Tablodaki açılardan ölçüleri\nbirbirine eşit olanları yazınız.\n3. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-kolay/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · KOLAY\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nÖlçüsü 20∘ olan bir açının tümler açısının ve bütünler açısının ölçüleri kaç derecedir?\n14 puan Bulduğunuz açılar, ölçülerine göre hangi çeşit açılardır?\n5.3.5.\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nAşağıda numaralandırılmış altı şekil verilmiştir.\n14 puan\nBuna göre bu şekillerden hangilerinin çokgen olduğunu yazınız. Çokgen olan şekillerin\nadlarını yazınız.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n3. Senaryo · Kolay"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-3-orta",
+      "tur": "senaryo",
+      "no": 3,
+      "seviye": "orta",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.5.3.6"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 6,
+          "puan": 14,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 7,
+          "puan": 14,
+          "cikti": "MAT.5.3.5"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-orta/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · ORTA\n1. YAZILI\n3. SENARYO · ORTA\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.3.\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nElif, mutfak dolabının kapağını üç farklı konuma getirerek üstten görünüşünü çizmiştir. Kapak\n15 puan kapalıyken [OK üzerindedir; 1., 2. ve 3. konumlarda sırasıyla [OA, [OB ve [OC üzerindedir. Elif,\naçıölçerin merkezini kapağın menteşesi olan O noktasına yerleştirmiştir.\n2. konum\n3. konum\n120\n130\n1. konum\n100\n110\n140\n130\n150\n170\n180\n140\n160\n120\n110\n100\n150\n160\n170\n180\nkapalı\ndolabın gövdesi (üstten görünüm)\nmenteşe\nBuna göre\na) Kapak 1. konumdayken oluşan KOA açısının ölçüsü kaç derecedir? Bu açı hangi çeşit\naçıdır?\nb) Kapak 3. konumdayken oluşan KOC açısının ölçüsü kaç derecedir? Bu açı hangi çeşit\naçıdır?\nc) Kapak 1. konumdan 3. konuma getirildiğinde kaç derece döner? Kapağın hangi\nkonumundaki açı bu dönme açısına eştir?\n3. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-orta/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · ORTA\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nBir çocuk parkındaki üç düz koşu şeridi ikişer ikişer kesişmekte ve aralarında üçgen biçimli bir\n15 puan oyun alanı kalmaktadır. Parkın planında şeritler d1 , d2 ve d3 doğrularıyla modellenmiş; kesişim\nnoktalarında oluşan açılar 1’den 12’ye kadar numaralandırılmıştır. 1 numaralı açının ölçüsü 55∘ ,\n5 numaralı açının ölçüsü 115∘ ve 12 numaralı açının ölçüsü 120∘ ’dir.\noyun alanı\nBuna göre\na) 1 numaralı açının ters açısı hangi numaralı açıdır? Bu açının ölçüsü kaç derecedir?\nb) 6 ve 11 numaralı açıların ölçülerini bulunuz.\nc) Numaralandırılmış 12 açıdan kaç tanesi dar açı, kaç tanesi geniş açıdır?\n3. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-orta/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · ORTA\nÇokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme\nDefne, defterine aşağıdaki KLMNPRST sekizgenini çizmiştir.\n15 puan\n5.3.6.\nBuna göre\na) Sekizgenin içine [KN] köşegeni çizilirse sekizgen hangi iki çokgene ayrılır? Bu\nçokgenleri köşe harfleriyle adlandırınız.\nb) N köşesinden çizilebilen bütün köşegenleri şekil üzerine çiziniz. Bu köşegenler\nsekizgeni kaç üçgene ayırır?\nc) Defne’nin arkadaşı Can, bütün kenarlarının uzunlukları 3 cm olan bir sekizgen\nçizmiştir. Bu sekizgenin iç açılarından birinin ölçüsü 120∘ , bir başkasının\nölçüsü 150∘ ’dir. Can’ın çizdiği sekizgen düzgün sekizgen midir? Bir sekizgenin\ndüzgün olması için kenar uzunluklarının eşit olmasının yanında hangi koşul da\nsağlanmalıdır?\n3. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-orta/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · ORTA\n5.3.1.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nAşağıdaki tabloda günlük hayattan beş nesne verilmiştir. Bu nesnelerin her biri nokta, doğru\n13 puan parçası, ışın, çember ve daire kavramlarından birinin modelidir; her kavram yalnızca bir kez\nkullanılmıştır.\nNesne\nModellediği kavram\nGece gökyüzünde görülen bir yıldız\nİki çivi arasına gergin olarak bağlanmış ip\nLazer kalemden çıkan ışık\nYuvarlak kurabiye kalıbının ince metal kenarı\nYuvarlak bir kurabiye\n5.3.3.\nBuna göre tablodaki boş kutuları doldurunuz. Tablodaki kavramlardan hangilerinin\nmerkezi ve yarıçapı vardır?\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nOzan, kolları farklı uzunlukta çizilmiş ABC ve DEF açılarını ölçmek için açıölçeri iki açıya da\n14 puan şekillerdeki gibi yerleştirmiştir. DEF açısının kolları açıölçerin sayılarına ulaşmamaktadır.\n130\n140\n150\n160\n120\n110\n100 90\n80 90 100\n110\n120\n130\n130\n140\n150\n140\n160\n170 10\n180 0\n170 10\n180 0\n160\n170 10\n180 0\n150\nŞekil 1\n120\n110\n100 90\n80 90 100\n110\n120\n130\n140\n150\n160\n170 10\n180 0\nŞekil 2\nBuna göre ABC ve DEF açılarının ölçülerini bulunuz. Bu iki açının ölçülerini\nkarşılaştırınız.\n3. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-orta/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · ORTA\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nAşağıdaki kareli zemine AB, CD, EF, KL ve MN doğruları çizilmiştir. Üst üste çizilen doğrular tek\n14 puan bir çizgi olarak görünmektedir.\nBuna göre bu doğrulardan birbiriyle açı oluşturmayan doğru çiftlerini yazınız ve her\nçiftteki doğruların birbirine göre durumunu belirtiniz. Doğrular kaç farklı noktada kesişir?\n3. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-orta/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · ORTA\n5.3.5.\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nMert, kareli zemine bir ev resmi çizmiştir. Resmin dış sınırı, A, B, C, D, E ve F noktalarını\n14 puan birleştiren [AB], [BC], [CD], [DE], [EF] ve [FA] doğru parçalarından oluşmaktadır. Mert, bu kapalı\nşeklin altı doğru parçasından oluştuğu için altıgen olduğunu söylemektedir.\nBuna göre bu kapalı şekil kaç doğrunun ardışık kesişimiyle oluşmuştur? Bu şekil hangi\nçokgendir?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n3. Senaryo · Orta"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-3-zor",
+      "tur": "senaryo",
+      "no": 3,
+      "seviye": "zor",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.5.3.6"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 6,
+          "puan": 14,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 7,
+          "puan": 14,
+          "cikti": "MAT.5.3.5"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-zor/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · ZOR\n1. YAZILI\n3. SENARYO · ZOR\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.3.\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nBir duvar saatinin kadranındaki 12 sayı, kadranın merkezindeki tam açıyı 12 eş parçaya\n15 puan ayırmaktadır. Akrep ile yelkovan arasındaki açı denildiğinde ölçüsü küçük olan açı\nkastedilmektedir. Şekildeki saat 5.00’i göstermektedir.\nyelkovan (uzun ibre)\nakrep (kısa ibre)\nBuna göre\na) Kadrandaki ardışık iki sayı arasındaki açı kaç derecedir? Saat 5.00’te akrep ile\nyelkovan arasındaki açının ölçüsü kaç derecedir?\nb) Saat 2.00’de akrep ile yelkovan arasındaki açının ölçüsü kaç derecedir ve bu açı\nhangi çeşit açıdır? 1.00 ile 12.00 arasındaki tam saatlerden, akrep ile yelkovan\narasında bu açıya eş bir açının oluştuğu başka bir saati yazınız.\nc) Kadranın merkezinden 3 sayısına çizilen ışın, hangi sayılara çizilen ışınlarla dik açı\noluşturur? Kadranın merkezinden iki sayıya çizilen ışınların dik açı oluşturduğu kaç\nfarklı sayı çifti vardır?\n3. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-zor/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · ZOR\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nAltıgen biçimli bir uçurtmanın üç düz çıtası O noktasında kesişmektedir. Çıtalar AD, BE ve CF\n15 puan doğrularıyla modellenmiştir. m(AOB) = 40 ve m(BOC) = 65 ’dir.\n65∘\n40∘\nBuna göre\na) COD açısının ölçüsünü bulunuz.\nb) DOE, EOF ve FOA açılarının ölçülerini bulunuz.\nc) Köşesi O noktası olan açılardan AOB açısının bütünleri olanları sembolle yazınız.\n3. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-zor/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · ZOR\n5.3.6.\nÇokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme\nOkul şenliği için hazırlanan üçgen biçimli bir flama, ABC üçgeni ile modellenmiştir.\n15 puan Flamanın [AB] ve [AC] kenarlarının uzunlukları eşittir. Flama, [BC] kenarı boyunca bir direğe\n̂ = 115∘ ’dir.\ntutturulmuştur; direk C noktasından D noktasına doğru uzanmaktadır. m(ACD)\n115∘\ndirek\nBuna göre\na) ACB açısının ölçüsünü bulunuz.\nb) ABC ve BAC açılarının ölçülerini bulunuz.\nc) Flamanın A köşesindeki dış açının ölçüsü kaç derecedir? Flama, açılarına göre hangi\nçeşit üçgen modelidir?\n3. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-zor/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · ZOR\n5.3.1.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nEla’nın odasındaki tavan lambası, yerde M noktası merkezli ve yarıçapı 3 br olan daire\n13 puan biçimindeki bölgeyi aydınlatmaktadır. Dairenin sınırı üzerindeki eşyalar da aydınlanır. Odanın\nzemini kareli zemin ile, odadaki eşyalar noktalarla modellenmiştir (K: kitap, A: oyuncak araba, T:\nterlik, Y: yastık, S: saksı). Kareli zemindeki her karenin bir kenar uzunluğu 1 br’dir.\nBuna göre lambanın aydınlattığı bölgenin sınırını pergel kullanarak kareli zemine çiziniz.\nHangi eşyalar aydınlanır?\n3. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-zor/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · ZOR\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nBatu’nun açıölçerinin sağ ucu kırılmıştır; bu yüzden açıölçerin dıştaki sayı dizisinde 0 ve 10\n14 puan sayıları görünmemektedir. Batu, AOB açısını ölçmek için açının köşesini açıölçerin merkezine,\n[OA kolunu dıştaki 20 çizgisine yerleştirmiştir.\n120\n130\n100\n100\n110\n140\n130\n150\n140\n160\n120\n150\n160\n170\n170\n180\n180\nkırık kısım\n̂ kaç derecedir? Batu bu açıölçerle, bir kolu yine dıştaki 20 çizgisinde\nBuna göre m(AOB)\nolan 120∘ ’lik bir açı çizmek isterse açının diğer kolunu dıştaki hangi sayının üzerinden\ngeçirmelidir?\n3. Senaryo · Zor\n110"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-3-zor/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n3. SENARYO · ZOR\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nBir sitenin bahçe planında Çınar, Lale ve Gül yürüyüş yolları doğru modeliyle gösterilecektir.\n14 puan Çınar Yolu ile Lale Yolu birbirine diktir. Gül Yolu bu iki yolu farklı noktalarda kesmektedir ve\nhiçbirine dik değildir.\n5.3.5.\nBuna göre bu üç yolu aşağıdaki kareli zemine doğru modeliyle çiziniz. Yolların kesişim\nnoktalarında toplam kaç dik açı, kaç dar açı ve kaç geniş açı oluşur?\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nBeden eğitimi öğretmeni, okul bahçesine düz çizgiler çizerek kapalı oyun alanları oluşturmayı\n14 puan planlamaktadır. Çizgiler doğru modeli olarak düşünülecektir. Öğretmenin dört planı aşağıdaki\ntabloda verilmiştir.\nPlan\nÇizgilerin birbirine göre durumu\nOluşan çokgen\n3 çizgi: 1. ve 2. çizgi birbirine paraleldir; 3. çizgi bu\nikisini de keser.\n3 çizgi: hiçbiri diğerine paralel değildir ve üçü aynı\nnoktadan geçmez.\n3 çizgi: üçü de aynı noktadan geçer.\n4 çizgi: 1. ile 2. çizgi paraleldir; 3. ile 4. çizgi paraleldir;\n3. çizgi 1. çizgiyi keser.\nBuna göre her planda çizgilerin ardışık kesişimiyle bir çokgen oluşuyorsa çokgenin\nadını, oluşmuyorsa “oluşmaz” yazınız.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n3. Senaryo · Zor"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-4-kolay",
+      "tur": "senaryo",
+      "no": 4,
+      "seviye": "kolay",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 18,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 2,
+          "puan": 18,
+          "cikti": "MAT.5.3.2"
+        },
+        {
+          "no": 3,
+          "puan": 18,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 5,
+          "puan": 15,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 6,
+          "puan": 16,
+          "cikti": "MAT.5.3.5"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-kolay/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · KOLAY\n1. YAZILI\n4. SENARYO · KOLAY\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.1.\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nEmre, bisikletinin ön tekerleğinin fotoğrafı üzerine aşağıdaki çizimi yapmıştır. Tekerleğin jantı bir\n18 puan çember ile modellenmiştir. Tekerleğin telleri ve jantın F ile G noktalarını birleştiren parça doğru\nparçaları ile gösterilmiştir.\njant\nlastik\nBuna göre\na) Şekildeki doğru parçalarından hangileri tekerleğin yarıçapını modeller? Bunlardan\nüçünü sembolle yazınız.\nb) Şekildeki doğru parçalarından hangisi tekerleğin çapını modeller? Sembolle yazınız.\nc) Emre, jantın modelini pergelle kâğıda çizecektir. Pergelin sivri ucunu hangi noktaya\nkoymalıdır? Pergelin açıklığını şekildeki hangi doğru parçasının uzunluğu kadar\nayarlamalıdır?\n4. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-kolay/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · KOLAY\n5.3.2.\nTemel geometrik çizimlere dayalı deneyimlerini yansıtabilme\nOkul bahçesindeki A ve B direkleri ile bahçe duvarı, kuş bakışı olarak kareli zeminde\n18 puan modellenmiştir. Duvar d doğrusu ile gösterilmiştir. Öğrenciler bahçeyi süslemek için direklere\ngergin ipler bağlayacaktır. Gergin ipler doğru modeli olarak düşünülmektedir.\nBuna göre\na) A ve B direklerinden geçen gergin ip iki yönde uzatılırsa duvarı hangi noktada keser?\nİpi şekil üzerinde çizerek bu noktayı K ile işaretleyiniz.\nb) A ve B direklerinden geçen ip için kaç farklı doğrultu seçilebilir? Bu ipin modeli olan\ndoğruyu sembolle yazınız.\nc) A direğinden duvara en kısa ip gerilecektir. Bu ipi şekil üzerinde doğru parçası olarak\nçiziniz. A direğinden duvara bu özellikte kaç farklı ip gerilebilir?\n4. Senaryo · Kolay\nbahçe duvarı"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-kolay/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · KOLAY\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nNil, defterine çizdiği üç açıyı açıölçerle şekildeki gibi ölçmüştür. Her açının köşesi açıölçerin\n18 puan merkezindedir.\n120\n130\n140\n160\n100\n100\n110\n120\n130\n140\n150\n160\n170 10\n180 0\n170 10\n180 0\n120\n130\n140\n150\n160\n110\n100\n100\n110\n120\n150\n110\n130\n140\n150\n160\n170 10\n180 0\n170 10\n180 0\n120\n130\n140\n150\n160\n110\n100\n100\n110\n120\n130\n140\n150\n160\n170 10\n180 0\n170 10\n180 0\nBuna göre\na) ABC açısının ölçüsünü sembol kullanarak yazınız.\nb) DEF açısının ölçüsünü sembol kullanarak yazınız.\nc) PRS açısının ölçüsünü sembol kullanarak yazınız.\n4. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-kolay/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · KOLAY\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nAşağıdaki tabloda altı açının ölçüleri verilmiştir.\n15 puan\nAçının ölçüsü\nDar açı\nDik açı\nGeniş açı\nDoğru\naçı\nTam açı\n85∘\n180∘\n35∘\n95∘\n360∘\n90∘\n5.3.4.\nBuna göre her açının çeşidini, tablodaki ilgili kutuya X işareti koyarak belirtiniz.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nLale, yuvarlak pizzayı bıçakla üç kez, her seferinde merkezden geçecek biçimde düz\n15 puan olarak kesmiştir. Kesikler, O noktasında kesişen AB, CD ve EF doğruları ile modellenmiştir.\nDoğrulardan hiçbiri diğerine dik değildir; m( ̂\nAOC) = 30∘ ve m( ̂\nEOB) = 30∘ ’dir.\nBuna göre O noktasında oluşan altı açıdan kaç tanesi dar açı, kaç tanesi geniş açıdır?\nAOC’nin\nters açısını sembolle yazınız.\n4. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-kolay/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · KOLAY\n5.3.5.\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nYolda karşılaştığımız bazı trafik levhaları aşağıda verilmiştir. Her levhanın kenarları, düzlemde\n16 puan ardışık olarak kesişen doğrular üzerindedir.\nDUR\nLevha\nLevha kaç doğrunun ardışık\nkesişimiyle oluşur?\nLevhanın biçimi olan\nçokgenin adı\nBuna göre tablodaki boş kutuları doldurunuz.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n4. Senaryo · Kolay"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-4-orta",
+      "tur": "senaryo",
+      "no": 4,
+      "seviye": "orta",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 18,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 2,
+          "puan": 18,
+          "cikti": "MAT.5.3.2"
+        },
+        {
+          "no": 3,
+          "puan": 18,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 5,
+          "puan": 15,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 6,
+          "puan": 16,
+          "cikti": "MAT.5.3.5"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-orta/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · ORTA\n1. YAZILI\n4. SENARYO · ORTA\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.1.\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nDeniz, el yelpazesinin üç çubuğunu O noktasından başlayan [OA, [OB ve [OC ışınları ile\n18 puan modellemiştir.\nBuna göre\na) Bu ışınların oluşturduğu bütün açıları sembolle yazınız.\nb) AOC açısının köşesini yazınız ve kollarını sembolle gösteriniz.\n̂ ile gösterilebilmesi için şekilden hangi ışın silinmelidir? BOC açısını\nc) BOC açısının O\nüç harf kullanarak iki farklı biçimde sembolle yazınız.\n4. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-orta/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · ORTA\n5.3.2.\nTemel geometrik çizimlere dayalı deneyimlerini yansıtabilme\nAşağıdaki kareli zeminde d, m, n ve k doğruları ile P ve Q noktaları verilmiştir. Kareli zemindeki\n18 puan her karenin bir kenar uzunluğu 1 br’dir.\nBuna göre\na) Doğrulardan hangileri d doğrusuna paraleldir? Bu doğruların d doğrusuna göre\ndurumunu sembolle yazınız.\nb) P noktasından geçen ve d doğrusuna paralel olan doğruyu çiziniz. Çizdiğiniz doğru, d\ndoğrusuna kaç birim uzaklıktadır?\nc) Q noktasından d ve k doğrularına birer dikme çiziniz. Bu iki dikmenin uzunlukları\ntoplamı kaç birimdir?\n4. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-orta/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · ORTA\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nZeynep, defterine çizdiği ABC açısını açıölçerle Şekil 1’deki gibi ölçmüştür. Açının köşesi\n18 puan açıölçerin merkezindedir. Şekil 2’deki açıölçerin üzerinde [ED ışını verilmiştir.\n100\n110\n120\n100\n110\n120\n130\n140\n150\n160\n170\n160\n170\n180\n150\n180\n130\n140\nŞekil 1\n120\n130\n140\n150\n160\n110\n100\n100\n110\n120\n130\n140\n150\n160\n170\n170\n180\n180\nŞekil 2\nBuna göre\na) m( ̂\nABC) kaç derecedir?\nb) Şekil 2’deki açıölçer üzerinde [EF ışınını çizerek, ölçüsü ABC açısının ölçüsüne eşit\nolan DEF açısını oluşturunuz.\nc) Aynı açıölçer üzerinde [EM ışınını çizerek, ölçüsü ABC açısının ölçüsünün iki katı\nolan DEM açısını oluşturunuz.\n4. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-orta/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · ORTA\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nMatematik öğretmeni tahtaya, ölçüleri sözle tarif edilen üç açı yazmıştır.\n15 puan\nAçının tarifi\nAçının ölçüsü\nAçının çeşidi\n1. Dik açıdan 25∘ büyük olan açı\n2. Tam açının üçte biri olan açı\n3. Doğru açının yarısından 30∘ küçük olan açı\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nKaan, çizgili defterindeki birbirine paralel iki satır çizgisini kesen bir doğru çizmiştir. Satır çizgileri\n15 puan d1 ve d2 doğruları, Kaan’ın çizdiği doğru k doğrusu ile modellenmiştir. d1 // d2 ’dir.\n110∘\nBuna göre kesişim noktalarında oluşan dar açılardan birinin ölçüsü kaç derecedir?\nKesişim noktalarında toplam kaç dar açı oluşmuştur?\n4. Senaryo · Orta\nBuna göre tablodaki boş kutuları doldurunuz."
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-orta/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · ORTA\n5.3.5.\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nAda, arı peteğindeki bir hücrenin kenarlarını uzatarak d1 , d2 , d3 , d4 , d5 ve d6 doğrularını çizmiştir.\n16 puan\nBuna göre d6 doğrusu silinirse kalan beş doğrunun ardışık kesişimiyle oluşan kapalı\nşekli şekil üzerinde taratınız ve bu şeklin adını yazınız.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n4. Senaryo · Orta"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-4-zor",
+      "tur": "senaryo",
+      "no": 4,
+      "seviye": "zor",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 18,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 2,
+          "puan": 18,
+          "cikti": "MAT.5.3.2"
+        },
+        {
+          "no": 3,
+          "puan": 18,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 5,
+          "puan": 15,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 6,
+          "puan": 16,
+          "cikti": "MAT.5.3.5"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-zor/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · ZOR\n1. YAZILI\n4. SENARYO · ZOR\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.1.\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nBurak, bir dinamik matematik yazılımında aşağıdaki adımları uygulamıştır. Yazılımdaki düğmeler\n18 puan ve çizimin son hâli şekilde verilmiştir.\nI. Aralarındaki uzaklık 4 br olan A ve B noktaları oluşturulur.\nII. A ve B noktalarından geçen doğru çizilir.\nIII. Merkezi A noktası olan ve yarıçapı 4 br olan çember çizilir.\nIV. A noktasından geçen ve AB doğrusuna dik olan doğru çizilir.\nV. İki şeklin kesişim noktaları C ve D olarak işaretlenir.\nNokta\nDoğru Parçası\nIşın\nDoğru\nÇember\nDik Doğru\n1 kare = 1 br\nBuna göre\na) C ve D noktaları, hangi iki adımda çizilen şekillerin kesişim noktalarıdır? |AC| kaç\nbirimdir?\nb) Burak, B noktasını AB doğrusu üzerinde A noktasından uzaklaşacak biçimde 2 birim\nsürüklüyor. Diğer adımlar değişmediğine göre |AB| ve |AD| kaç birim olur?\nc) [CD], çemberin hangi elemanıdır? CD doğrusu ile AB doğrusunun birbirine göre\ndurumunu sembolle yazınız.\n4. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-zor/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · ZOR\n5.3.2.\nTemel geometrik çizimlere dayalı deneyimlerini yansıtabilme\nMert, pergelini uzunluk taşımak için kullanmaktadır. Şekil 1’de pergelinin açıklığını hiç\n18 puan değiştirmeden [MN ışını üzerinde M noktasından başlayarak art arda yaylar çizmiş ve A, B,\nC, D noktalarını işaretlemiştir. Şekil 2’de ise O merkezli iki çember çizmiştir. Küçük çember\naçının kollarını P ve R noktalarında, büyük çember S ve T noktalarında kesmektedir (şekilde\nçemberlerin yalnızca bir kısmı gösterilmiştir).\nŞekil 1\nŞekil 2\nŞekiller ölçekli değildir.\nBuna göre\na) Şekil 1’de pergelin açıklığı 25 mm’dir ve Mert aynı açıklıkla yay çizmeye devam\netmektedir. M noktasından başlayarak çizilen yaylar sırayla sayıldığında, M noktasına\nuzaklığı 12 cm’den fazla olan ilk nokta kaçıncı yayla işaretlenir? Bu noktanın M\nnoktasına uzaklığı kaç milimetredir?\nb) Mert, uzunluğu 84 mm olan [KL]’yi, pergelinin açıklığını hiç değiştirmeden K\nnoktasından başlayarak art arda yaylar çizip 6 eş parçaya ayırmak istiyor. Pergelinin\naçıklığını kaç milimetre yapmalıdır?\nc) Şekil 2’de |OT| = 7 cm ve |PS| = 3 cm’dir. |OR| kaç santimetredir?\n4. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-zor/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · ZOR\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nTavan vantilatörlerinin kanatları, merkezden başlayan ışınlarla modellenmiştir. Her vantilatörde\n18 puan komşu iki kanat arasındaki açıların ölçüleri birbirine eşittir.\nŞekil 2 · 4 kanatlı vantilatör\nBuna göre\na) Şekil 1’deki vantilatörde komşu iki kanat arasındaki açının ölçüsü kaç derecedir? Bu\naçı, ölçüsüne göre hangi çeşit açıdır?\nb) Şekil 2’deki vantilatörde komşu iki kanat arasındaki açının ölçüsü kaç derecedir? Bu\nvantilatörde komşu olmayan iki kanat arasındaki açının ölçüsü kaç derecedir?\nc) Komşu iki kanat arasındaki açının dar açı olması için bir vantilatörün en az kaç\nkanadı olmalıdır? Bu durumda komşu iki kanat arasındaki açının ölçüsü kaç derece\nolur?\n4. Senaryo · Zor\nŞekil 1 · 3 kanatlı vantilatör"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-zor/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · ZOR\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nOkulun çatısındaki güneş paneli, güneşi takip etmek için gün boyunca hep aynı yönde ve her\n15 puan saat eşit miktarda döner. Panelin saat 07.00’deki ve saat 09.00’daki konumları, şekilde açıölçer\nüzerinde gösterilmiştir.\n120\n130\n140\n150\n160\n170\n180\n110\n100\n100\n110\nsaat 09.00’daki konum\n120\n130\n140\n150\n160\n170\n180\nsaat 07.00’deki konum\n5.3.4.\nBuna göre panel bir saatte kaç derece dönmektedir? Saat 15.00’te panelin konumunu\ngösteren ışın, açıölçerin iç ölçeğinde hangi sayının üzerinden geçer?\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nBir otoparkta park yerlerini ayıran iki çizgi d1 ve d2 doğruları ile, kaldırımın kenarı k doğrusu ile\n15 puan modellenmiştir. d1 // d2 ’dir. Şekildeki 1 numaralı açının tümler açısının ölçüsü 35 ’dir.\npark yeri\nkaldırım\nBuna göre 1 numaralı açının ölçüsü kaç derecedir? 2 numaralı açının ölçüsü kaç\nderecedir?\n4. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-4-zor/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n4. SENARYO · ZOR\n5.3.5.\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nEce, sınıf panosunu süslemek için dikdörtgen biçimindeki bir kartonun üzerine altı doğru\n16 puan kullanarak bir desen çizmiştir. Kartonun kenarları d1 , d2 , d3 ve d4 doğruları üzerindedir; d5 ve\nd6 eğik doğrulardır.\nBuna göre kartonun üzerinde yalnızca iki dörtgen bölge kalması için eğik doğrulardan\nhangisi silinmelidir? Öteki eğik doğru silinseydi kartonun üzerinde hangi çokgenler\noluşurdu?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n4. Senaryo · Zor"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-5-kolay",
+      "tur": "senaryo",
+      "no": 5,
+      "seviye": "kolay",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.5.3.2"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 6,
+          "puan": 14,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 7,
+          "puan": 14,
+          "cikti": "MAT.5.3.5"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-kolay/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · KOLAY\n5. SENARYO · KOLAY\n1. YAZILI\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.2.\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nTemel geometrik çizimlere dayalı deneyimlerini yansıtabilme\nBir köy yolunun orta çizgisi kareli zeminde d doğrusu ile modellenmiştir. Yolun iki kenar çizgisi,\n15 puan orta çizgiye 3 br uzaklıkta olacak biçimde çizilecektir. Yolun üzerine konulan bir trafik konisi D\nnoktası ile gösterilmiştir. Kareli zemindeki her karenin bir kenar uzunluğu 1 br’dir.\nyolun orta çizgisi\nBuna göre\na) d doğrusuna 3 br uzaklıkta olan bütün noktaları gösteren doğruları çiziniz. Bu\nözellikte kaç doğru çizilebilir?\nb) Çizdiğiniz doğrulardan d’nin üstünde kalanı m, altında kalanı n olarak adlandırınız. m,\nn ve d doğrularının birbirine göre durumunu sembolle gösteriniz.\nc) D konisinin d ve m doğrularına uzaklıkları kaçar birimdir?\n5. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-kolay/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · KOLAY\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nTuna, dizüstü bilgisayarının ekranı ile klavye bölümü arasındaki açıyı açıölçerle ölçmüştür.\n15 puan Açının köşesi açıölçerin merkezinde, klavye bölümünü gösteren [OA ise açıölçerin sağdaki 0\nçizgisindedir. Ekran [OB ile gösterilmiştir.\n130\n100\n100\n140\n110\n120\n130\n150\n140\n160\n150\n160\n170\n170\n180\n180\n110\n120\nklavye bölümü\nBuna göre\n̂ kaç derecedir?\na) m(AOB)\nb) Tuna, ekranı biraz kapatarak ekran ile klavye bölümü arasındaki açıyı 70∘ yapacaktır.\nEkranın yeni konumunu gösteren [OC ışınını açıölçerin üzerine çiziniz.\n̂ ve AOC\n̂ ölçülerine göre hangi çeşit açılardır?\nc) AOB\n5. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-kolay/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · KOLAY\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nBir kitaplığın arka yüzündeki birbirine paralel üç raf AB, CD ve EF doğruları ile, rafları eğik\n15 puan olarak kesen çapraz destek çıtası KL doğrusu ile modellenmiştir. Kesişim noktalarında oluşan\naçılar 1’den 12’ye kadar numaralandırılmıştır. 1 numaralı açının ölçüsü 70∘ ’dir.\nBuna göre\na) KL doğrusu raf doğrularını kaç farklı noktada keser? Kesişim noktalarında toplam\nkaç açı oluşur?\nb) Numaralandırılmış açılardan kaç tanesi dar açı, kaç tanesi geniş açıdır?\nc) Numaralandırılmış açılardan 1 numaralı açıya eş olanlar hangileridir?\n5. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-kolay/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · KOLAY\n5.3.1.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nAşağıdaki kareli zeminde P, R, S, T, K ve L noktaları verilmiştir. Kareli zemindeki her karenin bir\n13 puan kenar uzunluğu 1 br’dir.\n⃡⃡⃡⃡⃡⃡⃡⃡⃡ gösterimlerine uygun çizimleri kareli zemine yapınız. |PR| kaç\nBuna göre [PR], [ST ve KL\nbirimdir?\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nAçılarla ilgili aşağıdaki cümlelerde bazı yerler boş bırakılmıştır.\n14 puan\n1. Tam açı 360 eş parçaya ayrıldığında parçalardan birinin ölçüsü . . . . . . . . . . . . . . . . . . . .\nolur.\n2. Ölçüsü 0∘ ile 90∘ arasında olan açılara . . . . . . . . . . . . . . . . . . açı denir.\n3. Ölçüsü . . . . . . . . . . . . . ile . . . . . . . . . . . . . arasında olan açılara geniş açı denir.\n4. Kolları zıt yönlere bakan ve birlikte bir doğru oluşturan açıya . . . . . . . . . . . . . . . . . . denir;\nbu açının ölçüsü . . . . . . . . . . . . . derecedir.\nBuna göre cümlelerdeki boş yerleri uygun ifadelerle doldurunuz.\n5. Senaryo · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-kolay/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · KOLAY\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nŞekil 1’de dikdörtgen biçimli bir kartonun O köşesinden düz bir çizgi ([OC) çizilmiştir; kartonun\n14 puan kenarları [OA ve [OB’dir. Şekil 2’de masada açık duran bir kitap vardır; masanın kenarı PR\ndoğrusu, kitabın kapakları [EP ve [EK ile modellenmiştir.\n133∘\n38∘\nŞekil 1\nŞekil 2\n5.3.5.\n14 puan\nBuna göre şekillerdeki komşu tümler açı çiftini ve komşu bütünler açı çiftini sembolle\nyazınız. m( ̂\nCOB) ve m( ̂\nKER) kaç derecedir?\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nAşağıdaki kareli zemine d1 , d2 ve d3 doğruları çizilmiştir.\nBuna göre bu doğruların ardışık kesişimiyle oluşan kapalı şeklin içini boyayınız. Bu\nkapalı şekil hangi çokgendir?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n5. Senaryo · Kolay"
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-5-orta",
+      "tur": "senaryo",
+      "no": 5,
+      "seviye": "orta",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.5.3.2"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 6,
+          "puan": 14,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 7,
+          "puan": 14,
+          "cikti": "MAT.5.3.5"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-orta/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · ORTA\n1. YAZILI\n5. SENARYO · ORTA\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.2.\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nTemel geometrik çizimlere dayalı deneyimlerini yansıtabilme\nMert’in oyuncak tren yolunun iki rayı birbirine paraleldir. Raylar kareli zeminde d ve m doğruları\n15 puan ile modellenmiştir. Raylara dik olarak yerleştirilen tahta parçalar (traversler) [AB] ve [CD]\nile gösterilmiştir; A ve C noktaları d, B ve D noktaları m üzerindedir. |AB| = 5 br’dir. Kareli\nzemindeki her karenin bir kenar uzunluğu 1 br’dir.\nBuna göre\na) d ve m doğrularının birbirine göre durumunu sembolle gösteriniz. [AB] ile d\ndoğrusunun birbirine göre durumunu sembolle gösteriniz.\nb) |CD| kaç birimdir?\nc) d rayı üzerindeki E noktasına, raylara dik olacak biçimde yeni bir travers\nyerleştirilecektir. Bu traversi kareli zemine çiziniz ve m rayını kestiği noktayı F ile\nadlandırınız. |EF| kaç birimdir?\n5. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-orta/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · ORTA\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nDuru, açıölçerle üç açıyı ölçmüş ve bulduğu ölçüleri tabloya yazmıştır. Duru, bazı ölçümlerde\n15 puan açıölçerdeki iki sıra sayıdan yanlış olanı okumuştur.\n100 90 80\n100 90 80\n110\n120\n80 90 100\n110\n130 60 70\n120 50\n130 40\n140 50\n120\n80 90 100\n110\n130 60 70\n120 50\n130 40\n140 50\n150\n160\n140\n150\n160\n170 10\n180 0\n170 10\n180 0\n160\n170 10\n180 0\n150\n160\n140\n150\n160\n170 10\n180 0\n160\n170 10\n180 0\nŞekil 2\n100 90 80\n110\n120\n80 90 100\n110\n130 60 70\n120 50\n130 40\n140 50\n150\nŞekil 1\n150\n140\n170 10\n180 0\nAçı\nDuru'nun bulduğu ölçü\n̂ (Şekil 1)\nKOL\n140∘\n̂ (Şekil 2)\nPOR\n115∘\n̂ (Şekil 3)\nMON\n140∘\n110\nŞekil 3\nBuna göre\na) Duru’nun ölçümlerinden hangileri hatalıdır?\nb) Hatalı ölçülen açıların doğru ölçülerini yazınız.\nc) Bu üç açıdan hangileri eş açılardır? Hangisi geniş açıdır?\n5. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-orta/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · ORTA\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nBir merdiven korkuluğunun birbirine paralel iki dikey demir çubuğu AB ve CD doğruları ile, bu\n15 puan çubukları E ve F noktalarında kesen tırabzan KL doğrusu ile modellenmiştir. m(AEF) = 50 ’dir.\n50∘\nBuna göre\na) AEF’nin\nters açısını sembolle yazınız ve ölçüsünü bulunuz.\nb) ̂\nAEF’nin komşu bütünler açılarını sembolle yazınız ve ölçülerini bulunuz.\nc) F noktasında oluşan açılardan AEF’ye\neş olanları sembolle yazınız.\n5. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-orta/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · ORTA\n5.3.1.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nOkul bahçesinde torba atma oyunu için zemine O merkezli, yarıçapı 30 cm olan bir çember\n13 puan çizilecektir. Torbalar, [OA üzerinde ve O noktasına 50 cm uzaklıktaki T noktasından atılacaktır.\nBahçenin zemini kareli zeminde modellenmiştir; her karenin bir kenar uzunluğu 10 cm’dir.\n1 kare = 10 cm\nBuna göre çemberi pergelle kareli zemine çiziniz; pergelin açıklığı kaç kare olmalıdır? T\nnoktasını pergel kullanarak [OA üzerinde işaretleyiniz.\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\n̂ [OB ve [OC ışınlarıyla üç açıya ayrılmıştır. Açıölçer, [OA sağdaki 0\nDoğru açı olan AOD,\n14 puan çizgisinde, [OD soldaki 0 çizgisinde olacak biçimde yerleştirilmiştir.\n110\n120\n130\n100\n100\n110\n140\n140\n160\n120\n130\n150\n150\n160\n170\n170\n180\n180\nBuna göre m( ̂\nAOB)’yi dış ölçekten, m( ̂\nDOC) ile m( ̂\nDOB)’yi iç ölçekten okuyarak yazınız. Bu\nölçülerden yararlanarak m(BOC)’yi bulunuz ve bu açının çeşidini yazınız.\n5. Senaryo · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-orta/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · ORTA\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nKaan, gönyesinin dik açılı köşesini masanın düz kenarı üzerindeki O noktasına şekildeki\n14 puan gibi yerleştirmiştir. Masanın kenarı AB doğrusu ile, gönyenin kenarları [OC ve [OD ışınları ile\nmodellenmiştir. m( ̂\nAOC) = 34∘ ’dir.\n34∘\nmasanın kenarı\n5.3.5.\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nKare biçimindeki bir kâğıdın bir köşesi, şekildeki kesim çizgisi boyunca düz bir biçimde kesilerek\n14 puan ayrılmıştır. Kâğıdın her kenarı ve kesim çizgisi birer doğru üzerindedir.\nkesilen\nparça\nkesim çizgisi\nkalan parça\nBuna göre kesilen parça ve kalan parça hangi çokgenlerdir? Bu çokgenlerin her biri kaç\ndoğrunun ardışık kesişimiyle oluşur?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n5. Senaryo · Orta\n̂ kaç derecedir? Şekildeki açılardan AOC’nin\nBuna göre m(DOB)\ntümleri olan açıyı\nsembolle yazınız."
+        }
+      ]
+    },
+    {
+      "slug": "senaryo-5-zor",
+      "tur": "senaryo",
+      "no": 5,
+      "seviye": "zor",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.5.3.2"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 4,
+          "puan": 13,
+          "cikti": "MAT.5.3.1"
+        },
+        {
+          "no": 5,
+          "puan": 14,
+          "cikti": "MAT.5.3.3"
+        },
+        {
+          "no": 6,
+          "puan": 14,
+          "cikti": "MAT.5.3.4"
+        },
+        {
+          "no": 7,
+          "puan": 14,
+          "cikti": "MAT.5.3.5"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-zor/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · ZOR\n1. YAZILI\n5. SENARYO · ZOR\n5. Sınıf Matematik · 1. Dönem · Ortak yazılı sınava hazırlık\nSüre: 40 dakika\n5.3.2.\nToplam: 100 puan\nSorular açık uçludur; cevabınızı her sorunun altındaki boşluğa yazınız.\nTemel geometrik çizimlere dayalı deneyimlerini yansıtabilme\nAsya, kareli kâğıda bir kübik resim çizmiştir. Resimde ufuk çizgisi d doğrusu ile, dalgalar doğru\n15 puan parçaları ile gösterilmiştir. Asya güneşi, pergelin sivri ucunu O noktasına koyup açıklığını önce 1\nbr, sonra 2 br yaparak çizmiştir. Güneş ışınlarından biri olan [OP, çemberleri P ve R noktalarında\nkesmektedir. Kareli zemindeki her karenin bir kenar uzunluğu 1 br’dir.\nBuna göre\na) A, B, C, D, E ve F noktalarının d doğrusuna uzaklıklarını yazınız. Hangi doğru\nparçalarının uç noktalarından geçen doğru d doğrusuna paraleldir?\nb) O noktasından d doğrusuna dikme çiziniz. Dikmenin d doğrusunu kestiği noktayı H,\ndıştaki çemberi kestiği noktayı T olarak adlandırınız. |OH| ve |TH| kaçar birimdir?\nc) Asya, O merkezli üçüncü bir çember çizerek [OP üzerinde |OP| = |PR| = |RS| olacak\nbiçimde bir S noktası belirleyecektir. Pergelinin açıklığını kaç birim yapmalıdır? Bu\ndurumda |PS| kaç birim olur?\n5. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-zor/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · ZOR\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nOkul bahçesindeki bir fıskiye, O noktasından başlayan [OA ve [OB ışınları arasında kalan\n15 puan bölgeyi sulamaktadır. Ayten, açıölçerin merkezini O noktasına, [OA kolunu sağdaki 0 çizgisine\ngetirerek sulama açısını şekildeki gibi ölçmüştür. Ayten, sulanan bölgenin içinden [OC\n̂ ile COB\n̂ eş olacak biçimde yerleştirecektir.\ndoğrultusunda düz bir yol yapacak ve yolu, AOC\nsulanan bölge\n130\n100\n110\n140\n130\n150\n170\n180\n140\n160\n120\n150\n160\n170\n180\n110\n120\n100\nBuna göre\n̂ ve m(AOC)\n̂ kaçar derecedir?\na) m(AOB)\n̂ hangi çeşit\nb) [OC, açıölçerin dış ölçeğinde ve iç ölçeğinde hangi sayıları gösterir? AOC\naçıdır?\nc) Ayten açıölçeri, merkezi yine O noktasında ve [OB kolu soldaki 0 çizgisinde olacak\nbiçimde yeniden yerleştirirse [OC ve [OA iç ölçekte hangi sayıları gösterir?\n5. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-zor/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · ZOR\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nKatlanır bir ütü masasının çapraz ayakları AC ve BD doğruları ile modellenmiştir. Ayaklar E\n15 puan noktasında kesişmektedir. Masa şekildeki konumdayken E noktasında oluşan açılardan ikisinin\nölçüleri toplamı 100∘ ’dir.\nBuna göre\na) E noktasında ölçüleri toplamı 180∘ olan bütün açı çiftlerini sembolle yazınız.\nb) Ölçüleri toplamı 100∘ olan iki açıyı sembolle yazınız ve ölçülerini bulunuz.\nc) E noktasında oluşan diğer iki açıyı sembolle yazınız ve ölçülerini bulunuz.\n5. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-zor/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · ZOR\n5.3.1.\nTemel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme\nCan, kareli defterine dört çizim yapmış ve her çizimin altına bir not yazmıştır. Kareli zemindeki\n13 puan her karenin bir kenar uzunluğu 1 br’dir.\nCan’ın notu: [BC], çemberin yarıçapıdır.\nCan’ın notu: [PH] ⟂ d\nIII\nCan’ın notu: Bu ışın [LK ışınıdır.\nCan’ın notu: FG doğrusunun uzunluğu 4 br’dir.\nBuna göre Can’ın notlarından hangileri hatalıdır? Hatalı notların doğru biçimini yazınız.\n5. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-zor/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · ZOR\n5.3.3.\nAçıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme\nBir kasaba meydanının ortasındaki saat kulesinden dört düz yol çıkmaktadır. Kule O noktası ile,\n14 puan yollar [OA, [OB, [OC ve [OD ışınları ile modellenmiştir. m(AOB) = 70 , m(COD) = 110 ’dir; BOC\n̂ eş açılardır.\nile DOA\n70∘\n110∘\n̂ kaç derecedir? Bu açı ölçüsüne göre hangi çeşit açıdır?\nBuna göre m(BOC)\n5.3.4.\nDüzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme\nOzan, bir hediye kutusunun kapağını süslemek için üç düz şeridi O noktasında kesişecek\n14 puan biçimde yapıştırmıştır. Şeritler AB, CD ve EF doğruları ile modellenmiştir. AB ve CD doğruları\n̂ ile FOB’nin\nbirbirine diktir. BOC’ye\nkomşu olan COE\nölçüleri birbirine eşittir.\n̂ kaç derecedir? O noktasında oluşan altı açının ölçülerini şekil üzerine\nBuna göre m(COE)\nyazınız.\n5. Senaryo · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/5-sinif/1-yazili-sorulari/senaryo-5-zor/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "5. SINIF MATEMATİK\n5. SENARYO · ZOR\n5.3.5.\nÇokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme\nArda, beş doğru çizerek beş köşeli bir yıldız oluşturmuştur. Doğrular d1 , d2 , d3 , d4 ve d5 olarak\n14 puan adlandırılmıştır. Yıldızın ortasında bir çokgen, uçlarında ise üçgenler oluşmuştur.\nBuna göre 1 numaralı üçgen ile ortadaki çokgen birlikte tek bir kapalı şekil olarak\ndüşünülürse bu şekil hangi çokgendir? Bu çokgen hangi doğruların ardışık kesişimiyle\noluşur (doğruları kesişim sırasına göre yazınız)?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n5. Senaryo · Zor"
+        }
+      ]
+    }
+  ]
+}

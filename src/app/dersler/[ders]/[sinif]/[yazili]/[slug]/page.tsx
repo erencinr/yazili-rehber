@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExamShell } from "@/components/exam/ExamShell";
+import { KagitAraclari } from "@/components/KagitAraclari";
 import { QuestionCard } from "@/components/exam/QuestionCard";
 import { Breadcrumb, Card, Chip, Container, H2, JsonLd, PageHero } from "@/components/ui";
 import { mutlakUrl, site } from "@/config/site";
 import { SINAV_ONEK } from "@/lib/depo";
 import { baslikYap, cozulebilirKonular, konuSorulari, senaryoKonuPuanlari, tumYazililar } from "@/lib/data";
 import { yaziliCozumle } from "@/lib/route";
+import { kagitAdi, SEVIYE_ADI, SEVIYELER, sonrakiKagit, varlik } from "@/lib/kagit";
 import type { Yazili } from "@/lib/types";
 
 // Yalnızca generateStaticParams'taki adresler üretilir; diğerleri 404.
@@ -16,6 +19,7 @@ export function generateStaticParams() {
   return tumYazililar().flatMap(({ ders, sinif, yazili }) => {
     const ortak = { ders: ders.slug, sinif: sinif.slug, yazili: yazili.slug };
     return [
+      ...yazili.kagitlar.map((k) => ({ ...ortak, slug: k.slug })),
       ...yazili.senaryolar.filter((s) => s.hazir).map((s) => ({ ...ortak, slug: `senaryo-${s.no}` })),
       ...cozulebilirKonular(yazili).map((k) => ({ ...ortak, slug: k.slug })),
     ];
@@ -28,6 +32,8 @@ async function cozumle(params: Params) {
   const r = await yaziliCozumle(params);
   if (!r) return null;
   const { slug } = await params;
+  const kagit = r.yazili.kagitlar.find((k) => k.slug === slug);
+  if (kagit) return { ...r, tur: "kagit" as const, kagit };
   const eslesme = /^senaryo-(\d+)$/.exec(slug);
   if (eslesme) {
     const senaryo = r.yazili.senaryolar.find((s) => s.no === Number(eslesme[1]) && s.hazir);
@@ -41,6 +47,13 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const r = await cozumle(params);
   if (!r) return {};
   const onEk = `${r.n}. Sınıf ${r.ders.ad} ${baslikYap(r.yazili.ad)}`;
+  if (r.tur === "kagit") {
+    return {
+      title: `${onEk} ${kagitAdi(r.kagit)} Soruları`,
+      description: `${r.n}. sınıf matematik ${r.yazili.ad} için ${kagitAdi(r.kagit)} kâğıdı: ${r.kagit.sorular.length} açık uçlu soru, 40 dakika, 100 puan. Ekranda çöz veya yazdır.`,
+      alternates: { canonical: `${r.taban}${r.kagit.slug}/` },
+    };
+  }
   if (r.tur === "senaryo") {
     return {
       title: `${onEk} Senaryo ${r.senaryo.no} Soruları ve Cevapları`,
@@ -58,6 +71,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 export default async function SlugPage({ params }: { params: Params }) {
   const r = await cozumle(params);
   if (!r) notFound();
+  if (r.tur === "kagit") return <AtomicaKagidi r={r} />;
   return r.tur === "senaryo" ? <SenaryoKagidi r={r} /> : <KonuSayfasi r={r} />;
 }
 
@@ -209,6 +223,92 @@ function KonuSayfasi({ r }: { r: Extract<Cozulmus, { tur: "konu" }> }) {
           </div>
         </section>
       </Container>
+    </>
+  );
+}
+
+function AtomicaKagidi({ r }: { r: Extract<Cozulmus, { tur: "kagit" }> }) {
+  const { yazili, kagit, n, taban, kirintilar } = r;
+  const yol = `${taban}${kagit.slug}/`;
+  const baslik = `${n}. Sınıf Matematik ${baslikYap(yazili.ad)} · ${kagitAdi(kagit)}`;
+  const ayniNo = yazili.kagitlar.filter((k) => k.no === kagit.no || (kagit.tur === "prova" && k.seviye === kagit.seviye));
+  const sonraki = sonrakiKagit(yazili, kagit);
+  const chip = (aktif: boolean) =>
+    `rounded-full px-4 py-2 text-sm font-extrabold ${aktif ? "bg-navy text-white" : "bg-white text-ink-soft shadow-[inset_0_0_0_1px_var(--color-line)] hover:text-navy"}`;
+
+  return (
+    <>
+      <Breadcrumb items={[...kirintilar, { ad: kagitAdi(kagit), href: yol }]} />
+      <Container className="space-y-6 py-8">
+        <div className="no-print space-y-3">
+          <h1 className="text-[28px] sm:text-[36px]">{baslik}</h1>
+          <p className="text-ink-soft">
+            {kagit.sorular.length} soru · 40 dakika · 100 puan · Cevaplarını kâğıda veya defterine yaz.
+          </p>
+          <nav aria-label="Seviye ve kâğıt seçimi" className="flex flex-wrap gap-2">
+            {kagit.tur === "senaryo"
+              ? SEVIYELER.map((sv) => {
+                  const k = ayniNo.find((x) => x.seviye === sv);
+                  return k ? (
+                    <Link key={sv} href={`${taban}${k.slug}/`} className={chip(k.slug === kagit.slug)}>
+                      {SEVIYE_ADI[sv]}
+                    </Link>
+                  ) : null;
+                })
+              : ayniNo.map((k) => (
+                  <Link key={k.slug} href={`${taban}${k.slug}/`} className={chip(k.slug === kagit.slug)}>
+                    Prova {k.no}
+                  </Link>
+                ))}
+          </nav>
+        </div>
+
+        <KagitAraclari />
+
+        <div className="mx-auto max-w-[860px] space-y-6">
+          {kagit.sayfalar.map((s, i) => (
+            <figure key={s.src} className="kagit-sayfa overflow-hidden rounded-[14px] border border-line bg-white shadow-[0_14px_40px_-16px_rgb(19_26_51/0.22)]">
+              {/* Sayfa görseli Atomica kitapçığından; çizim ve şekiller için görsel olarak gösterilir. */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={varlik(s.src)}
+                width={s.genislik}
+                height={s.yukseklik}
+                alt={`${baslik}, sayfa ${i + 1}`}
+                loading={i === 0 ? "eager" : "lazy"}
+                className="h-auto w-full"
+              />
+              <figcaption className="sr-only">{s.metin}</figcaption>
+            </figure>
+          ))}
+        </div>
+
+        <div className="no-print mx-auto flex max-w-[860px] flex-wrap items-center justify-between gap-3 rounded-[18px] bg-soft p-5">
+          <p className="text-sm text-ink-soft">Bu kâğıdın cevap anahtarı henüz eklenmedi; cevaplarını öğretmeninle kontrol edebilirsin.</p>
+          {sonraki ? (
+            <Link href={`${taban}${sonraki.slug}/`} className="rounded-full bg-navy px-5 py-2.5 text-sm font-extrabold text-white hover:bg-navy-2">
+              Sıradaki: {kagitAdi(sonraki)} →
+            </Link>
+          ) : (
+            <Link href={taban} className="rounded-full bg-navy px-5 py-2.5 text-sm font-extrabold text-white hover:bg-navy-2">
+              Tüm kâğıtlar →
+            </Link>
+          )}
+        </div>
+      </Container>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Quiz",
+          name: baslik,
+          url: mutlakUrl(yol),
+          inLanguage: "tr",
+          educationalLevel: `${n}. sınıf`,
+          timeRequired: "PT40M",
+          isAccessibleForFree: true,
+          provider: { "@type": "Organization", name: "Atomica", url: site.atomica.anaSayfa },
+        }}
+      />
     </>
   );
 }

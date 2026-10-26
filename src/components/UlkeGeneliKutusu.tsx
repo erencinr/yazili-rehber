@@ -1,17 +1,17 @@
 import Link from "next/link";
-import { Card } from "./ui";
 
-export function UlkeGeneliKutusu({ duyuru }: { duyuru?: string }) {
+export function UlkeGeneliKutusu({ duyuru, kagitVar = false }: { duyuru?: string; kagitVar?: boolean }) {
   return (
-    <Card className="bg-navy-tint">
-      <p className="text-sm font-semibold text-navy">Ülke geneli ortak yazılı</p>
-      <p className="mt-1 text-ink/85">
-        {duyuru ?? "Bu yazılı ülke geneli ortak sınav olarak yapılacak."} Tablo yayımlandığında senaryolar burada
-        görünecek.
+    <div className="rounded-[18px] bg-yellow-tint p-4 text-sm text-ink">
+      <p className="font-extrabold">Bu yazılı ülke geneli ortak sınav olarak yapılacak.</p>
+      <p className="mt-1 text-ink-soft">
+        {kagitVar
+          ? "Sorular MEB tarafından hazırlanır; aşağıdaki provalar sınav formatında hazırlık içindir."
+          : (duyuru ?? "MEB konu-soru dağılım tablosunu sınav öncesinde yayımlayacak.")}{" "}
+        <Link href="/ortak-yazili-takvimi/" className="font-semibold text-turq hover:underline">
+          Sınav tarihini gör →
+        </Link>
       </p>
-      <Link href="/ortak-yazili-takvimi/" className="mt-2 inline-block text-sm font-semibold text-navy hover:underline">
-        Sınav tarihini takvimde gör →
-      </Link>
-    </Card>
+    </div>
   );
 }

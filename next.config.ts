@@ -8,6 +8,8 @@ const pagesBasePath = process.env.BASE_PATH;
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
+  // public/ dosyalarına (kâğıt görselleri, kitapçık PDF'leri) giden adreslere alt yolu eklemek için.
+  env: { NEXT_PUBLIC_BASE_PATH: pagesBasePath ?? "" },
   ...(pagesBasePath !== undefined && {
     output: "export",
     basePath: pagesBasePath,

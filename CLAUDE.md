@@ -36,8 +36,15 @@ Amaç: aynı mimariye ve kullanıcı deneyimine sahip, **kendi içeriğimiz ve k
 Site atomica.com.tr/yazili/ altında yayınlanacak; tasarım Atomica'nın renk/yazı tipi değişkenleriyle aynı (`src/app/globals.css`: navy, turq, purple, yellow, Inter). Derleme ve Express kurulumu: `docs/atomica-entegrasyon.md` (`npm run build:atomica`).
 
 ## Yayındaki kapsam
-Şimdilik yalnızca **ortaokul Matematik (5, 6, 7)** yayında: `src/config/site.ts` → `yayindakiDersler`. Diğer 15 dersin tabloları (ve Tarih 9 soruları) `data/` altında duruyor ama sayfası üretilmiyor; açmak için slug'ı listeye ekle. Statik derlemede en az bir derste sorusu yazılmış (hazır) bir senaryo olmalı, yoksa `output: export` boş generateStaticParams yüzünden build kırılır.
-Sorusu yazılan matematik: 5. sınıf 1. yazılı Senaryo 1 (7 soru, TASLAK).
+Şimdilik yalnızca **ortaokul Matematik (5, 6, 7)** yayında: `src/config/site.ts` → `yayindakiDersler`. Diğer 15 dersin tabloları (ve Tarih 9 soruları) `data/` altında duruyor ama sayfası üretilmiyor; açmak için slug'ı listeye ekle.
+
+## Atomica kâğıtları (asıl içerik)
+- Kaynak: Atomica'nın PDF kitapçıkları `data/kitapciklar/` (liste: `kitapciklar.json`). 5. ve 7. sınıf: senaryo × kolay/orta/zor; 6. sınıf: 15 prova (1. yazılı ülke geneli).
+- `npm run kagitlar` (poppler + webp gerekir: `brew install poppler webp`) kitapçığı kâğıtlara böler → `public/kagitlar/…/sayfa-N.webp`, `kitapcik.pdf` ve `data/…/<yazili>.kagitlar.json` (soru no/puan/çıktı + sayfa metni). Üretilen dosyalar repoya commit edilir; CI'da poppler gerekmez.
+- Build kontrolü: her kâğıt 100 puan; senaryo kâğıtlarında çıktı başına soru sayısı resmî MEB tablosuyla aynı olmalı.
+- Kâğıtlarda cevap anahtarı yok (PDF'lerde bulunmuyor). Rubrikli "çöz ve puanla" altyapısı (`.sorular.json`, ExamShell) duruyor ama matematikte kullanılmıyor.
+- Görsel/PDF adresleri `varlik()` ile alt yol (BASE_PATH) eklenerek verilir; iç sayfa bağlantılarında her zaman `next/link` kullan (düz <a> alt yolu eklemez).
+- 8. sınıf PDF'i ("8. Sınıf Matematik Yazılı Provaları") MEB/TEGM materyali, Atomica'nın değil ve OYSS kapsamı dışında; eklenmedi.
 
 ## Mevcut durum (26 Ekim 2026)
 - Aşama 1-5 yapıldı: iskelet, bileşenler, veri katmanı (zod + 100 puan kontrolü), tüm üretilen sayfalar, interaktif sınav, /hesap.

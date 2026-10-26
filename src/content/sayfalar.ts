@@ -331,7 +331,7 @@ export const sayfalar: Sayfa[] = [
         id: "ulke",
         baslik: "Ülke geneli ortak yazılılar",
         paragraflar: [
-          "Bazı yazılılar okul geneli değil, ülke geneli ortak sınav olarak yapılır; bunların soru ve cevap anahtarlarını ÖDSGM hazırlar. 2026-2027'de 8 ülke geneli sınav var; tarihler takvim sayfasında.",
+          "Bazı yazılılar okul geneli değil, ülke geneli ortak sınav olarak yapılır; bunların soru ve cevap anahtarlarını ÖDSGM hazırlar. 2026-2027'de 8 ülke geneli sınav var; ortaokuldaki 4 sınavın tarihleri takvim sayfasında.",
         ],
       },
     ],
@@ -413,7 +413,7 @@ export const sayfalar: Sayfa[] = [
         id: "site",
         baslik: "Bu siteden nasıl yararlanırsınız?",
         paragraflar: [
-          "Ders sayfalarında her yazılının resmî dağılım tablosunu ve senaryolara göre hazırlanmış çalışma kâğıtlarını bulabilirsiniz. Kâğıtlar ve cevap anahtarları yazdırılabilir; öğrencilerinize sınav öncesi alıştırma olarak verebilirsiniz.",
+          "Sınıf sayfalarında her senaryo için kolay, orta ve zor seviyede yazılı kâğıtları bulabilirsiniz. Kâğıtları tek tek yazdırabilir ya da tüm kitapçığı PDF olarak indirip öğrencilerinize sınav öncesi alıştırma olarak verebilirsiniz.",
         ],
       },
     ],
@@ -455,7 +455,7 @@ export const sayfalar: Sayfa[] = [
         id: "site",
         baslik: "Sitede kâğıt nasıl çözülür?",
         paragraflar: [
-          "Hazır kâğıtlarda “Sınava başla” ile süre başlar. Bitirince örnek cevaplar ve puanlama ölçütleri açılır; karşıladığın ölçütleri işaretle, puanın hesaplanır. Sonuç ekranında en zayıf konunu görürsün. Puanların yalnızca kendi tarayıcında saklanır.",
+          "Sınıfını seç, senaryonu ve seviyeni (kolay, orta, zor) seç. Kâğıt açılınca “40 dakika süre başlat” ile süre tutabilir, cevaplarını defterine yazabilir ya da “Kâğıdı yazdır” ile kâğıda basıp çözebilirsin.",
         ],
       },
     ],
@@ -497,7 +497,7 @@ export const sayfalar: Sayfa[] = [
         liste: [
           "Okulun duyurduğu senaryoyu öğrenin; hangi konulardan kaç soru geleceğini birlikte inceleyin.",
           "Açık uçlu sorularda çocuğunuzdan cevabını sözlü olarak açıklamasını isteyin; gerekçe göstermeyi alıştırın.",
-          "Sitedeki kâğıtları birlikte çözüp sonuç ekranındaki zayıf konulara odaklanın.",
+          "Sitedeki kâğıtları süre tutarak birlikte çözün; önce kolay, sonra orta ve zor kâğıda geçin.",
         ],
       },
     ],
@@ -528,7 +528,6 @@ export const sayfalar: Sayfa[] = [
       { soru: "Mazeret sınavı ne zaman?", cevap: "1. dönem 1. yazılılar için 23-27 Kasım 2026 arasında, okulun planlamasıyla." },
       kimIcinSss.resmiMi,
       kimIcinSss.sitedekiSorular,
-      { soru: "Puanlarım nereye kaydediliyor?", cevap: "Yalnızca kendi tarayıcına. Üyelik yoktur, sunucuya veri gönderilmez." },
     ],
     kaynaklar: [KAYNAK.kilavuz, KAYNAK.okulTakvim, KAYNAK.yonetmelik],
   },
@@ -627,7 +626,7 @@ export const sayfalar: Sayfa[] = [
         id: "tarayici",
         baslik: "Tarayıcıda tutulan veriler",
         paragraflar: [
-          "Çözdüğün kâğıtlardaki cevapların, işaretlediğin puanlama ölçütleri ve puanların yalnızca kendi tarayıcında (localStorage) saklanır. Bu veriler sunucumuza gönderilmez. Hesabım sayfasındaki “Verileri temizle” düğmesiyle istediğin zaman silebilirsin.",
+          "Bu sayfalarda üyelik yoktur ve kişisel veri istenmez. Kâğıtları ekranda çözerken yazdıkların sunucumuza gönderilmez.",
         ],
       },
       {

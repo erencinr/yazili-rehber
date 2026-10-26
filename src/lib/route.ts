@@ -10,9 +10,7 @@ export async function yaziliCozumle(params: Promise<{ ders: string; sinif: strin
   const n = sinifNo(sinif.slug);
   const taban = `/dersler/${ders.slug}/${sinif.slug}/${yazili.slug}/`;
   const kirintilar = [
-    { ad: "Dersler", href: "/dersler/" },
-    { ad: ders.ad, href: `/dersler/${ders.slug}/` },
-    { ad: `${n}. sınıf`, href: `/dersler/${ders.slug}/${sinif.slug}/` },
+    { ad: `${n}. sınıf ${ders.ad.toLocaleLowerCase("tr")}`, href: `/dersler/${ders.slug}/${sinif.slug}/` },
     { ad: yazili.ad, href: taban },
   ];
   return { ders, sinif, yazili, n, taban, kirintilar };

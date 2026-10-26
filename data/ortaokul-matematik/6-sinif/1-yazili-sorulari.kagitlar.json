@@ -1,0 +1,1298 @@
+{
+  "$aciklama": "scripts/kagit-aktar.mjs ile Atomica kitapçığından üretilir; elle düzenleme.",
+  "kaynak": "ortaokul-matematik-6-sinif-1-yazili.pdf",
+  "kitapcik": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/kitapcik.pdf",
+  "tur": "prova",
+  "kagitlar": [
+    {
+      "slug": "prova-1-kolay",
+      "tur": "prova",
+      "no": 1,
+      "seviye": "kolay",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-1-kolay/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n1. PROVA · KOLAY\n1. YAZILI\n1. PROVA · KOLAY\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\nOkul korosundaki 36 öğrenci, 23 Nisan gösterisi için sahnede sıralar hâlinde dizilecektir. Her\n15 puan sırada eşit sayıda öğrenci bulunacak ve korodaki öğrencilerin hepsi sıralara yerleşecektir. Bu\ndizilişlerden biri aşağıda gösterilmiştir.\nher sırada 9 öğrenci\n4. sıra\n3. sıra\n4 sıra\n2. sıra\n1. sıra\nSAHNE\nBuna göre\na) 36’nın çarpanlarını yazınız.\nb) Her sırada en az 4, en fazla 9 öğrenci olacaksa koro kaç farklı biçimde dizilebilir?\nBu dizilişlerin her birinde kaç sıra olduğunu ve her sırada kaç öğrenci bulunduğunu\nyazınız.\nc) Gösteriden önce koroya 1 öğrenci daha katılmıştır. 37 öğrenci, her sırada en az\n4 öğrenci olacak biçimde birden çok eşit sıraya dizilebilir mi? 37’nin çarpanlarını\nyazarak cevabınızı bulunuz.\n1. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-1-kolay/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n1. PROVA · KOLAY\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nOkulun spor salonunun birbirine bitişik iki duvarının uzunlukları 24 m ve 30 m’dir. Bu iki duvar\n15 puan boyunca, duvarların uçlarına ve köşeye de lamba gelecek biçimde eşit aralıklarla duvar lambası\ntakılacaktır. İki duvardaki aralıklar birbirine eşit ve metre cinsinden bir doğal sayı olacaktır.\nSPOR SALONU\n24 m\n30 m\n(Salon üstten gösterilmiştir. Şekil ölçekli değildir.)\n: duvar lambası\nBuna göre\na) 24’ün ve 30’un bölenlerini yazıp ortak bölenlerini belirleyiniz. İki lamba arasındaki\naralık kaç metre olabilir?\nb) İki lamba arasındaki aralık en uzun kaç metre olabilir? Bu durumda iki duvar boyunca\ntoplam kaç lamba takılır? (Köşedeki lamba iki duvar için ortaktır.)\nc) İki lamba arasındaki aralık 2 m’den uzun olacaksa aralık için kaç farklı seçenek\nvardır?\n1. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-1-kolay/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n1. PROVA · KOLAY\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\nOkul, Cumhuriyet Bayramı için 240 bayrak almıştır. Bayrakların bahçeye, koridorlara ve sınıflara\n15 puan dağıtılma planı aşağıda verilmiştir.\nBAYRAK DAĞITIM PLANI\n’si\nOkul bahçesi\nBayrakların\nKoridorlar\nBayrakların %30’u\nSınıflar\nKalan bayraklar, her sınıfa 12 bayrak\n240 bayrak\nBuna göre\na) Okul bahçesine kaç bayrak asılacaktır?\nb) Koridorlara kaç bayrak asılacaktır?\nc) Kalan bayraklar sınıflara 12’şer verilecektir. Kaç sınıfa bayrak verilecektir?\n1. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-1-kolay/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n1. PROVA · KOLAY\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\nOkul kantininde bir gün, ilk teneffüste kantine gelen 40 öğrencinin her biri bir ürün almıştır.\n15 puan Kantin görevlisi öğrencilerin aldığı ürünleri kaydederek aşağıdaki sütun grafiğini oluşturmuştur.\nGrafik: Kantinde Alınan Ürünlerin Sıklığı\nÖğrenci sayısı\nTost\nSimit\nPoğaça\nMeyve\nÜrün\nBuna göre kantine gelen bir öğrencinin poğaça alma olayının göreli sıklığını kesir olarak\nbulunuz. Kantine gelen bir öğrencinin tost alma olayının deneysel olasılığı yüzde kaçtır?\nBu verilere göre kantine gelen bir öğrencinin en çok hangi ürünü alması olasıdır?\n1. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-1-kolay/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n1. PROVA · KOLAY\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nOkulun yeni yıl etkinliğinde hediye çekilişi yapılmıştır. Numarası 3’e kalansız bölünen biletler\n10 puan kitap, 5’e kalansız bölünen biletler kalem seti kazanmaktadır. 6-A sınıfındaki altı öğrencinin bilet\nnumaraları aşağıdaki tabloda verilmiştir.\nTablo: Bilet Numaraları\nBilet numarası\n3'e kalansız\nbölünür mü?\n5'e kalansız\nbölünür mü?\n126\n245\n310\n417\n345\n603\nMAT.6.1.3.\nBuna göre bölme işlemi yapmadan tabloyu “Evet” ya da “Hayır” yazarak doldurunuz.\nHem kitap hem kalem seti kazanan bilet hangisidir?\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nOkul basketbol takımındaki altı oyuncunun forma numaraları aşağıda verilmiştir.\n10 puan\nBuna göre numarası asal sayı olan formaları belirleyiniz. Numarası asal sayı olmayan\nformaların her birinin numarasının asal çarpanlarını yazınız.\n1. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-1-kolay/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n1. PROVA · KOLAY\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nFen kulübü öğrencileri, okul bahçesindeki yağmur ölçerle bir günde yağan yağmurun miktarını\n10 puan aşağıdaki gibi ölçmüştür.\n23,46 mm\nYağmur ölçer\nMAT.6.1.6.\nBuna göre 23,46 ondalık gösterimini, ondalık kısmı paydası 10 ve 100 olan kesirlerin\ntoplamı biçiminde çözümleyiniz. 4 ve 6 rakamlarının bulunduğu basamakların adlarını\nve bu rakamların basamak değerlerini yazınız.\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nResim atölyesindeki 13 m uzunluğundaki kâğıt rulosu, 5 gruba eşit uzunlukta paylaştırılacaktır.\n10 puan\n13 m\nKâğıt rulosu\n1. grup\n2. grup\n3. grup\n4. grup\n5. grup\nBuna göre bir gruba düşen kâğıdın uzunluğunu önce bölme işlemi ve kesir olarak, sonra\ntam sayılı kesir ve ondalık gösterim olarak yazınız.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n1. Prova · Kolay"
+        }
+      ]
+    },
+    {
+      "slug": "prova-2-kolay",
+      "tur": "prova",
+      "no": 2,
+      "seviye": "kolay",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-2-kolay/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n2. PROVA · KOLAY\n1. YAZILI\n2. PROVA · KOLAY\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\n6-B sınıfı, sınıf panosuna 24 fotoğraf asacaktır. Fotoğraflar, her satırda eşit sayıda fotoğraf\n15 puan olacak biçimde dikdörtgen biçiminde dizilecektir. Bu dizilişlerden biri aşağıda gösterilmiştir.\n8 sütun\nBuna göre\na) 24 fotoğrafla yapılabilecek, satır sayısı sütun sayısından az olan bütün dizilişleri satır\nve sütun sayılarıyla yazınız.\nb) Panoya en fazla 5 satır fotoğraf sığmaktadır. Buna göre panoya yapılabilecek\ndizilişlerde sütun sayısı en az kaç olabilir?\nc) 6-C sınıfı da kendi panosuna fotoğraf asacaktır. 6-C’nin fotoğraflarının sayısı 6’nın\nkatıdır, 24’ten fazla ve 40’tan azdır. Bu fotoğraflar 4 satıra eşit sayıda dizilebilmektedir.\nBuna göre 6-C sınıfı kaç fotoğraf asacaktır?\n2. Prova · Kolay\n3 satır"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-2-kolay/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n2. PROVA · KOLAY\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nMüzik dersinde öğretmen 1’den 36’ya kadar vuruşları sesli olarak saymaktadır. Ece davula, Can\n15 puan zile aşağıda belirtilen vuruşlarda vuracaktır.\nVURUŞLAR\nEce: 4. vuruştan başlayarak her 4\nvuruşta bir davula vurur.\nCan: 6. vuruştan başlayarak her 6\nvuruşta bir zile vurur.\nBuna göre\na) Ece’nin davula ve Can’ın zile vurduğu vuruşları yazıp ikisinin birlikte vurduğu\nvuruşları belirleyiniz.\nb) Ece ile Can ilk kez kaçıncı vuruşta birlikte vurur? Birlikte vurdukları vuruşlar hangi\nsayının katlarıdır?\nc) Öğretmen saymayı 60’a kadar sürdürürse Ece ile Can 36. vuruştan sonra hangi\nvuruşlarda birlikte vurur?\n2. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-2-kolay/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n2. PROVA · KOLAY\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\nOkul bahçesine geçen yıl fidan dikilmiştir. Fidanlarla ilgili bilgiler aşağıda verilmiştir. Kuruyan\n15 puan fidanların her birinin yerine fidanlıktan yeni bir fidan alınacaktır.\nDikilen fidan sayısı: 80\nTutan fidanlar: dikilen fidanların %85’i\nFidanlıkta yeni fidanın fiyatı: tanesi 37,50 TL\nOkul bahçesindeki fidanlar\nBuna göre\na) Dikilen fidanlardan kaç tanesi tutmuştur?\nb) Dikilen fidanlardan kaç tanesi kurumuştur?\nc) Kuruyan fidanların yerine alınacak yeni fidanlar için kaç TL ödenecektir?\n2. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-2-kolay/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n2. PROVA · KOLAY\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\n6-B sınıfındaki öğrencilere “Okula nasıl geliyorsunuz?” sorusu sorulmuştur. Her öğrenci tek bir\n15 puan cevap vermiştir. Öğrencilerin cevapları aşağıdaki nokta grafiğinde gösterilmiştir.\nGrafik: 6-B Sınıfındaki Öğrencilerin Okula Geliş Biçimleri\nServisle\nOtomobille\nOkula geliş biçimi\nToplu taşımayla\n(Her nokta 1 öğrenciyi gösterir.)\nBuna göre nokta grafiğindeki verileri bir sıklık tablosunda gösteriniz. Bu sınıftan rastgele\nseçilen bir öğrencinin okula servisle gelme olayının deneysel olasılığını kesir ve yüzde\nolarak yazınız. Rastgele seçilen bir öğrencinin okula yürüyerek ya da servisle gelme\nolayının deneysel olasılığı yüzde kaçtır?\n2. Prova · Kolay\nYürüyerek"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-2-kolay/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n2. PROVA · KOLAY\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nOkul kütüphanesindeki her rafın üç basamaklı bir kodu vardır. Kodu 3’e kalansız bölünen\n10 puan raflarda hikâye kitapları bulunmaktadır. Hikâye kitaplarının bulunduğu bir rafın kod etiketinde\nonlar basamağındaki rakam silinmiştir.\nMAT.6.1.3.\nRaf kodu\nyerine yazılabilecek rakamları bulunuz. Bu rakamlarla oluşan raf kodlarını\nBuna göre\nyazınız.\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nOkulumuz bu yıl kuruluşunun 60. yılını kutlamaktadır. Matematik kulübü bu kutlama için okul\n10 puan girişine aşağıdaki afişi asmış ve afişin altına 60 sayısının çarpan ağacını çizmeye karar vermiştir.\nOKULUMUZ 60 YAŞINDA!\nBuna göre 60 sayısının asal çarpanlarını çarpan ağacı yöntemiyle bulunuz. 60 sayısını\nasal çarpanlarının çarpımı biçiminde yazınız.\n2. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-2-kolay/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n2. PROVA · KOLAY\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nOkul revirinde üç öğrencinin vücut sıcaklıkları dijital ateş ölçerle ölçülmüş ve aşağıdaki tabloya\n10 puan yazılmıştır.\nTablo: Ölçülen Vücut Sıcaklıkları\nÖğrenci\nSıcaklık (°C)\nAli\n36,48\nBerk\n37,25\nCem\n36,92\nBirler\nbasamağına\nyuvarlanmış hâli\nOnda birler\nbasamağına\nyuvarlanmış hâli\nMAT.6.1.6.\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nFen bilimleri dersinde üç grup, sulama kaplarındaki suyun tamamını kendi saksılarına eşit olarak\n10 puan paylaştıracaktır. Grupların su miktarları ve saksı sayıları aşağıdaki tabloda verilmiştir.\nTablo: Suyun Saksılara Paylaştırılması\nGrup\nSaksı sayısı\n1. grup\n2. grup\n3. grup\nBölme\nişlemi\nKesir\nOndalık\ngösterim\nBuna göre her grup için bir saksıya düşen suyun litre cinsinden miktarını bölme işlemi,\nkesir ve ondalık gösterim olarak yazıp tabloyu doldurunuz. Ondalık gösterimleri payı\npaydaya bölerek bulunuz.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n2. Prova · Kolay\nBuna göre tablodaki boş yerleri doldurunuz. 37,25’teki 5 rakamının basamak değerini\nkesir olarak yazınız."
+        }
+      ]
+    },
+    {
+      "slug": "prova-3-kolay",
+      "tur": "prova",
+      "no": 3,
+      "seviye": "kolay",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-3-kolay/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n3. PROVA · KOLAY\n1. YAZILI\n3. PROVA · KOLAY\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\nOkul kantininde kurabiyeler, her pakette 6 kurabiye olacak biçimde paketlenmektedir.\n15 puan\nTablo: Paket Sayısı ve Kurabiye Sayısı\nPaket sayısı\nKurabiye sayısı\n1 paket = 6 kurabiye\nBuna göre\na) Tabloyu doldurunuz. Tablodaki kurabiye sayıları hangi sayının katlarıdır?\nb) Bir gün kantindeki paketlerde bulunan kurabiyelerin sayısı 40’tan fazla, 60’tan azdır.\nBuna göre kurabiye sayısı kaç olabilir?\nc) Kantin görevlisi 100 kurabiyeyi paketleyecektir. Görevli en fazla kaç paket\nhazırlayabilir? Kaç kurabiye pakete konulamaz?\n3. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-3-kolay/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n3. PROVA · KOLAY\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nResim atölyesindeki 16 fırça ve 24 tüp boya, hiç artmayacak biçimde gruplara paylaştırılacaktır.\n15 puan Her gruba eşit sayıda fırça ve eşit sayıda tüp boya verilecektir.\n24 tüp boya\n16 fırça\n(Fırçaların ve boyaların bir kısmı gösterilmiştir.)\nBuna göre\na) 16’nın ve 24’ün bölenlerini yazıp ortak bölenlerini belirleyiniz.\nb) Öğretmen 8 grup oluşturursa her gruba kaç fırça ve kaç tüp boya düşer?\nc) Öğretmen 3 grup oluşturursa fırça ve tüp boyaların ikisi de artmadan paylaştırılabilir\nmi? En az 2 grup oluşturulacaksa grup sayısı kaç olabilir?\n3. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-3-kolay/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n3. PROVA · KOLAY\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\nElif’in okul yemekhanesi kartında 500 TL vardır. Yemekhanede bir öğle yemeğinin fiyatı aşağıda\n15 puan verilmiştir.\nYEMEKHANE KARTI\nYEMEKHANE\nÖğle yemeği\nÖğrenci: Elif\nBakiye\n500,00 TL\n62,50 TL\nBuna göre\nb) Elif 4 gün öğle yemeği yedikten sonra annesi karta 187,50 TL yüklemiştir. Kartta kaç\nTL vardır?\nc) Elif karttaki bu parayla en fazla kaç gün daha öğle yemeği yiyebilir?\n3. Prova · Kolay\na) Elif bu kartla 4 gün öğle yemeği yerse kaç TL harcar?"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-3-kolay/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n3. PROVA · KOLAY\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\nKerem, teknoloji ve tasarım dersinde yaptığı kâğıt uçağı okul bahçesinde 20 kez atmıştır. Kerem\n15 puan her atışta uçağının hedef çizgisini geçip geçmediğini aşağıdaki gibi kaydetmiştir.\nHedef\nçizgisi\n10.\n11.\n12.\n13.\n14.\n15.\n16.\n17.\n18.\n19.\n20.\nD: Uçak çizgiye ulaşamadı (çizginin dışında kaldı).\nBuna göre bu deneyin çıktılarını yazınız ve verileri bir sıklık tablosunda gösteriniz.\nUçağın hedef çizgisini geçme olayının göreli sıklığını kesir olarak bulunuz. Uçağın hedef\nçizgisine ulaşamama olayının deneysel olasılığı yüzde kaçtır?\n3. Prova · Kolay\nG: Uçak çizgiyi geçti."
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-3-kolay/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n3. PROVA · KOLAY\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nOkulda düzenlenen bilim fuarını 270 kişi ziyaret etmiştir. Ziyaretçiler, rehber öğrencilerle eşit\n10 puan sayıda kişiden oluşan gruplar hâlinde gezdirilecek ve grupların dışında kimse kalmayacaktır.\nTablo: Grup Seçenekleri\nGruptaki kişi sayısı\nGruplama yapılabilir mi?\nMAT.6.1.3.\nBuna göre bölme işlemi yapmadan, kalansız bölünebilme kurallarını kullanarak tabloyu\n“Evet” ya da “Hayır” yazarak doldurunuz.\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nMatematik kulübü, panosuna her hafta iki sayı yazmaktadır. Bu haftanın sayıları aşağıda\n10 puan verilmiştir.\nHAFTANIN SAYILARI\nBuna göre panodaki sayılardan asal olanı belirleyiniz. Asal olmayan sayının asal\nçarpanlarını asal çarpan algoritmasıyla bulunuz.\n3. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-3-kolay/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n3. PROVA · KOLAY\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nFen bilimleri dersinde bir silginin kütlesi hassas terazide aşağıdaki gibi ölçülmüştür.\n10 puan\nSİLGİ\n18,705 g\nDARA\nTablo: 18,705 Sayısının Basamakları\nBasamak\nHassas terazi\nRakam\nBasamak\ndeğeri\nBirler\nOnda birler\nYüzde birler\nBinde birler\nMAT.6.1.6.\nBuna göre tablodaki boş yerleri doldurunuz. Onda birler ve binde birler basamaklarındaki\nrakamların basamak değerlerini kesir ve ondalık gösterimle yazınız.\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nKoridordaki 7 m’lik duvara 4, 9 m’lik duvara 5 eş pano boşluksuz yan yana asılacaktır.\n10 puan\nPANO\nPANO\nPANO\nPANO\nPANO\nPANO\nPANO\nPANO\nPANO\n(m)\n(Şekil ölçekli değildir.)\nBuna göre iki duvardaki panoların genişliklerini kesir ve ondalık gösterimle yazıp\nhangisinin daha geniş olduğunu bulunuz. 7 m’lik duvardaki pano genişliğini sayı\ndoğrusunda işaretleyiniz.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n3. Prova · Kolay"
+        }
+      ]
+    },
+    {
+      "slug": "prova-4-kolay",
+      "tur": "prova",
+      "no": 4,
+      "seviye": "kolay",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-4-kolay/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n4. PROVA · KOLAY\n1. YAZILI\n4. PROVA · KOLAY\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\n6-D sınıfındaki 30 öğrenci, bir proje için gruplara ayrılacaktır. Her grupta eşit sayıda öğrenci\n15 puan olacak ve hiçbir öğrenci grupların dışında kalmayacaktır. Gruplamalardan biri aşağıda\ngösterilmiştir.\n2. grup\n3. grup\n1. grup\nÖrnek: 3 grup, her grupta 10 öğrenci\nBuna göre\na) En az 2 grup oluşturulacak ve her grupta en az 2 öğrenci olacaktır. Buna göre\nöğrenciler kaç farklı biçimde gruplara ayrılabilir? Her biçimde grup sayısını ve bir\ngruptaki öğrenci sayısını yazınız.\nb) Öğretmen her grupta 4 öğrenci olmasını istemektedir. 30’un çarpanlarını kullanarak\nbunun mümkün olup olmadığını belirleyiniz.\nc) Öğretmen, grup sayısının bir gruptaki öğrenci sayısından az olmasını ve bu iki\nsayının birbirine en yakın olmasını istemektedir. Buna göre kaç grup oluşur? Her\ngrupta kaç öğrenci bulunur?\n4. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-4-kolay/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n4. PROVA · KOLAY\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nOkul yemekhanesi için tabaklar 8’li, bardaklar 6’lı paketler hâlinde satılmaktadır. Yemekhane\n15 puan görevlisi paketleri açmadan eşit sayıda tabak ve bardak almak istemektedir.\n8'li tabak paketi\n6'lı bardak paketi\nBuna göre\nb) Görevli tabak ve bardak sayıları eşit olacak biçimde en az kaç tabak almalıdır? Bunun\niçin kaç paket tabak ve kaç paket bardak alır?\nc) Görevli 100’den az ve birbirine eşit sayıda tabak ve bardak alacaktır. Görevlinin kaç\nfarklı seçeneği vardır?\n4. Prova · Kolay\na) 8’in ve 6’nın 50’den küçük katlarını yazıp ortak katlarını belirleyiniz."
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-4-kolay/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n4. PROVA · KOLAY\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\n6. sınıflar, okulun yıl sonu sergisi için renkli kâğıtlardan süs zincirleri yapmıştır. Üç sınıfın yaptığı\n15 puan zincirlerin uzunlukları aşağıda gösterilmiştir.\n12,75 m\n6-A\n9,8 m\n6-B\n14,35 m\n6-C\n(Şekil ölçekli değildir.)\nBuna göre\na) En uzun zincir, en kısa zincirden kaç metre uzundur?\nb) Üç zincirin uzunlukları toplamı kaç metredir?\nc) Zincirler uç uca eklenerek sergi salonunun 40 m uzunluğundaki duvarı boyunca\nasılacaktır. Duvarın tamamı için kaç metre daha zincir gerekir?\n4. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-4-kolay/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n4. PROVA · KOLAY\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\nFen bilimleri dersinde dört grubun her biri bir kaba 20 buğday tohumu ekmiştir. İki hafta sonra\n15 puan her kapta çimlenen tohumlar sayılarak aşağıdaki tabloya yazılmıştır.\n1. grup\n2. grup\n3. grup\n4. grup\n(Temsilî görseldir; filiz sayıları tabloda verilmiştir.)\n1. grup\n2. grup\n3. grup\n4. grup\nEkilen tohum sayısı\nÇimlenen tohum sayısı\nGrup\nBuna göre dört grubun ektiği tohumların toplam sayısını ve çimlenen tohumların toplam\nsayısını bulunuz. Bu deneyde bir tohumun çimlenme olayının deneysel olasılığını kesir\nve yüzde olarak yazınız. Hangi grubun deneyinde çimlenme olayının deneysel olasılığı en\nbüyüktür? Bu olasılık yüzde kaçtır?\n4. Prova · Kolay\nTablo: Çimlenme Deneyinin Sonuçları"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-4-kolay/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n4. PROVA · KOLAY\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nOkulun konferans salonunda her sırada 4 koltuk vardır. Bir hafta boyunca yapılan gösterilerin\n10 puan izleyici sayıları aşağıdaki tabloda verilmiştir.\nTablo: Gösterilerin İzleyici Sayıları\nGün\nİzleyici sayısı\nPazartesi\nSalı\nÇarşamba\nPerşembe\nCuma\n312\n298\n324\n306\n316\nMAT.6.1.3.\nBuna göre bölme işlemi yapmadan, izleyicilerin hiç boş koltuk kalmayacak biçimde tam\nsıralara oturabildiği günleri belirleyiniz.\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nOkul spor salonunun soyunma odasındaki dolaplar aşağıdaki gibi numaralandırılmıştır.\n10 puan Numarası asal sayı olan dolaplara mavi etiket yapıştırılacaktır.\nBuna göre mavi etiket yapıştırılacak dolapların numaralarını yazınız. Numarasının asal\nçarpanları 2 ve 3 olan (başka asal çarpanı olmayan) dolabın numarasını bulunuz.\n4. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-4-kolay/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n4. PROVA · KOLAY\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nOkul kütüphanesi için birer tane masal kitabı, atlas ve sözlük alınacaktır. Kitapların fiyatları\n10 puan aşağıdaki listede verilmiştir.\nKİTAP SİPARİŞ LİSTESİ\nMasal kitabı\n138,60 TL\nAtlas\n94,45 TL\nSözlük\n117,25 TL\nMAT.6.1.6.\nBuna göre kitapların fiyatlarını birler basamağına yuvarlayarak kütüphanenin ödeyeceği\ntutarı tahmin ediniz. 138,60’taki 6 rakamının bulunduğu basamağın adını ve bu rakamın\nbasamak değerini kesir olarak yazınız.\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nResim atölyesinde üç masadaki öğrencilere eş kil kalıpları eşit olarak paylaştırılmıştır.\n10 puan\nTablo: Kil Kalıplarının Paylaştırılması\nMasa\nKil kalıbı sayısı\nÖğrenci sayısı\n1. masa\n2. masa\n3. masa\nBir öğrenciye\ndüşen kil\nBuna göre her masada bir öğrenciye düşen kil miktarını önce kesir olarak, sonra payı\npaydaya bölerek ondalık gösterim olarak yazınız. Hangi masadaki öğrencilerin her birine\nen çok kil düşmüştür?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n4. Prova · Kolay"
+        }
+      ]
+    },
+    {
+      "slug": "prova-5-kolay",
+      "tur": "prova",
+      "no": 5,
+      "seviye": "kolay",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-5-kolay/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n5. PROVA · KOLAY\n1. YAZILI\n5. PROVA · KOLAY\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\nOkul kütüphanesinde, Kütüphane Haftası boyunca kütüphaneye gelen her 7. öğrenciye bir\n15 puan kitap ayracı hediye edilmektedir. Kütüphaneye gelen ilk 21 öğrencinin sıra numaraları aşağıda\ngösterilmiştir.\n10 11 12 13 14 15 16 17 18 19 20 21\nKütüphaneye gelen öğrencilerin sıra numaraları (\n: ayraç hediye edilen öğrenci)\nBuna göre\na) İlk 70 öğrenciden ayraç alanların sıra numaralarını yazınız.\nb) Kütüphane Haftası boyunca kütüphaneye 100 öğrenci gelmiştir. Bu öğrencilerden kaç\ntanesi ayraç almıştır?\nc) Kütüphaneye 50. ve 56. sırada gelen öğrencilerden hangisi ayraç alır?\n5. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-5-kolay/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n5. PROVA · KOLAY\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nOkulun 6. sınıf öğrencileri bayrak töreninde 4’erli sıralar hâlinde dizildiğinde de 5’erli sıralar\n15 puan hâlinde dizildiğinde de hiç öğrenci artmamaktadır. 6. sınıf öğrencilerinin sayısı 30’dan fazla,\n50’den azdır.\n4'erli sıralar\nbayrak direği\n5'erli sıralar\nBuna göre\na) 4’ün ve 5’in 30 ile 50 arasındaki katlarını yazıp ortak katlarını belirleyiniz.\nb) Okulda kaç tane 6. sınıf öğrencisi vardır? Bu öğrenciler 4’erli sıralar hâlinde\ndizildiğinde kaç sıra, 5’erli sıralar hâlinde dizildiğinde kaç sıra oluşur?\nc) Okula yeni 6. sınıf öğrencileri katılacaktır. Katılımdan sonra da öğrenciler 4’erli ve\n5’erli sıralar hâlinde hiç artmadan dizilebilecekse en az kaç yeni öğrenci katılmalıdır?\n5. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-5-kolay/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n5. PROVA · KOLAY\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\nOkul bandosunun bu haftaki prova süreleri aşağıdaki tabloda verilmiştir.\n15 puan\nTablo: Bandonun Haftalık Prova Çizelgesi\nGün\nProva süresi\nPazartesi\nsaat\nÇarşamba\nsaat\nCuma\nsaat\nOkul bandosu\nBuna göre\na) Pazartesi ve çarşamba günlerindeki provaların süreleri toplamı kaç saattir?\nb) Cuma günkü prova, pazartesi günkü provadan kaç saat uzundur?\nc) Bandonun bir haftada toplam 4 saat prova yapması gerekmektedir. Bando bu hafta\nkaç saat daha prova yapmalıdır?\n5. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-5-kolay/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n5. PROVA · KOLAY\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\nFen kulübü öğrencileri, okul bahçesindeki kuş yemliğine gelen kuşları gözlemlemiştir. Yemliğe\n15 puan gelen ilk 40 kuşun türleri aşağıdaki tabloda verilmiştir.\nTablo: Yemliğe Gelen Kuşlar\nSıklık\nSerçe\nGüvercin\nSaka\nKarga\nGöreli sıklık\n(kesir)\nDeneysel\nolasılık\n(yüzde)\nKuş türü\nBuna göre her kuş türü için yemliğe gelen bir kuşun o türden olma olayının göreli\nsıklığını kesir olarak, deneysel olasılığını yüzde olarak bulup tabloyu doldurunuz. Bu\ngözleme göre yemliğe gelecek bir kuşun en çok hangi türden olması olasıdır?\n5. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-5-kolay/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n5. PROVA · KOLAY\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nOkul bahçesine dikilmek üzere beş çuval lale soğanı alınmıştır. Çuvallardaki soğan sayıları\n10 puan aşağıda verilmiştir. Bir çuvaldaki soğanların tamamı hem 3 sıraya hem de 4 sıraya eşit sayıda,\nhiç artmadan dikilebiliyorsa bu çuval ön bahçeye ayrılacaktır.\n132\n184\n210\n228\n246\nsoğan\nsoğan\nsoğan\nsoğan\nsoğan\n1. çuval\n2. çuval\n3. çuval\n4. çuval\n5. çuval\nMAT.6.1.3.\nBuna göre bölme işlemi yapmadan, kalansız bölünebilme kurallarını kullanarak ön\nbahçeye ayrılacak çuvalları belirleyiniz.\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nOkulda düzenlenen matematik bilgi yarışmasının bir turunda yarışmacılardan aşağıdaki\n10 puan kartlarda yazan sayıların asal çarpanlarını bulmaları istenmiştir.\nBuna göre her sayının asal çarpanlarını çarpan ağacı ya da asal çarpan algoritmasıyla\nbulunuz. Yalnız bir tane asal çarpanı olan sayı hangisidir?\n5. Prova · Kolay"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-5-kolay/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n5. PROVA · KOLAY\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nOkulun robotik kodlama kulübünün robotu, engelli parkuru aşağıdaki ekranda gösterilen sürede\n10 puan tamamlamıştır.\nPARKUR SÜRESİ\n8,264 s\nolan rakam hangi\n100\nbasamaktadır? 4 rakamının basamak değerini kesir ve ondalık gösterim olarak yazınız.\nRobotun parkuru tamamlama süresini yüzde birler basamağına yuvarlayınız.\nMAT.6.1.6.\nBuna göre 8,264 ondalık gösteriminde basamak değeri\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nOkulun satranç kulübünde 25 öğrenci vardır. Bu öğrencilerden 7’si 6. sınıf öğrencisidir.\n10 puan\n6. sınıf öğrencisi\ndiğer sınıflardan öğrenci\nBuna göre 6. sınıf öğrencilerinin sayısı kulüpteki bütün öğrencilerin kaçta kaçıdır? Bu\nkesrin ondalık gösterimini hem paydası 100 olan bir kesre genişleterek hem de payı\npaydaya bölerek bulunuz.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n5. Prova · Kolay"
+        }
+      ]
+    },
+    {
+      "slug": "prova-6-orta",
+      "tur": "prova",
+      "no": 6,
+      "seviye": "orta",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-6-orta/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n6. PROVA · ORTA\n1. YAZILI\n6. PROVA · ORTA\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\nPelin, annesiyle birlikte evde kurabiye yapmıştır. Kurabiyeleri fırın tepsisine, her satırda eşit\n15 puan sayıda kurabiye olacak biçimde dizmektedir. Pelin her dizilişte en az 2 satır yapmakta ve bir\nsatırdaki kurabiye sayısını satır sayısından fazla tutmaktadır. Aşağıda 40 kurabiyenin bu kurala\nuygun bir dizilişi gösterilmiştir.\nHer satırda 10 kurabiye\nsatır\nBuna göre\na) 40 kurabiye bu kurala uygun olarak kaç farklı biçimde dizilebilir? Her dizilişin satır\nsayısını ve bir satırdaki kurabiye sayısını yazınız.\nb) Pelin 13, 14 ve 15 kurabiyeyi ayrı ayrı dizmeyi denemiştir. Bu sayılardan hangisiyle\nkurala uygun hiçbir diziliş yapılamaz?\nc) Pelin başka bir tepsideki kurabiyeleri, her satırda 9 kurabiye olacak biçimde kurala\nuygun olarak dizmiştir. Bu tepsideki kurabiye sayısı 40 ile 80 arasında olduğuna göre\nkaç olabilir? Bütün olası değerleri yazınız.\n6. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-6-orta/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n6. PROVA · ORTA\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nBir çiçekçi, aşağıda gösterilen 48 gülün ve 36 papatyanın tamamını kullanarak eş buketler\n15 puan hazırlayacaktır. Her bukette eşit sayıda gül ve eşit sayıda papatya olacak, hiç çiçek\nartmayacaktır.\n48 gül\n36 papatya\nBuna göre\na) Çiçekçi birden fazla buket hazırlayacağına göre buket sayısı kaç olabilir? Bütün olası\ndeğerleri yazınız.\nb) Çiçekçi en fazla kaç buket hazırlayabilir? Bu durumda bir bukette kaç gül ve kaç\npapatya olur?\nc) Papatyalardan biri solduğu için kullanılmamıştır. Çiçekçi 48 gül ve 35 papatya ile aynı\nkurala uygun olarak birden fazla buket hazırlayabilir mi? 48 ile 35’in ortak bölenlerini\ninceleyerek cevaplayınız.\n6. Prova · Orta\nÖrnek buket\n(8 gül, 6 papatya)"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-6-orta/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n6. PROVA · ORTA\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\nDeniz’in annesi pastaneden 4 poğaça, 0,75 kg kuru pasta ve 2 ayran almıştır. Pastanenin fiyat\n15 puan listesi aşağıda verilmiştir.\nPASTANE FİYAT LİSTESİ\nPoğaça\ntanesi 18,50 TL\nKuru pasta\nkilogramı 260 TL\nAyran\ntanesi 22,75 TL\nÜYE KARTI KULLANANLARA\ntoplam tutar üzerinden %20 İNDİRİM\nBuna göre\na) Kuru pasta için kaç TL ödenir?\nb) Alışverişin indirimsiz toplam tutarı kaç TL’dir?\nc) Deniz’in annesi üye kartını kullanmış ve kasaya 500 TL vermiştir. Annesi kaç TL para\nüstü alır?\n6. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-6-orta/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n6. PROVA · ORTA\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\nNil, parktaki oyun alanında bir saat boyunca oyuncaklara binen çocukları gözlemlemiştir. Bu\n15 puan sürede her çocuk yalnızca bir oyuncağa binmiştir. Nil, her çocuğun bindiği oyuncağı aşağıdaki\nnokta grafiğinde göstermiştir.\nGrafik: Çocukların Bindikleri Oyuncaklar\nSalıncak\nKaydırak\nTahterevalli\nDönme dolap\nOyuncak\nBuna göre oyuncağa binen bir çocuğun tahterevalliye binmiş olma olayının deneysel\nolasılığını kesir olarak, kaydırağa binmiş olma olayının deneysel olasılığını yüzde olarak\nbulunuz. Ertesi gün aynı saatlerde 120 çocuğun oyuncaklara bindiği gözlenirse Nil’in\nilk gözlemindeki deneysel olasılığa göre bu çocuklardan kaçının salıncağa binmesi\nbeklenir?\n6. Prova · Orta\n1 çocuk"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-6-orta/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n6. PROVA · ORTA\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nElif’in yeni aldığı yapbozun parça sayısı üç basamaklı 5\n4 sayısıdır. Elif, yapbozun parçalarını\n6’şarlı\ngruplara\n9’arlı\ngruplara\nhiç\nparça\nartmadan\nayırabilmektedir.\n10 puan\nBuna göre kutucuğa yazılabilecek rakamları bulunuz. Yapbozun parça sayısı 550’den\nfazla olduğuna göre yapboz kaç parçalıdır?\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nMert, defterine bir doğal sayının asal çarpan algoritmasını yazmıştır. Defterine su döküldüğü için\n10 puan bazı sayılar okunamamış, Mert bu sayıların yerine A, B, C ve D harflerini yazmıştır.\nBuna göre A, B, C ve D’nin yerine gelecek sayıları bulunuz. A sayısının en büyük asal\nçarpanı ile en küçük asal çarpanının farkı kaçtır?\n6. Prova · Orta\nMAT.6.1.3."
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-6-orta/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n6. PROVA · ORTA\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nDuru’ların mutfak dolabındaki dört paket bakliyatın kütleleri aşağıdaki tabloda verilmiştir.\n10 puan\nTablo: Bakliyat Paketlerinin Kütleleri\nPaket\nKütle (kg)\nMercimek\nNohut\nBulgur\nPirinç\n0,875\n0,88\n0,9\n0,849\nMAT.6.1.6.\n10 puan\nBuna göre paketleri kütlelerine göre büyükten küçüğe doğru sıralayınız. Kütleler yüzde\nbirler basamağına yuvarlandığında hangi iki paketin kütlesi birbirine eşit olur?\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nAyşe Hanım, evde yaptığı 5 L ayranın tamamını 3 eş sürahiye eşit olarak paylaştırmıştır.\nBuna göre bir sürahideki ayran miktarını tam sayılı kesir olarak yazınız. Payı paydaya\nbölerek bu miktarın ondalık gösterimini bulunuz ve devir çizgisi kullanarak yazınız.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n6. Prova · Orta"
+        }
+      ]
+    },
+    {
+      "slug": "prova-7-orta",
+      "tur": "prova",
+      "no": 7,
+      "seviye": "orta",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-7-orta/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n7. PROVA · ORTA\n1. YAZILI\n7. PROVA · ORTA\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\nZeynep’lerin oturduğu 12 katlı apartmanda zemin kattan başlayarak her iki kat arasında\n15 puan 18 basamak vardır. Zeynep, zemin kattan başlayarak basamakları 1, 2, 3, … diye\nnumaralandırmıştır. Aşağıdaki şekilde ilk iki katın merdivenleri gösterilmiştir.\n2. kat sahanlığı\nHer iki kat arasında 18 basamak vardır.\nTuruncu numaralı basamak,\no kata ulaşan son basamaktır.\n1. kat\nsahanlığı\nZemin kat\n(Şekil ölçekli değildir.)\nBuna göre\na) Zeynep, 5. kata ulaşmak için numarası kaç olan basamağa kadar çıkmalıdır?\nb) Numarası 100 ile 200 arasında olan basamaklardan kaç tanesi bir kata ulaşan son\nbasamaktır?\nc) Zeynep, numarası hem 4’ün katı hem de 36’nın çarpanı olan basamaklara birer yıldız\nçıkartması yapıştırmıştır. Zeynep hangi basamaklara çıkartma yapıştırmıştır?\n7. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-7-orta/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n7. PROVA · ORTA\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nAli ile Bora, parktaki koşu yolunda aynı anda, başlangıç noktasından aynı yöne doğru koşmaya\n15 puan başlamıştır. İkisi de her turu aynı sürede koşmaktadır. Ali ile Bora’nın bir turu tamamlama\nsüreleri aşağıda verilmiştir.\nKoşu yönü\nALİ\nBir turu\n6 dakikada tamamlar.\nBORA\nBora\nAli\nBir turu\n8 dakikada tamamlar.\nBaşlangıç noktası\nBuna göre\na) Ali ile Bora, koşmaya başladıktan kaç dakika sonra başlangıç noktasından ilk kez\nbirlikte geçer?\nb) Ali ile Bora 1 saat boyunca koşarsa başlangıç anı dışında başlangıç noktasından kaç\nkez birlikte geçer?\nc) Başka bir gün Bora bir turu 7 dakikada koşmuştur; Ali yine bir turu 6 dakikada\nkoşmaktadır. Bu durumda koşmaya başladıktan kaç dakika sonra başlangıç\nnoktasından ilk kez birlikte geçerler?\n7. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-7-orta/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n7. PROVA · ORTA\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\nSelma Hanım’ın balkonunda 3 büyük ve 5 küçük saksı vardır. Selma Hanım, saksıları her gün\n15 puan aşağıda gösterilen miktarlarda suyla sulamaktadır.\n3 büyük saksı\nher birine günde L su\n5 küçük saksı\nher birine günde L su\nBidon\n12 L su\nBuna göre\na) Büyük saksıların hepsine bir günde toplam kaç litre su verilir?\nb) Bütün saksılara bir günde toplam kaç litre su verilir?\nc) Bidondaki suyun tamamı yalnızca bu saksıları sulamak için kullanılırsa bidondaki su\nkaç günde biter?\n7. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-7-orta/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n7. PROVA · ORTA\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\nBir marketin kasiyeri, bir gün kasadan geçen ilk 50 müşterinin ödeme şeklini kaydetmiş ve\n15 puan aşağıdaki sütun grafiğini oluşturmuştur. Her müşteri yalnızca bir ödeme şekli kullanmıştır.\nGrafik: Müşterilerin Ödeme Şekilleri\nMüşteri sayısı\nNakit\nBanka kartı\nKredi kartı\nTelefonla\nÖdeme şekli\nBuna göre grafikteki verileri bir sıklık tablosunda gösteriniz. Bu kasadan geçen bir\nmüşterinin kartla (banka kartı ya da kredi kartı) ödeme olayının deneysel olasılığı yüzde\nkaçtır? Ertesi gün bu kasadan 400 müşteri geçerse bu gözleme göre kaç müşterinin nakit\nödemesi beklenir?\n7. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-7-orta/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n7. PROVA · ORTA\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nAyten Hanım’ın bahçesinden topladığı cevizlerin sayısı dört basamaklı 2\n10 puan Hanım cevizleri 9’arlı paketlere ayırdığında hiç ceviz artmamaktadır.\n75 sayısıdır. Ayten\nMAT.6.1.3.\nBuna göre kutucuğa yazılması gereken rakamı bulunuz. Cevizler 10’arlı paketlere\nkonulursa kaç ceviz artar?\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nKerem, bir doğal sayının asal çarpanlarını aşağıdaki çarpan ağacıyla belirlemiş, ağaçtaki bazı\n10 puan sayıların yerine A, B ve C harflerini yazmıştır. Ağaçta daire içine alınan sayılar asal sayılardır.\nBuna göre A, B ve C’nin yerine gelecek sayıları bulunuz. A sayısını asal çarpanlarının\nçarpımı biçiminde yazınız.\n7. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-7-orta/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n7. PROVA · ORTA\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nEce, kardeşinin ödevindeki üç ondalık gösterimin çözümlemesinde boş bırakılan yerleri\n10 puan tamamlayacaktır.\nI. 52,407 = 50 + 2 +\n1000\n1000\n= 10 +\n10 1000\nII. 7,086 = 7 +\nIII.\nMAT.6.1.6.\n10 puan\nBuna göre her çözümlemede kutucuğa gelmesi gereken kesri ya da ondalık gösterimi\nyazınız.\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nPayları 8 olan üç kesir aşağıda verilmiştir.\nBuna göre payı paydaya bölerek bu kesirlerin ondalık gösterimlerini bulunuz ve devir\nçizgisi kullanarak yazınız.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n7. Prova · Orta"
+        }
+      ]
+    },
+    {
+      "slug": "prova-8-orta",
+      "tur": "prova",
+      "no": 8,
+      "seviye": "orta",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-8-orta/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n8. PROVA · ORTA\n1. YAZILI\n8. PROVA · ORTA\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\nCan’ın oyuncak bloklarının sayısı 30 ile 50 arasındadır. Can, bloklarının hepsiyle 4’er bloklu\n15 puan kuleler yaptığında aşağıdaki gibi 1 blok artmaktadır.\nHer kulede 4 blok\n1 blok\nartıyor\nBuna göre\na) Can’ın blok sayısı kaç olabilir? Bütün olası değerleri yazınız.\nb) Can, aynı blokların hepsiyle 5’er bloklu kuleler yaptığında hiç blok artmamaktadır.\nCan’ın kaç bloğu vardır?\nc) Can, bloklarının hepsini kullanarak eşit yükseklikte en az 2 kule yapmak istemektedir.\nHer kulede en az 2 blok olacağına göre bir kuledeki blok sayısı için kaç farklı\nseçeneği vardır?\n8. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-8-orta/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n8. PROVA · ORTA\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nYusuf’un annesi telefonuna iki hatırlatıcı kurmuştur. Hatırlatıcılar aşağıda gösterilen aralıklarla\n15 puan çalmaktadır.\nSU İÇ\nESNE\nHer\n45 dakikada bir\nHer\n60 dakikada bir\nİki hatırlatıcı saat 08.00’de birlikte çalmıştır.\nBuna göre\na) İki hatırlatıcı 08.00’den sonra ilk kez saat kaçta birlikte çalar?\nb) İki hatırlatıcı 08.00’den sonra 20.00’ye kadar (20.00 dâhil) kaç kez birlikte çalar?\nc) 08.00’den sonra 12.00’ye kadar (12.00 dâhil) “SU İÇ” hatırlatıcısı, “ESNE”\nhatırlatıcısıyla birlikte olmadan kaç kez çalar?\n8. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-8-orta/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n8. PROVA · ORTA\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\nNermin Hanım evde kayısı reçeli yapmıştır. Nermin Hanım’ın reçel defterine yazdığı bilgiler\n15 puan aşağıda verilmiştir.\nREÇEL DEFTERİ\n• Alınan kayısı: 6 kg\n• Ezik olduğu için ayrılan: kayısıların %15’i\n• Eklenen şeker: kalan kayısıların ’si kadar\n• Pişirme sonunda elde edilen reçel: 6,8 kg\nHer kavanoz 0,4 kg\nreçel almaktadır.\nBuna göre\na) Reçel için kaç kilogram kayısı kullanılmıştır?\nb) Reçele kaç kilogram şeker eklenmiştir?\nc) Elde edilen reçelin tamamı kavanozlara doldurulursa kaç kavanoz dolar?\n8. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-8-orta/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n8. PROVA · ORTA\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\nDefne, üç gün boyunca kahvaltı için haşladığı yumurtalardan kabuğu çatlamayanları saymıştır.\n15 puan Sonuçlar aşağıdaki tabloda verilmiştir.\nTablo: Haşlanan Yumurtalar\nGün\nHaşlanan\nyumurta\nÇatlamayan\nyumurta\n1. gün\n2. gün\n3. gün\nÇatlayan\nyumurta\nToplam\nBuna göre tablodaki boş bırakılan yerleri doldurunuz. Bu gözleme göre haşlanan bir\nyumurtanın kabuğunun çatlamama olayının deneysel olasılığı yüzde kaçtır? Defne bu\nyöntemle 150 yumurta haşlarsa bunlardan kaçının kabuğunun çatlaması beklenir?\n8. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-8-orta/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n8. PROVA · ORTA\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nMelis’in dikiş kutusundaki düğmelerin sayısı aşağıdaki sayılardan biridir. Melis, düğmeleri hem\n10 puan 4’erli hem de 6’şarlı gruplara hiç düğme artmadan ayırabilmektedir.\n720\n756\n780\n846\nMAT.6.1.3.\nBuna göre düğme sayısı hangileri olabilir? Düğmeler 9’arlı gruplara da hiç düğme\nartmadan ayrılabiliyorsa düğme sayısı hangileri olabilir?\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nArda’ların buzdolabının kapağındaki sayı magnetleri aşağıda verilmiştir.\n10 puan\nBuna göre her sayının asal çarpanlarını bulunuz. Asal çarpanları aynı olan sayıları\ngruplayınız.\n8. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-8-orta/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n8. PROVA · ORTA\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nBir markette 1 kg’lık olarak satılan dört paket toz şeker tartılmış ve kütleleri aşağıdaki tabloda\n10 puan verilmiştir. C paketinin kütlesindeki bir rakam okunamamaktadır; bu paket 1 kg’dan ağır, 1,01\nkg’dan hafiftir.\nTablo: Toz Şeker Paketlerinin Kütleleri\nPaket\nKütle (kg)\n0,985\n1,02\n1,0\n0,99\nMAT.6.1.6.\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nSena, mutfakta üç malzemeyi kaplara eşit olarak paylaştırmıştır: 3 L sütü 8 bardağa, 7 kg pirinci\n10 puan 15 kaba, 9 kg nohudu 20 kavanoza.\nBuna göre her paylaştırmada bir kaba düşen miktarı payı paydaya bölerek ondalık\ngösterimle yazınız. Bu ondalık gösterimlerden devirli olanı devir çizgisi kullanarak\nyazınız.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n8. Prova · Orta\nBuna göre kutucuğa yazılması gereken rakamı bulunuz. Paketleri kütlelerine göre\nküçükten büyüğe doğru sıralayınız."
+        }
+      ]
+    },
+    {
+      "slug": "prova-9-orta",
+      "tur": "prova",
+      "no": 9,
+      "seviye": "orta",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-9-orta/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n9. PROVA · ORTA\n1. YAZILI\n9. PROVA · ORTA\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\nMahalle pazarında yumurtalar aşağıda gösterilen 30’luk ve 20’lik viyollerle satılmaktadır.\n30'luk viyol\n20'lik viyol\nBuna göre\na) Bir müşteri yalnızca 30’luk viyollerden en az 200 yumurta almak istemektedir. Müşteri\nen az kaç viyol almalıdır? Bu durumda kaç yumurta almış olur?\nb) Pazarcı, 30’luk bir viyoldeki yumurtaların hepsini her kutuda eşit sayıda yumurta\nolacak biçimde kutulara koyacaktır. Bir kutuya en az 4, en çok 12 yumurta\nkonulabildiğine göre bir kutudaki yumurta sayısı kaç olabilir?\nc) Pazarcı, bir viyoldeki yumurtaların hepsini eşit sayıda yumurta olan kutulara\nayıracaktır. Her kutuda 1’den fazla yumurta olacak ve yumurtaların hepsi tek bir\nkutuya konulmayacaktır. 20’lik ve 30’luk viyollerden hangisindeki yumurtalar daha\nçok farklı biçimde kutulara ayrılabilir?\n9. Prova · Orta\n15 puan"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-9-orta/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n9. PROVA · ORTA\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nBir markete 84 kutu elmalı ve 60 kutu vişneli meyve suyu gelmiştir. Market görevlisi meyve\n15 puan sularını birbirine karıştırmadan, her kolide eşit sayıda kutu olacak ve hiç kutu artmayacak\nbiçimde kolilere yerleştirecektir.\n60 kutu vişneli meyve suyu\n84 kutu elmalı meyve suyu\nBuna göre\na) Her koliye 4 kutu konulursa kaç koli gerekir?\nb) En az kaç koli kullanılabilir? Bu durumda bir kolide kaç kutu olur?\nc) Elmalı koliler bir rafa, vişneli koliler başka bir rafa dizilecektir. Bir rafa en çok 15 koli\nsığdığına göre bir kolide en az kaç kutu olmalıdır?\n9. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-9-orta/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n9. PROVA · ORTA\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\nBurak’ların evinde çay, aşağıda gösterilen 1,5 kg’lık paketlerle alınmaktadır. Burak’ın annesi her\n15 puan demlikte aynı miktarda çay kullanmaktadır.\nÇAY\n1,5 kg\nHER DEMLİKTE\n0,06 kg çay\nkullanılır.\n450 TL\nBuna göre\na) Bir paket çay ile kaç demlik çay demlenebilir?\nb) Bir demlikte kullanılan çayın maliyeti kaç TL’dir?\nc) Çayın paket fiyatına %12 zam yapılmıştır. Zamdan sonra bir demlikte kullanılan çayın\nmaliyeti kaç TL olur?\n9. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-9-orta/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n9. PROVA · ORTA\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\nEfe, evde patlamış mısır yaparken her denemede tencereye 50 mısır tanesi koymuş ve patlayan\n15 puan taneleri saymıştır. Dört denemenin sonuçları aşağıdaki tabloda verilmiştir.\nTablo: Patlamış Mısır Denemeleri\nDeneme\nKonulan tane\nPatlayan tane\nBuna göre her denemede bir mısır tanesinin patlama olayının göreli sıklığını ondalık\ngösterimle yazınız ve göreli sıklığın en büyük olduğu denemeyi belirleyiniz. Dört\ndenemenin tamamına göre bir mısır tanesinin patlamama olayının deneysel olasılığı\nyüzde kaçtır? Efe aynı koşullarda 500 tane mısırla patlamış mısır yaparsa bunlardan\nkaçının patlamaması beklenir?\n9. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-9-orta/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n9. PROVA · ORTA\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nKaan’ın ailesinin dijital fotoğraf albümündeki fotoğraf sayısı dört basamaklı 85\n6 sayısıdır. Bu\nfotoğraflar\nhem\n4’erli\nhem\n3’erli\ngruplara\nhiç\nfotoğraf\nartmadan\nayrılabilmektedir.\n10 puan\nMAT.6.1.3.\n10 puan\nBuna göre kutucuğa yazılması gereken rakamı bulunuz. Fotoğraflar 5’erli gruplara\nayrılırsa kaç fotoğraf artar?\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nAşağıda iki doğal sayı verilmiştir.\n360\n126\nBuna göre bu sayıların asal çarpanlarını asal çarpan algoritması ya da çarpan ağacıyla\nbulunuz. 360’ı asal çarpanlarının çarpımı biçiminde yazınız. İki sayının ortak asal\nçarpanlarını belirleyiniz.\n9. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-9-orta/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n9. PROVA · ORTA\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nGül Hanım’ın iki top kumaşının uzunlukları aşağıdaki tabloda verilmiştir.\n10 puan\nTablo: Kumaşların Uzunlukları\nKumaş\nMavi kumaş\nYeşil kumaş\n3,725\n3,572\nUzunluk (m)\nMAT.6.1.6.\nBuna göre iki uzunluktaki 5 rakamlarının basamak değerlerini kesir olarak yazınız. Yeşil\nkumaşın uzunluğundaki 5 rakamının basamak değeri, mavi kumaşın uzunluğundaki\n5 rakamının basamak değerinin kaç katıdır? Uzunlukları yüzde birler basamağına\nyuvarlayınız.\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nAşağıda açınımı verilen dört ondalık gösterim vardır.\n10 puan\nI. 1,2777 …\nII. 1,272727 …\nIII. 1,2272727 …\nIV. 12,777 …\nBuna göre bu ondalık gösterimleri devir çizgisi kullanarak yazınız. Payı paydaya bölerek\nkesrinin hangi ondalık gösterime eşit olduğunu bulunuz.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n9. Prova · Orta"
+        }
+      ]
+    },
+    {
+      "slug": "prova-10-orta",
+      "tur": "prova",
+      "no": 10,
+      "seviye": "orta",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-10-orta/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n10. PROVA · ORTA\n1. YAZILI\n10. PROVA · ORTA\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\nBir markette kasadan geçen müşterilere sıra numarası verilmekte ve aşağıdaki tabelada yazan\n15 puan kampanya uygulanmaktadır.\nHER 15. MÜŞTERİYE HEDİYE ÇİKOLATA!\nKASA\nKasadan geçen müşterilere 1’den başlayarak sıra numarası verilir.\nBuna göre\na) Bir gün 100 ile 200 arasında sıra numarası alan müşterilerden kaçı hediye çikolata\nalmıştır?\nb) Başka bir gün son hediye çikolatayı alan müşteriden sonra kasadan 8 müşteri daha\ngeçmiştir. O gün toplam 23 hediye çikolata verildiğine göre kasadan kaç müşteri\ngeçmiştir?\nc) O gün kampanya her 15. müşteri yerine her 18. müşteriye hediye verilecek biçimde\nuygulansaydı verilen hediye çikolata sayısı kaç azalırdı?\n10. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-10-orta/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n10. PROVA · ORTA\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nHediye paketlerinde kullanılan bir kurdelenin üzerine, kurdelenin başından başlayarak 6 cm\n15 puan aralıklarla kalp, 9 cm aralıklarla yıldız deseni basılmıştır. Kurdelenin başında hem kalp hem yıldız\nvardır. Aşağıda kurdelenin ilk 15 cm’lik kısmı gösterilmiştir.\n6 cm\n9 cm\nBuna göre\na) Kurdelenin başı dışında kalp ile yıldızın aynı noktaya basıldığı ilk yer, kurdelenin\nbaşından kaç santimetre uzaklıktadır?\nb) 100 cm uzunluğundaki bu kurdelede, başı dışında kaç noktada kalp ile yıldız birlikte\nbulunur?\nc) Başka bir kurdelede kalpler yine 6 cm, yıldızlar ise 10 cm aralıklarla basılmıştır. Bu\nkurdelenin başından itibaren 100 cm’lik kısmında, başı dışında kaç noktada kalp ile\nyıldız birlikte bulunur?\n10. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-10-orta/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n10. PROVA · ORTA\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\nOnur’un annesi kahvaltı için evde portakal suyu sıkmaktadır. Annesinin 2 kg portakaldan elde\n15 puan ettiği portakal suyu miktarı aşağıda gösterilmiştir. Her kilogram portakaldan eşit miktarda\nportakal suyu elde edilmektedir.\nsıkılınca\n2 kg portakal\n0,8 L portakal suyu\nBuna göre\na) 1 kg portakaldan kaç litre portakal suyu elde edilir?\nb) 1,2 L portakal suyu elde etmek için kaç kilogram portakal gerekir?\nc) Onur’un ailesi her sabah 0,2 L’lik 3 bardak portakal suyu içmektedir. Bir haftada (7\ngün) içilen portakal suyu için kaç kilogram portakal gerekir?\n10. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-10-orta/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n10. PROVA · ORTA\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\nIrmak, annesinin aldığı 40 mandalinayı yerken her mandalinadaki çekirdek sayısını aşağıdaki\n15 puan gibi not etmiştir.\nMandalinalardaki Çekirdek Sayıları\nTablo: Mandalinaların Çekirdek Sayıları\nÇekirdek\nsayısı\nSıklık\nBuna göre verileri verilen sıklık tablosunda gösteriniz. Bir mandalinanın çekirdeksiz olma\nolayının deneysel olasılığı yüzde kaçtır? Irmak’ın annesi aynı türden 200 mandalina alırsa\nbu gözleme göre bunlardan kaçının çekirdeksiz olması beklenir?\n10. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-10-orta/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n10. PROVA · ORTA\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nLeyla Hanım’ın akıllı saatine göre bir günde attığı adım sayısı dört basamaklı 8\n10 puan Bu sayı 3 ile tam bölünmekte, 9 ile tam bölünmemektedir.\n40 sayısıdır.\nMAT.6.1.3.\nBuna göre kutucuğa yazılabilecek rakamları bulunuz. Leyla Hanım’ın o gün attığı adım\nsayısı en çok kaç olabilir?\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nAşağıdaki kartlarda altı doğal sayı yazılıdır.\n10 puan\nBuna göre kartlardaki sayılardan asal olanları belirleyiniz. Asal olmayan sayılardan en\nbüyük asal çarpanı en büyük olan hangisidir?\n10. Prova · Orta"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-10-orta/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n10. PROVA · ORTA\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nTuna’nın annesi mahalle pazarından aldığı üç ürün için ödediği tutarlar aşağıda verilmiştir.\n10 puan\nDomates\nMaydanoz\nElma\n47,85 TL\n12,49 TL\n29,50 TL\nMAT.6.1.6.\nBuna göre tutarları büyükten küçüğe doğru sıralayınız. Her tutarı onda birler basamağına\nyuvarlayınız. 12,49’daki 4 ve 9 rakamlarının basamak değerlerini kesir olarak yazınız.\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nAşağıda üç tam sayılı kesir verilmiştir.\n10 puan\nBuna göre payı paydaya bölerek bu tam sayılı kesirlerin ondalık gösterimlerini bulunuz\nve devir çizgisi kullanarak yazınız.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n10. Prova · Orta"
+        }
+      ]
+    },
+    {
+      "slug": "prova-11-zor",
+      "tur": "prova",
+      "no": 11,
+      "seviye": "zor",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-11-zor/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n11. PROVA · ZOR\n1. YAZILI\n11. PROVA · ZOR\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\nBir ilçede düzenlenen satranç turnuvasına 48 oyuncu katılmıştır. Turnuvanın ilk gününde\n15 puan oyuncular, aşağıdaki panoda verilen kurallara göre gruplara ayrılacaktır. Grup sayısı farklı olan\nayırmalar farklı biçimler olarak kabul edilecektir.\nSATRANÇ TURNUVASI · 1. GÜN\nKatılan oyuncu sayısı: 48\nGRUPLARA AYIRMA KURALLARI\n• Her grupta eşit sayıda oyuncu bulunur.\n• Grup sayısı en az 2’dir.\n• Her grupta en az 3 oyuncu bulunur.\nBuna göre\na) 48’in çarpanlarını yazınız. 48 oyuncu, kurallara uygun olarak kaç farklı biçimde\ngruplara ayrılabilir?\nb) Turnuvaya son anda 2 oyuncu daha katılmıştır. 50 oyuncu, aynı kurallara uygun\nolarak kaç farklı biçimde gruplara ayrılabilir?\nc) Gelecek yıl düzenlenecek turnuvaya 56, 60 ya da 64 oyuncu katılabilecektir. Aynı\nkurallara göre bu oyuncu sayılarından hangisinde gruplara ayırma seçeneği en\nçoktur? Bu durumda kaç farklı biçim vardır?\n11. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-11-zor/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n11. PROVA · ZOR\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nBir körfezin kıyısındaki A, B ve C deniz fenerleri, geceleri aşağıda gösterilen aralıklarla ışık\n15 puan vermektedir. Üç fener saat tam 21.00’de aynı anda ışık vermiştir.\nA feneri\nB feneri\nC feneri\n8 saniyede bir\n12 saniyede bir\n18 saniyede bir\n(Şekil ölçekli değildir.)\nBuna göre\na) A ve B fenerleri, 21.00’den kaç saniye sonra ilk kez yine aynı anda ışık verir?\nb) 21.00’den sonraki 3 dakika içinde (21.03 dâhil) B ve C fenerleri kaç kez aynı anda ışık\nverir?\nc) 21.00’den sonra, saat 21.10’a kadar (21.10 dâhil) üç fener kaç kez aynı anda ışık verir?\nBunlardan sonuncusu 21.00’den kaç dakika kaç saniye sonradır?\n11. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-11-zor/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n11. PROVA · ZOR\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\nBir ortaokulun 22 öğrencisi ve 2 öğretmeni şehir müzesini gezecektir. Müzenin bilet fiyatları\n15 puan aşağıdaki tabelada verilmiştir.\nBİLET FİYATLARI\nŞEHİR MÜZESİ\nTam bilet\n240 TL\nÖğrenci bileti\ntam bilet fiyatı üzerinden %50 indirimli\nÖğretmen bileti\ntam bilet fiyatı üzerinden %25 indirimli\nGRUP İNDİRİMİ: Aynı anda 25 ya da daha fazla bilet alan\ngruplara, biletlerin toplam tutarı üzerinden ayrıca %20 indirim\nyapılır.\nBuna göre\na) Bir öğrenci bileti ve bir öğretmen bileti kaçar TL’dir?\nb) Grubun 24 bilet için ödeyeceği toplam tutar kaç TL’dir?\nc) Öğretmenler, grup indiriminden yararlanabilmek için kullanılmayacak 1 öğrenci bileti\ndaha alarak toplam 25 bilet almayı düşünmektedir. Bu durumda grup kaç TL öder? 25\nbilet almak mı, 24 bilet almak mı daha avantajlıdır? Aradaki fark kaç TL’dir?\n11. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-11-zor/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n11. PROVA · ZOR\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\nBir şehir kütüphanesinin A, B ve C şubelerinde bir ayda ödünç verilen kitap sayıları ile\n15 puan bunlardan geç iade edilenlerin sayıları aşağıdaki sütun grafiğinde gösterilmiştir. Belediye,\nödünç verilen bir kitabın geç iade edilme olayının deneysel olasılığı en küçük olan şubeye ödül\nverecektir.\nGrafik: Şubelere Göre Ödünç Verilen ve Geç İade Edilen Kitap Sayıları\nGeç iade edilen kitap sayısı\nÖdünç verilen kitap sayısı\nKitap sayısı\nA şubesi\nB şubesi\nC şubesi\nŞubeler\nYeni açılan şube\nAynı ay içinde yeni açılan D şubesinde 40 kitap ödünç verilmiştir. D şubesinde geç iade edilme\nolayının deneysel olasılığı, A şubesininkinden büyük, C şubesininkinden küçüktür.\nBuna göre A, B ve C şubelerinde geç iade edilme olayının deneysel olasılıklarını yüzde\nolarak bulunuz. Ödül hangi şubeye verilmelidir? D şubesinde ödünç verilen kitaplardan\nkaçı geç iade edilmiştir?\n11. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-11-zor/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n11. PROVA · ZOR\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nCan’ın aldığı maç biletinde koltuk numarası dört basamaklı bir sayıdır. Bilet yırtıldığı için bu\n10 puan sayının binler ve onlar basamaklarındaki rakamlar okunamamaktadır. Can, koltuk numarasının\n4’e ve 9’a kalansız bölündüğünü hatırlamaktadır.\nKOLTUK NO:\nMAT.6.1.3.\nBuna göre Can’ın koltuk numarası olabilecek bütün sayıları yazınız. Bu sayıların en\nbüyüğü ile en küçüğü arasındaki fark kaçtır?\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nBir havalimanındaki kalkış ekranında uçuş numaraları üç basamaklı sayılarla gösterilmektedir.\n10 puan Selin’in uçuşunun numarası ile ilgili bilgiler aşağıda verilmiştir.\nUçuş numarası\n• Sayının asal çarpanları yalnızca 2, 3 ve 7’dir; bu üç asal sayının her biri sayının asal\nçarpanıdır.\n• Sayı 200’den küçüktür.\n• Sayı 4’e kalansız bölünmez.\nBuna göre Selin’in uçuş numarası kaçtır? Bu sayıyı asal çarpan algoritmasıyla asal\nçarpanlarına ayırınız.\n11. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-11-zor/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n11. PROVA · ZOR\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nBir kano yarışında kronometre, sporcuların derecelerini saniye cinsinden binde birler\n10 puan basamağına kadar ölçmektedir. Skorbord ise bu dereceleri yüzde birler basamağına\nyuvarlayarak göstermektedir.\nTablo: Skorbord\nSporcu\nDerece (s)\nAda\n41,28\nBora\n41,30\nMAT.6.1.6.\nBuna göre Ada’nın kronometredeki derecesi en çok kaç saniye, Bora’nın kronometredeki\nderecesi en az kaç saniye olabilir? Ada ile Bora’nın kronometredeki dereceleri arasındaki\nfark en az kaç saniyedir?\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nBir yürüyüş grubu, bir doğa rotasında 7 saatte 13 km yürümüştür. Grup her saat eşit uzunlukta\n10 puan yol yürümüştür.\nBuna göre grubun bir saatte yürüdüğü yolu kilometre cinsinden kesir ve tam sayılı kesir\nolarak yazınız. Payı paydaya bölerek bu yolu devir çizgisi kullanarak ondalık gösterimle\nyazınız. Bu ondalık gösterimde virgülden sonraki 45. basamakta hangi rakam vardır?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n11. Prova · Zor"
+        }
+      ]
+    },
+    {
+      "slug": "prova-12-zor",
+      "tur": "prova",
+      "no": 12,
+      "seviye": "zor",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-12-zor/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n12. PROVA · ZOR\n1. YAZILI\n12. PROVA · ZOR\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\nBir iskeleden kalkan vapurların sefer bilgileri aşağıdaki tabelada verilmiştir. Seferler arasındaki\n15 puan süre dakika cinsinden bir doğal sayıdır ve gün boyunca değişmez. Tabelada hafta sonu\nseferlerinin kaç dakikada bir yapıldığını gösteren kısım silinmiştir.\nHAFTA İÇİ\nHAFTA SONU\nİlk sefer: 07.00\nSeferler 25 dakikada bir\nyapılır.\nİlk sefer: 07.00\n07.00 ile 12.00 arasında 9\nsefer yapılır (07.00 seferi\ndâhil).\nVAPUR SEFERLERİ\n(Bu kısım silinmiştir.)\nBuna göre\na) Hafta içi 07.00 ile 12.00 arasında (iki saat de dâhil) kaç sefer yapılır?\nb) Burak, bir hafta içi günü iskeleye 13.10’da gelmiştir. Burak’ın binebileceği ilk vapur o\ngünün kaçıncı seferidir? Bu vapur saat kaçta kalkar?\nc) Zeynep, hafta sonu seferlerinden birinin 08.48’de kalktığını bilmektedir. Hafta sonu\nseferler kaç dakikada bir yapılmaktadır?\n12. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-12-zor/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n12. PROVA · ZOR\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nBir spor kulübünde Kaan 4 günde bir eskrim, Nil 6 günde bir judo antrenmanı yapmaktadır. İkisi\n15 puan 1 Eylül 2026 Salı günü aynı gün antrenman yapmıştır. Kulüp her gün açıktır. 2026 yılının eylül ve\nekim aylarının takvimi aşağıda verilmiştir.\nEYLÜL 2026\nÇar\nPer\nCum\nCmt\nPaz\nÇar\nPer\nCum\nCmt\nPaz\nPzt\nSal\nBuna göre\na) Kaan ile Nil’in eylül ve ekim aylarında aynı gün antrenman yaptıkları kaç gün vardır?\n(1 Eylül dâhil)\nb) Kulübe yeni katılan Arda da 1 Eylül’de antrenman yapmış ve 10 günde bir antrenman\nyapmaya başlamıştır. Üçü, 1 Eylül’den sonra ilk kez hangi tarihte aynı gün antrenman\nyapar?\nc) Kaan ile Nil’in aynı gün antrenman yaptıkları günlerden 1 Eylül’den sonra ilk kez\npazartesi gününe denk gelen hangi tarihtir?\n12. Prova · Zor\nEKİM 2026\nSal\nPzt"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-12-zor/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n12. PROVA · ZOR\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\nBir alışveriş merkezinin otoparkındaki ücret tarifesi aşağıda verilmiştir.\n15 puan\nOTOPARK ÜCRET TARİFESİ\nİlk 1 saat\nSonraki her yarım saat\n60 TL\n17,50 TL\n(Yarım saatten kısa süreler yarım saat sayılır.)\nAYLIK ABONELİK: 2450 TL Abone olan araç, ay boyunca istediği\nkadar girip çıkabilir.\nBuna göre\na) Otoparkta 2 saat 20 dakika kalan bir araç için kaç TL ödenir?\nb) Kerem Bey, bir ayda 22 gün otoparkı kullanmakta ve her gün otoparkta 3 saat 15\ndakika kalmaktadır. Kerem Bey abonelik almazsa bir ayda kaç TL öder? Abonelik\nalırsa bir ayda kaç TL daha az öder?\nc) Ayşe Hanım, bir ayda 20 gün otoparkı kullanmakta ve her gün otoparkta aynı süre\nkalmaktadır. Ayşe Hanım’ın abonelik almadan bir ayda ödediği tutar, abonelik\nücretinden azdır. Ayşe Hanım her gün otoparkta en çok kaç saat kaç dakika kalıyor\nolabilir?\n12. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-12-zor/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n12. PROVA · ZOR\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\nBir futbol takımının son sezonda oynadığı maçların sonuçları aşağıdaki tabloda verilmiştir. Takım\n15 puan gelecek sezon iç sahada 15, deplasmanda 15 maç oynayacaktır.\nTablo: Takımın Son Sezondaki Maç Sonuçları\nMaçın oynandığı yer\nGalibiyet\nBeraberlik\nMağlubiyet\nİç saha\nDeplasman\nBuna göre takımın iç saha maçlarında ve deplasman maçlarında galibiyet olayının\ndeneysel olasılıklarını ayrı ayrı yüzde olarak bulunuz. Takımın son sezondaki bütün\nmaçları dikkate alındığında mağlubiyet olayının deneysel olasılığı yüzde kaçtır? İç saha\nve deplasman maçlarındaki galibiyet olaylarının deneysel olasılıkları ayrı ayrı kullanılırsa\ntakımın gelecek sezon kaç galibiyet alması beklenir?\n12. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-12-zor/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n12. PROVA · ZOR\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nBir konser salonunun kapasitesi dört basamaklı 1\n10 puan için aşağıdaki bilgileri vermiştir.\nsayısıdır. Salon görevlisi bu sayı\nKapasite\n• 2’ye kalansız bölünür ama 4’e kalansız bölünmez.\n• 3’e kalansız bölünür ama 9’a kalansız bölünmez.\n• 5’e kalansız bölünmez.\nMAT.6.1.3.\nBuna göre salonun kapasitesi olabilecek bütün sayıları yazınız. Kapasite sayısının\nrakamları birbirinden farklı olduğuna göre salonun kapasitesi kaçtır?\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nBir otogarda peronlar 1’den başlayarak numaralandırılmıştır. Aynı saatte kalkan dört otobüsün\n10 puan peron numaraları birbirinden farklı birer asal sayıdır. 1. ve 2. otobüslerin peron numaralarının\ntoplamı 31’dir. 3. ve 4. otobüslerin peron numaralarının toplamı 36, farkı ise 6’dan küçüktür. 1.\notobüsün peron numarası 2. otobüsünkinden, 3. otobüsünkü de 4. otobüsünkinden küçüktür.\nBuna göre dört otobüsün peron numaralarını bulunuz.\n12. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-12-zor/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n12. PROVA · ZOR\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nBir rafting parkuru dört etaptan oluşmaktadır. Etapların gerçek uzunlukları aşağıdaki tabloda\n10 puan verilmiştir. Parkurun başlangıcındaki tabelada ise her etabın uzunluğu, onda birler basamağına\nyuvarlanarak yazılmıştır.\nTablo: Rafting Parkurunun Etapları\nEtap\n1. etap\n2. etap\n3. etap\n4. etap\nGerçek uzunluk (km)\n2,346\n1,785\n3,452\n0,964\nMAT.6.1.6.\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nBir dağcılık kulübünün üç ekibine, zirve tırmanışından önce su verilmiştir. Her ekibe verilen su, o\n10 puan ekipteki dağcılar arasında eşit olarak paylaştırılmıştır.\nTablo: Ekiplere Verilen Su\nEkip\nSu miktarı (L)\nDağcı sayısı\nBuna göre her ekipte bir dağcıya düşen su miktarını kesir olarak yazınız. Payı paydaya\nbölerek bu miktarları devir çizgisi kullanarak ondalık gösterimle yazınız. Ekipleri, bir\ndağcıya düşen su miktarına göre çoktan aza doğru sıralayınız.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n12. Prova · Zor\nBuna göre tabelada yazan etap uzunluklarını yazınız. Hangi etabın tabeladaki uzunluğu\ngerçek uzunluğundan kısadır? Tabelada 1,8 km yazan bir etabın gerçek uzunluğu (binde\nbirler basamağına kadar) en az ve en çok kaç kilometre olabilir?"
+        }
+      ]
+    },
+    {
+      "slug": "prova-13-zor",
+      "tur": "prova",
+      "no": 13,
+      "seviye": "zor",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-13-zor/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n13. PROVA · ZOR\n1. YAZILI\n13. PROVA · ZOR\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\nBir şehirde düzenlenen bisiklet turuna 120 kişi katılmıştır. Katılımcılar, aşağıda verilen kurallara\n15 puan göre gruplara ayrılacaktır. Rehberler katılımcılardan değildir.\nBİSİKLET TURU KURALLARI\n1. sıra\n2. sıra\n3. sıra\n• Her grupta eşit sayıda kişi bulunur.\n• En az 2 grup oluşturulur.\n• Yolda her grup 4’erli sıralar hâlinde ilerler;\nsıraların hepsi tam doludur.\n• Mola yerinde her grup 3’er kişilik masalara\noturur; masaların hepsi tam doludur.\n• Her grubun önünde 1 rehber bulunur.\nHer sırada 4 bisiklet\nBuna göre\na) Mola yerindeki masa kuralı dikkate alınmazsa bir gruptaki kişi sayısı kaç olabilir?\nb) Mola yerindeki masa kuralı da dikkate alınırsa bir gruptaki kişi sayısı kaç olabilir?\nc) Tur için 5’ten fazla, 12’den az rehber görevlendirilmiştir. Bütün kurallar dikkate\nalındığında bir grupta kaç kişi vardır?\n13. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-13-zor/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n13. PROVA · ZOR\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nBir izci kampı için 84 şişe su, 126 enerji barı ve 210 elma toplanmıştır. Malzemelerin hepsi\n15 puan kampa katılan ekiplere paylaştırılacaktır. Kampa birden fazla ekip katılacaktır. Her çeşit\nmalzemeden her ekibe eşit sayıda verilecek ve hiç malzeme artmayacaktır.\n84 şişe\n126 tane\n210 tane\nenerji barı\nelma\nBuna göre\nb) Ekip sayısı en çok kaç olabilir? Bu durumda bir ekibe kaç şişe su, kaç enerji barı ve\nkaç elma düşer?\nc) Kampa son anda 18 şişe su daha getirilmiştir. Bütün malzemeler aynı kurallarla\npaylaştırılacağına göre ekip sayısı en çok kaç olabilir? Bu durumda bir ekibe kaç şişe\nsu düşer?\n13. Prova · Zor\na) Her ekibe en az 10 elma düşecektir. Ekip sayısı kaç olabilir?"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-13-zor/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n13. PROVA · ZOR\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\nEce, öğrenci kartıyla her okul günü sabah evden okula giderken önce otobüse biner; ilk\n15 puan binişinden 40 dakika sonra aktarma yaparak metroya biner. Akşam eve dönerken de aynı yolu\ntersinden, yine 40 dakika sonra aktarma yaparak kullanır. Şehirdeki biniş ücretleri aşağıda\nverilmiştir.\nBİNİŞ ÜCRETLERİ\nTam biniş\nŞEHİR KART\nÖğrenci binişi\n27,50 TL\ntam biniş ücretinin %40’ı\nÖĞRENCİ\nAKTARMA: İlk binişten sonraki 60 dakika içinde başka bir\naraca binen yolcu, kendi biniş ücretinin yarısını öder.\nBuna göre\na) Ece’nin ilk binişte ve aktarmalı binişte ödediği ücretler kaçar TL’dir?\nb) Ece bir okul gününde ulaşım için toplam kaç TL öder?\nc) Ece’nin kartında 250 TL vardır. Ece bu parayla 5 okul günü bu biçimde okula gidip\ngelmiştir. Ece kartına en az kaç TL yüklerse sonraki 5 okul gününde de yalnızca\nkarttaki parayla okula gidip gelebilir?\n13. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-13-zor/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n13. PROVA · ZOR\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\nElif, bir tırmanma salonundaki dört bölümlü duvarda 20 tırmanma denemesi yapmıştır. Elif, her\n15 puan denemede ulaştığı son bölümü kaydetmiş ve verileri aşağıdaki nokta grafiğinde göstermiştir.\nZirve\nGrafik: Elif'in Denemelerde Ulaştığı Son Bölüm\n3. bölüm\n2. bölüm\n1. bölüm\n1. bölüm\n2. bölüm\n3. bölüm\nZirve\nSonraki denemeler\nElif aynı duvarda 20 deneme daha yapmıştır. Toplam 40 denemede zirveye ulaşma olayının\ndeneysel olasılığı olmuştur.\nBuna göre ilk 20 denemede Elif’in zirveye ulaşma olayının deneysel olasılığı yüzde\nkaçtır? İlk 20 denemede en az 3. bölüme ulaşma (3. bölüm ya da zirve) olayının deneysel\nolasılığını kesir olarak bulunuz. Elif sonraki 20 denemenin kaçında zirveye ulaşmıştır?\n13. Prova · Zor\n(Her nokta bir denemeyi göstermektedir.)"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-13-zor/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n13. PROVA · ZOR\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nBir koşu yarışına katılan Yiğit, Defne ve Emir’in göğüs numaraları üç basamaklı, 200’den küçük\n10 puan ve ardışık doğal sayılardır. Yiğit’in numarası en küçük, Emir’in numarası en büyüktür.\nGöğüs numaraları\n• Yiğit’in numarası 4’e kalansız bölünür.\n• Defne’nin numarası 9’a kalansız bölünür.\n• Emir’in numarası 5’e kalansız bölünür.\nMAT.6.1.3.\nBuna göre üç koşucunun göğüs numaraları kaçtır?\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nBir şehir turu rehberi, turistlere hediye etmek için eş fiyatlı şehir magnetlerinden almış ve\n10 puan hepsine toplam 210 TL ödemiştir. Bir magnetin fiyatı TL cinsinden bir asal sayıdır.\nBuna göre 210’u çarpan ağacı ya da asal çarpan algoritmasıyla asal çarpanlarına ayırınız.\nBir magnetin fiyatı kaç TL olabilir? Rehber 40’tan fazla, 50’den az magnet aldıysa bir\nmagnet kaç TL’dir ve rehber kaç magnet almıştır?\n13. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-13-zor/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n13. PROVA · ZOR\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nBir jimnastik yarışmasında puanlar binde birler basamağına kadar hesaplanmaktadır. Puan\n10 puan tablosu yırtıldığı için Lara ve Melis’in puanlarında birer rakam görünmemektedir. Görünmeyen\niki rakam aynıdır.\nTablo: Puan Tablosu\nSporcu\nPuan\nLara\n14,\nMelis\n14,6\nBilinenler\n• Melis’in puanı Lara’nın puanından büyüktür.\n• Lara’nın puanı onda birler basamağına yuvarlandığında 14,5’ten büyük bir sayı elde edilir.\nMAT.6.1.6.\nBuna göre görünmeyen rakam kaçtır? Lara ile Melis’in puanları arasındaki fark kaçtır?\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nBir şehirde A ve B olmak üzere iki teleferik hattı vardır. 7 km uzunluğundaki A hattı 6 eş bölüme,\n10 puan 8 km uzunluğundaki B hattı ise 9 eş bölüme ayrılmıştır.\nBuna göre A ve B hatlarında bir bölümün uzunluğunu kilometre cinsinden kesir olarak\nyazınız. Payı paydaya bölerek bu uzunlukları devir çizgisi kullanarak ondalık gösterimle\nyazınız. B hattı 10 eş bölüme ayrılsaydı bir bölümün uzunluğunun ondalık gösterimi\nsonlu mu, devirli mi olurdu?\nSınav bitti. Cevaplarınızı kontrol ediniz.\n13. Prova · Zor"
+        }
+      ]
+    },
+    {
+      "slug": "prova-14-zor",
+      "tur": "prova",
+      "no": 14,
+      "seviye": "zor",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-14-zor/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n14. PROVA · ZOR\n1. YAZILI\n14. PROVA · ZOR\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\nBir şehir parkındaki kamelyalar (piknik masaları) 1’den başlayarak numaralandırılmıştır. Park\n15 puan görevlisi, kamelya sayısıyla ilgili aşağıdaki bilgileri vermiştir.\n(Şekil ölçekli değildir.)\nGörevlinin verdiği bilgiler\n• Kamelya sayısı çift sayıdır.\n• Kamelya sayısının, 1 ve kendisi dışındaki en büyük çarpanı 48’dir.\nBuna göre\na) Parkta kaç kamelya vardır?\nb) Kamelyalar, her sırada eşit sayıda kamelya olacak biçimde sıralar hâlinde\nyerleştirilmiştir. Her sırada 10’dan fazla, 20’den az kamelya bulunduğuna göre\nkamelyalar kaç farklı biçimde yerleştirilmiş olabilir? Bu biçimleri yazınız.\nc) Görevli, 16, 25, 36, 49 ve 64 numaralı kamelyalardan numarasının tam olarak 3\nçarpanı olanları kalabalık aileler için ayırmıştır. Hangi kamelyalar ayrılmıştır?\n14. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-14-zor/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n14. PROVA · ZOR\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nBir caddedeki iki trafik ışığı, aşağıda gösterilen aralıklarla yeşil yanmaktadır. Saat 08.00’de iki\n15 puan ışık aynı anda yeşil yanmıştır.\n1. ışık\n2. ışık\n40 saniyede bir yeşil\n75 saniyede bir yeşil\n(Şekil ölçekli değildir.)\nBuna göre\na) İki ışık, 08.00’den sonra ilk kez saat kaçta aynı anda yeşil yanar?\nb) 08.00’den sonra 09.00’a kadar (09.00 dâhil) 1. ışık, 2. ışıkla aynı anda olmadan kaç kez\nyeşil yanar?\nc) Belediye, ertesi gün 2. ışığın yeşil yanma aralığını değiştirmiştir. Yeni aralık, saniye\ncinsinden 60’tan büyük, 90’dan küçük bir doğal sayıdır. İki ışık 08.00’de aynı anda\nyeşil yandıktan sonra ilk kez 08.06’da yine aynı anda yeşil yanmıştır. 2. ışığın yeni\naralığı kaç saniyedir?\n14. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-14-zor/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n14. PROVA · ZOR\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\nBir şehirde elektrikli skuter kiralama ücretleri aşağıdaki tabelada verilmiştir.\n15 puan\nELEKTRİKLİ SKUTER KİRALAMA\nAçılış ücreti\n(her sürüşte bir kez)\nDakika ücreti\n15 TL\n4,75 TL\nKAMPANYA: Sürüşün ilk 20 dakikasından sonraki\nher dakika, dakika ücreti üzerinden %40 indirimlidir.\nBuna göre\na) 12 dakika süren bir sürüş için kaç TL ödenir?\nb) 30 dakika süren bir sürüş için kaç TL ödenir?\nc) Ozan’ın ağabeyi, bir sürüş için 167 TL ödemiştir. Ağabeyinin sürüşü kaç dakika\nsürmüştür?\n14. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-14-zor/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n14. PROVA · ZOR\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\nBuz pateni kulübündeki Tolga, zıplayarak yaptığı bir dönüş hareketini 24 kez denemiş ve her\n15 puan denemenin sonucunu aşağıdaki tabloya kaydetmiştir.\nTablo: Tolga'nın Denemelerinin Sonuçları\nDeneme\n10 11 12\nSonuç\nDeneme 13 14 15 16 17 18 19 20 21 22 23 24\nSonuç\nD: Düşmeden indi.\nE: Eliyle buza destek aldı.\nY: Yere düştü.\nTablo: Sonuçların Sıklığı\nSonuç\nTolga 16 deneme daha yapacaktır.\nBuna göre sonuçların sıklıklarını verilen sıklık tablosuna yazınız. Tolga’nın düşmeden\ninme olayının deneysel olasılığını yüzde olarak, yere düşme olayının deneysel olasılığını\nkesir olarak bulunuz. Tolga sonraki 16 denemenin hepsinde düşmeden inerse 40\ndenemede düşmeden inme olayının deneysel olasılığı yüzde kaç olur?\n14. Prova · Zor\nSıklık"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-14-zor/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n14. PROVA · ZOR\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nBir feribotun yolcu kapasitesi üç basamaklı 46\nsayısıdır. Feribot görevlisi, bu sayının 2, 3, 4,\n10 puan 5, 6, 9 ve 10 sayılarından yalnızca dördüne kalansız bölündüğünü söylemiştir.\nMAT.6.1.3.\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nBir şehir festivalinde görev alan gönüllülerin sayısı, Deniz tarafından aşağıdaki çarpan ağacıyla\n10 puan asal çarpanlarına ayrılmıştır. Gönüllü sayısı 500’den küçüktür ve bu sayının asal çarpanları dört\nfarklı asal sayıdır.\nGri kutulardaki sayılar silinmiştir.\nTuruncu çember içindeki sayılar asal\nsayılardır.\nBuna göre festivalde görev alan gönüllü sayısı kaçtır? Ağaçta silinen sayıları yazınız.\n14. Prova · Zor\nBuna göre kutu yerine hangi rakam gelmelidir? Kutu yerine hangi rakam yazılırsa 46\nsayısı bu yedi sayıdan en çoğuna kalansız bölünür?"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-14-zor/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n14. PROVA · ZOR\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nBir tren garındaki bilet makinesi yalnızca 10 TL’lik banknot, 1 TL’lik ve 10 kuruşluk madenî para\n10 puan kabul etmekte ve para üstü vermemektedir. Barış bu makineden 37,40 TL’lik bir bilet alacaktır. (1\nTL = 100 kuruş)\nMAT.6.1.6.\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nBir tenis kulübü, 4 saatlik kort süresini 13 oyuncuya eşit olarak ayırmıştır. Görevli, bir oyuncuya\n10 puan düşen süreyi saat cinsinden bulmak için 4’ü 13’e bölmeye başlamıştır.\nBuna göre bir oyuncuya düşen süreyi saat cinsinden kesir olarak yazınız. 4’ü 13’e\nbölerken her adımda elde ettiğiniz kalanları yazınız (virgülden sonraki ilk basamağı\nbulduğunuz adımı 1. adım sayınız). Kalan kaçıncı adımda ilk kez başlangıçtaki 4’e eşit\nolur? Bir oyuncuya düşen süreyi devir çizgisi kullanarak ondalık gösterimle yazınız.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n14. Prova · Zor\nBuna göre bileti en az sayıda para kullanarak tam olarak ödemek için hangi paradan kaç\ntane kullanılmalıdır? Makinenin 1 TL’lik madenî para kabul etmediği bir günde bu bilet, en\naz kaç tane para kullanılarak tam olarak ödenebilir?"
+        }
+      ]
+    },
+    {
+      "slug": "prova-15-zor",
+      "tur": "prova",
+      "no": 15,
+      "seviye": "zor",
+      "sorular": [
+        {
+          "no": 1,
+          "puan": 15,
+          "cikti": "MAT.6.1.1"
+        },
+        {
+          "no": 2,
+          "puan": 15,
+          "cikti": "MAT.6.1.4"
+        },
+        {
+          "no": 3,
+          "puan": 15,
+          "cikti": "MAT.6.1.7"
+        },
+        {
+          "no": 4,
+          "puan": 15,
+          "cikti": "MAT.6.6.1"
+        },
+        {
+          "no": 5,
+          "puan": 10,
+          "cikti": "MAT.6.1.2"
+        },
+        {
+          "no": 6,
+          "puan": 10,
+          "cikti": "MAT.6.1.3"
+        },
+        {
+          "no": 7,
+          "puan": 10,
+          "cikti": "MAT.6.1.5"
+        },
+        {
+          "no": 8,
+          "puan": 10,
+          "cikti": "MAT.6.1.6"
+        }
+      ],
+      "sayfalar": [
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-15-zor/sayfa-1.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n15. PROVA · ZOR\n1. YAZILI\n15. PROVA · ZOR\n6. Sınıf Matematik · 1. Dönem · Ortak yazılı provası\nSüre: 40 dakika\nMAT.6.1.1.\nToplam: 100 puan\nSorular açık uçludur; çözümünüzü her sorunun altındaki boşluğa yazınız.\nKarşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme\nBelediye, şehir meydanındaki dikdörtgen biçimli bir alanı 144 eş kare karoyla kaplayacaktır.\n15 puan Karolar kesilmeyecek, aralarında boşluk kalmayacak ve alanın tamamı kaplanacaktır. Alanın\nkısa kenarı boyunca dizilen karo sayısı, uzun kenarı boyunca dizilen karo sayısından azdır.\nKaplama devam edecektir.\n? karo\nBir karo\n40 cm\n? karo\n(Şekil ölçekli değildir.)\nBuna göre\na) Alanın kısa ve uzun kenarları boyunca dizilen karo sayıları kaç olabilir? Bütün\ndurumları yazınız.\nb) Alanın kısa kenarı boyunca en az 5 karo dizilecektir. Bu durumda kaç farklı biçimde\nkaplama yapılabilir?\nc) Kısa kenar boyunca en az 5 karo dizilecek ve uzun kenar boyunca dizilen karo sayısı,\nkısa kenar boyunca dizilen karo sayısının 2 katından az olacaktır. Bir karonun kenar\nuzunluğu 40 cm olduğuna göre alanın kenar uzunlukları kaç santimetredir?\n15. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-15-zor/sayfa-2.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n15. PROVA · ZOR\nMAT.6.1.4.\nGünlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme\nBir kayak merkezindeki kayak okuluna kayıtlı öğrenci sayısı 100 ile 200 arasındadır. Eğitmenler,\n15 puan öğrencileri eşit sayıda kişiden oluşan gruplara ayırmayı denediklerinde aşağıdaki durumlarla\nkarşılaşmıştır.\nEĞİTMENLERİN NOTU\n• 6’şar kişilik gruplar:\n2 öğrenci açıkta\n• 8’er kişilik gruplar:\n2 öğrenci açıkta\n• 9’ar kişilik gruplar:\n2 öğrenci açıkta\nBuna göre\na) 6 ve 8’in 100 ile 200 arasındaki ortak katlarını yazınız.\nb) Kayak okuluna kayıtlı öğrenci sayısı kaçtır?\nc) Öğrenciler 5’er kişilik gruplara ayrılırsa kaç öğrenci açıkta kalır? Okula en az kaç\nöğrenci daha kayıt olursa öğrenciler hem 5’er hem 6’şar kişilik gruplara hiç öğrenci\naçıkta kalmadan ayrılabilir?\n15. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-15-zor/sayfa-3.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n15. PROVA · ZOR\nMAT.6.1.7.\nGerçek yaşam durumlarında karşılaşılan kesir, ondalık ve yüzde gösterimleri ile ilgili dört işlem gerektiren problemleri çözebilme\nBir şehir maratonunun sonuç panosunda aşağıdaki bilgiler yer almaktadır.\n15 puan\nŞEHİR MARATONU · SONUÇLAR\nBİTİŞ\n• Yarışı bitiren koşucuların sayısı, yarışa başlayan\nkoşucuların sayısının ’sidir.\n• Yarışı bitiren koşucuların ’ü kadındır.\n• Yarışı bitiren kadın koşucu sayısı 420’dir.\nBuna göre\na) Yarışı bitiren kadın koşucuların sayısı, yarışa başlayan koşucuların sayısının kaçta\nkaçıdır?\nb) Yarışa kaç koşucu başlamıştır?\nc) Yarışı bitiremeyen koşucuların sayısı, yarışı bitiren erkek koşucuların sayısının kaçta\nkaçıdır?\n15. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-15-zor/sayfa-4.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n15. PROVA · ZOR\nMAT.6.6.1.\nBir olayın olasılığını gözleme dayalı tahmin edebilme\nBir köprünün gişesinden bir saat boyunca geçen araçların türleri gözlemlenmiş ve sonuçlar\n15 puan aşağıdaki sütun grafiğinde gösterilmiştir. Grafikteki kamyonet sütunu silinmiştir. Bu gözlemde\ngişeden geçen bir aracın otomobil olma olayının deneysel olasılığı ’tür.\nGrafik: Gişeden Bir Saatte Geçen Araçların Türleri\n140\n126\n120\nAraç sayısı\n100\nsilindi\nOtomobil\nKamyonet\nKamyon\nOtobüs\nMotosiklet\nAraç türü\nErtesi gün aynı gişeden 1050 araç geçmiştir.\nBuna göre gözlem yapılan bir saatte gişeden kaç araç ve kaç kamyonet geçmiştir?\nGişeden geçen bir aracın kamyon ya da otobüs olma olayının deneysel olasılığı yüzde\nkaçtır? Bu gözlemdeki deneysel olasılığa göre ertesi gün geçen 1050 aracın kaçının\nmotosiklet olması beklenir?\n15. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-15-zor/sayfa-5.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n15. PROVA · ZOR\nMAT.6.1.2.\nBir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme\nBir otelde oda numaraları üç basamaklıdır. Nehir’in kaldığı odanın numarası ile ilgili aşağıdakiler\n10 puan bilinmektedir.\nOda numarası\n• Numaranın 10’a bölümünden kalan 4’tür.\n• Numara 9’a kalansız bölünür.\n• Numaranın rakamları birbirinden farklıdır.\nMAT.6.1.3.\nBuna göre Nehir’in oda numarası olabilecek kaç farklı sayı vardır? Bu sayılardan 4’e de\nkalansız bölünenleri yazınız.\nBir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme\nBir sahil yolunun başlangıç noktası 0. km olarak kabul edilmiştir. Yol boyunca kilometre\n10 puan numarası asal sayı olan noktalara birer içme suyu çeşmesi yapılmıştır.\nBuna göre 80. km ile 100. km arasındaki çeşmelerin bulunduğu kilometreleri yazınız.\n60. km ile 80. km arasındaki çeşmelerin bulunduğu kilometreleri yazınız. Bu iki aralıktan\nhangisinde daha çok çeşme vardır?\n15. Prova · Zor"
+        },
+        {
+          "src": "/kagitlar/ortaokul-matematik/6-sinif/1-yazili-sorulari/prova-15-zor/sayfa-6.webp",
+          "genislik": 1240,
+          "yukseklik": 1754,
+          "metin": "6. SINIF MATEMATİK\n15. PROVA · ZOR\nMAT.6.1.5.\nGerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme\nBir taksinin taksimetresi, yolculuk mesafesini kilometre cinsinden yüzde birler basamağına\n10 puan kadar göstermektedir. Yolculuğun bir anında taksimetrede 9,96 km yazmaktadır. Yolculuğun\nsonunda ise taksimetrede 12,47 km yazmaktadır.\nMAT.6.1.6.\nKesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme\nÜç arkadaş, bir tatil yolculuğu için kiraladıkları karavanın 1850 TL’lik kira ücretini eşit olarak\n10 puan paylaşmak istemektedir.\nBuna göre bir kişinin payını TL cinsinden kesir ve tam sayılı kesir olarak yazınız. Payı\npaydaya bölerek bir kişinin payını devir çizgisi kullanarak ondalık gösterimle yazınız.\nKaravanı 4 arkadaş kiralasaydı bir kişinin payının ondalık gösterimi sonlu mu, devirli mi\nolurdu? Payı paydaya bölerek bulunuz.\nSınav bitti. Cevaplarınızı kontrol ediniz.\n15. Prova · Zor\nBuna göre taksi 9,96 km’den sonra kaç kilometre daha yol gidince taksimetrede\nbirler basamağındaki rakam ilk kez değişir? 12,47 gösteriminde 4 rakamının basamak\ndeğerini kesir olarak yazınız. Taksimetrede 9,96 km’den 12,47 km’ye kadar onda birler\nbasamağındaki rakam kaç kez değişmiştir?"
+        }
+      ]
+    }
+  ]
+}

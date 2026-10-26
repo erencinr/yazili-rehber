@@ -2,7 +2,17 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 import { site } from "@/config/site";
-import { DersSchema, SorularSchema, TabloSchema, TakvimSchema, type Ders, type Senaryo, type Yazili } from "./types";
+import {
+  DersSchema,
+  KagitlarSchema,
+  SorularSchema,
+  TabloSchema,
+  TakvimSchema,
+  type Ders,
+  type Kagitlar,
+  type Senaryo,
+  type Yazili,
+} from "./types";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -44,6 +54,23 @@ function sorulariKontrolEt(dosya: string, yazili: Yazili) {
   }
 }
 
+// Senaryo kâğıtlarında soru dağılımı resmî tabloyla aynı olmalı; toplam puan 100 olmalı. Uymazsa build durur.
+function kagitlariKontrolEt(dosya: string, yazili: Yazili, kagitlar: Kagitlar) {
+  for (const k of kagitlar.kagitlar) {
+    const yer = `data/${dosya} · ${k.slug}`;
+    const toplam = k.sorular.reduce((t, q) => t + q.puan, 0);
+    if (toplam !== 100) throw new Error(`${yer}: toplam puan ${toplam}, 100 olmalı`);
+    if (k.tur !== "senaryo") continue;
+    const senaryo = yazili.senaryolar.find((s) => s.no === k.no);
+    if (!senaryo) throw new Error(`${yer}: resmî tabloda senaryo ${k.no} yok`);
+    for (const c of yazili.ciktilar) {
+      const beklenen = senaryo.dagilim[c.id] ?? 0;
+      const olan = k.sorular.filter((q) => q.cikti === c.id).length;
+      if (beklenen !== olan) throw new Error(`${yer}: ${c.id} için resmî tabloda ${beklenen} soru var, kâğıtta ${olan}`);
+    }
+  }
+}
+
 function yaziliOku(klasor: string, dosya: string): Yazili {
   const tablo = okuJson(`${klasor}/${dosya}`, TabloSchema);
   const sorularDosyasi = dosya.replace(/\.json$/, ".sorular.json");
@@ -76,8 +103,18 @@ function yaziliOku(klasor: string, dosya: string): Yazili {
       const s = sorular?.senaryolar.find((x) => x.no === t.no);
       return { no: t.no, dagilim: t.dagilim, hazir: !!s, sureDk: s?.sureDk ?? 40, sorular: s?.sorular ?? [] };
     }),
+    kagitlar: [],
   };
   sorulariKontrolEt(`${klasor}/${sorularDosyasi}`, yazili);
+
+  const kagitDosyasi = dosya.replace(/\.json$/, ".kagitlar.json");
+  if (fs.existsSync(path.join(DATA_DIR, klasor, kagitDosyasi))) {
+    const kagitlar = okuJson(`${klasor}/${kagitDosyasi}`, KagitlarSchema);
+    kagitlariKontrolEt(`${klasor}/${kagitDosyasi}`, yazili, kagitlar);
+    yazili.kagitlar = kagitlar.kagitlar;
+    yazili.kitapcik = kagitlar.kitapcik;
+    yazili.kagitTuru = kagitlar.tur;
+  }
   return yazili;
 }
 
@@ -102,7 +139,7 @@ export function getYazililar(ders: string, sinif: string): Yazili[] {
   const liste = fs.existsSync(klasor)
     ? fs
         .readdirSync(klasor)
-        .filter((f) => f.endsWith(".json") && !f.endsWith(".sorular.json"))
+        .filter((f) => f.endsWith(".json") && !f.endsWith(".sorular.json") && !f.endsWith(".kagitlar.json"))
         .map((f) => yaziliOku(anahtar, f))
         .sort((a, b) => a.sira - b.sira)
     : [];
